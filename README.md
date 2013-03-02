@@ -4,7 +4,7 @@ last update: 2013-01-12
 
 ----------
 
-![Screenshot](http://github.com/buildersbrewery/lsl-syntaxhighlight-for-notepadplusplus/blob/master/static/lsl_syntax_for_notepad_plus_plus.png)
+![Screenshot](https://raw.github.com/buildersbrewery/lsl-syntax-highlight-for-notepadplusplus/master/static/lsl_syntax_for_notepad_plus_plus.png)
 
 ----------
 
