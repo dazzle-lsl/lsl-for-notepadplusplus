@@ -298,6 +298,7 @@
         <KeyWord name="PERMISSION_CHANGE_LINKS" />
         <KeyWord name="PERMISSION_CONTROL_CAMERA" />
         <KeyWord name="PERMISSION_DEBIT" />
+        <KeyWord name="PERMISSION_OVERRIDE_ANIMATIONS" />
         <KeyWord name="PERMISSION_SILENT_ESTATE_MANAGEMENT?" />
         <KeyWord name="PERMISSION_TAKE_CONTROLS" />
         <KeyWord name="PERMISSION_TELEPORT" />
