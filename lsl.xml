@@ -1202,6 +1202,15 @@ llGetAgentInfo provides information on some animation states not covered by this
                 <Param name="key avatar" />
             </Overload>
         </KeyWord>
+        <KeyWord name="llGetAnimationOverride" func="yes">
+            <Overload retVal="string" descr="Returns a string that is the name of the animation that is being used for the specified animation state (anim_state).
+
+string anim_state – animation state
+
+To run this function the script must request the PERMISSION_OVERRIDE_ANIMATIONS or PERMISSION_TRIGGER_ANIMATION permission with llRequestPermissions.">
+                <Param name="string anim_state" />
+            </Overload>
+        </KeyWord>
         <KeyWord name="llGetAttached" func="yes">
             <Overload retVal="integer" descr="Returns the attach_point (an integer) the object is attached to or zero if it is not attached." />
         </KeyWord>
@@ -2391,6 +2400,15 @@ Returns a key that is used to identify the dataserver event when it is raised.">
                 <Param name="key id" />
             </Overload>
         </KeyWord>
+        <KeyWord name="llResetAnimationOverride" func="yes">
+            <Overload retVal="void" descr="Resets the animation override of the specified animation state (anim_state) to the corresponding default value.
+
+string anim_state – animation state to be reset
+
+To run this function the script must request the PERMISSION_OVERRIDE_ANIMATIONS permission with llRequestPermissions. If anim_state equals "ALL", all animation states are reset.">
+                <Param name="string anim_state" />
+            </Overload>
+        </KeyWord>
         <KeyWord name="llResetLandBanList" func="yes">
             <Overload retVal="void" descr="Removes all residents from the land ban list." />
         </KeyWord>
@@ -2614,6 +2632,17 @@ If face is ALL_SIDES then the function works on all sides.">
             <Overload retVal="void" descr="Applies rotational velocity to object.">
                 <Param name="vector force" />
                 <Param name="boolean local" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="llSetAnimationOverride" func="yes">
+            <Overload retVal="void" descr="Set the animation (anim) that will play for the given animation state (anim_state).
+
+string anim_state – animation state to be overriden
+string anim – an animation in the prim's inventory or the name of a built-in animation
+
+To run this function the script must request the PERMISSION_OVERRIDE_ANIMATIONS permission with llRequestPermissions. Note: Animation overrides survive script reset / removal but not relog.">
+                <Param name="string anim_state" />
+                <Param name="string anim" />
             </Overload>
         </KeyWord>
         <KeyWord name="llSetBuoyancy" func="yes">
