@@ -2,7 +2,7 @@
 
 [Issue tracker](https://github.com/buildersbrewery/lsl-syntax-highlight-for-notepadplusplus/issues)
 
-last update: 2013-03-30
+last update: 2013-04-01
 
 ----------
 
@@ -20,6 +20,6 @@ last update: 2013-03-30
 
 ## Language definition for autocompletion and tooltips (hints): ##
 
-* Create a new XML file in the Notepad++ subdirectory `...\Notepad++\plugins\APIs\lsl.xml`
-* Then copy and paste the code below into the file. Make sure the file's encoding is ANSI/ASCII!
+* Copy and paste the `lsl.xml` file from this repository to the Notepad++ subdirectory `...\Notepad++\plugins\APIs\lsl.xml`
+* Make sure the file's encoding is ANSI/ASCII!
 * Goto `Settings > Preferences > Backup&Autocompletion` and make sure the autocompletion is enabled for words (not only functions) and the function hints are enabled.
