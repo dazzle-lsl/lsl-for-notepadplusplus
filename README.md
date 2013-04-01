@@ -6,6 +6,13 @@ last update: 2013-04-01
 
 ----------
 
+Please feel free to visit:
+* [our Builder's Brewery homepage](http://www.buildersbrewery.com/)
+* [our Builder's Brewery calendar with in-world classes](http://www.buildersbrewery.com/calendar/)
+* [the Brewery in Second Life](http://maps.secondlife.com/secondlife/Builders%20Brewery/128/154/24/)
+
+----------
+
 ![Screenshot](https://raw.github.com/buildersbrewery/lsl-syntax-highlight-for-notepadplusplus/master/static/lsl_syntax_for_notepad_plus_plus.png)
 
 ----------
