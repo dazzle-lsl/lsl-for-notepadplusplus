@@ -813,13 +813,6 @@ To run this function the script must request the PERMISSION_CONTROL_CAMERA permi
                 <Param name="key channel" />
             </Overload>
         </KeyWord>
-        <KeyWord name="llCloud" func="yes">
-            <Overload retVal="float" descr="Returns a float that is the cloud density at the prim position + offset.
-
-Only the x and y coordinates in offset are important, the z component is ignored. Returned values are in the range [0.0, 2.0]. Values above 1.0 indicate rain.">
-                <Param name="vector offset" />
-            </Overload>
-        </KeyWord>
         <KeyWord name="llCollisionFilter" func="yes">
             <Overload retVal="void" descr="Sets the collision filter, exclusively or inclusively.
 
