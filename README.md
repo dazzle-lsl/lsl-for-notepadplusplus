@@ -2,7 +2,7 @@
 
 [Issue tracker](https://github.com/buildersbrewery/lsl-syntax-highlight-for-notepadplusplus/issues)
 
-last update: 2013-04-13
+last update: 2013-04-16
 
 ----------
 
