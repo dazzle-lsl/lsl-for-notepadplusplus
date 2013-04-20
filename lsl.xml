@@ -24,6 +24,7 @@
         <KeyWord name="AGENT_WALKING" />
         <KeyWord name="ALL_SIDES" />
         <KeyWord name="ANIM_ON" />
+        <KeyWord name="ATTACH_AVATAR_CENTER" />
         <KeyWord name="ATTACH_BACK" />
         <KeyWord name="ATTACH_BELLY" />
         <KeyWord name="ATTACH_CHEST" />
@@ -49,6 +50,7 @@
         <KeyWord name="ATTACH_LUARM" />
         <KeyWord name="ATTACH_LULEG" />
         <KeyWord name="ATTACH_MOUTH" />
+        <KeyWord name="ATTACH_NECK" />
         <KeyWord name="ATTACH_NOSE" />
         <KeyWord name="ATTACH_PELVIS" />
         <KeyWord name="ATTACH_REAR" />
