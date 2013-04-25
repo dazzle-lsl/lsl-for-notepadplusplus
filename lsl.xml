@@ -123,8 +123,15 @@
         <KeyWord name="CLICK_ACTION_PLAY" />
         <KeyWord name="CLICK_ACTION_SIT" />
         <KeyWord name="CLICK_ACTION_TOUCH" />
+        <KeyWord name="CONTENT_TYPE_ATOM" />
+        <KeyWord name="CONTENT_TYPE_FORM" />
         <KeyWord name="CONTENT_TYPE_HTML" />
+        <KeyWord name="CONTENT_TYPE_JSON" />
+        <KeyWord name="CONTENT_TYPE_LLSD" />
+        <KeyWord name="CONTENT_TYPE_RSS" />
         <KeyWord name="CONTENT_TYPE_TEXT" />
+        <KeyWord name="CONTENT_TYPE_XHTML" />
+        <KeyWord name="CONTENT_TYPE_XML" />
         <KeyWord name="CONTROL_BACK" />
         <KeyWord name="CONTROL_DOWN" />
         <KeyWord name="CONTROL_FWD" />
