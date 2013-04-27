@@ -2,7 +2,7 @@
 
 [Issue tracker](https://github.com/buildersbrewery/lsl-for-notepadplusplus/issues)
 
-last update: 2013-04-26
+last update: 2013-04-27
 
 ----------
 
@@ -13,7 +13,7 @@ Please feel free to visit:
 
 ----------
 
-![Screenshot](https://raw.github.com/buildersbrewery/lsl-syntax-highlight-for-notepadplusplus/master/static/lsl_syntax_for_notepad_plus_plus.png)
+![Screenshot](https://raw.github.com/buildersbrewery/lsl-for-notepadplusplus/master/static/lsl_syntax_for_notepad_plus_plus.png)
 
 ----------
 
