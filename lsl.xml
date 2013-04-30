@@ -2407,7 +2407,7 @@ Returns a key that is used to identify the dataserver event when it is raised.">
 
 string anim_state – animation state to be reset
 
-To run this function the script must request the PERMISSION_OVERRIDE_ANIMATIONS permission with llRequestPermissions. If anim_state equals "ALL", all animation states are reset.">
+To run this function the script must request the PERMISSION_OVERRIDE_ANIMATIONS permission with llRequestPermissions. If anim_state equals &quot;ALL&quot;, all animation states are reset.">
                 <Param name="string anim_state" />
             </Overload>
         </KeyWord>
