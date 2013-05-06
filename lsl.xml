@@ -622,7 +622,8 @@
             </Overload>
         </KeyWord>
         <KeyWord name="changed" func="yes">
-            <Overload retVal="" descr="Various changes to the object/prim trigger this event. Multiple changes can be represented in a single event, so use bit-wise arithmetic.">
+            <Overload retVal="" descr="Various changes to the object/prim trigger this event.
+Multiple changes can be represented in a single event, so use bit-wise arithmetic.">
                 <Param name="integer change" />
             </Overload>
         </KeyWord>
@@ -703,7 +704,8 @@
             </Overload>
         </KeyWord>
         <KeyWord name="link_message" func="yes">
-            <Overload retVal="" descr="Triggered when the script receives a link message that was sent by a call to llMessageLinked. llMessageLinked is used to send messages from one script to another within the same object.">
+            <Overload retVal="" descr="Triggered when the script receives a link message that was sent by a call to llMessageLinked.
+llMessageLinked is used to send messages from one script to another within the same object.">
                 <Param name="integer sender_num" />
                 <Param name="integer num" />
                 <Param name="string str" />
@@ -759,13 +761,21 @@ float volume - between 0.0 (silent) and 1.0 (loud) (0.0 &lt;= volume &gt;= 1.0)"
         <KeyWord name="llAllowInventoryDrop" func="yes">
             <Overload retVal="void" descr="Allows for all users without modify permissions to add inventory items to a prim.
 
-boolean add, if TRUE, it allows anyone, even if they don&apos;t have modify rights to a prim, regardless of whether they are the owner or not, to drop items into that prim. If FALSE, inventory dropping can still be done, but it is restricted only to people with modify permissions to that prim.
+boolean add, if TRUE, it allows anyone, even if they don&apos;t have modify rights
+to a prim, regardless of whether they are the owner or not, to drop items into that
+prim. If FALSE, inventory dropping can still be done, but it is restricted only to
+people with modify permissions to that prim.
 
-To actually do the dropping, you need to drag an item from your inventory and drop it onto the prim WHILE holding down your Ctrl key. If you&apos;ve got everything right, then just before you release it, you will see the prim framed in red.
+To actually do the dropping, you need to drag an item from your inventory and drop
+it onto the prim WHILE holding down your Ctrl key. If you&apos;ve got everything right,
+then just before you release it, you will see the prim framed in red.
 
-Ownership of the dropped inventory item changes to the owner of the prim. Next owner permissions kick in on the item that was dropped in. Non-transfer items cannot be dropped into a prim owned by someone else.
+Ownership of the dropped inventory item changes to the owner of the prim. Next owner
+permissions kick in on the item that was dropped in. Non-transfer items cannot be
+dropped into a prim owned by someone else.
 
-An application might be a public &apos;suggestion box&apos; that you want to let people drop notecards into.">
+An application might be a public &apos;suggestion box&apos; that you want to let
+people drop notecards into.">
                 <Param name="boolean add" />
             </Overload>
         </KeyWord>
@@ -778,9 +788,13 @@ An application might be a public &apos;suggestion box&apos; that you want to let
         <KeyWord name="llApplyImpulse" func="yes">
             <Overload retVal="void" descr="Applies impulse to object.
 
-boolean local, if TRUE force is treated as a local directional vector, if FALSE force is treated as a region directional vector.
+boolean local, if TRUE force is treated as a local directional vector, if FALSE
+force is treated as a region directional vector.
 
-Instantaneous impulse. llSetForce has continuous push. &apos;Instantaneous&apos; seems to mean a one second impulse, as an application of a force (in newtons) equal to the object&apos;s mass (in kg) for one second will accelerate it to a velocity of 1 (in meters per second), which appears to be what happens with this function.">
+Instantaneous impulse. llSetForce has continuous push. &apos;Instantaneous&apos; seems
+to mean a one second impulse, as an application of a force (in newtons) equal to the
+object&apos;s mass (in kg) for one second will accelerate it to a velocity of 1 (in
+meters per second), which appears to be what happens with this function.">
                 <Param name="vector force" />
                 <Param name="boolean local" />
             </Overload>
@@ -803,7 +817,8 @@ The returned value is in the range [-PI_BY_TWO, PI_BY_TWO].">
         <KeyWord name="llAtan2" func="yes">
             <Overload retVal="float" descr="Returns a float that is the arctangent2 of y, x.
 
-Similar to the arctangent(y/x) except it utilizes the signs of x &amp; y to determine the quadrant and avoids division by zero.">
+Similar to the arctangent(y/x) except it utilizes the signs of x &amp; y to determine
+the quadrant and avoids division by zero.">
                 <Param name="float y" />
                 <Param name="float x" />
             </Overload>
@@ -813,30 +828,39 @@ Similar to the arctangent(y/x) except it utilizes the signs of x &amp; y to dete
 
 The object is taken into the users inventory and attached to attach_point.
 
-To run this function the script must request the PERMISSION_ATTACH permission with llRequestPermissions and it must be granted by the owner. If attach_point is zero, then the object attaches to the attach point it was most recently attached to.">
+To run this function the script must request the PERMISSION_ATTACH permission with
+llRequestPermissions and it must be granted by the owner. If attach_point is zero,
+then the object attaches to the attach point it was most recently attached to.">
                 <Param name="integer attach_point" />
             </Overload>
         </KeyWord>
         <KeyWord name="llAttachToAvatarTemp" func="yes">
-            <Overload retVal="void" descr="Follows the same convention as llAttachToAvatar, with the exception that the object will not create new inventory for the user, and will disappear on detach or disconnect.
+            <Overload retVal="void" descr="Follows the same convention as llAttachToAvatar, with the exception that the object will not
+create new inventory for the user, and will disappear on detach or disconnect.
 
-To run this function the script must request the PERMISSION_ATTACH permission with llRequestPermissions. It should be noted that when an object is attached temporarily, a user cannot &apos;take&apos; or &apos;drop&apos; the object that is attached to them.
+To run this function the script must request the PERMISSION_ATTACH permission with
+llRequestPermissions. It should be noted that when an object is attached temporarily,
+a user cannot &apos;take&apos; or &apos;drop&apos; the object that is attached to them.
 
-Note that the user DOES NOT have to be the owner of the object for it to attach properly. In fact giving the object, or having the user take the object in order to transfer ownership, negates most of the usefulness of this function.">
+Note that the user DOES NOT have to be the owner of the object for it to attach properly.
+In fact giving the object, or having the user take the object in order to transfer
+ownership, negates most of the usefulness of this function.">
                 <Param name="integer attach_point" />
             </Overload>
         </KeyWord>
         <KeyWord name="llAvatarOnLinkSitTarget" func="yes">
             <Overload retVal="key" descr="Returns a key that is the UUID of the user seated on the prim.
 
-If the prim lacks a sit_target or there is no avatar sitting on the prim, then NULL_KEY is returned.">
+If the prim lacks a sit_target or there is no avatar sitting on the prim, then
+NULL_KEY is returned.">
                 <Param name="integer link" />
             </Overload>
         </KeyWord>
         <KeyWord name="llAvatarOnSitTarget" func="yes">
             <Overload retVal="key" descr="Returns a key that is the UUID of the user seated on the prim.
 
-If the prim lacks a sit_target or there is no avatar sitting on the prim, then NULL_KEY is returned." />
+If the prim lacks a sit_target or there is no avatar sitting on the prim, then
+NULL_KEY is returned." />
         </KeyWord>
         <KeyWord name="llAxes2Rot" func="yes">
             <Overload retVal="rotation" descr="Returns a rotation that is defined by the 3 coordinate axes.
@@ -868,42 +892,53 @@ axis need not be normalized, only the direction is important.">
         <KeyWord name="llBreakAllLinks" func="yes">
             <Overload retVal="void" descr="Delinks all prims in the link set.
 
-To run this function the script must request the PERMISSION_CHANGE_LINKS permission with llRequestPermissions and it must be granted by the owner." />
+To run this function the script must request the PERMISSION_CHANGE_LINKS permission
+with llRequestPermissions and it must be granted by the owner." />
         </KeyWord>
         <KeyWord name="llBreakLink" func="yes">
-            <Overload retVal="void" descr="Delinks the prim with the given link number in a linked object set.
+            <Overload retVal="void" descr="Delinks the prim with the given link
+                number in a linked object set.
 
-To run this function the script must request the PERMISSION_CHANGE_LINKS permission with llRequestPermissions and it must be granted by the owner.">
+To run this function the script must request the PERMISSION_CHANGE_LINKS permission
+with llRequestPermissions and it must be granted by the owner.">
                 <Param name="integer link" />
             </Overload>
         </KeyWord>
         <KeyWord name="llCastRay" func="yes">
             <Overload retVal="list" descr="Cast a ray from start to end and report collision data for intersections with objects.
 
-Returns a list of strided values with an additional integer status_code on the end. Each stride consists of two mandatory values {key uuid, vector position} and possibly some optional values {integer link_number, vector normal} see RC_DATA_FLAGS for details. The status_code if it is negative is an error code, otherwise it is the number of hits (and strides) returned.">
+Returns a list of strided values with an additional integer status_code on the end.
+Each stride consists of two mandatory values {key uuid, vector position} and possibly
+some optional values {integer link_number, vector normal} see RC_DATA_FLAGS for details.
+The status_code if it is negative is an error code, otherwise it is the number of
+hits (and strides) returned.">
                 <Param name="vector start" />
                 <Param name="vector end" />
                 <Param name="list options" />
             </Overload>
         </KeyWord>
         <KeyWord name="llCeil" func="yes">
-            <Overload retVal="integer" descr="Returns an integer that is the integer value of val rounded towards positive infinity (return &gt;= val).">
+            <Overload retVal="integer" descr="Returns an integer that is the integer value of val rounded towards
+positive infinity (return &gt;= val).">
                 <Param name="float val" />
             </Overload>
         </KeyWord>
         <KeyWord name="llClearCameraParams" func="yes">
             <Overload retVal="void" descr="Resets all camera parameters to default values and turns off scripted camera control.
 
-To run this function the script must request the PERMISSION_CONTROL_CAMERA permission with llRequestPermissions." />
+To run this function the script must request the PERMISSION_CONTROL_CAMERA permission
+with llRequestPermissions." />
         </KeyWord>
         <KeyWord name="llClearLinkMedia" func="yes">
-            <Overload retVal="integer" descr="Clears (deletes) the media and all params from the given face on the linked prim(s). Returns an integer that is a STATUS_* flag which details the success/failure of the operation.">
+            <Overload retVal="integer" descr="Clears (deletes) the media and all params from the given face on the linked prim(s).
+Returns an integer that is a STATUS_* flag which details the success/failure of the operation.">
                 <Param name="integer link" />
                 <Param name="integer face" />
             </Overload>
         </KeyWord>
         <KeyWord name="llClearPrimMedia" func="yes">
-            <Overload retVal="integer" descr="Clears (deletes) the media and all params from the given face. Returns an integer that is a STATUS_* flag which details the success/failure of the operation.">
+            <Overload retVal="integer" descr="Clears (deletes) the media and all params from the given face. Returns an integer
+that is a STATUS_* flag which details the success/failure of the operation.">
                 <Param name="integer face" />
             </Overload>
         </KeyWord>
@@ -915,14 +950,16 @@ To run this function the script must request the PERMISSION_CONTROL_CAMERA permi
         <KeyWord name="llCollisionFilter" func="yes">
             <Overload retVal="void" descr="Sets the collision filter, exclusively or inclusively.
 
-If accept == TRUE, only accept collisions with objects name AND id (either is optional), otherwise with objects not name AND id.">
+If accept == TRUE, only accept collisions with objects name AND id (either is optional),
+otherwise with objects not name AND id.">
                 <Param name="string name" />
                 <Param name="key id" />
                 <Param name="boolean accept" />
             </Overload>
         </KeyWord>
         <KeyWord name="llCollisionSound" func="yes">
-            <Overload retVal="void" descr="Suppress default collision sounds, replace default impact sounds with impact_sound at the volume impact_volume.
+            <Overload retVal="void" descr="Suppress default collision sounds, replace default impact sounds with impact_sound
+at the volume impact_volume.
 
 string impact_sound - a sound in the prim&apos;s inventory, UUID of a sound or an empty string.
 float impact_volume - between 0.0 (silent) and 1.0 (loud) (0.0 &lt;= impact_volume &lt;= 1.0).
@@ -939,9 +976,16 @@ If impact_volume is set to zero the collision particles are suppressed.">
             </Overload>
         </KeyWord>
         <KeyWord name="llCreateCharacter" func="yes">
-            <Overload retVal="void" descr="Creates a pathfinding entity, known as a &apos;character&apos;, from the object containing the script. Required to activate use of pathfinding functions.
+            <Overload retVal="void" descr="Creates a pathfinding entity, known as a &apos;character&apos;, from the object
+containing the script. Required to activate use of pathfinding functions.
 
-By default, the character&apos;s shape will be an upright capsule approximately the size of the linkset, adjustable via the options list. The linkset must use the land impact accounting system introduced with the mesh project. If called on an existing character, all unspecified parameters other than character size will revert to their defaults (if not specified, character size will not change). This is STRONGLY preferred over calling llDeleteCharacter() followed by llCreateCharacter() as it is much, much less taxing on the server.">
+By default, the character&apos;s shape will be an upright capsule approximately the
+size of the linkset, adjustable via the options list. The linkset must use the land
+impact accounting system introduced with the mesh project. If called on an existing
+character, all unspecified parameters other than character size will revert to their
+defaults (if not specified, character size will not change). This is STRONGLY preferred
+over calling llDeleteCharacter() followed by llCreateCharacter() as it is much, much
+less taxing on the server.">
                 <Param name="list options" />
             </Overload>
         </KeyWord>
@@ -949,9 +993,12 @@ By default, the character&apos;s shape will be an upright capsule approximately 
             <Overload retVal="void" descr="Attempt to link the script&apos;s object with target.
 
 key target - prim UUID that is in the same region.
-boolean parent - If FALSE, then target becomes the root. If TRUE, then the script&apos;s object becomes the root.
+boolean parent - If FALSE, then target becomes the root. If TRUE, then the script&apos;s
+object becomes the root.
 
-To run this function the script must request the PERMISSION_CHANGE_LINKS permission with llRequestPermissions and it must be granted by the owner. target must be modifiable and have the same owner.
+To run this function the script must request the PERMISSION_CHANGE_LINKS permission
+with llRequestPermissions and it must be granted by the owner. target must be modifiable
+and have the same owner.
 
 This object must also be modifiable.">
                 <Param name="key target" />
@@ -963,7 +1010,8 @@ This object must also be modifiable.">
 
 Returns a list made by parsing src, a string of comma separated values.
 
-To convert a list into a comma-separated string use llList2CSV. Do not confuse this function with the CSV format, it is not the CSV format.">
+To convert a list into a comma-separated string use llList2CSV. Do not confuse this
+function with the CSV format, it is not the CSV format.">
                 <Param name="string source" />
             </Overload>
         </KeyWord>
@@ -973,7 +1021,9 @@ To convert a list into a comma-separated string use llList2CSV. Do not confuse t
         <KeyWord name="llDeleteSubList" func="yes">
             <Overload retVal="list" descr="Returns a list that is a copy of src but with the slice from start to end removed.
 
-start &amp; end support negative indexes. While the function result is different than src, src is not modified, remember to use or store the result of this function. The opposite function would be llListInsertList.">
+start &amp; end support negative indexes. While the function result is different
+than src, src is not modified, remember to use or store the result of this function.
+The opposite function would be llListInsertList.">
                 <Param name="list source" />
                 <Param name="integer start" />
                 <Param name="integer end" />
@@ -991,17 +1041,21 @@ start &amp; end support negative indexes. Characters at positions start and end 
         <KeyWord name="llDetachFromAvatar" func="yes">
             <Overload retVal="void" descr="Detach object from avatar.
 
-To run this function the script must request the PERMISSION_ATTACH permission with llRequestPermissions and it must be granted by the owner. The detached object remains in the user&apos;s inventory." />
+To run this function the script must request the PERMISSION_ATTACH permission with
+llRequestPermissions and it must be granted by the owner. The detached object remains
+in the user&apos;s inventory." />
         </KeyWord>
         <KeyWord name="llDetectedGrab" func="yes">
             <Overload retVal="vector" descr="Returns a vector that is the grab offset of the user touching the object; only works in the touch event.
 
-index does not support negative indexes. Returns ZERO_VECTOR if index is out of range or if called from an event other than the touch event.">
+index does not support negative indexes. Returns ZERO_VECTOR if index is out of range
+or if called from an event other than the touch event.">
                 <Param name="integer index" />
             </Overload>
         </KeyWord>
         <KeyWord name="llDetectedGroup" func="yes">
-            <Overload retVal="boolean" descr="Returns an integer that is TRUE if the detected object or agent has the same active group as the prim containing the script. Otherwise FALSE is returned.
+            <Overload retVal="boolean" descr="Returns an integer that is TRUE if the detected object or agent has the same
+active group as the prim containing the script. Otherwise FALSE is returned.
 
 index does not support negative indexes. Returns FALSE if index is out of range.">
                 <Param name="boolean index" />
@@ -1010,7 +1064,8 @@ index does not support negative indexes. Returns FALSE if index is out of range.
         <KeyWord name="llDetectedKey" func="yes">
             <Overload retVal="key" descr="Returns a key that is the UUID of the detected object or avatar index.
 
-index does not support negative indexes. Returns an empty key if index is not valid sensed object or avatar.">
+index does not support negative indexes. Returns an empty key if index is not valid
+sensed object or avatar.">
                 <Param name="integer index" />
             </Overload>
         </KeyWord>
@@ -1049,70 +1104,110 @@ index does not support negative indexes. Returns ZERO_ROTATION (&lt;0.0, 0.0, 0.
             </Overload>
         </KeyWord>
         <KeyWord name="llDetectedTouchBinormal" func="yes">
-            <Overload retVal="vector" descr="Returns a vector that is the surface binormal (tangent to the surface pointing along the U direction of tangent space) where the touch event was triggered. Along with llDetectedTouchNormal, this information can be used to find the tangent space at the touch location.
+            <Overload retVal="vector" descr="Returns a vector that is the surface binormal (tangent to the surface pointing
+along the U direction of tangent space) where the touch event was triggered. Along
+with llDetectedTouchNormal, this information can be used to find the tangent space
+at the touch location.
 
-index does not support negative indexes. For the touch category of events only. The prim that was touched may not be the prim receiving the event, use llDetectedLinkNumber to check for this; likewise you can use llDetectedTouchFace to determine which face was touched.To find the third tangent vector, cross this vector with the normal.">
+index does not support negative indexes. For the touch category of events only. The
+prim that was touched may not be the prim receiving the event, use llDetectedLinkNumber
+to check for this; likewise you can use llDetectedTouchFace to determine which face
+was touched.To find the third tangent vector, cross this vector with the normal.">
                 <Param name="integer index" />
             </Overload>
         </KeyWord>
         <KeyWord name="llDetectedTouchFace" func="yes">
             <Overload retVal="integer" descr="Returns an integer that is the index of the face the avatar clicked on.
 
-index does not support negative indexes. For the touch category of events only. The prim that was touched may not be the prim receiving the event, use llDetectedLinkNumber to check for this; likewise you can use llDetectedTouchFace to determine which face was touched.">
+index does not support negative indexes. For the touch category of events only. The
+prim that was touched may not be the prim receiving the event, use llDetectedLinkNumber
+to check for this; likewise you can use llDetectedTouchFace to determine which face
+was touched.">
                 <Param name="integer index" />
             </Overload>
         </KeyWord>
         <KeyWord name="llDetectedTouchNormal" func="yes">
-            <Overload retVal="vector" descr="Returns a vector that is the surface normal (perpendicular to the surface) where the touch event was triggered. Along with llDetectedTouchBinormal, this information can be used to find the tangent space at the touch location.
+            <Overload retVal="vector" descr="Returns a vector that is the surface normal (perpendicular to the surface) where the
+touch event was triggered. Along with llDetectedTouchBinormal, this information
+can be used to find the tangent space at the touch location.
 
-index does not support negative indexes. For the touch category of events only. The prim that was touched may not be the prim receiving the event, use llDetectedLinkNumber to check for this; likewise you can use llDetectedTouchFace to determine which face was touched.To find the third tangent vector, cross this vector with the binormal.">
+index does not support negative indexes. For the touch category of events only. The
+prim that was touched may not be the prim receiving the event, use llDetectedLinkNumber
+to check for this; likewise you can use llDetectedTouchFace to determine which face
+was touched.To find the third tangent vector, cross this vector with the binormal.">
                 <Param name="integer index" />
             </Overload>
         </KeyWord>
         <KeyWord name="llDetectedTouchPos" func="yes">
-            <Overload retVal="vector" descr="Returns the vector position where the object was touched in region coordinates, unless it is attached to the HUD, in which case it returns the position in screen space coordinates.
+            <Overload retVal="vector" descr="Returns the vector position where the object was touched in region coordinates, unless
+it is attached to the HUD, in which case it returns the position in screen space coordinates.
 
-index does not support negative indexes. For the touch category of events only. The prim that was touched may not be the prim receiving the event, use llDetectedLinkNumber to check for this; likewise you can use llDetectedTouchFace to determine which face was touched.">
+index does not support negative indexes. For the touch category of events only. The
+prim that was touched may not be the prim receiving the event, use llDetectedLinkNumber
+to check for this; likewise you can use llDetectedTouchFace to determine which face
+was touched.">
                 <Param name="integer index" />
             </Overload>
         </KeyWord>
         <KeyWord name="llDetectedTouchST" func="yes">
-            <Overload retVal="vector" descr="Returns a vector that is the surface coordinates for where the prim was touched. The x &amp; y vector positions contain the horizontal (s) &amp; vertical (t) face coordinates respectively (&lt;s, t, 0.0&gt;). Each component is in the interval [0.0, 1.0] with the origin in the bottom left corner.
+            <Overload retVal="vector" descr="Returns a vector that is the surface coordinates for where the prim was touched. The x &amp; y
+vector positions contain the horizontal (s) &amp; vertical (t) face coordinates
+respectively (&lt;s, t, 0.0&gt;). Each component is in the interval [0.0, 1.0] with
+the origin in the bottom left corner.
 
-TOUCH_INVALID_TEXCOORD (&lt;-1.0, -1.0, 0.0&gt;) is returned when the surface coordinates cannot be determined. See Caveats for further details.
+TOUCH_INVALID_TEXCOORD (&lt;-1.0, -1.0, 0.0&gt;) is returned when the surface
+coordinates cannot be determined. See Caveats for further details.
 
-index does not support negative indexes. For the touch category of events only. The prim that was touched may not be the prim receiving the event, use llDetectedLinkNumber to check for this; likewise you can use llDetectedTouchFace to determine which face was touched.">
+index does not support negative indexes. For the touch category of events only. The
+prim that was touched may not be the prim receiving the event, use llDetectedLinkNumber
+to check for this; likewise you can use llDetectedTouchFace to determine which face
+was touched.">
                 <Param name="integer index" />
             </Overload>
         </KeyWord>
         <KeyWord name="llDetectedTouchUV" func="yes">
-            <Overload retVal="vector" descr="Returns a vector that is the texture coordinates for where the prim was touched. The x &amp; y vector positions contain the horizontal (u) &amp; vertical (v) texture coordinates respectively (&lt;u, v, 0.0&gt;). Like llDetectedTouchST, the interval of each component will be [0.0, 1.0] unless the texture repeats are set to a non-default value. Increasing or decreasing the texture repeats of the face will change this interval accordingly. Additionally, unlike with llDetectedTouchST, changing a texture&apos;s rotation will change the results of this function.
+            <Overload retVal="vector" descr="Returns a vector that is the texture coordinates for where the prim was touched. The x &amp; y
+vector positions contain the horizontal (u) &amp; vertical (v) texture coordinates
+respectively (&lt;u, v, 0.0&gt;). Like llDetectedTouchST, the interval of each component
+will be [0.0, 1.0] unless the texture repeats are set to a non-default value. Increasing
+or decreasing the texture repeats of the face will change this interval accordingly.
+Additionally, unlike with llDetectedTouchST, changing a texture&apos;s rotation will
+change the results of this function.
 
-TOUCH_INVALID_TEXCOORD (&lt;-1.0, -1.0, 0.0&gt;) is returned when the touch UV coordinates cannot be determined. See Caveats for further details.
+TOUCH_INVALID_TEXCOORD (&lt;-1.0, -1.0, 0.0&gt;) is returned when the touch UV
+coordinates cannot be determined. See Caveats for further details.
 
-index does not support negative indexes. For the touch category of events only. The prim that was touched may not be the prim receiving the event, use llDetectedLinkNumber to check for this; likewise you can use llDetectedTouchFace to determine which face was touched.">
+index does not support negative indexes. For the touch category of events only. The
+prim that was touched may not be the prim receiving the event, use llDetectedLinkNumber
+to check for this; likewise you can use llDetectedTouchFace to determine which face
+was touched.">
                 <Param name="integer index" />
             </Overload>
         </KeyWord>
         <KeyWord name="llDetectedType" func="yes">
             <Overload retVal="integer" descr="Returns an integer mask that is the types of detected object or avatar.
 
-index does not support negative indexes. Returns zero if index is not valid sensed object or avatar.">
+index does not support negative indexes. Returns zero if index is not valid
+sensed object or avatar.">
                 <Param name="integer index" />
             </Overload>
         </KeyWord>
         <KeyWord name="llDetectedVel" func="yes">
             <Overload retVal="vector" descr="Returns the vector velocity of detected object or avatar index.
 
-index does not support negative indexes. Returns ZERO_VECTOR (&lt;0.0, 0.0, 0.0&gt;) if index is not valid sensed object or avatar.">
+index does not support negative indexes. Returns ZERO_VECTOR (&lt;0.0, 0.0, 0.0&gt;)
+if index is not valid sensed object or avatar.">
                 <Param name="integer index" />
             </Overload>
         </KeyWord>
         <KeyWord name="llDialog" func="yes">
-            <Overload retVal="void" descr="Shows a dialog box in the lower right corner of the avatar&apos;s screen (upper right in Viewer 1.x) with a message and choice buttons, as well as an ignore button. This has many uses ranging from simple message delivery to complex menu systems.
+            <Overload retVal="void" descr="Shows a dialog box in the lower right corner of the avatar&apos;s screen (upper right in
+Viewer 1.x) with a message and choice buttons, as well as an ignore button. This
+has many uses ranging from simple message delivery to complex menu systems.
 
 When a button is pressed, the avatar says the text of the button label on channel.
-The position where the chat is generated is where the root prim of the dialog generating object was when the dialog button was pressed.">
+The position where the chat is generated is where the root prim of the dialog
+generating object was when the dialog button was pressed.">
                 <Param name="key avatar" />
                 <Param name="string message" />
                 <Param name="list buttons" />
@@ -1122,22 +1217,29 @@ The position where the chat is generated is where the root prim of the dialog ge
         <KeyWord name="llDie" func="yes">
             <Overload retVal="void" descr="Deletes the object. The object does not go to the owners Inventory:Trash.
 
-If called in any prim in the link set the result will be the deletion of the entire object.To remove a single prim from an object use llBreakLink first." />
+If called in any prim in the link set the result will be the deletion of the entire
+object.To remove a single prim from an object use llBreakLink first." />
         </KeyWord>
         <KeyWord name="llDumpList2String" func="yes">
             <Overload retVal="string" descr="Returns a string that is the list src converted to a string with separator between the entries.
 
 Use llParseString2List or llParseStringKeepNulls to undo the process.
 
-Unlike llList2CSV , which dumps a list to a comma-separated formatted string with no choice over the separator, llDumpList2String gives you more control. This can be useful if you don&apos;t trust commas as a separator because you might be working with data supplied to the script by a user who uses, say, commas as part of a street address.">
+Unlike llList2CSV , which dumps a list to a comma-separated formatted string with
+no choice over the separator, llDumpList2String gives you more control. This can
+be useful if you don&apos;t trust commas as a separator because you might be working
+with data supplied to the script by a user who uses, say, commas as part of a
+street address.">
                 <Param name="list source" />
                 <Param name="string separator" />
             </Overload>
         </KeyWord>
         <KeyWord name="llEdgeOfWorld" func="yes">
-            <Overload retVal="boolean" descr="Checks to see whether the border hit by dir from pos is the edge of the world (has no neighboring simulator).
+            <Overload retVal="boolean" descr="Checks to see whether the border hit by dir from pos is the edge of the world
+(has no neighboring simulator).
 
-Returns an integer that is a boolean, TRUE indicating there is a simulator in the direction indicated.">
+Returns an integer that is a boolean, TRUE indicating there is a simulator in the
+direction indicated.">
                 <Param name="vector pos" />
                 <Param name="vector dir" />
             </Overload>
@@ -1145,20 +1247,26 @@ Returns an integer that is a boolean, TRUE indicating there is a simulator in th
         <KeyWord name="llEjectFromLand" func="yes">
             <Overload retVal="void" descr="Ejects avatar from the parcel.
 
-Generally, the object owner must also be the land owner but there is an exception for land deeded to a group for group members with the &apos;Eject and freeze Residents on parcels&apos; ability.
+Generally, the object owner must also be the land owner but there is an exception
+for land deeded to a group for group members with the &apos;Eject and freeze
+Residents on parcels&apos; ability.
 
-If the land under the object is owned by an individual, the script must be owned by the same individual.
+If the land under the object is owned by an individual, the script must be owned
+by the same individual.
 
-If the land under the object is deeded to a group the object will need to satisfy one of the following:
+If the land under the object is deeded to a group the object will need to satisfy
+one of the following:
 - The object is deeded to the same group.
-- The object owner must have &apos;Eject and freeze Residents on parcels&apos; ability in the group and be connected to the sim.">
+- The object owner must have &apos;Eject and freeze Residents on parcels&apos;
+ability in the group and be connected to the sim.">
                 <Param name="key avatar" />
             </Overload>
         </KeyWord>
         <KeyWord name="llEmail" func="yes">
             <Overload retVal="void" descr="Sends an email to address with subject and message.
 
-The entire message (including the address, subject and other miscellaneous fields) can&apos;t be longer than 4096 bytes combined.
+The entire message (including the address, subject and other miscellaneous fields)
+can&apos;t be longer than 4096 bytes combined.
 
 The message is prefixed with information about the prim sending the email. ">
                 <Param name="string address" />
@@ -1167,9 +1275,13 @@ The message is prefixed with information about the prim sending the email. ">
             </Overload>
         </KeyWord>
         <KeyWord name="llEscapeURL" func="yes">
-            <Overload retVal="string" descr="Returns a string that is the escaped/encoded version of url, replacing spaces with %20 etc. The function will escape any character not in [a-zA-Z0-9] to %xx where xx is the hexadecimal value of the character in UTF-8 byte form.
+            <Overload retVal="string" descr="Returns a string that is the escaped/encoded version of url, replacing spaces with %20 etc.
+The function will escape any character not in [a-zA-Z0-9] to %xx where xx is the
+hexadecimal value of the character in UTF-8 byte form.
 
-To clarify, numbers and ASCII7 alphabetical characters are NOT escaped. If a character requires more then one byte in UTF-8 byte form then it returns multiple %xx sequences chained together.
+To clarify, numbers and ASCII7 alphabetical characters are NOT escaped. If a
+character requires more then one byte in UTF-8 byte form then it returns multiple
+%xx sequences chained together.
 
 This function is similar to functions found in many other languages.">
                 <Param name="string url" />
@@ -1178,12 +1290,19 @@ This function is similar to functions found in many other languages.">
         <KeyWord name="llEuler2Rot" func="yes">
             <Overload retVal="rotation" descr="Returns a rotation representation of Euler Angles v.
 
-The Euler angle vector (in radians) is converted to a rotation by doing the rotations around the 3 axes in Z, Y, X order. So llEuler2Rot(&lt;1.0, 2.0, 3.0&gt; * DEG_TO_RAD) generates a rotation by taking a vector pointing along the X axis, first rotating it 3 degrees around the global Z axis, then rotating the resulting vector 2 degrees around the global Y axis, and finally rotating that 1 degree around the global X axis.">
+The Euler angle vector (in radians) is converted to a rotation by doing the rotations
+around the 3 axes in Z, Y, X order. So llEuler2Rot(&lt;1.0, 2.0, 3.0&gt; * DEG_TO_RAD)
+generates a rotation by taking a vector pointing along the X axis, first rotating
+it 3 degrees around the global Z axis, then rotating the resulting vector 2 degrees
+around the global Y axis, and finally rotating that 1 degree around the global X axis.">
                 <Param name="vector v" />
             </Overload>
         </KeyWord>
         <KeyWord name="llEvade" func="yes">
-            <Overload retVal="void" descr="Characters will (roughly) try to hide from their pursuers if there is a good hiding spot along their fleeing path. Hiding means no direct line of sight from the head of the character (center of the top of its physics bounding box) to the head of its pursuer and no direct path between the two on the navmesh.">
+            <Overload retVal="void" descr="Characters will (roughly) try to hide from their pursuers if there is a good hiding spot
+along their fleeing path. Hiding means no direct line of sight from the head of the
+character (center of the top of its physics bounding box) to the head of its pursuer
+and no direct path between the two on the navmesh.">
                 <Param name="key target" />
                 <Param name="list options" />
             </Overload>
@@ -1204,21 +1323,25 @@ This function is similar to functions found in many other languages.">
             </Overload>
         </KeyWord>
         <KeyWord name="llFleeFrom" func="yes">
-            <Overload retVal="void" descr="Directs a character to keep a specific distance from a specific position in the region or adjacent regions.">
+            <Overload retVal="void" descr="Directs a character to keep a specific distance from a specific position in the
+region or adjacent regions.">
                 <Param name="vector position" />
                 <Param name="float distance" />
                 <Param name="list options" />
             </Overload>
         </KeyWord>
         <KeyWord name="llFloor" func="yes">
-            <Overload retVal="integer" descr="Returns an integer that is the integer value of val rounded towards negative infinity (return &lt;= val).">
+            <Overload retVal="integer" descr="Returns an integer that is the integer value of val rounded towards negative
+infinity (return &lt;= val).">
                 <Param name="float val" />
             </Overload>
         </KeyWord>
         <KeyWord name="llForceMouselook" func="yes">
             <Overload retVal="void" descr="Sets if a sitting avatar should be forced into mouselook when they sit on this prim.
 
-boolean mouselook, if TRUE when an avatar sits on the prim, the avatar will be forced into mouselook mode. FALSE is the default setting and will undo a previously set TRUE or do nothing.
+boolean mouselook, if TRUE when an avatar sits on the prim, the avatar will be forced
+into mouselook mode. FALSE is the default setting and will undo a previously set
+TRUE or do nothing.
 
 A sit target is not necessary for this function to work.">
                 <Param name="boolean mouselook" />
@@ -1229,7 +1352,9 @@ A sit target is not necessary for this function to work.">
 
 The sign of mag matches the return.
 
-When converting the float to an integer, be sure to use an integer typecast (integer) and not one of the rounding functions (llRound, llFloor, llCeil). The integer typecast is the only method guarantied not to skew the distribution of integer values.">
+When converting the float to an integer, be sure to use an integer typecast (integer)
+and not one of the rounding functions (llRound, llFloor, llCeil). The integer typecast
+is the only method guarantied not to skew the distribution of integer values.">
                 <Param name="float val" />
             </Overload>
         </KeyWord>
@@ -1256,7 +1381,8 @@ Returns ZERO_VECTOR in attachments regardless of the avatar&apos;s acceleration.
         <KeyWord name="llGetAgentList" func="yes">
             <Overload retVal="list" descr="Requests a list of agents currently in the region, limited by the scope parameter.
 
-Returns a list [key id0, key id1, ..., key idn] or [string error_msg] - returns avatar keys for all agents in the region limited to the area(s) specified by scope.
+Returns a list [key id0, key id1, ..., key idn] or [string error_msg] - returns
+avatar keys for all agents in the region limited to the area(s) specified by scope.
 
 Scope can be AGENT_LIST_PARCEL, AGENT_LIST_PARCEL_OWNER or AGENT_LIST_REGION.">
                 <Param name="integer scope" />
@@ -1266,14 +1392,17 @@ Scope can be AGENT_LIST_PARCEL, AGENT_LIST_PARCEL_OWNER or AGENT_LIST_REGION.">
         <KeyWord name="llGetAgentSize" func="yes">
             <Overload retVal="vector" descr="Returns a vector that is an estimated size of the requested avatar.
 
-ZERO_VECTOR is returned if avatar is not in the region or if it is not an avatar. This function is a fast way to check whether a given avatar is within the same sim or not.">
+ZERO_VECTOR is returned if avatar is not in the region or if it is not an avatar.
+This function is a fast way to check whether a given avatar is within the same sim
+or not.">
                 <Param name="key avatar" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGetAlpha" func="yes">
             <Overload retVal="float" descr="Returns a float that is the alpha of face.
 
-If face is ALL_SIDES then the function returns the sum of alpha of all the faces on the prim, range [0, sides]. Otherwise the return is in the range [0, 1].
+If face is ALL_SIDES then the function returns the sum of alpha of all the faces
+on the prim, range [0, sides]. Otherwise the return is in the range [0, 1].
 
 If face indicates a face that does not exist the return is 0.0 ">
                 <Param name="integer face" />
@@ -1285,7 +1414,10 @@ If face indicates a face that does not exist the return is 0.0 ">
         <KeyWord name="llGetAnimation" func="yes">
             <Overload retVal="string" descr="Returns a string that is the name of the currently playing locomotion animation for avatar id.
 
-llGetAgentInfo provides information on some animation states not covered by this function (typing, away, busy). llGetAnimationList provides more detailed information about the running animations, but may not reflect avatar state as accurately as llGetAnimation.">
+llGetAgentInfo provides information on some animation states not covered by this
+function (typing, away, busy). llGetAnimationList provides more detailed information
+about the running animations, but may not reflect avatar state as accurately as
+llGetAnimation.">
                 <Param name="key id" />
             </Overload>
         </KeyWord>
@@ -1299,7 +1431,8 @@ llGetAgentInfo provides information on some animation states not covered by this
 
 string anim_state – animation state
 
-To run this function the script must request the PERMISSION_OVERRIDE_ANIMATIONS or PERMISSION_TRIGGER_ANIMATION permission with llRequestPermissions.">
+To run this function the script must request the PERMISSION_OVERRIDE_ANIMATIONS
+or PERMISSION_TRIGGER_ANIMATION permission with llRequestPermissions.">
                 <Param name="string anim_state" />
             </Overload>
         </KeyWord>
@@ -1319,12 +1452,14 @@ Returns an empty list ([]) if object is not found. Works with avatars, too.">
         <KeyWord name="llGetCameraPos" func="yes">
             <Overload retVal="vector" descr="Returns a vector that is the current camera position for the agent the task has permissions for.
 
-To run this function the script must request the PERMISSION_TRACK_CAMERA permission with llRequestPermissions." />
+To run this function the script must request the PERMISSION_TRACK_CAMERA permission
+with llRequestPermissions." />
         </KeyWord>
         <KeyWord name="llGetCameraRot" func="yes">
             <Overload retVal="rotation" descr="Returns a rotation that is the current camera orientation for the agent the task has permissions for.
 
-To run this function the script must request the PERMISSION_TRACK_CAMERA permission with llRequestPermissions." />
+To run this function the script must request the PERMISSION_TRACK_CAMERA permission
+with llRequestPermissions." />
         </KeyWord>
         <KeyWord name="llGetCenterOfMass" func="yes">
             <Overload retVal="vector" descr="Returns the vector position of the object&apos;s center of mass in region coordinates.
@@ -1334,7 +1469,8 @@ If called from a child prim, the child&apos;s center of mass is returned instead
         <KeyWord name="llGetClosestNavPoint" func="yes">
             <Overload retVal="list" descr="Used to get a point on the navmesh that is the closest point to point.
 
-Returns a list containing a single vector which is the closest point on the navmesh to the point provided or an empty list.
+Returns a list containing a single vector which is the closest point on the navmesh
+to the point provided or an empty list.
 
 If an option is not explicitly set, the default value for that option is used.">
                 <Param name="vector point" />
@@ -1344,20 +1480,29 @@ If an option is not explicitly set, the default value for that option is used.">
         <KeyWord name="llGetColor" func="yes">
             <Overload retVal="vector" descr="Returns a vector that is the color on face.
 
-If face is ALL_SIDES then the function returns the average color of all the faces on the prim. If face indicates a face that does not exist the return is ZERO_VECTOR (&lt;0.0, 0.0, 0.0&gt;)." />
+If face is ALL_SIDES then the function returns the average color of all the faces
+on the prim. If face indicates a face that does not exist the return is ZERO_VECTOR
+(&lt;0.0, 0.0, 0.0&gt;)." />
         </KeyWord>
         <KeyWord name="llGetCreator" func="yes">
             <Overload retVal="key" descr="Returns a key for the creator of the prim." />
         </KeyWord>
         <KeyWord name="llGetDate" func="yes">
-            <Overload retVal="string" descr="Returns a string that is the current date in the UTC time zone in the format &apos;YYYY-MM-DD&apos;.
+            <Overload retVal="string" descr="Returns a string that is the current date in the UTC time zone in the
+format &apos;YYYY-MM-DD&apos;.
 
-If you wish to know the time as well use: llGetTimestamp which uses the format &apos;YYYY-MM-DDThh:mm:ss.ff..fZ&apos;." />
+If you wish to know the time as well use: llGetTimestamp which uses the
+format &apos;YYYY-MM-DDThh:mm:ss.ff..fZ&apos;." />
         </KeyWord>
         <KeyWord name="llGetDisplayName" func="yes">
             <Overload retVal="string" descr="Returns a string that is the non-unique display name of the avatar specified by id.
 
-id must specify a valid avatar key, present in or otherwise known to the sim in which the script is running, otherwise an empty string is returned. This function will still return a valid display name if the avatar is a child agent of the sim (i.e., in an adjacent sim, but presently able to see into the one the script is in), or for a short period after the avatar leaves the sim (specifically, when the client completely disconnects from the sim, either as a main or child agent).">
+id must specify a valid avatar key, present in or otherwise known to the sim in
+which the script is running, otherwise an empty string is returned. This function
+will still return a valid display name if the avatar is a child agent of the sim
+(i.e., in an adjacent sim, but presently able to see into the one the script is in),
+or for a short period after the avatar leaves the sim (specifically, when the client
+completely disconnects from the sim, either as a main or child agent).">
                 <Param name="key id" />
             </Overload>
         </KeyWord>
@@ -1367,7 +1512,8 @@ id must specify a valid avatar key, present in or otherwise known to the sim in 
         <KeyWord name="llGetEnv" func="yes">
             <Overload retVal="string" descr="Returns a string with the requested data about the region.
 
-Note that the value returned is a string, you may need to cast it to an integer for use in calculations.">
+Note that the value returned is a string, you may need to cast it to an integer
+for use in calculations.">
                 <Param name="string name" />
             </Overload>
         </KeyWord>
@@ -1384,14 +1530,17 @@ Note that the value returned is a string, you may need to cast it to an integer 
             <Overload retVal="vector" descr="Returns the vector that is the geometric center of the object relative to the root prim." />
         </KeyWord>
         <KeyWord name="llGetGMTclock" func="yes">
-            <Overload retVal="float" descr="Returns a float that is the time in seconds since midnight GMT. Value appears to be truncated to the second.
+            <Overload retVal="float" descr="Returns a float that is the time in seconds since midnight GMT. Value appears to be
+truncated to the second.
 
 For SL time, which is the same as California time, use llGetWallclock." />
         </KeyWord>
         <KeyWord name="llGetHTTPHeader" func="yes">
             <Overload retVal="string" descr="Returns a string that is the value for header for request_id.
 
-Returns an empty string if the header is not found or if the headers can no longer be accessed. Headers can only be accessed before llHTTPResponse is called and with-in the first 30 seconds after the http_request event is queued.">
+Returns an empty string if the header is not found or if the headers can no longer
+be accessed. Headers can only be accessed before llHTTPResponse is called and with-in
+the first 30 seconds after the http_request event is queued.">
                 <Param name="key request_id" />
                 <Param name="string header" />
             </Overload>
@@ -1404,14 +1553,18 @@ Returns an empty string if the header is not found or if the headers can no long
         <KeyWord name="llGetInventoryKey" func="yes">
             <Overload retVal="key" descr="Returns a key that is the UUID of the inventory item.
 
-If item is not copy, mod, trans then the return is NULL_KEY. Use llGetInventoryType instead of this function to verify the existence of inventory.">
+If item is not copy, mod, trans then the return is NULL_KEY. Use llGetInventoryType
+instead of this function to verify the existence of inventory.">
                 <Param name="string item" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGetInventoryName" func="yes">
-            <Overload retVal="string" descr="Returns a string that is the name of the inventory item number of type. Returns an empty string if no item of the specified type is found in the prim&apos;s inventory (or there are less than or equal to number items of the type).
+            <Overload retVal="string" descr="Returns a string that is the name of the inventory item number of type. Returns an empty
+string if no item of the specified type is found in the prim&apos;s inventory (or
+there are less than or equal to number items of the type).
 
-number does not support negative indexes. Inventory items are sorted in alphabetical order (not chronological order).">
+number does not support negative indexes. Inventory items are sorted in alphabetical
+order (not chronological order).">
                 <Param name="integer type" />
                 <Param name="integer number" />
             </Overload>
@@ -1430,7 +1583,8 @@ number does not support negative indexes. Inventory items are sorted in alphabet
         <KeyWord name="llGetInventoryType" func="yes">
             <Overload retVal="integer" descr="Returns an integer that is the type of the inventory item name.
 
-If name does not exist, INVENTORY_NONE is returned (no errors or messages are generated), making this function ideal for testing the existence of inventory.">
+If name does not exist, INVENTORY_NONE is returned (no errors or messages are generated),
+making this function ideal for testing the existence of inventory.">
                 <Param name="string name" />
             </Overload>
         </KeyWord>
@@ -1448,7 +1602,8 @@ If name does not exist, INVENTORY_NONE is returned (no errors or messages are ge
             </Overload>
         </KeyWord>
         <KeyWord name="llGetLinkMedia" func="yes">
-            <Overload retVal="list" descr="Get the media params for a particular face on a linked prim, given the desired list of named params.
+            <Overload retVal="list" descr="Get the media params for a particular face on a linked prim, given the desired list
+of named params.
 Returns a list of values in the order requested.
 
 Returns an empty list if no media exists on the face(s).">
@@ -1465,29 +1620,35 @@ Returns an empty list if no media exists on the face(s).">
         <KeyWord name="llGetLinkNumber" func="yes">
             <Overload retVal="integer" descr="Returns an integer that is the link number of the prim containing the script.
 
-0 means the prim is not linked, 1 the prim is the root, 2 the prim is the first child, etc." />
+0 means the prim is not linked, 1 the prim is the root,
+2 the prim is the first child, etc." />
         </KeyWord>
         <KeyWord name="llGetLinkNumberOfSides" func="yes">
             <Overload retVal="integer" descr="Returns an integer that is the number of faces (or sides) of the prim link.
 
-See Face for more information about faces and the conditions that control the number of faces a prim will have.">
+See Face for more information about faces and the conditions that control the
+number of faces a prim will have.">
                 <Param name="integer link" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGetLinkPrimitiveParams" func="yes">
-            <Overload retVal="list" descr="Identical to llGetPrimitiveParams except that it acts on the prim specified by the link number given.
+            <Overload retVal="list" descr="Identical to llGetPrimitiveParams except that it acts on the prim specified by
+the link number given.
 Returns the list of primitive attributes requested in the params list for link.
 
-Supplying a prim or object flag will return that flags attributes. Face flags require the user to also supply a side parameter.">
+Supplying a prim or object flag will return that flags attributes. Face flags
+require the user to also supply a side parameter.">
                 <Param name="integer link" />
                 <Param name="list params" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGetListEntryType" func="yes">
-            <Overload retVal="integer" descr="Identical to llGetPrimitiveParams except that it acts on the prim specified by the link number given.
+            <Overload retVal="integer" descr="Identical to llGetPrimitiveParams except that it acts on the prim specified by
+the link number given.
 Returns the list of primitive attributes requested in the params list for link.
 
-Supplying a prim or object flag will return that flags attributes. Face flags require the user to also supply a side parameter.
+Supplying a prim or object flag will return that flags attributes. Face flags
+require the user to also supply a side parameter.
 
 index supports negative indexes.
 
@@ -1504,7 +1665,8 @@ If index describes a location not in src then TYPE_INVALID is returned.">
         <KeyWord name="llGetLocalPos" func="yes">
             <Overload retVal="vector" descr="Returns a vector that is the position relative (local) to the root.
 
-If called from the root prim it returns the position in the region unless it is attached to which it returns the position relative to the attach point." />
+If called from the root prim it returns the position in the region unless it is
+attached to which it returns the position relative to the attach point." />
         </KeyWord>
         <KeyWord name="llGetLocalRot" func="yes">
             <Overload retVal="" descr="Returns the rotation of the prim relative to the root.
@@ -1515,7 +1677,8 @@ If called from the root prim, it returns the objects rotation." />
             <Overload retVal="float" descr="Returns a float that is the mass of object (in Lindograms) that script is attached to." />
         </KeyWord>
         <KeyWord name="llGetMassMKS" func="yes">
-            <Overload retVal="float" descr="Returns a float that is the mass (in Kilograms) of object that script is attached to. Functionally identical to llGetMass except for the unit used in the return value." />
+            <Overload retVal="float" descr="Returns a float that is the mass (in Kilograms) of object that script is attached to.
+Functionally identical to llGetMass except for the unit used in the return value." />
         </KeyWord>
         <KeyWord name="llGetMemoryLimit" func="yes">
             <Overload retVal="integer" descr="Get the maximum memory a script can use.
@@ -1525,7 +1688,8 @@ Returns the integer amount of memory the script can use in bytes." />
         <KeyWord name="llGetNextEmail" func="yes">
             <Overload retVal="void" descr="Get the next queued email that comes from address, with specified subject.
 
-If address or subject are an empty string, then that parameter will be treated as a wildcard.">
+If address or subject are an empty string, then that parameter will be treated
+as a wildcard.">
                 <Param name="string address" />
                 <Param name="string subject" />
             </Overload>
@@ -1534,13 +1698,15 @@ If address or subject are an empty string, then that parameter will be treated a
             <Overload retVal="key" descr="Requests the line line of the notecard name from the dataserver.
 Returns a key that is the handle for a dataserver event response.
 
-line does not support negative indexes. If line is past the end of the notecard, EOF is returned by the dataserver.">
+line does not support negative indexes. If line is past the end of the notecard,
+EOF is returned by the dataserver.">
                 <Param name="string name" />
                 <Param name="integer line" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGetNumberOfNotecardLines" func="yes">
-            <Overload retVal="key" descr="Requests the number of lines in notecard name via the dataserver event (cast dataserver value to integer)
+            <Overload retVal="key" descr="Requests the number of lines in notecard name via the dataserver event (cast dataserver
+value to integer)
 
 Returns a key that is the handle for a dataserver event response.">
                 <Param name="string name" />
@@ -1552,17 +1718,20 @@ Returns a key that is the handle for a dataserver event response.">
         <KeyWord name="llGetNumberOfSides" func="yes">
             <Overload retVal="integer" descr="Returns an integer that is the number of faces (or sides) of the prim.
 
-See Face for more information about faces and the conditions that control the number of faces a prim will have." />
+See Face for more information about faces and the conditions that control the number
+of faces a prim will have." />
         </KeyWord>
         <KeyWord name="llGetObjectDesc" func="yes">
             <Overload retVal="string" descr="Returns a string containing the description of the prim the script is attached to.
 
-To get the object&apos;s description (not the current prim&apos;s), use PRIM_DESC or OBJECT_DESC." />
+To get the object&apos;s description (not the current prim&apos;s), use
+PRIM_DESC or OBJECT_DESC." />
         </KeyWord>
         <KeyWord name="llGetObjectDetails" func="yes">
             <Overload retVal="list" descr="Returns a list of the details for id, specifically those requested in params.
 
-An empty list if id is not found. OBJECT_UNKNOWN_DETAIL is returned when passed an invalid integer parameter.">
+An empty list if id is not found. OBJECT_UNKNOWN_DETAIL is returned when passed
+an invalid integer parameter.">
                 <Param name="key id" />
                 <Param name="list params" />
             </Overload>
@@ -1576,14 +1745,16 @@ An empty list if id is not found. OBJECT_UNKNOWN_DETAIL is returned when passed 
             <Overload retVal="string" descr="Returns a string that is the name of the prim the script is attached to." />
         </KeyWord>
         <KeyWord name="llGetObjectPermMask" func="yes">
-            <Overload retVal="integer" descr="Returns an integer that is the requested permission mask for the root object the task is attached to.">
+            <Overload retVal="integer" descr="Returns an integer that is the requested permission mask for the root object
+the task is attached to.">
                 <Param name="integer mask" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGetObjectPrimCount" func="yes">
             <Overload retVal="integer" descr="Returns an integer that is the total number of prims in the object that contains prim.
 
-Avatars sitting on the object are not counted. Zero is returned if prim (1) is not found, (2) is part of an attachment, or (3) is not a prim.">
+Avatars sitting on the object are not counted. Zero is returned if prim (1) is
+not found, (2) is part of an attachment, or (3) is not a prim.">
                 <Param name="key prim" />
             </Overload>
         </KeyWord>
@@ -1599,15 +1770,18 @@ Avatars sitting on the object are not counted. Zero is returned if prim (1) is n
             </Overload>
         </KeyWord>
         <KeyWord name="llGetParcelDetails" func="yes">
-            <Overload retVal="list" descr="Returns a list that is the parcel details specified in params (in the same order) for the parcel at pos.
+            <Overload retVal="list" descr="Returns a list that is the parcel details specified in params (in the same
+order) for the parcel at pos.
 
-Both x and y components of pos are clamped to the range [0.0, 256.0], the z component is ignored.">
+Both x and y components of pos are clamped to the range [0.0, 256.0], the
+z component is ignored.">
                 <Param name="vector pos" />
                 <Param name="list params" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGetParcelFlags" func="yes">
-            <Overload retVal="integer" descr="Returns an integer that is a mask of parcel flags (PARCEL_FLAG_*) for the parcel that includes the point pos.
+            <Overload retVal="integer" descr="Returns an integer that is a mask of parcel flags (PARCEL_FLAG_*) for the parcel
+that includes the point pos.
 
 The z component of pos is ignored.">
                 <Param name="vector pos" />
@@ -1616,7 +1790,8 @@ The z component of pos is ignored.">
         <KeyWord name="llGetParcelMaxPrims" func="yes">
             <Overload retVal="integer" descr="Returns an integer that is the maximum number of prims allowed on the parcel at pos.
 
-If sim_wide is TRUE, the return value includes all parcels owned by this parcel owner, if sim_wide is FALSE the return value determines the max for the specified parcel only.">
+If sim_wide is TRUE, the return value includes all parcels owned by this parcel owner,
+if sim_wide is FALSE the return value determines the max for the specified parcel only.">
                 <Param name="vector pos" />
                 <Param name="boolean sim_wide" />
             </Overload>
@@ -1624,7 +1799,8 @@ If sim_wide is TRUE, the return value includes all parcels owned by this parcel 
         <KeyWord name="llGetParcelMusicURL" func="yes">
             <Overload retVal="string" descr="Returns a string containing the parcel streaming audio URL.
 
-The object owner must also be the land owner. If the land is deeded to a group the object will need to be deeded to the same group for this function to work." />
+The object owner must also be the land owner. If the land is deeded to a group the
+object will need to be deeded to the same group for this function to work." />
         </KeyWord>
         <KeyWord name="llGetParcelPrimCount" func="yes">
             <Overload retVal="integer" descr="Returns an integer that is the number of prims on the parcel at pos of the given category.">
@@ -1634,8 +1810,10 @@ The object owner must also be the land owner. If the land is deeded to a group t
             </Overload>
         </KeyWord>
         <KeyWord name="llGetParcelPrimOwners" func="yes">
-            <Overload retVal="list" descr="Returns a list of all residents who own objects on the parcel at pos and with individual prim counts.
-The list is formatted as [ key agentKey1, integer agentCount1, key agentKey2, integer agentCount2, ... ], and sorted by agent key with a maximum of 100 strides.
+            <Overload retVal="list" descr="Returns a list of all residents who own objects on the parcel at pos and with
+individual prim counts.
+The list is formatted as [ key agentKey1, integer agentCount1, key agentKey2,
+integer agentCount2, ... ], and sorted by agent key with a maximum of 100 strides.
 
 Requires owner-like permissions for the parcel.">
                 <Param name="vector pos" />
@@ -1651,7 +1829,10 @@ Returns NULL_KEY if permissions were never granted or declined." />
         </KeyWord>
         <KeyWord name="llGetPhysicsMaterial" func="yes">
             <Overload retVal="list" descr="Used to get the physical characteristics of an object.
-Returns a list in the form [ float gravity_multiplier, float restitution, float friction, float density ]
+
+Returns a list in the form:
+    [ float gravity_multiplier, float restitution, float friction, float density ]
+
 • float gravity_multiplier – range [-1.0, +28.0], default: 1.0
 • float restitution – range [0.0, 1.0], default: [0.3, 0.9]
 • float friction – range [0.0, 255.0], default: [0.2, 0.9]
@@ -1665,7 +1846,8 @@ The default values for friction and restitution depend upon the material type." 
         <KeyWord name="llGetPrimitiveParams" func="yes">
             <Overload retVal="list" descr="Returns a list that is the primitive parameters specified in the params list.
 
-Supplying a prim or object flag will return that flags attributes. Face flags require the user to also supply a side parameter.">
+Supplying a prim or object flag will return that flags attributes. Face flags
+require the user to also supply a side parameter.">
                 <Param name="list params" />
             </Overload>
         </KeyWord>
@@ -1683,14 +1865,19 @@ Returns an empty list if no media exists on the face.">
             <Overload retVal="integer" descr="Returns an integer that is the number of avatars in the region." />
         </KeyWord>
         <KeyWord name="llGetRegionCorner" func="yes">
-            <Overload retVal="vector" descr="Returns a vector in meters that is the global location of the south-west corner of the region the object is in. The z component is 0.0.
+            <Overload retVal="vector" descr="Returns a vector in meters that is the global location of the south-west
+corner of the region the object is in. The z component is 0.0.
 
 Divide the returned value by 256 to get the region offset." />
         </KeyWord>
         <KeyWord name="llGetRegionFlags" func="yes">
             <Overload retVal="integer" descr="Returns an integer that is the region flags (REGION_FLAG_*) for the region the object is in.
 
-Only a small number of flags are actually used; the rest (shown below in strike-through) are always zero. In particular, it is not possible to detect the status of &apos;Allow Land Resell&apos;, &apos;Allow Land Join/Divide&apos;, or &apos;Block Land Show in Search&apos;; nor, obviously, it is possible for a script to detect that &apos;Disable Scripts&apos; has been set." />
+Only a small number of flags are actually used; the rest (shown below in strike-through)
+are always zero. In particular, it is not possible to detect the status of &apos;Allow
+Land Resell&apos;, &apos;Allow Land Join/Divide&apos;, or &apos;Block Land Show in
+Search&apos;; nor, obviously, it is possible for a script to detect that &apos;Disable
+Scripts&apos; has been set." />
         </KeyWord>
         <KeyWord name="llGetRegionFPS" func="yes">
             <Overload retVal="float" descr="Returns a float that is the mean region frames per second." />
@@ -1699,7 +1886,8 @@ Only a small number of flags are actually used; the rest (shown below in strike-
             <Overload retVal="string" descr="Returns a string that is the current region name." />
         </KeyWord>
         <KeyWord name="llGetRegionTimeDilation" func="yes">
-            <Overload retVal="float" descr="Returns a float that is the current time dilation, the value range is [0.0, 1.0], 0.0 (full dilation) and 1.0 (no dilation).
+            <Overload retVal="float" descr="Returns a float that is the current time dilation, the value
+range is [0.0, 1.0], 0.0 (full dilation) and 1.0 (no dilation).
 
 It is used as the ratio between the change of script time to that of real world time." />
         </KeyWord>
@@ -1735,18 +1923,30 @@ It is used as the ratio between the change of script time to that of real world 
         <KeyWord name="llGetStartParameter" func="yes">
             <Overload retVal="integer" descr="Returns an integer that is the script start/rez parameter.
 
-- If the script was loaded with llRemoteLoadScriptPin then that start parameter is returned.
-- If the containing object was rezzed by llRezObject or llRezAtRoot then the return is the on_rez parameter.
-- If the containing object was manually rezzed, by dragging from inventory, the start parameter is 0." />
+- If the script was loaded with llRemoteLoadScriptPin then that start parameter
+  is returned.
+- If the containing object was rezzed by llRezObject or llRezAtRoot then the return
+  is the on_rez parameter.
+- If the containing object was manually rezzed, by dragging from inventory, the
+  start parameter is 0." />
         </KeyWord>
         <KeyWord name="llGetStaticPath" func="yes">
-            <Overload retVal="list" descr="Returns a list of position vectors indicating pathfinding waypoints between positions at start and end, for a character of a given radius. The waypoints this function returns are for the &apos;static&apos; nav mesh, meaning that objects set to &apos;movable obstacle&apos; or &apos;movable phantom&apos; are ignored.
+            <Overload retVal="list" descr="Returns a list of position vectors indicating pathfinding waypoints between positions at
+start and end, for a character of a given radius. The waypoints this function
+returns are for the &apos;static&apos; nav mesh, meaning that objects set to
+&apos;movable obstacle&apos; or &apos;movable phantom&apos; are ignored.
 
-This function can be used from attachments and other non-character objects. It can also be used in any region, even if dynamic pathfinding is disabled.
+This function can be used from attachments and other non-character objects. It can
+also be used in any region, even if dynamic pathfinding is disabled.
 
-The list also always contains an integer in the last element, which is a status code indicating the outcome of the path query:
-• If llGetStaticPath() finds a path, it will return waypoint vectors and will return a status code of 0, for success
-• If llGetStaticPath() cannot find a path for some reason, it only returns the status code, indicating the sort of error. The error codes correspond to the constants in path_update (e.g. PU_FAILURE_INVALID_START is returned if the start vector is not near the nav mesh).">
+The list also always contains an integer in the last element, which is a status code
+indicating the outcome of the path query:
+• If llGetStaticPath() finds a path, it will return waypoint vectors and will
+  return a status code of 0, for success
+• If llGetStaticPath() cannot find a path for some reason, it only returns the
+  status code, indicating the sort of error. The error codes correspond to the
+  constants in path_update (e.g. PU_FAILURE_INVALID_START is returned if the start
+  vector is not near the nav mesh).">
                 <Param name="vector start" />
                 <Param name="vector end" />
                 <Param name="float radius" />
@@ -1759,7 +1959,8 @@ The list also always contains an integer in the last element, which is a status 
             </Overload>
         </KeyWord>
         <KeyWord name="llGetSubString" func="yes">
-            <Overload retVal="string" descr="Returns a string that is the substring of src from start to end, leaving the original string intact.
+            <Overload retVal="string" descr="Returns a string that is the substring of src from start to end, leaving the
+original string intact.
 
 start &amp; end support negative indexes.">
                 <Param name="string src" />
@@ -1770,46 +1971,59 @@ start &amp; end support negative indexes.">
         <KeyWord name="llGetSunDirection" func="yes">
             <Overload retVal="vector" descr="Returns a vector that is a normalized vector of the direction of the sun in the region.
 
-The sun position can be dynamic or static depending upon the wishes of the sim owner." />
+The sun position can be dynamic or static depending upon the wishes of the
+sim owner." />
         </KeyWord>
         <KeyWord name="llGetTexture" func="yes">
             <Overload retVal="string" descr="Returns a string that is the texture on face.
 
-If face is ALL_SIDES then the function returns the value for face zero. If the texture is in the prim&apos;s inventory, the return value is the inventory name, otherwise the returned value is the texture UUID.">
+If face is ALL_SIDES then the function returns the value for face zero. If the
+texture is in the prim&apos;s inventory, the return value is the inventory name,
+otherwise the returned value is the texture UUID.">
                 <Param name="integer face" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGetTextureOffset" func="yes">
-            <Overload retVal="vector" descr="Returns a vector that is the texture offset of face in the x (&apos;U&apos;, horizontal) and y (&apos;V&apos;, vertical) components. The z component is unused.
+            <Overload retVal="vector" descr="Returns a vector that is the texture offset of face in the x (&apos;U&apos;, horizontal)
+and y (&apos;V&apos;, vertical) components. The z component is unused.
 
-If face is ALL_SIDES then the function returns the value for face zero. If face indicates a face that does not exist the return is ZERO_VECTOR (&lt;0.0, 0.0, 0.0&gt;).">
+If face is ALL_SIDES then the function returns the value for face zero. If face
+indicates a face that does not exist the return is ZERO_VECTOR (&lt;0.0, 0.0, 0.0&gt;).">
                 <Param name="integer face" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGetTextureRot" func="yes">
             <Overload retVal="float" descr="Returns a float that is the texture rotation on face.
 
-If face is ALL_SIDES then the function works on all sides. If face does not exist, the function silently fails.">
+If face is ALL_SIDES then the function works on all sides. If face does not exist,
+the function silently fails.">
                 <Param name="integer" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGetTextureScale" func="yes">
             <Overload retVal="vector" descr="Returns a vector that is the texture scale on face (only the x and y components are used).
 
-If face is ALL_SIDES then in this particular case the function works as if face was 0.">
+If face is ALL_SIDES then in this particular case the function works as if
+face was 0.">
                 <Param name="integer face" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGetTime" func="yes">
-            <Overload retVal="float" descr="Returns a float that is script time in seconds with subsecond precision since the script started, was last reset, or call to either llResetTime or llGetAndResetTime." />
+            <Overload retVal="float" descr="Returns a float that is script time in seconds with subsecond precision since the
+script started, was last reset, or call to either llResetTime or llGetAndResetTime." />
         </KeyWord>
         <KeyWord name="llGetTimeOfDay" func="yes">
-            <Overload retVal="float" descr="Returns a float that is the time in seconds with subsecond precision since Second Life midnight or region up-time (time since when the region was brought online/rebooted); whichever is smaller. If the region is configured so the sun stays in a constant position, then the returned value is the region up-time.
+            <Overload retVal="float" descr="Returns a float that is the time in seconds with subsecond precision since Second Life
+midnight or region up-time (time since when the region was brought online/rebooted);
+whichever is smaller. If the region is configured so the sun stays in a constant
+position, then the returned value is the region up-time.
 
-Second Life days cycles are 4 hours long (3 hours of light, 1 hour of dark). The sunrise and sunset time varies slowly." />
+Second Life days cycles are 4 hours long (3 hours of light, 1 hour of dark). The
+sunrise and sunset time varies slowly." />
         </KeyWord>
         <KeyWord name="llGetTimestamp" func="yes">
-            <Overload retVal="string" descr="Returns a string that is the current date and time in the UTC time zone in the format &apos;YYYY-MM-DDThh:mm:ss.ff..fZ&apos;.
+            <Overload retVal="string" descr="Returns a string that is the current date and time in the UTC time zone in the
+format &apos;YYYY-MM-DDThh:mm:ss.ff..fZ&apos;.
 
 Appears to be accurate to milliseconds." />
         </KeyWord>
@@ -1817,7 +2031,8 @@ Appears to be accurate to milliseconds." />
             <Overload retVal="vector" descr="Returns a vector that is the torque (if the script is physical)." />
         </KeyWord>
         <KeyWord name="llGetUnixTime" func="yes">
-            <Overload retVal="integer" descr="Returns an integer that is the number of seconds elapsed since 00:00 hours, Jan 1, 1970 UTC from the system clock." />
+            <Overload retVal="integer" descr="Returns an integer that is the number of seconds elapsed since 00:00 hours, Jan 1,
+1970 UTC from the system clock." />
         </KeyWord>
         <KeyWord name="llGetUsedMemory" func="yes">
             <Overload retVal="integer" descr="Returns the integer of the number of bytes of memory currently in use by the script." />
@@ -1825,7 +2040,12 @@ Appears to be accurate to milliseconds." />
         <KeyWord name="llGetUsername" func="yes">
             <Overload retVal="string" descr="Returns a string that is the unique username of the avatar specified by id.
 
-id must specify a valid avatar key, present in or otherwise known to the sim in which the script is running, otherwise an empty string is returned. This function will still return a valid username if the avatar is a child agent of the sim (i.e., in an adjacent sim, but presently able to see into the one the script is in), or for a short period after the avatar leaves the sim (specifically, when the client completely disconnects from the sim, either as a main or child agent).">
+id must specify a valid avatar key, present in or otherwise known to the sim in
+which the script is running, otherwise an empty string is returned. This function
+will still return a valid username if the avatar is a child agent of the sim (i.e.,
+in an adjacent sim, but presently able to see into the one the script is in), or
+for a short period after the avatar leaves the sim (specifically, when the client
+completely disconnects from the sim, either as a main or child agent).">
                 <Param name="key id" />
             </Overload>
         </KeyWord>
@@ -1835,7 +2055,8 @@ id must specify a valid avatar key, present in or otherwise known to the sim in 
 Velocity reported is relative to the global coordinate frame (the object rotation has no affect on this functions output)." />
         </KeyWord>
         <KeyWord name="llGetWallclock" func="yes">
-            <Overload retVal="float" descr="Returns a float that is the time in seconds since midnight Pacific time (PST/PDT), truncated to whole seconds.
+            <Overload retVal="float" descr="Returns a float that is the time in seconds since midnight Pacific time (PST/PDT),
+truncated to whole seconds.
 
 For GMT use llGetGMTclock." />
         </KeyWord>
@@ -1843,7 +2064,8 @@ For GMT use llGetGMTclock." />
             <Overload retVal="void" descr="Give inventory to destination.
 
 If destination is an object then it must be in the same region.
-If destination is an avatar they do not have to be in the same region, but the delay is 2.0 seconds.">
+If destination is an avatar they do not have to be in the same region, but the
+delay is 2.0 seconds.">
                 <Param name="key destination" />
                 <Param name="string inventory" />
             </Overload>
@@ -1858,36 +2080,47 @@ If destination is an avatar they do not have to be in the same region, but the d
         <KeyWord name="llGiveMoney" func="yes">
             <Overload retVal="integer" descr="Transfer amount of L$ money from script owner to destination avatar.
 
-Returns an integer that is always zero. In contrast llTransferLindenDollars returns a key that can be used to match the function call to the resulting transaction_result event and the transaction history.
+Returns an integer that is always zero. In contrast llTransferLindenDollars returns
+a key that can be used to match the function call to the resulting transaction_result
+event and the transaction history.
 
-To run this function the script must request the PERMISSION_DEBIT permission with llRequestPermissions and it must be granted by the owner.">
+To run this function the script must request the PERMISSION_DEBIT permission with
+llRequestPermissions and it must be granted by the owner.">
                 <Param name="key destination" />
                 <Param name="integer amount" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGround" func="yes">
-            <Overload retVal="float" descr="Returns a float that is the ground height directly below the prim position + offset in local coordinates.
+            <Overload retVal="float" descr="Returns a float that is the ground height directly below the prim position + offset
+in local coordinates.
 
-The requested position needs to be in the same region. Only the x and y coordinates in offset are important, the z component is ignored.">
+The requested position needs to be in the same region. Only the x and y coordinates
+in offset are important, the z component is ignored.">
                 <Param name="vector offset" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGroundContour" func="yes">
-            <Overload retVal="vector" descr="Returns a vector that is the ground contour direction below the prim position + offset. The contour is the direction of a contour line at that point, that is the direction in which there is no change in elevation.
+            <Overload retVal="vector" descr="Returns a vector that is the ground contour direction below the prim position + offset.
+The contour is the direction of a contour line at that point, that is the direction
+in which there is no change in elevation.
 
-The requested position needs to be in the same region. Only the x and y coordinates in offset are important, the z component is ignored.">
+The requested position needs to be in the same region. Only the x and y coordinates
+in offset are important, the z component is ignored.">
                 <Param name="vector offset" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGroundNormal" func="yes">
-            <Overload retVal="vector" descr="Returns a vector that is the ground normal from the current position + offset in local coordinates.
+            <Overload retVal="vector" descr="Returns a vector that is the ground normal from the current position + offset in
+local coordinates.
 
-The requested position needs to be in the same region. Only the x and y coordinates in offset are important, the z component is ignored.">
+The requested position needs to be in the same region. Only the x and y coordinates
+in offset are important, the z component is ignored.">
                 <Param name="vector offset" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGroundRepel" func="yes">
-            <Overload retVal="void" descr="Critically damps to height if within height * 0.5 of ground or water level (whichever is higher).
+            <Overload retVal="void" descr="Critically damps to height if within height * 0.5 of ground or water level (whichever
+is higher).
 
 Do not use with vehicles.">
                 <Param name="float height" />
@@ -1896,9 +2129,11 @@ Do not use with vehicles.">
             </Overload>
         </KeyWord>
         <KeyWord name="llGroundSlope" func="yes">
-            <Overload retVal="vector" descr="Returns a vector that is the ground slope below the object position + offset in local coordinates.
+            <Overload retVal="vector" descr="Returns a vector that is the ground slope below the object position + offset in
+local coordinates.
 
-The requested position needs to be in the same region. Only the x and y coordinates in offset are important, the z component is ignored.">
+The requested position needs to be in the same region. Only the x and y coordinates
+in offset are important, the z component is ignored.">
                 <Param name="vector offset" />
             </Overload>
         </KeyWord>
@@ -1914,7 +2149,8 @@ Returns a key that is a handle identifying the HTTP request made.">
         <KeyWord name="llHTTPResponse" func="yes">
             <Overload retVal="void" descr="Responds to request_id with status and body.
 
-The response need not be made inside the http_request event but if it does not happen in a timely fashion the request will time out (within 25 seconds).">
+The response need not be made inside the http_request event but if it does not
+happen in a timely fashion the request will time out (within 25 seconds).">
                 <Param name="key request_id" />
                 <Param name="integer status" />
                 <Param name="string body" />
@@ -1923,7 +2159,10 @@ The response need not be made inside the http_request event but if it does not h
         <KeyWord name="llInsertString" func="yes">
             <Overload retVal="string" descr="Returns the string dst with src inserted starting at pos.
 
-pos does not support negative indexes. i.e. unlike other somewhat similar string functions such as llGetSubString and llDeleteSubString, you cannot use -1 for the counting with this function. You may use instead the function provided a bit further below.">
+pos does not support negative indexes. i.e. unlike other somewhat similar string
+functions such as llGetSubString and llDeleteSubString, you cannot use -1 for the
+counting with this function. You may use instead the function provided a bit
+further below.">
                 <Param name="string dst" />
                 <Param name="integer pos" />
                 <Param name="string src" />
@@ -1945,20 +2184,30 @@ To send a message directly to an object, use llRegionSayTo or llEmail or llHTTPR
         <KeyWord name="llKey2Name" func="yes">
             <Overload retVal="string" descr="Returns a string that is the legacy name of the prim or avatar specified by id.
 
-id must specify a valid rezzed prim or avatar key, present in or otherwise known to the sim in which the script is running, otherwise an empty string is returned. In the case of an avatar, this function will still return a valid name if the avatar is a child agent of the sim (i.e., in an adjacent sim, but presently able to see into the one the script is in), or for a short period after the avatar leaves the sim (specifically, when the client completely disconnects from the sim, either as a main or child agent).
+id must specify a valid rezzed prim or avatar key, present in or otherwise known
+to the sim in which the script is running, otherwise an empty string is returned.
+In the case of an avatar, this function will still return a valid name if the avatar
+is a child agent of the sim (i.e., in an adjacent sim, but presently able to see
+into the one the script is in), or for a short period after the avatar leaves the
+sim (specifically, when the client completely disconnects from the sim, either as
+a main or child agent).
 
-Keys of inventory items will not work; in the case of these, use llGetInventoryName instead.">
+Keys of inventory items will not work; in the case of these, use
+llGetInventoryName instead.">
                 <Param name="key id" />
             </Overload>
         </KeyWord>
         <KeyWord name="llLinkParticleSystem" func="yes">
-            <Overload retVal="void" descr="A particle system defined by a list of rules is set for the prim(s) link. This is identical to llParticleSystem except that it applies to a specified linked prim and not just the prim the script is in.">
+            <Overload retVal="void" descr="A particle system defined by a list of rules is set for the prim(s) link. This is
+identical to llParticleSystem except that it applies to a specified linked prim
+and not just the prim the script is in.">
                 <Param name="integer link" />
                 <Param name="list rules" />
             </Overload>
         </KeyWord>
         <KeyWord name="llLinkSitTarget" func="yes">
-            <Overload retVal="void" descr="Set the sit location for the linked prim(s). The sit location is relative to the prim&apos;s position and rotation.
+            <Overload retVal="void" descr="Set the sit location for the linked prim(s). The sit location is relative to the
+prim&apos;s position and rotation.
 
 If offset is ZERO_VECTOR then the sit target is removed.">
                 <Param name="integer link" />
@@ -1974,7 +2223,8 @@ More precisely the values are separated with a comma and a space (&quot;, &quot;
 
 This function&apos;s functionality is equivalent to llDumpList2String(src, &quot;, &quot;);
 
-The result of this function is more or less the CSV format, but it does not conform in all its details.
+The result of this function is more or less the CSV format, but it does not conform
+in all its details.
 
 To reverse the process use llCSV2List. But see the Caveat.">
                 <Param name="list src" />
@@ -1983,7 +2233,9 @@ To reverse the process use llCSV2List. But see the Caveat.">
         <KeyWord name="llList2Float" func="yes">
             <Overload retVal="float" descr="Returns a float that is at index in src.
 
-index supports negative indexes. If index describes a location not in src then zero is returned. If the type of the element at index in src is not a float it is typecast to a float. If it cannot be typecast zero is returned.">
+index supports negative indexes. If index describes a location not in src then zero
+is returned. If the type of the element at index in src is not a float it is typecast
+to a float. If it cannot be typecast zero is returned.">
                 <Param name="list src" />
                 <Param name="integer index" />
             </Overload>
@@ -1991,7 +2243,9 @@ index supports negative indexes. If index describes a location not in src then z
         <KeyWord name="llList2Integer" func="yes">
             <Overload retVal="integer" descr="Returns an integer that is at index in src.
 
-index supports negative indexes. If index describes a location not in src then zero is returned. If the type of the element at index in src is not a integer it is typecast to a integer. If it cannot be typecast zero is returned.">
+index supports negative indexes. If index describes a location not in src then zero
+is returned. If the type of the element at index in src is not a integer it is
+typecast to a integer. If it cannot be typecast zero is returned.">
                 <Param name="list src" />
                 <Param name="integer index" />
             </Overload>
@@ -1999,7 +2253,9 @@ index supports negative indexes. If index describes a location not in src then z
         <KeyWord name="llList2Key" func="yes">
             <Overload retVal="key" descr="Returns a key that is at index in src.
 
-index supports negative indexes. If index describes a location not in src then null string is returned. If the type of the element at index in src is not a key it is typecast to a key. If it cannot be typecast null string is returned.">
+index supports negative indexes. If index describes a location not in src then null
+string is returned. If the type of the element at index in src is not a key it is
+typecast to a key. If it cannot be typecast null string is returned.">
                 <Param name="list src" />
                 <Param name="integer index" />
             </Overload>
@@ -2014,7 +2270,8 @@ start &amp; end support negative indexes.">
             </Overload>
         </KeyWord>
         <KeyWord name="llList2ListStrided" func="yes">
-            <Overload retVal="list" descr="Returns a list of all the entries in the strided list whose index is a multiple of stride in the range start to end.
+            <Overload retVal="list" descr="Returns a list of all the entries in the strided list whose index is a multiple of
+stride in the range start to end.
 
 If number of entries per stride is less then 1 it is assumed to be 1. This function supports Strided Lists.">
                 <Param name="list src" />
@@ -2026,7 +2283,9 @@ If number of entries per stride is less then 1 it is assumed to be 1. This funct
         <KeyWord name="llList2Rot" func="yes">
             <Overload retVal="rotation" descr="Returns a rotation that is at index in src.
 
-index supports negative indexes. If index describes a location not in src then ZERO_ROTATION is returned. If the type of the element at index in src is not a rotation then ZERO_ROTATION is returned.
+index supports negative indexes. If index describes a location not in src then
+ZERO_ROTATION is returned. If the type of the element at index in src is not a
+rotation then ZERO_ROTATION is returned.
 
 Here is a workaround: (rotation)llList2String(src, index);">
                 <Param name="list src" />
@@ -2036,7 +2295,9 @@ Here is a workaround: (rotation)llList2String(src, index);">
         <KeyWord name="llList2String" func="yes">
             <Overload retVal="string" descr="Returns a string that is at index in src.
 
-index supports negative indexes. If index describes a location not in src then null string is returned. If the type of the element at index in src is not a string it is typecast to a string.">
+index supports negative indexes. If index describes a location not in src then null
+string is returned. If the type of the element at index in src is not a string it
+is typecast to a string.">
                 <Param name="list src" />
                 <Param name="integer index" />
             </Overload>
@@ -2044,16 +2305,20 @@ index supports negative indexes. If index describes a location not in src then n
         <KeyWord name="llList2Vector" func="yes">
             <Overload retVal="vector" descr="Returns a vector that is at index in src.
 
-index supports negative indexes. If index describes a location not in src then ZERO_VECTOR is returned. If the type of the element at index in src is not a vector then ZERO_VECTOR is returned.
+index supports negative indexes. If index describes a location not in src then
+ZERO_VECTOR is returned. If the type of the element at index in src is not a vector
+then ZERO_VECTOR is returned.
 Here is a workaround: (vector)llList2String(src, index);">
                 <Param name="list src" />
                 <Param name="integer index" />
             </Overload>
         </KeyWord>
         <KeyWord name="llListen" func="yes">
-            <Overload retVal="integer" descr="Sets a callback for msg on channel from name and id. Returns an integer that can be used to deactivate or remove the listen.
+            <Overload retVal="integer" descr="Sets a callback for msg on channel from name and id. Returns an integer that can be
+used to deactivate or remove the listen.
 
-If msg, name or id are blank they are not used to filter incoming messages. If id is an invalid key or a null key, it is considered blank.">
+If msg, name or id are blank they are not used to filter incoming messages. If id
+is an invalid key or a null key, it is considered blank.">
                 <Param name="integer channel" />
                 <Param name="string name" />
                 <Param name="key id" />
@@ -2072,17 +2337,20 @@ If msg, name or id are blank they are not used to filter incoming messages. If i
             </Overload>
         </KeyWord>
         <KeyWord name="llListFindList" func="yes">
-            <Overload retVal="integer" descr="Returns a positive zero-based integer that is the index of the first instance of test in src.
+            <Overload retVal="integer" descr="Returns a positive zero-based integer that is the index of the first instance
+of test in src.
 
 Strict type matching and case sensitivity is enforced.
 
-If test is not found in src, -1 is returned. The index of the first entry in the list is 0, the last is (length - 1).">
+If test is not found in src, -1 is returned. The index of the first entry in the
+list is 0, the last is (length - 1).">
                 <Param name="list src" />
                 <Param name="list test" />
             </Overload>
         </KeyWord>
         <KeyWord name="llListInsertList" func="yes">
-            <Overload retVal="list" descr="Returns a list that contains all the elements from dest but with the elements from src inserted at position start.
+            <Overload retVal="list" descr="Returns a list that contains all the elements from dest but with the elements
+from src inserted at position start.
 
 start supports negative indexes.">
                 <Param name="list dest" />
@@ -2099,7 +2367,8 @@ This function supports Strided Lists.">
             </Overload>
         </KeyWord>
         <KeyWord name="llListReplaceList" func="yes">
-            <Overload retVal="list" descr="Returns a list that is dest with start through end removed and src inserted at start.
+            <Overload retVal="list" descr="Returns a list that is dest with start through end removed and src inserted
+at start.
 
 start &amp; end support negative indexes.">
                 <Param name="list dest" />
@@ -2118,7 +2387,8 @@ This function supports Strided Lists.">
             </Overload>
         </KeyWord>
         <KeyWord name="llListStatistics" func="yes">
-            <Overload retVal="float" descr="Returns a float that is the result of performing statistical aggregate function operation on src.
+            <Overload retVal="float" descr="Returns a float that is the result of performing statistical aggregate function
+operation on src.
 
 If a list entry type is not a float or an integer it is silently ignored.">
                 <Param name="integer operation" />
@@ -2127,30 +2397,38 @@ If a list entry type is not a float or an integer it is silently ignored.">
         </KeyWord>
         <KeyWord name="llLoadURL" func="yes">
             <Overload retVal="" descr="Shows dialog to avatar offering to load web page at url with message.
-If user clicks yes, launches the page in their web browser, starting the browser if required.
+If user clicks yes, launches the page in their web browser, starting the browser
+if required.
 
-The url is truncated to 255 characters and message is truncated to 254 characters. The protocol for the url must be specified, currently only &apos;https://&apos; and &apos;http://&apos; are supported. The URL should be RFC-1738 compliant with proper escapes.">
+The url is truncated to 255 characters and message is truncated to 254 characters.
+The protocol for the url must be specified, currently only &apos;https://&apos;
+and &apos;http://&apos; are supported. The URL should be RFC-1738 compliant with
+proper escapes.">
                 <Param name="key avatar" />
                 <Param name="string message" />
                 <Param name="string url" />
             </Overload>
         </KeyWord>
         <KeyWord name="llLog" func="yes">
-            <Overload retVal="float" descr="Returns a float that is the natural logarithm of val. If val &lt;= 0 returns 0.0 instead.
+            <Overload retVal="float" descr="Returns a float that is the natural logarithm of val. If val &lt;= 0
+returns 0.0 instead.
 
 To get the base 10 logarithm use llLog10.">
                 <Param name="float val" />
             </Overload>
         </KeyWord>
         <KeyWord name="llLog10" func="yes">
-            <Overload retVal="float" descr="Returns a float that is the base 10 logarithm of val. If val &lt;= 0 returns 0.0 instead.
+            <Overload retVal="float" descr="Returns a float that is the base 10 logarithm of val. If val &lt;= 0
+returns 0.0 instead.
 
-To get the natural logarithm use llLog. llLog10 should only be used where the base 10 log is needed, all other applications should use llLog instead.">
+To get the natural logarithm use llLog. llLog10 should only be used where the
+base 10 log is needed, all other applications should use llLog instead.">
                 <Param name="float val" />
             </Overload>
         </KeyWord>
         <KeyWord name="llLookAt" func="yes">
-            <Overload retVal="void" descr="Cause object to point its up axis (positive z) towards target, while keeping its forward axis (positive x) below the horizon.
+            <Overload retVal="void" descr="Cause object to point its up axis (positive z) towards target, while keeping
+its forward axis (positive x) below the horizon.
 
 Continues to track target until llStopLookAt is called.
 
@@ -2188,17 +2466,24 @@ volume between [0.0 &lt;= x &lt;= 1.0 ] where 0.0 (silent) and 1.0 (max volume).
             </Overload>
         </KeyWord>
         <KeyWord name="llManageEstateAccess" func="yes">
-            <Overload retVal="boolean" descr="Use to add or remove agents from the estate&apos;s agent access or ban lists or groups from the estate&apos;s group access list.
+            <Overload retVal="boolean" descr="Use to add or remove agents from the estate&apos;s agent access or ban lists
+or groups from the estate&apos;s group access list.
 
-Returns an integer representing a boolean, TRUE if the call was successful; FALSE if throttled, invalid action, invalid or null id or object owner is not allowed to manage the estate.
+Returns an integer representing a boolean, TRUE if the call was successful; FALSE
+if throttled, invalid action, invalid or null id or object owner is not allowed
+to manage the estate.
 
-Only works for objects owned by the Estate Owner or an Estate Manager. By default, the object owner is notified of every change made using this function. But if the owner grants PERMISSION_SILENT_ESTATE_MANAGEMENT to the script, the owner will not be notified.">
+Only works for objects owned by the Estate Owner or an Estate Manager. By default,
+the object owner is notified of every change made using this function. But if the
+owner grants PERMISSION_SILENT_ESTATE_MANAGEMENT to the script, the owner will
+not be notified.">
                 <Param name="integer action" />
                 <Param name="key avatar" />
             </Overload>
         </KeyWord>
         <KeyWord name="llMapDestination" func="yes">
-            <Overload retVal="void" descr="Opens world map centered on simname with pos highlighted. Only works for scripts attached to avatar, or during touch events.
+            <Overload retVal="void" descr="Opens world map centered on simname with pos highlighted. Only works for scripts
+attached to avatar, or during touch events.
 
 NOTE: look_at currently does nothing.">
                 <Param name="string simname" />
@@ -2207,15 +2492,19 @@ NOTE: look_at currently does nothing.">
             </Overload>
         </KeyWord>
         <KeyWord name="llMD5String" func="yes">
-            <Overload retVal="string" descr="Returns a string of 32 hex characters that is the MD5 checksum of src with a salt of &apos;:&apos; + nonce.">
+            <Overload retVal="string" descr="Returns a string of 32 hex characters that is the MD5 checksum of src with
+a salt of &apos;:&apos; + nonce.">
                 <Param name="string src" />
                 <Param name="integer nonce" />
             </Overload>
         </KeyWord>
         <KeyWord name="llMessageLinked" func="yes">
-            <Overload retVal="void" descr="The purpose of this function is to allow scripts in the same object to communicate. It triggers a link_message event with the same parameters num, str, and id in all scripts in the prim(s) described by link.
+            <Overload retVal="void" descr="The purpose of this function is to allow scripts in the same object to communicate.
+It triggers a link_message event with the same parameters num, str, and id in
+all scripts in the prim(s) described by link.
 
-You can use id as a second string field[2]. The sizes of str and id are only limited by available script memory.">
+You can use id as a second string field[2]. The sizes of str and id are only
+limited by available script memory.">
                 <Param name="integer link" />
                 <Param name="integer num" />
                 <Param name="string str" />
@@ -2247,7 +2536,8 @@ The position of the prim is used to determine the input for various flags.">
         <KeyWord name="llMoveToTarget" func="yes">
             <Overload retVal="void" descr="Critically damp to target in tau seconds (if the script is physical).
 
-To stop the object from maintaining the target positions use llStopMoveToTarget. To change the rotation in the same manner use llLookAt or llRotLookAt.">
+To stop the object from maintaining the target positions use llStopMoveToTarget.
+To change the rotation in the same manner use llLookAt or llRotLookAt.">
                 <Param name="vector target" />
                 <Param name="float tau" />
             </Overload>
@@ -2255,7 +2545,8 @@ To stop the object from maintaining the target positions use llStopMoveToTarget.
         <KeyWord name="llNavigateTo" func="yes">
             <Overload retVal="void" descr="Directs an object to travel to a defined position in the region or adjacent regions.
 
-Adjacent regions can be reached by extending the position vector into the nearby region.">
+Adjacent regions can be reached by extending the position vector into the
+nearby region.">
                 <Param name="vector pos" />
                 <Param name="list options" />
             </Overload>
@@ -2273,12 +2564,15 @@ If face is ALL_SIDES then the function works on all sides.">
             </Overload>
         </KeyWord>
         <KeyWord name="llOpenRemoteDataChannel" func="yes">
-            <Overload retVal="void" descr="Creates a channel to listen for XML-RPC calls. Will trigger a remote_data event with channel id once it is available." />
+            <Overload retVal="void" descr="Creates a channel to listen for XML-RPC calls. Will trigger a remote_data event
+with channel id once it is available." />
         </KeyWord>
         <KeyWord name="llOverMyLand" func="yes">
-            <Overload retVal="boolean" descr="Returns an integer boolean, TRUE if id is over land owned by the script owner, FALSE otherwise.
+            <Overload retVal="boolean" descr="Returns an integer boolean, TRUE if id is over land owned by the script owner,
+FALSE otherwise.
 
-On group deeded land the object containing the script must be deeded to the same group. (It is not enough to set the script to the group.)">
+On group deeded land the object containing the script must be deeded to the same
+group. (It is not enough to set the script to the group.)">
                 <Param name="key id" />
             </Overload>
         </KeyWord>
@@ -2288,24 +2582,28 @@ On group deeded land the object containing the script must be deeded to the same
             </Overload>
         </KeyWord>
         <KeyWord name="llParcelMediaCommandList" func="yes">
-            <Overload retVal="void" descr="Controls the playback of movies and other multimedia resources on a parcel or for an agent.">
+            <Overload retVal="void" descr="Controls the playback of movies and other multimedia resources on a parcel or
+for an agent.">
                 <Param name="list commands" />
             </Overload>
         </KeyWord>
         <KeyWord name="llParcelMediaQuery" func="yes">
-            <Overload retVal="list" descr="Returns a list containing results of query. The results are in the same order as the request.">
+            <Overload retVal="list" descr="Returns a list containing results of query. The results are in the same order
+as the request.">
                 <Param name="list query" />
             </Overload>
         </KeyWord>
         <KeyWord name="llParseString2List" func="yes">
-            <Overload retVal="list" descr="Returns a list that is src broken into a list of strings, discarding separators, keeping spacers, discards any null values generated.">
+            <Overload retVal="list" descr="Returns a list that is src broken into a list of strings, discarding separators,
+keeping spacers, discards any null values generated.">
                 <Param name="string source" />
                 <Param name="list separators" />
                 <Param name="list spacers" />
             </Overload>
         </KeyWord>
         <KeyWord name="llParseStringKeepNulls" func="yes">
-            <Overload retVal="list" descr="Returns a list that is src broken into a list, discarding separators, keeping spacers, keeping any null values generated.">
+            <Overload retVal="list" descr="Returns a list that is src broken into a list, discarding separators, keeping
+spacers, keeping any null values generated.">
                 <Param name="string source" />
                 <Param name="separators" />
                 <Param name="spacers" />
@@ -2319,7 +2617,8 @@ On group deeded land the object containing the script must be deeded to the same
         <KeyWord name="llPassCollisions" func="yes">
             <Overload retVal="void" descr="Sets pass-collisions prim attribute.
 
-The default is FALSE if there is no script to handle the collision events in the prim.">
+The default is FALSE if there is no script to handle the collision events in
+the prim.">
                 <Param name="boolean pass" />
             </Overload>
         </KeyWord>
@@ -2343,7 +2642,8 @@ The default is TRUE if there is no script to handle the touch events in the prim
             </Overload>
         </KeyWord>
         <KeyWord name="llPlaySoundSlave" func="yes">
-            <Overload retVal="void" descr="Plays attached sound once at volume, synced to next loop of most audible sync master declared by llLoopSoundMaster.">
+            <Overload retVal="void" descr="Plays attached sound once at volume, synced to next loop of most audible sync
+master declared by llLoopSoundMaster.">
                 <Param name="string sound" />
                 <Param name="float volume" />
             </Overload>
@@ -2376,7 +2676,8 @@ Triggers a Math Error for imaginary results ((exponent != (integer)exponent) &am
             </Overload>
         </KeyWord>
         <KeyWord name="llRegionSay" func="yes">
-            <Overload retVal="void" descr="Says the string message on channel number channel that can be heard anywhere in the region by a script listening on channel.
+            <Overload retVal="void" descr="Says the string message on channel number channel that can be heard anywhere
+in the region by a script listening on channel.
 
 Regardless of where the prim is, the message will not travel over region borders.">
                 <Param name="integer channel" />
@@ -2384,14 +2685,17 @@ Regardless of where the prim is, the message will not travel over region borders
             </Overload>
         </KeyWord>
         <KeyWord name="llRegionSayTo" func="yes">
-            <Overload retVal="void" descr="Says the text supplied in string msg on channel supplied in integer channel to the object or avatar specified by target.">
+            <Overload retVal="void" descr="Says the text supplied in string msg on channel supplied in integer channel to
+the object or avatar specified by target.">
                 <Param name="key target" />
                 <Param name="integer channel" />
                 <Param name="string message" />
             </Overload>
         </KeyWord>
         <KeyWord name="llReleaseControls" func="yes">
-            <Overload retVal="void" descr="Stop taking inputs (that were taken with llTakeControls), dequeues any remaining control events. If PERMISSION_TAKE_CONTROLS was previously granted, it will be revoked." />
+            <Overload retVal="void" descr="Stop taking inputs (that were taken with llTakeControls), dequeues any remaining
+control events. If PERMISSION_TAKE_CONTROLS was previously granted, it will
+be revoked." />
         </KeyWord>
         <KeyWord name="llReleaseURL" func="yes">
             <Overload retVal="void" descr="Releases the specified URL, it will no longer be usable.">
@@ -2399,7 +2703,8 @@ Regardless of where the prim is, the message will not travel over region borders
             </Overload>
         </KeyWord>
         <KeyWord name="llRemoteDataReply" func="yes">
-            <Overload retVal="void" descr="Send an XML-RPC reply on channel to message_id with payload of string sdata and integer idata.">
+            <Overload retVal="void" descr="Send an XML-RPC reply on channel to message_id with payload of string sdata and
+integer idata.">
                 <Param name="key channel" />
                 <Param name="key message_id" />
                 <Param name="string sdata" />
@@ -2407,7 +2712,8 @@ Regardless of where the prim is, the message will not travel over region borders
             </Overload>
         </KeyWord>
         <KeyWord name="llRemoteLoadScriptPin" func="yes">
-            <Overload retVal="void" descr="Copy script name into target and set to running with a start_param only if target&apos;s pin matches pin.
+            <Overload retVal="void" descr="Copy script name into target and set to running with a start_param only if
+target&apos;s pin matches pin.
 
 Only works if the script owner can modify target.">
                 <Param name="key target" />
@@ -2438,7 +2744,8 @@ Only works if the script owner can modify target.">
             </Overload>
         </KeyWord>
         <KeyWord name="llRequestAgentData" func="yes">
-            <Overload retVal="key" descr="Requests data about agent identified by id. ONLY when data is available the dataserver event will be raised.
+            <Overload retVal="key" descr="Requests data about agent identified by id. ONLY when data is available the dataserver
+event will be raised.
 
 Returns a key that is used to identify the dataserver event when it is raised.">
                 <Param name="key id" />
@@ -2446,14 +2753,17 @@ Returns a key that is used to identify the dataserver event when it is raised.">
             </Overload>
         </KeyWord>
         <KeyWord name="llRequestDisplayName" func="yes">
-            <Overload retVal="key" descr="Requests the Display Name of the agent identified by id. When the Display Name is available the dataserver event will be raised. The agent identified by id does not need to be in the same region or online at the time of the request.
+            <Overload retVal="key" descr="Requests the Display Name of the agent identified by id. When the Display Name
+is available the dataserver event will be raised. The agent identified by id does
+not need to be in the same region or online at the time of the request.
 
 Returns the key that is used to identify the dataserver event when it is raised.">
                 <Param name="key id" />
             </Overload>
         </KeyWord>
         <KeyWord name="llRequestInventoryData" func="yes">
-            <Overload retVal="key" descr="Requests data about the item name in the prim&apos;s inventory. When data is available the dataserver event will be raised.
+            <Overload retVal="key" descr="Requests data about the item name in the prim&apos;s inventory. When data is available
+the dataserver event will be raised.
 
 Returns the key that is used to identify the dataserver event when it is raised.">
                 <Param name="string name" />
@@ -2462,13 +2772,15 @@ Returns the key that is used to identify the dataserver event when it is raised.
         <KeyWord name="llRequestPermissions" func="yes">
             <Overload retVal="void" descr="Ask agent for permissions to run certain classes of functions.
 
-Script execution continues without waiting for a response. When a response is given, a run_time_permissions event is added to the event queue.">
+Script execution continues without waiting for a response. When a response is given,
+a run_time_permissions event is added to the event queue.">
                 <Param name="key agent" />
                 <Param name="integer permissions" />
             </Overload>
         </KeyWord>
         <KeyWord name="llRequestSecureURL" func="yes">
-            <Overload retVal="key" descr="Requests one HTTPS:// (SSL) url for use by this object. The http_request event is tiggered with results.
+            <Overload retVal="key" descr="Requests one HTTPS:// (SSL) url for use by this object. The http_request event
+is tiggered with results.
 
 Returns a key that is the handle used for identifying the request in the http_request event." />
         </KeyWord>
@@ -2481,23 +2793,29 @@ Returns a key that is the handle for a dataserver event response.">
             </Overload>
         </KeyWord>
         <KeyWord name="llRequestURL" func="yes">
-            <Overload retVal="key" descr="Requests one HTTP:// url for use by this script. The http_request event is triggered with the result of the request.
+            <Overload retVal="key" descr="Requests one HTTP:// url for use by this script. The http_request event is triggered
+with the result of the request.
 
 Returns a key that is the handle used for identifying the result in the http_request event." />
         </KeyWord>
         <KeyWord name="llRequestUsername" func="yes">
-            <Overload retVal="key" descr="Requests the Username of the agent identified by id. When Username is available the dataserver event will be raised. The agent identified by id does not need to be in the same region or online at the time of the request.
+            <Overload retVal="key" descr="Requests the Username of the agent identified by id. When Username is available
+the dataserver event will be raised. The agent identified by id does not need to
+be in the same region or online at the time of the request.
 
 Returns a key that is used to identify the dataserver event when it is raised.">
                 <Param name="key id" />
             </Overload>
         </KeyWord>
         <KeyWord name="llResetAnimationOverride" func="yes">
-            <Overload retVal="void" descr="Resets the animation override of the specified animation state (anim_state) to the corresponding default value.
+            <Overload retVal="void" descr="Resets the animation override of the specified animation state (anim_state) to
+the corresponding default value.
 
 string anim_state – animation state to be reset
 
-To run this function the script must request the PERMISSION_OVERRIDE_ANIMATIONS permission with llRequestPermissions. If anim_state equals &quot;ALL&quot;, all animation states are reset.">
+To run this function the script must request the PERMISSION_OVERRIDE_ANIMATIONS
+permission with llRequestPermissions. If anim_state equals &quot;ALL&quot;, all
+animation states are reset.">
                 <Param name="string anim_state" />
             </Overload>
         </KeyWord>
@@ -2533,9 +2851,11 @@ On script reset...
             <Overload retVal="void" descr="Resets the script-time timer to zero." />
         </KeyWord>
         <KeyWord name="llRezAtRoot" func="yes">
-            <Overload retVal="void" descr="Instantiate inventory object item rotated to rot with its root at position, moving at velocity, using start_param as the start parameter.
+            <Overload retVal="void" descr="Instantiate inventory object item rotated to rot with its root at position,
+moving at velocity, using start_param as the start parameter.
 
-To rez an object so its center is at position (instead of the root) use llRezObject instead.">
+To rez an object so its center is at position (instead of the root) use
+llRezObject instead.">
                 <Param name="string item" />
                 <Param name="vector position" />
                 <Param name="vector velocity" />
@@ -2544,9 +2864,11 @@ To rez an object so its center is at position (instead of the root) use llRezObj
             </Overload>
         </KeyWord>
         <KeyWord name="llRezObject" func="yes">
-            <Overload retVal="void" descr="Instantiate inventory object item at pos with velocity and rotation rot with start_param as the start parameter.
+            <Overload retVal="void" descr="Instantiate inventory object item at pos with velocity and rotation rot with
+start_param as the start parameter.
 
-The root of inventory is not at pos but the center of inventory is. To have the root prim at pos use llRezAtRoot instead.">
+The root of inventory is not at pos but the center of inventory is. To have the
+root prim at pos use llRezAtRoot instead.">
                 <Param name="string item" />
                 <Param name="vector pos" />
                 <Param name="vector velocity" />
@@ -2574,23 +2896,32 @@ Use in conjunction with llRot2Angle. To undo use llAxisAngle2Rot.">
             </Overload>
         </KeyWord>
         <KeyWord name="llRot2Fwd" func="yes">
-            <Overload retVal="vector" descr="Computes the orientation of the local x-axis relative to the earth. Returns a vector that is the forward vector defined by q, i.e. a unit vector pointing in the local positive X direction.
+            <Overload retVal="vector" descr="Computes the orientation of the local x-axis relative to the earth. Returns
+a vector that is the forward vector defined by q, i.e. a unit vector pointing in
+the local positive X direction.
 
-Can be useful to identify the orientation of the local frontal-plane of the prim, since it&apos;s x-axis is always perpendicular to this local frontal plane.">
+Can be useful to identify the orientation of the local frontal-plane of the prim,
+since it&apos;s x-axis is always perpendicular to this local frontal plane.">
                 <Param name="rotation q" />
             </Overload>
         </KeyWord>
         <KeyWord name="llRot2Left" func="yes">
-            <Overload retVal="vector" descr="Computes the orientation of the local y-axis relative to the earth. Returns a vector that is the left vector defined by q, i.e. a unit vector pointing in the local positive Y direction.
+            <Overload retVal="vector" descr="Computes the orientation of the local y-axis relative to the earth. Returns
+a vector that is the left vector defined by q, i.e. a unit vector pointing in the
+local positive Y direction.
 
-Can be useful to identify the orientation of the local sagittal-plane of the prim, since it&apos;s y-axis is always perpendicular to this local sagittal-plane.">
+Can be useful to identify the orientation of the local sagittal-plane of the prim,
+since it&apos;s y-axis is always perpendicular to this local sagittal-plane.">
                 <Param name="rotation q" />
             </Overload>
         </KeyWord>
         <KeyWord name="llRot2Up" func="yes">
-            <Overload retVal="vector" descr="Computes the orientation of the local z-axis relative to the earth. Returns a vector that is the up vector defined by q, i.e. a unit vector pointing in the positive Z direction.
+            <Overload retVal="vector" descr="Computes the orientation of the local z-axis relative to the earth. Returns
+a vector that is the up vector defined by q, i.e. a unit vector pointing in the
+positive Z direction.
 
-Can be useful to identify the orientation of the local horizontal-plane of the prim, since it&apos;s z-axis is always perpendicular to this local horizontal plane.">
+Can be useful to identify the orientation of the local horizontal-plane of the
+prim, since it&apos;s z-axis is always perpendicular to this local horizontal plane.">
                 <Param name="rotation q" />
             </Overload>
         </KeyWord>
@@ -2603,25 +2934,32 @@ If face is ALL_SIDES then the function works on all sides.">
             </Overload>
         </KeyWord>
         <KeyWord name="llRotBetween" func="yes">
-            <Overload retVal="rotation" descr="Returns a rotation that is the shortest rotation between the direction start and the direction end.">
+            <Overload retVal="rotation" descr="Returns a rotation that is the shortest rotation between the direction start
+and the direction end.">
                 <Param name="vector start" />
                 <Param name="vector end" />
             </Overload>
         </KeyWord>
         <KeyWord name="llRotLookAt" func="yes">
-            <Overload retVal="void" descr="Causes an object to smoothly rotate to target_direction with strength resistance at damping force. Maintains rotation target_direction until stopped with llStopLookAt.
+            <Overload retVal="void" descr="Causes an object to smoothly rotate to target_direction with strength resistance
+at damping force. Maintains rotation target_direction until stopped with llStopLookAt.
 
-To change the position in the same manner, use llMoveToTarget. For physical objects a range between .2 and 1 is good for both parameters.">
+To change the position in the same manner, use llMoveToTarget. For physical objects
+a range between .2 and 1 is good for both parameters.">
                 <Param name="rotation target_direction" />
                 <Param name="float strength" />
                 <Param name="float dampening" />
             </Overload>
         </KeyWord>
         <KeyWord name="llRotTarget" func="yes">
-            <Overload retVal="integer" descr="This function is to have the script know when it has reached a rotation. It registers a rot with a error that triggers at_rot_target and not_at_rot_target events continuously until unregistered. Returns an integer that is the handle to unregister the target with llRotTargetRemove.
+            <Overload retVal="integer" descr="This function is to have the script know when it has reached a rotation. It
+registers a rot with a error that triggers at_rot_target and not_at_rot_target events
+continuously until unregistered. Returns an integer that is the handle to unregister
+the target with llRotTargetRemove.
 
 A similar function exists for positions: llTarget.
-This function does not rotate the object, to do that use llSetRot, llRotLookAt or llLookAt.">
+This function does not rotate the object, to do that use llSetRot, llRotLookAt
+or llLookAt.">
                 <Param name="rotation rot" />
                 <Param name="float errror" />
             </Overload>
@@ -2634,14 +2972,18 @@ This function does not rotate the object, to do that use llSetRot, llRotLookAt o
         <KeyWord name="llRound" func="yes">
             <Overload retVal="integer" descr="Returns the integer that val is closest to.
 
-If the absolute value of the tenths position is 4 or less, val is rounded off; otherwise, val is rounded towards infinity of like signedness of val.">
+If the absolute value of the tenths position is 4 or less, val is rounded off;
+otherwise, val is rounded towards infinity of like signedness of val.">
                 <Param name="float val" />
             </Overload>
         </KeyWord>
         <KeyWord name="llSameGroup" func="yes">
-            <Overload retVal="boolean" descr="Returns an integer boolean, that is TRUE if id has the same active group, otherwise FALSE.
+            <Overload retVal="boolean" descr="Returns an integer boolean, that is TRUE if id has the same active group,
+otherwise FALSE.
 
-Also returns TRUE if the object is deeded to the same active group as id. Also returns TRUE if the object is &apos;set to&apos; or deeded to the same group as group UUID (i.e. key OBJECT_GROUP).">
+Also returns TRUE if the object is deeded to the same active group as id. Also
+returns TRUE if the object is &apos;set to&apos; or deeded to the same group as
+group UUID (i.e. key OBJECT_GROUP).">
                 <Param name="key id" />
             </Overload>
         </KeyWord>
@@ -2661,9 +3003,13 @@ If face is ALL_SIDES then the function works on all sides.">
             </Overload>
         </KeyWord>
         <KeyWord name="llScriptDanger" func="yes">
-            <Overload retVal="boolean" descr="Returns an integer boolean, that is TRUE if pos is over public land, sandbox land, land that doesn&apos;t allow everyone to edit and build, or land that doesn&apos;t allow outside scripts.
+            <Overload retVal="boolean" descr="Returns an integer boolean, that is TRUE if pos is over public land, sandbox
+land, land that doesn&apos;t allow everyone to edit and build, or land that
+doesn&apos;t allow outside scripts.
 
-The usefulness of this function is limited as it does not give the reason why the script would be in danger. llGetParcelFlags on the other hand can be used in much the same way and gives more detailed information.">
+The usefulness of this function is limited as it does not give the reason why the
+script would be in danger. llGetParcelFlags on the other hand can be used in much
+the same way and gives more detailed information.">
                 <Param name="vector pos" />
             </Overload>
         </KeyWord>
@@ -2673,7 +3019,8 @@ The usefulness of this function is limited as it does not give the reason why th
             </Overload>
         </KeyWord>
         <KeyWord name="llSendRemoteData" func="yes">
-            <Overload retVal="key" descr="Send an XML-RPC request to dest through channel with payload of channel (in a string), integer idata and string sdata.
+            <Overload retVal="key" descr="Send an XML-RPC request to dest through channel with payload of channel (in a string),
+integer idata and string sdata.
 
 Returns a key that is the message_id for the resulting remote_data events.">
                 <Param name="key channel" />
@@ -2683,7 +3030,9 @@ Returns a key that is the message_id for the resulting remote_data events.">
             </Overload>
         </KeyWord>
         <KeyWord name="llSensor" func="yes">
-            <Overload retVal="void" descr="Initiates one single sensor sweep that either triggers the sensor event when the sensor detects something or triggers the no_sensor event when the sensor detects nothing.">
+            <Overload retVal="void" descr="Initiates one single sensor sweep that either triggers the sensor event when
+the sensor detects something or triggers the no_sensor event when the sensor
+detects nothing.">
                 <Param name="string name" />
                 <Param name="key id" />
                 <Param name="integer type" />
@@ -2697,7 +3046,9 @@ Returns a key that is the message_id for the resulting remote_data events.">
 There are no parameters or return value for this function, as only one llSensorRepeat can be specified per script." />
         </KeyWord>
         <KeyWord name="llSensorRepeat" func="yes">
-            <Overload retVal="void" descr="Performs a single scan for name and id with type within range meters and arc radians of forward vector and repeats every rate seconds. It does not perform the first scan until rate seconds have passed.
+            <Overload retVal="void" descr="Performs a single scan for name and id with type within range meters and arc
+radians of forward vector and repeats every rate seconds. It does not perform the
+first scan until rate seconds have passed.
 
 If name, id, and/or type are empty or 0, they are ignored.
 If id is an invalid key or NULL_KEY it is treated as empty.
@@ -2732,7 +3083,9 @@ If face is ALL_SIDES then the function works on all sides.">
 string anim_state – animation state to be overriden
 string anim – an animation in the prim's inventory or the name of a built-in animation
 
-To run this function the script must request the PERMISSION_OVERRIDE_ANIMATIONS permission with llRequestPermissions. Note: Animation overrides survive script reset / removal but not relog.">
+To run this function the script must request the PERMISSION_OVERRIDE_ANIMATIONS
+permission with llRequestPermissions. Note: Animation overrides survive script
+reset / removal but not relog.">
                 <Param name="string anim_state" />
                 <Param name="string anim" />
             </Overload>
@@ -2764,7 +3117,8 @@ This is the position of the camera&apos;s eye, not the point it looks at.">
         <KeyWord name="llSetCameraParams" func="yes">
             <Overload retVal="void" descr="Sets multiple camera parameters at once.
 
-To run this function the script must request the PERMISSION_CONTROL_CAMERA permission with llRequestPermissions.">
+To run this function the script must request the PERMISSION_CONTROL_CAMERA
+permission with llRequestPermissions.">
                 <Param name="list rules" />
             </Overload>
         </KeyWord>
@@ -2819,7 +3173,12 @@ Do not use with vehicles. Use llStopHover to stop hovering.">
             </Overload>
         </KeyWord>
         <KeyWord name="llSetKeyframedMotion" func="yes">
-            <Overload retVal="void" descr="Specify a list of times, positions, and orientations to be followed by an object. The object will be smoothly moved between keyframes by the simulator. Collisions with other nonphysical or keyframed objects will be ignored (no script events will fire and collision processing will not occur). Collisions with physical objects will be computed and reported, but the keyframed object will be unaffected by those collisions. (The physical object will be affected, however.)">
+            <Overload retVal="void" descr="Specify a list of times, positions, and orientations to be followed by an object.
+The object will be smoothly moved between keyframes by the simulator. Collisions
+with other nonphysical or keyframed objects will be ignored (no script events will
+fire and collision processing will not occur). Collisions with physical objects
+will be computed and reported, but the keyframed object will be unaffected by
+those collisions. (The physical object will be affected, however.)">
                 <Param name="list keyframes" />
                 <Param name="list options" />
             </Overload>
@@ -2834,7 +3193,8 @@ If face is ALL_SIDES then the function works on all sides.">
             </Overload>
         </KeyWord>
         <KeyWord name="llSetLinkCamera" func="yes">
-            <Overload retVal="void" descr="Sets the camera eye offset, and the offset that camera is looking at, for avatars that sit on the linked prim.">
+            <Overload retVal="void" descr="Sets the camera eye offset, and the offset that camera is looking at, for avatars
+that sit on the linked prim.">
                 <Param name="integer link" />
                 <Param name="vector eye" />
                 <Param name="vector at" />
@@ -2852,7 +3212,8 @@ If face is ALL_SIDES then the function works on all sides.">
         <KeyWord name="llSetLinkMedia" func="yes">
             <Overload retVal="integer" descr="Set the media params for a particular face on the linked prim(s) without a delay.
 
-Returns an integer that is a STATUS_* flag which details the success/failure of the operation(s).">
+Returns an integer that is a STATUS_* flag which details the success/failure of
+the operation(s).">
                 <Param name="integer link" />
                 <Param name="integer face" />
                 <Param name="list params" />
@@ -2865,7 +3226,8 @@ Returns an integer that is a STATUS_* flag which details the success/failure of 
             </Overload>
         </KeyWord>
         <KeyWord name="llSetLinkPrimitiveParamsFast" func="yes">
-            <Overload retVal="void" descr="Set primitive parameters for link based on rules with no built-in script sleep. This function is identical to llSetLinkPrimitiveParams except without the delay.">
+            <Overload retVal="void" descr="Set primitive parameters for link based on rules with no built-in script sleep.
+This function is identical to llSetLinkPrimitiveParams except without the delay.">
                 <Param name="integer link" />
                 <Param name="list rules" />
             </Overload>
@@ -2880,9 +3242,13 @@ If face is ALL_SIDES then the function works on all sides.">
             </Overload>
         </KeyWord>
         <KeyWord name="llSetLinkTextureAnim" func="yes">
-            <Overload retVal="void" descr="Animate the texture on the specified face/faces of the specified prim/prims by setting the texture scale and offset. Identical to llSetTextureAnim except able to modify any prim in the link set.
+            <Overload retVal="void" descr="Animate the texture on the specified face/faces of the specified prim/prims by
+setting the texture scale and offset. Identical to llSetTextureAnim except able
+to modify any prim in the link set.
 
-If face is ALL_SIDES then the function works on all sides. start supports negative indexes. Frames are numbered from left to right, top to bottom, starting at 0. If rate is negative, it has the same effect as using the REVERSE flag.">
+If face is ALL_SIDES then the function works on all sides. start supports negative
+indexes. Frames are numbered from left to right, top to bottom, starting at 0.
+If rate is negative, it has the same effect as using the REVERSE flag.">
                 <Param name="integer link" />
                 <Param name="integer mode" />
                 <Param name="integer face" />
@@ -2908,26 +3274,30 @@ Returns a boolean indicating if the memory limit was set.">
         <KeyWord name="llSetObjectDesc" func="yes">
             <Overload retVal="void" descr="Sets the prim&apos;s description.
 
-If this function is called from a child prim in a linked set, it will change the description of the child prim and not the root prim.">
+If this function is called from a child prim in a linked set, it will change the
+description of the child prim and not the root prim.">
                 <Param name="string desc" />
             </Overload>
         </KeyWord>
         <KeyWord name="llSetObjectName" func="yes">
             <Overload retVal="void" descr="Sets the prim&apos;s name.
 
-If this function is called from a child prim in a linked set, it will change the name of the child prim and not the root prim.">
+If this function is called from a child prim in a linked set, it will change the
+name of the child prim and not the root prim.">
                 <Param name="string name" />
             </Overload>
         </KeyWord>
         <KeyWord name="llSetParcelMusicURL" func="yes">
             <Overload retVal="void" descr="Sets the streaming audio URL for the parcel object is on
 
-The object owner must also be the land owner. If the land is deeded to a group the object will need to be deeded to the same group for this function to work.">
+The object owner must also be the land owner. If the land is deeded to a group
+the object will need to be deeded to the same group for this function to work.">
                 <Param name="string url" />
             </Overload>
         </KeyWord>
         <KeyWord name="llSetPayPrice" func="yes">
-            <Overload retVal="void" descr="Suggest default amounts for the pay text field and pay buttons of the appearing dialog when someone chooses to pay this object.">
+            <Overload retVal="void" descr="Suggest default amounts for the pay text field and pay buttons of the appearing
+dialog when someone chooses to pay this object.">
                 <Param name="integer price" />
                 <Param name="list quick_pay_buttons" />
             </Overload>
@@ -2935,7 +3305,8 @@ The object owner must also be the land owner. If the land is deeded to a group t
         <KeyWord name="llSetPhysicsMaterial" func="yes">
             <Overload retVal="void" descr="Used to set the physical characteristics of an object.
 
-• mask: bitwise combination of DENSITY, FRICTION, RESTITUTION, and GRAVITY_MULTIPLIER and specifies which floats to actually apply.
+• mask: bitwise combination of DENSITY, FRICTION, RESTITUTION, and
+  GRAVITY_MULTIPLIER and specifies which floats to actually apply.
 • gravity_multiplier: range [-1.0, +28.0], default: 1.0
 • restitution: range [0.0, 1.0], default: [0.3, 0.9]
 • friction: range [0.0, 255.0], default: [0.2, 0.9]
@@ -2952,7 +3323,8 @@ The default values for friction and restitution depend upon the material type.">
         <KeyWord name="llSetPos" func="yes">
             <Overload retVal="void" descr="Moves the object or primitive towards pos without using physics.
 
-Position in region or local coordinates depending upon the situation. Movement is capped to 10m per call for unattached root prims.">
+Position in region or local coordinates depending upon the situation. Movement is
+capped to 10m per call for unattached root prims.">
                 <Param name="vector pos" />
             </Overload>
         </KeyWord>
@@ -2964,7 +3336,8 @@ Position in region or local coordinates depending upon the situation. Movement i
         <KeyWord name="llSetPrimMediaParams" func="yes">
             <Overload retVal="integer" descr="Set the media params for a particular face.
 
-Returns an integer that is a STATUS_* flag which details the success/failure of the operation(s).">
+Returns an integer that is a STATUS_* flag which details the success/failure of
+the operation(s).">
                 <Param name="integer face" />
                 <Param name="list params" />
             </Overload>
@@ -2972,14 +3345,17 @@ Returns an integer that is a STATUS_* flag which details the success/failure of 
         <KeyWord name="llSetRegionPos" func="yes">
             <Overload retVal="boolean" descr="Tries to move the entire object so that the root prim is within 0.1m of position.
 
-Returns a boolean, TRUE if the object is successfully placed within 0.1 m of position, FALSE otherwise. ">
+Returns a boolean, TRUE if the object is successfully placed within 0.1 m of position,
+FALSE otherwise. ">
                 <Param name="vector position" />
             </Overload>
         </KeyWord>
         <KeyWord name="llSetRemoteScriptAccessPin" func="yes">
-            <Overload retVal="void" descr="Allows a prim to have scripts remotely loaded via llRemoteLoadScriptPin when it is passed the correct pin and the prim is set mod.
+            <Overload retVal="void" descr="Allows a prim to have scripts remotely loaded via llRemoteLoadScriptPin when it
+is passed the correct pin and the prim is set mod.
 
-Set pin to FALSE (0) to disable remote script load abilities. Every other non-zero value enables them.">
+Set pin to FALSE (0) to disable remote script load abilities. Every other non-zero
+value enables them.">
                 <Param name="integer pin" />
             </Overload>
         </KeyWord>
@@ -2991,7 +3367,8 @@ Set pin to FALSE (0) to disable remote script load abilities. Every other non-ze
         <KeyWord name="llSetScale" func="yes">
             <Overload retVal="void" descr="Sets the size of the prim according to size
 
-The components of size (x, y &amp; z) each need to be in the range [0.01, 64.0], if they are out of the range they are rounded to the nearest endpoint.">
+The components of size (x, y &amp; z) each need to be in the range [0.01, 64.0],
+if they are out of the range they are rounded to the nearest endpoint.">
                 <Param name="vector size" />
             </Overload>
         </KeyWord>
@@ -3004,7 +3381,8 @@ The components of size (x, y &amp; z) each need to be in the range [0.01, 64.0],
         <KeyWord name="llSetSitText" func="yes">
             <Overload retVal="void" descr="Displays text rather than the default &apos;Sit Here&apos; in the right-click menu.
 
-To restore the default value, use an empty string for text. To make it appear as if there is no text, use some combination of whitespace characters for text.
+To restore the default value, use an empty string for text. To make it appear as
+if there is no text, use some combination of whitespace characters for text.
 
 Text is limited to 9 characters.">
                 <Param name="string text" />
@@ -3018,7 +3396,8 @@ Sound queuing is disabled by default.">
             </Overload>
         </KeyWord>
         <KeyWord name="llSetSoundRadius" func="yes">
-            <Overload retVal="void" descr="Establishes a hard cut-off radius for audibility of scripted sounds (both attached and triggered).">
+            <Overload retVal="void" descr="Establishes a hard cut-off radius for audibility of scripted sounds (both
+attached and triggered).">
                 <Param name="float radius" />
             </Overload>
         </KeyWord>
@@ -3029,7 +3408,8 @@ Sound queuing is disabled by default.">
             </Overload>
         </KeyWord>
         <KeyWord name="llSetText" func="yes">
-            <Overload retVal="void" descr="Displays text that hovers over the prim with specific color and translucency (specified with alpha).">
+            <Overload retVal="void" descr="Displays text that hovers over the prim with specific color and translucency
+(specified with alpha).">
                 <Param name="string text" />
                 <Param name="vector color" />
                 <Param name="float alpha" />
@@ -3046,7 +3426,9 @@ If face is ALL_SIDES then the function works on all sides.">
         <KeyWord name="llSetTextureAnim" func="yes">
             <Overload retVal="void" descr="Animate the texture on the specified face/faces by setting the texture scale and offset.
 
-If face is ALL_SIDES then the function works on all sides. start supports negative indexes. Frames are numbered from left to right, top to bottom, starting at 0. If rate is negative, it has the same effect as using the REVERSE flag.">
+If face is ALL_SIDES then the function works on all sides. start supports negative
+indexes. Frames are numbered from left to right, top to bottom, starting at 0. If
+rate is negative, it has the same effect as using the REVERSE flag.">
                 <Param name="integer mode" />
                 <Param name="integer face" />
                 <Param name="integer size_x" />
@@ -3072,7 +3454,8 @@ Passing in 0.0 stops further timer events.">
         <KeyWord name="llSetTouchText" func="yes">
             <Overload retVal="void" descr="Displays text rather than the default &apos;Touch&apos; in the right-click menu
 
-To restore the default value, use an empty string for text. To make it appear as if there is no text, use some combination of whitespace characters for text.
+To restore the default value, use an empty string for text. To make it appear as
+if there is no text, use some combination of whitespace characters for text.
 
 Text is limited to 9 characters.">
                 <Param name="string text" />
@@ -3109,7 +3492,8 @@ Text is limited to 9 characters.">
         <KeyWord name="llSetVelocity" func="yes">
             <Overload retVal="void" descr="Applies velocity to object.
 
-Instantaneous velocity not dependent on object energy or mass. llSetForce has continuous push.">
+Instantaneous velocity not dependent on object energy or mass. llSetForce has
+continuous push.">
                 <Param name="vector force" />
                 <Param name="boolean local" />
             </Overload>
@@ -3131,9 +3515,12 @@ Instantaneous velocity not dependent on object energy or mass. llSetForce has co
             </Overload>
         </KeyWord>
         <KeyWord name="llSitTarget" func="yes">
-            <Overload retVal="void" descr="Set the sit location for the prim. The sit location is relative to the prim&apos;s position and rotation.
+            <Overload retVal="void" descr="Set the sit location for the prim. The sit location is relative to the prim&apos;s
+position and rotation.
 
-If offset is ZERO_VECTOR (&lt;0.0, 0.0, 0.0&gt;) then the sit target is removed. You can set rot to ZERO_ROTATION (&lt;0.0, 0.0, 0.0, 1.0&gt;) at any offset if so desired.">
+If offset is ZERO_VECTOR (&lt;0.0, 0.0, 0.0&gt;) then the sit target is removed.
+You can set rot to ZERO_ROTATION (&lt;0.0, 0.0, 0.0, 1.0&gt;) at any offset if
+so desired.">
                 <Param name="vector offset" />
                 <Param name="rotation rot" />
             </Overload>
@@ -3151,16 +3538,20 @@ Triggers a Math Error for imaginary results (val &lt; 0.0).">
             </Overload>
         </KeyWord>
         <KeyWord name="llStartAnimation" func="yes">
-            <Overload retVal="void" descr="Start animation anim for agent that granted PERMISSION_TRIGGER_ANIMATION if the permission has not been revoked.
+            <Overload retVal="void" descr="Start animation anim for agent that granted PERMISSION_TRIGGER_ANIMATION if the
+permission has not been revoked.
 
-To run this function the script must request the PERMISSION_TRIGGER_ANIMATION permission with llRequestPermissions.">
+To run this function the script must request the PERMISSION_TRIGGER_ANIMATION
+permission with llRequestPermissions.">
                 <Param name="string anim" />
             </Overload>
         </KeyWord>
         <KeyWord name="llStopAnimation" func="yes">
-            <Overload retVal="void" descr="Stop animation anim for agent that granted PERMISSION_TRIGGER_ANIMATION if the permission has not been revoked.
+            <Overload retVal="void" descr="Stop animation anim for agent that granted PERMISSION_TRIGGER_ANIMATION if the
+permission has not been revoked.
 
-To run this function the script must request the PERMISSION_TRIGGER_ANIMATION permission with llRequestPermissions.">
+To run this function the script must request the PERMISSION_TRIGGER_ANIMATION
+permission with llRequestPermissions.">
                 <Param name="string anim" />
             </Overload>
         </KeyWord>
@@ -3193,13 +3584,15 @@ To go in the other direction, use llBase64ToString.">
             </Overload>
         </KeyWord>
         <KeyWord name="llStringTrim" func="yes">
-            <Overload retVal="string" descr="Returns a string that is src with leading and/or trailing white space (spaces, tabs, and line feeds) trimmed from it.">
+            <Overload retVal="string" descr="Returns a string that is src with leading and/or trailing white space (spaces,
+tabs, and line feeds) trimmed from it.">
                 <Param name="string src" />
                 <Param name="integer type" />
             </Overload>
         </KeyWord>
         <KeyWord name="llSubStringIndex" func="yes">
-            <Overload retVal="integer" descr="Returns an integer that is the zero-based index of the first instance of pattern in source.
+            <Overload retVal="integer" descr="Returns an integer that is the zero-based index of the first instance of
+pattern in source.
 
 If pattern is not found in source, -1 is returned.">
                 <Param name="string source" />
@@ -3207,13 +3600,22 @@ If pattern is not found in source, -1 is returned.">
             </Overload>
         </KeyWord>
         <KeyWord name="llTakeControls" func="yes">
-            <Overload retVal="void" descr="Allows for intercepting of keyboard and mouse clicks, specifically those specified by controls, from the agent the script has permissions for.
+            <Overload retVal="void" descr="Allows for intercepting of keyboard and mouse clicks, specifically those
+specified by controls, from the agent the script has permissions for.
 
-To run this function the script must request the PERMISSION_TAKE_CONTROLS permission with llRequestPermissions. If accept is FALSE and pass_on is FALSE, the behavior is not intuitive. In this case, the complement of the specified controls do not generate events and do not perform their normal functions. They are effectively disabled. Certain control bits (e.g. CONTROL_ROT_LEFT) are also disabled when specified, in this case.
+To run this function the script must request the PERMISSION_TAKE_CONTROLS
+permission with llRequestPermissions. If accept is FALSE and pass_on is FALSE,
+the behavior is not intuitive. In this case, the complement of the specified
+controls do not generate events and do not perform their normal functions.
+They are effectively disabled. Certain control bits (e.g. CONTROL_ROT_LEFT)
+are also disabled when specified, in this case.
 
-If accept is FALSE and pass_on is TRUE, then the specified controls do not generate events but perform their normal functions.
-If accept is TRUE and pass_on is FALSE, then the specified controls generate events but do not perform their normal functions.
-If accept is TRUE and pass_on is TRUE, then the specified controls generate events and perform their normal functions.">
+If accept is FALSE and pass_on is TRUE, then the specified controls do not
+    generate events but perform their normal functions.
+If accept is TRUE and pass_on is FALSE, then the specified controls generate
+    events but do not perform their normal functions.
+If accept is TRUE and pass_on is TRUE, then the specified controls generate
+    events and perform their normal functions.">
                 <Param name="integer controls" />
                 <Param name="integer accept" />
                 <Param name="integer pass_on" />
@@ -3225,18 +3627,22 @@ If accept is TRUE and pass_on is TRUE, then the specified controls generate even
             </Overload>
         </KeyWord>
         <KeyWord name="llTarget" func="yes">
-            <Overload retVal="integer" descr="This function is to have the script know when it has reached a position. It registers a position with a range that triggers at_target and not_at_target events continuously until unregistered.
+            <Overload retVal="integer" descr="This function is to have the script know when it has reached a position. It
+registers a position with a range that triggers at_target and not_at_target
+events continuously until unregistered.
 
 Returns an integer that is the handle to unregister the target with llTargetRemove.
 
 A similar function exists for rotations: llRotTarget
-This function does not move the object, to do that use llSetPos, llSetRegionPos or llMoveToTarget.">
+This function does not move the object, to do that use llSetPos, llSetRegionPos
+or llMoveToTarget.">
                 <Param name="vector position" />
                 <Param name="float range" />
             </Overload>
         </KeyWord>
         <KeyWord name="llTargetOmega" func="yes">
-            <Overload retVal="void" descr="Rotates the object/prim around axis at a rate of spinrate * llVecMag(axis) in radians per second with strength gain.
+            <Overload retVal="void" descr="Rotates the object/prim around axis at a rate of spinrate * llVecMag(axis) in
+radians per second with strength gain.
 
 Set gain to zero (0.0) to disable the rotation.">
                 <Param name="vector axis" />
@@ -3250,9 +3656,13 @@ Set gain to zero (0.0) to disable the rotation.">
             </Overload>
         </KeyWord>
         <KeyWord name="llTeleportAgent" func="yes">
-            <Overload retVal="void" descr="Requests a teleport of owner to a landmark stored in the object&apos;s inventory. If no landmark is provided (an empty string), the avatar is teleported to the location position in the current region. In either case, the avatar is turned to face the position given by look_at in local coordinates.
+            <Overload retVal="void" descr="Requests a teleport of owner to a landmark stored in the object&apos;s inventory.
+If no landmark is provided (an empty string), the avatar is teleported to the
+location position in the current region. In either case, the avatar is turned to
+face the position given by look_at in local coordinates.
 
-To run this function the script must request the PERMISSION_TELEPORT permission with llRequestPermissions and it must be granted by owner.">
+To run this function the script must request the PERMISSION_TELEPORT permission
+with llRequestPermissions and it must be granted by owner.">
                 <Param name="key owner" />
                 <Param name="string landmark" />
                 <Param name="vector position" />
@@ -3260,9 +3670,15 @@ To run this function the script must request the PERMISSION_TELEPORT permission 
             </Overload>
         </KeyWord>
         <KeyWord name="llTeleportAgentGlobalCoords" func="yes">
-            <Overload retVal="void" descr="Teleports the owner to set of a region_coordinates within a region at the specified global_coordinates. The owner lands facing the position defined by look_at local coordinates. A region&apos;s global coordinates can be retrieved using llRequestSimulatorData(region_name, DATA_SIM_POS).
+            <Overload retVal="void" descr="Teleports the owner to set of a region_coordinates within a region at the
+specified global_coordinates. The owner lands facing the position defined by
+look_at local coordinates. A region&apos;s global coordinates can be retrieved
+using llRequestSimulatorData(region_name, DATA_SIM_POS).
 
-To run this function the script must request the PERMISSION_TELEPORT permission with llRequestPermissions and it must be granted by the owner. The combination of llRequestSimulatorData and llTeleportAgentGlobalCoords allows agents to be teleported to regions by region name.">
+To run this function the script must request the PERMISSION_TELEPORT permission
+with llRequestPermissions and it must be granted by the owner. The combination
+of llRequestSimulatorData and llTeleportAgentGlobalCoords allows agents to be
+teleported to regions by region name.">
                 <Param name="key owner" />
                 <Param name="vector global_coordinates" />
                 <Param name="vector region_coordinates" />
@@ -3270,14 +3686,19 @@ To run this function the script must request the PERMISSION_TELEPORT permission 
             </Overload>
         </KeyWord>
         <KeyWord name="llTeleportAgentHome" func="yes">
-            <Overload retVal="void" descr="Teleports avatar on owner&apos;s land to their home location without any warning, similar to a God Summons or dying.
+            <Overload retVal="void" descr="Teleports avatar on owner&apos;s land to their home location without any warning,
+similar to a God Summons or dying.
 
-Generally, the object owner must also be the land owner but there is an exception for land deeded to a group for group members with the &apos;Eject and freeze Residents on parcels&apos; ability.">
+Generally, the object owner must also be the land owner but there is an exception
+for land deeded to a group for group members with the &apos;Eject and freeze
+Residents on parcels&apos; ability.">
                 <Param name="key avatar" />
             </Overload>
         </KeyWord>
         <KeyWord name="llTextBox" func="yes">
-            <Overload retVal="void" descr="Shows a dialog box on avatar&apos;s screen with the text message. It contains a text box for input, any text that is entered is said by avatar on channel when the &apos;Submit&apos; button is clicked.">
+            <Overload retVal="void" descr="Shows a dialog box on avatar&apos;s screen with the text message. It contains
+a text box for input, any text that is entered is said by avatar on channel
+when the &apos;Submit&apos; button is clicked.">
                 <Param name="key avatar" />
                 <Param name="string message" />
                 <Param name="integer channel" />
@@ -3300,9 +3721,14 @@ The opposite is llToLower.">
         <KeyWord name="llTransferLindenDollars" func="yes">
             <Overload retVal="key" descr="Transfer positive amount of L$ money from script owner to destination avatar.
 
-Returns a key used in a matching transaction_result event for the success or failure of the transfer. If the transaction is successful, this key will show in the transaction history.
+Returns a key used in a matching transaction_result event for the success or
+failure of the transfer. If the transaction is successful, this key will show
+in the transaction history.
 
-To run this function the script must request the PERMISSION_DEBIT permission with llRequestPermissions and it must be granted by the owner. If you aren&apos;t going to use the return value or the resulting transaction_result event consider using llGiveMoney instead of this function.">
+To run this function the script must request the PERMISSION_DEBIT permission
+with llRequestPermissions and it must be granted by the owner. If you aren&apos;t
+going to use the return value or the resulting transaction_result event consider
+using llGiveMoney instead of this function.">
                 <Param name="key destination" />
                 <Param name="integer amount" />
             </Overload>
@@ -3318,7 +3744,8 @@ Use llPlaySound to play a sound attached to the object.">
             </Overload>
         </KeyWord>
         <KeyWord name="llTriggerSoundLimited" func="yes">
-            <Overload retVal="void" descr="Plays sound at volume, centered at but not attached to the object, limited to the box defined by vectors top_north_east and bottom_south_west.
+            <Overload retVal="void" descr="Plays sound at volume, centered at but not attached to the object, limited to
+the box defined by vectors top_north_east and bottom_south_west.
 
 If the object moves the sound does not move with it.
 
@@ -3330,14 +3757,16 @@ Use llPlaySound to play a sound attached to the object.">
             </Overload>
         </KeyWord>
         <KeyWord name="llUnescapeURL" func="yes">
-            <Overload retVal="string" descr="Returns a string that is an unescaped/unencoded version of url, replacing %20 with spaces etc.
+            <Overload retVal="string" descr="Returns a string that is an unescaped/unencoded version of url,
+replacing %20 with spaces etc.
 
 This function is similar to functions found in many other languages.">
                 <Param name="string url" />
             </Overload>
         </KeyWord>
         <KeyWord name="llUnSit" func="yes">
-            <Overload retVal="void" descr="If the agent identified by id is sitting on the object the script is attached to or is over land owned by the object&apos;s owner, the agent is forced to stand up.">
+            <Overload retVal="void" descr="If the agent identified by id is sitting on the object the script is attached
+to or is over land owned by the object&apos;s owner, the agent is forced to stand up.">
                 <Param name="key id" />
             </Overload>
         </KeyWord>
@@ -3353,21 +3782,26 @@ This function is similar to functions found in many other languages.">
             </Overload>
         </KeyWord>
         <KeyWord name="llVecMag" func="yes">
-            <Overload retVal="float" descr="Returns a float that is the magnitude of the vector (the undirected non-negative distance from v to ZERO_VECTOR (&lt;0.0, 0.0, 0.0&gt;).">
+            <Overload retVal="float" descr="Returns a float that is the magnitude of the vector (the undirected non-negative
+distance from v to ZERO_VECTOR (&lt;0.0, 0.0, 0.0&gt;).">
                 <Param name="vector v" />
             </Overload>
         </KeyWord>
         <KeyWord name="llVecNorm" func="yes">
-            <Overload retVal="vector" descr="Returns the vector that is v normalized (a unit vector sharing the same direction as vec).
+            <Overload retVal="vector" descr="Returns the vector that is v normalized (a unit vector sharing the same
+direction as vec).
 
 If v is a ZERO_VECTOR (&lt;0.0, 0.0, 0.0&gt;), than the value returned is a ZERO_VECTOR.">
                 <Param name="vector v" />
             </Overload>
         </KeyWord>
         <KeyWord name="llVolumeDetect" func="yes">
-            <Overload retVal="void" descr="If detect is TRUE, VolumeDetect is enabled, physical object and avatars can pass through the object.
+            <Overload retVal="void" descr="If detect is TRUE, VolumeDetect is enabled, physical object and avatars can
+pass through the object.
 
-This works much like Phantom, but unlike Phantom, VolumeDetect objects trigger collision_start and collision_end events when interpenetrating. Collision events will trigger in any script in the object.">
+This works much like Phantom, but unlike Phantom, VolumeDetect objects trigger
+collision_start and collision_end events when interpenetrating. Collision events
+will trigger in any script in the object.">
                 <Param name="boolean detect" />
             </Overload>
         </KeyWord>
@@ -3381,7 +3815,9 @@ This works much like Phantom, but unlike Phantom, VolumeDetect objects trigger c
         <KeyWord name="llWater" func="yes">
             <Overload retVal="float" descr="Returns a float that is the water height below the prim&apos;s position + offset.
 
-The requested position needs to be in the same region. Only the x and y coordinates in offset are important, the z component is ignored. Water height is constant across each entire sim and is typically 20 meters but not always.">
+The requested position needs to be in the same region. Only the x and y coordinates
+in offset are important, the z component is ignored. Water height is constant
+across each entire sim and is typically 20 meters but not always.">
                 <Param name="vector offset" />
             </Overload>
         </KeyWord>
@@ -3394,14 +3830,16 @@ The requested position needs to be in the same region. Only the x and y coordina
         <KeyWord name="llWind" func="yes">
             <Overload retVal="vector" descr="Returns a vector that is the wind velocity at the prim&apos;s position + offset.
 
-The requested position needs to be in the same region. Only the x and y coordinates in offset are important, the z component is ignored.">
+The requested position needs to be in the same region. Only the x and y coordinates
+in offset are important, the z component is ignored.">
                 <Param name="vector offset" />
             </Overload>
         </KeyWord>
         <KeyWord name="llXorBase64StringsCorrect" func="yes">
             <Overload retVal="string" descr="Correctly performs an exclusive or on two Base 64 strings.
 
-Returns a string that is a Base64 XOR of str1 and str2. str2 repeats if it is shorter than str1. If the inputs are not Base64 strings the result will be erratic.
+Returns a string that is a Base64 XOR of str1 and str2. str2 repeats if it is
+shorter than str1. If the inputs are not Base64 strings the result will be erratic.
 
 Be sure to read the Cryptography section before designing a cryptographic algorithm.">
                 <Param name="string str1" />
@@ -3427,7 +3865,8 @@ Be sure to read the Cryptography section before designing a cryptographic algori
             <Overload retVal="" descr="Result of llRotTarget library function call." />
         </KeyWord>
         <KeyWord name="not_at_target" func="yes">
-            <Overload retVal="" descr="Triggered if an object has not yet reached the target set by the call to llTarget. This event my be triggered multiple times if the target has not been reached." />
+            <Overload retVal="" descr="Triggered if an object has not yet reached the target set by the call to llTarget.
+This event my be triggered multiple times if the target has not been reached." />
         </KeyWord>
         <KeyWord name="object_rez" func="yes">
             <Overload retVal="" descr="Triggered when the object rezzes an object.">
@@ -3435,7 +3874,8 @@ Be sure to read the Cryptography section before designing a cryptographic algori
             </Overload>
         </KeyWord>
         <KeyWord name="on_rez" func="yes">
-            <Overload retVal="" descr="Triggered when an object is rezzed (by script or by user). Also triggered in attachments when a user logs in, or when the object is attached from inventory.">
+            <Overload retVal="" descr="Triggered when an object is rezzed (by script or by user). Also triggered in
+attachments when a user logs in, or when the object is attached from inventory.">
                 <Param name="integer start_param" />
             </Overload>
         </KeyWord>
@@ -3477,7 +3917,8 @@ Be sure to read the Cryptography section before designing a cryptographic algori
             <Overload retVal="" descr="Repeats the code in the timer(). Result of the llSetTimerEvent library function call." />
         </KeyWord>
         <KeyWord name="touch" func="yes">
-            <Overload retVal="" descr="Triggered whilst an agent is clicking the task. It will continue to be triggered until the prim/obect is stopped being clicked (triggers multiple times).">
+            <Overload retVal="" descr="Triggered whilst an agent is clicking the task. It will continue to be triggered
+until the prim/obect is stopped being clicked (triggers multiple times).">
                 <Param name="integer num_detected" />
             </Overload>
         </KeyWord>
