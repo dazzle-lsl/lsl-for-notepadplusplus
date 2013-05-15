@@ -187,6 +187,15 @@
         <KeyWord name="INVENTORY_SCRIPT" />
         <KeyWord name="INVENTORY_SOUND" />
         <KeyWord name="INVENTORY_TEXTURE" />
+        <KeyWord name="JSON_APPEND" />
+        <KeyWord name="JSON_ARRAY" />
+        <KeyWord name="JSON_FALSE" />
+        <KeyWord name="JSON_INVALID" />
+        <KeyWord name="JSON_NULL" />
+        <KeyWord name="JSON_NUMBER" />
+        <KeyWord name="JSON_OBJECT" />
+        <KeyWord name="JSON_STRING" />
+        <KeyWord name="JSON_TRUE" />
         <KeyWord name="KFM_CMD_PAUSE" />
         <KeyWord name="KFM_CMD_PLAY" />
         <KeyWord name="KFM_CMD_STOP" />
@@ -2179,6 +2188,36 @@ To send a message directly to an object, use llRegionSayTo or llEmail or llHTTPR
         <KeyWord name="llIntegerToBase64" func="yes">
             <Overload retVal="string" descr="Returns a string that is a Base64 big endian encode of number.">
                 <Param name="integer number" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="llJsonGetValue" func="yes">
+            <Overload retVal="string" descr="Returns a value from a JSON value and casts it to a string.">
+                <Param name="string json" />
+                <Param name="list specifiers" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="llJsonSetValue" func="yes">
+            <Overload retVal="" descr="Set a certain value within a JSON string, use JSON_APPEND as specifier to the
+end of the array at that level.">
+                <Param name="string json" />
+                <Param name="list specifiers" />
+                <Param name="string newValue" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="llJsonValueType" func="yes">
+            <Overload retVal="string" descr="Used to determine the type of a JSON value, returns one of the following
+string constants:
+
+- JSON_ARRAY
+- JSON_FALSE
+- JSON_INVALID
+- JSON_NULL
+- JSON_NUMBER
+- JSON_OBJECT
+- JSON_STRING
+- JSON_TRUE">
+                <Param name="string json" />
+                <Param name="list specifiers" />
             </Overload>
         </KeyWord>
         <KeyWord name="llKey2Name" func="yes">
