@@ -2190,8 +2190,13 @@ To send a message directly to an object, use llRegionSayTo or llEmail or llHTTPR
                 <Param name="integer number" />
             </Overload>
         </KeyWord>
+        <KeyWord name="llJson2List" func="yes">
+            <Overload retVal="list" descr="Convert a JSON compound value to an LSL list.">
+                <Param name="string json" />
+            </Overload>
+        </KeyWord>
         <KeyWord name="llJsonGetValue" func="yes">
-            <Overload retVal="string" descr="Returns a value from a JSON value and casts it to a string.">
+            <Overload retVal="string" descr="Returns a value from a JSON compound value.">
                 <Param name="string json" />
                 <Param name="list specifiers" />
             </Overload>
@@ -2287,6 +2292,16 @@ is returned. If the type of the element at index in src is not a integer it is
 typecast to a integer. If it cannot be typecast zero is returned.">
                 <Param name="list src" />
                 <Param name="integer index" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="llList2Json" func="yes">
+            <Overload retVal="string" descr="Converts a list to a JSON compound value.
+
+- &apos;string type&apos; must either be JSON_ARRAY or JSON_OBJECT, otherwise
+  JSON_INVALID is returned.
+- If type is JSON_OBJECT, the list must have a stride of 2.">
+                <Param name="string type" />
+                <Param name="list values" />
             </Overload>
         </KeyWord>
         <KeyWord name="llList2Key" func="yes">
