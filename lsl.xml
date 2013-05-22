@@ -198,6 +198,7 @@
         <KeyWord name="JSON_TRUE" />
         <KeyWord name="KFM_CMD_PAUSE" />
         <KeyWord name="KFM_CMD_PLAY" />
+        <KeyWord name="KFM_CMD_SET_MODE" />
         <KeyWord name="KFM_CMD_STOP" />
         <KeyWord name="KFM_COMMAND" />
         <KeyWord name="KFM_DATA" />
@@ -380,6 +381,12 @@
         <KeyWord name="PRIM_MEDIA_FIRST_CLICK_INTERACT" />
         <KeyWord name="PRIM_MEDIA_HEIGHT_PIXELS" />
         <KeyWord name="PRIM_MEDIA_HOME_URL" />
+        <KeyWord name="PRIM_MEDIA_MAX_HEIGHT_PIXELS" />
+        <KeyWord name="PRIM_MEDIA_MAX_URL_LENGTH" />
+        <KeyWord name="PRIM_MEDIA_MAX_WHITELIST_COUNT" />
+        <KeyWord name="PRIM_MEDIA_MAX_WHITELIST_SIZE" />
+        <KeyWord name="PRIM_MEDIA_MAX_WIDTH_PIXELS" />
+        <KeyWord name="PRIM_MEDIA_PARAM_MAX" />
         <KeyWord name="PRIM_MEDIA_PERM_ANYONE" />
         <KeyWord name="PRIM_MEDIA_PERM_GROUP" />
         <KeyWord name="PRIM_MEDIA_PERM_NONE" />
