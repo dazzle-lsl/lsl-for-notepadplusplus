@@ -102,8 +102,6 @@
         <KeyWord name="CHARACTER_DESIRED_TURN_SPEED" />
         <KeyWord name="CHARACTER_LENGTH" />
         <KeyWord name="CHARACTER_MAX_ACCEL" />
-        <KeyWord name="CHARACTER_MAX_ANGULAR_ACCEL" />
-        <KeyWord name="CHARACTER_MAX_ANGULAR_SPEED" />
         <KeyWord name="CHARACTER_MAX_DECEL" />
         <KeyWord name="CHARACTER_MAX_SPEED" />
         <KeyWord name="CHARACTER_MAX_TURN_RADIUS" />
@@ -400,7 +398,6 @@
         <KeyWord name="PRIM_OMEGA" />
         <KeyWord name="PRIM_PHANTOM" />
         <KeyWord name="PRIM_PHYSICS" />
-        <KeyWord name="PRIM_PHYSICS_MATERIAL" />
         <KeyWord name="PRIM_PHYSICS_SHAPE_CONVEX" />
         <KeyWord name="PRIM_PHYSICS_SHAPE_NONE" />
         <KeyWord name="PRIM_PHYSICS_SHAPE_PRIM" />
