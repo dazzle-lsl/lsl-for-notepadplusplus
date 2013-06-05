@@ -361,7 +361,6 @@
         <KeyWord name="PRIM_MATERIAL" />
         <KeyWord name="PRIM_MATERIAL_FLESH" />
         <KeyWord name="PRIM_MATERIAL_GLASS" />
-        <KeyWord name="PRIM_MATERIAL_LIGHT" />
         <KeyWord name="PRIM_MATERIAL_METAL" />
         <KeyWord name="PRIM_MATERIAL_PLASTIC" />
         <KeyWord name="PRIM_MATERIAL_RUBBER" />
