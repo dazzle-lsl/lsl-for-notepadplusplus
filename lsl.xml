@@ -107,6 +107,7 @@
         <KeyWord name="CHARACTER_MAX_TURN_RADIUS" />
         <KeyWord name="CHARACTER_ORIENTATION" />
         <KeyWord name="CHARACTER_RADIUS" />
+        <KeyWord name="CHARACTER_STAY_WITHIN_PARCEL">
         <KeyWord name="CHARACTER_TYPE" />
         <KeyWord name="CHARACTER_TYPE_A" />
         <KeyWord name="CHARACTER_TYPE_B" />
@@ -151,6 +152,11 @@
         <KeyWord name="DEG_TO_RAD" />
         <KeyWord name="DENSITY" />
         <KeyWord name="EOF" />
+        <KeyWord name="ERR_GENERIC">
+        <KeyWord name="ERR_MALFORMED_PARAMS">
+        <KeyWord name="ERR_PARCEL_PERMISSIONS">
+        <KeyWord name="ERR_RUNTIME_PERMISSIONS">
+        <KeyWord name="ERR_THROTTLED">
         <KeyWord name="ESTATE_ACCESS_ALLOWED_AGENT_ADD" />
         <KeyWord name="ESTATE_ACCESS_ALLOWED_AGENT_REMOVE" />
         <KeyWord name="ESTATE_ACCESS_ALLOWED_GROUP_ADD" />
@@ -247,6 +253,9 @@
         <KeyWord name="OBJECT_PHYSICS_COST" />
         <KeyWord name="OBJECT_POS" />
         <KeyWord name="OBJECT_PRIM_EQUIVALENCE" />
+        <KeyWord name="OBJECT_RETURN_PARCEL">
+        <KeyWord name="OBJECT_RETURN_PARCEL_OWNER">
+        <KeyWord name="OBJECT_RETURN_REGION">
         <KeyWord name="OBJECT_ROOT" />
         <KeyWord name="OBJECT_ROT" />
         <KeyWord name="OBJECT_RUNNING_SCRIPT_COUNT" />
@@ -311,25 +320,26 @@
         <KeyWord name="PARCEL_MEDIA_COMMAND_URL" />
         <KeyWord name="PASSIVE" />
         <KeyWord name="PATROL_PAUSE_AT_WAYPOINTS" />
-        <KeyWord name="PAY_DEFAULT" />
-        <KeyWord name="PAY_HIDE" />
         <KeyWord name="PAYMENT_INFO_ON_FILE" />
         <KeyWord name="PAYMENT_INFO_USED" />
-        <KeyWord name="PERM_ALL" />
-        <KeyWord name="PERM_COPY" />
-        <KeyWord name="PERM_MODIFY" />
-        <KeyWord name="PERM_MOVE" />
-        <KeyWord name="PERM_TRANSFER" />
+        <KeyWord name="PAY_DEFAULT" />
+        <KeyWord name="PAY_HIDE" />
         <KeyWord name="PERMISSION_ATTACH" />
         <KeyWord name="PERMISSION_CHANGE_LINKS" />
         <KeyWord name="PERMISSION_CONTROL_CAMERA" />
         <KeyWord name="PERMISSION_DEBIT" />
         <KeyWord name="PERMISSION_OVERRIDE_ANIMATIONS" />
+        <KeyWord name="PERMISSION_RETURN_OBJECTS">
         <KeyWord name="PERMISSION_SILENT_ESTATE_MANAGEMENT" />
         <KeyWord name="PERMISSION_TAKE_CONTROLS" />
         <KeyWord name="PERMISSION_TELEPORT" />
         <KeyWord name="PERMISSION_TRACK_CAMERA" />
         <KeyWord name="PERMISSION_TRIGGER_ANIMATION" />
+        <KeyWord name="PERM_ALL" />
+        <KeyWord name="PERM_COPY" />
+        <KeyWord name="PERM_MODIFY" />
+        <KeyWord name="PERM_MOVE" />
+        <KeyWord name="PERM_TRANSFER" />
         <KeyWord name="PI" />
         <KeyWord name="PING_PONG" />
         <KeyWord name="PI_BY_TWO" />
@@ -388,12 +398,12 @@
         <KeyWord name="PRIM_MEDIA_MAX_WHITELIST_SIZE" />
         <KeyWord name="PRIM_MEDIA_MAX_WIDTH_PIXELS" />
         <KeyWord name="PRIM_MEDIA_PARAM_MAX" />
+        <KeyWord name="PRIM_MEDIA_PERMS_CONTROL" />
+        <KeyWord name="PRIM_MEDIA_PERMS_INTERACT" />
         <KeyWord name="PRIM_MEDIA_PERM_ANYONE" />
         <KeyWord name="PRIM_MEDIA_PERM_GROUP" />
         <KeyWord name="PRIM_MEDIA_PERM_NONE" />
         <KeyWord name="PRIM_MEDIA_PERM_OWNER" />
-        <KeyWord name="PRIM_MEDIA_PERMS_CONTROL" />
-        <KeyWord name="PRIM_MEDIA_PERMS_INTERACT" />
         <KeyWord name="PRIM_MEDIA_WHITELIST" />
         <KeyWord name="PRIM_MEDIA_WHITELIST_ENABLE" />
         <KeyWord name="PRIM_MEDIA_WIDTH_PIXELS" />
@@ -406,10 +416,10 @@
         <KeyWord name="PRIM_PHYSICS_SHAPE_PRIM" />
         <KeyWord name="PRIM_PHYSICS_SHAPE_TYPE" />
         <KeyWord name="PRIM_POINT_LIGHT" />
-        <KeyWord name="PRIM_POS_LOCAL" />
         <KeyWord name="PRIM_POSITION" />
-        <KeyWord name="PRIM_ROT_LOCAL" />
+        <KeyWord name="PRIM_POS_LOCAL" />
         <KeyWord name="PRIM_ROTATION" />
+        <KeyWord name="PRIM_ROT_LOCAL" />
         <KeyWord name="PRIM_SCULPT_FLAG_INVERT" />
         <KeyWord name="PRIM_SCULPT_FLAG_MIRROR" />
         <KeyWord name="PRIM_SCULPT_TYPE_CYLINDER" />
@@ -475,6 +485,11 @@
         <KeyWord name="PSYS_SRC_PATTERN_EXPLODE" />
         <KeyWord name="PSYS_SRC_TARGET_KEY" />
         <KeyWord name="PSYS_SRC_TEXTURE" />
+        <KeyWord name="PUBLIC_CHANNEL" />
+        <KeyWord name="PURSUIT_FUZZ_FACTOR" />
+        <KeyWord name="PURSUIT_GOAL_TOLERANCE" />
+        <KeyWord name="PURSUIT_INTERCEPT" />
+        <KeyWord name="PURSUIT_OFFSET" />
         <KeyWord name="PU_EVADE_HIDDEN" />
         <KeyWord name="PU_EVADE_SPOTTED" />
         <KeyWord name="PU_FAILURE_DYNAMIC_PATHFINDING_DISABLED" />
@@ -488,12 +503,10 @@
         <KeyWord name="PU_FAILURE_UNREACHABLE" />
         <KeyWord name="PU_GOAL_REACHED" />
         <KeyWord name="PU_SLOWDOWN_DISTANCE_REACHED" />
-        <KeyWord name="PUBLIC_CHANNEL" />
-        <KeyWord name="PURSUIT_FUZZ_FACTOR" />
-        <KeyWord name="PURSUIT_GOAL_TOLERANCE" />
-        <KeyWord name="PURSUIT_INTERCEPT" />
-        <KeyWord name="PURSUIT_OFFSET" />
         <KeyWord name="RAD_TO_DEG" />
+        <KeyWord name="RCERR_CAST_TIME_EXCEEDED" />
+        <KeyWord name="RCERR_SIM_PERF_LOW" />
+        <KeyWord name="RCERR_UNKNOWN" />
         <KeyWord name="RC_DATA_FLAGS" />
         <KeyWord name="RC_DETECT_PHANTOM" />
         <KeyWord name="RC_GET_LINK_NUM" />
@@ -505,9 +518,6 @@
         <KeyWord name="RC_REJECT_NONPHYSICAL" />
         <KeyWord name="RC_REJECT_PHYSICAL" />
         <KeyWord name="RC_REJECT_TYPES" />
-        <KeyWord name="RCERR_CAST_TIME_EXCEEDED" />
-        <KeyWord name="RCERR_SIM_PERF_LOW" />
-        <KeyWord name="RCERR_UNKNOWN" />
         <KeyWord name="REGION_FLAG_ALLOW_DAMAGE" />
         <KeyWord name="REGION_FLAG_ALLOW_DIRECT_TELEPORT" />
         <KeyWord name="REGION_FLAG_BLOCK_FLY" />
@@ -551,8 +561,8 @@
         <KeyWord name="STRING_TRIM" />
         <KeyWord name="STRING_TRIM_HEAD" />
         <KeyWord name="STRING_TRIM_TAIL" />
-        <KeyWord name="TEXTURE_DEFAULT" />
         <KeyWord name="TEXTURE_BLANK" />
+        <KeyWord name="TEXTURE_DEFAULT" />
         <KeyWord name="TEXTURE_MEDIA" />
         <KeyWord name="TEXTURE_PLYWOOD" />
         <KeyWord name="TEXTURE_TRANSPARENT" />
@@ -2909,6 +2919,54 @@ On script reset...
         </KeyWord>
         <KeyWord name="llResetTime" func="yes">
             <Overload retVal="void" descr="Resets the script-time timer to zero." />
+        </KeyWord>
+        <KeyWord name="llReturnObjectsByID" func="yes">
+            <Overload retVal="integer" descr="Returns all objects in &quot;list objects&quot; to their owner.
+
+- Requires runtime permission PERMISSION_RETURN_OBJECTS.
+- If the script is owned by an estate owner or manager then any object in the region
+  can be returned.
+- Otherwise object can return any object over land owned by the owner of the script.
+
+- Throttled at max parcel land impact capacity region-wide per hour.
+- Returns the number of objects that were returned to their owners or one of the
+  error codes:
+  - ERR_GENERIC             [= -1]
+  - ERR_PARCEL_PERMISSIONS  [= -2]
+  - ERR_MALFORMED_PARAMS    [= -3]
+  - ERR_RUNTIME_PERMISSIONS [= -4]
+  - ERR_THROTTLED           [= -5]">
+                <Param name="list objects" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="llReturnObjectsByOwner" func="yes">
+            <Overload retVal="integer" descr="- Requires runtime permission PERMISSION_RETURN_OBJECTS.
+- scope is:
+  - OBJECT_RETURN_PARCEL            [to return all objects on the same parcel as
+                                    script which are owned by &apos;owner&apos;. The
+                                    script must be owned by the estate owner or
+                                    manager or over a parcel owned by the owner
+                                    of the script.]
+  - OBJECT_RETURN_PARCEL_OWNER      [to return all objects owned by &apos;owner&apos;
+                                    which are over parcels owned by the owner of
+                                    the script.]
+  - OBJECT_RETURN_REGION            [to return all objects in the same region owned
+                                    by &apos;owner&apos; - only works when script
+                                    is owned by an estate owner or an estate manager.]
+- Parcel owners, estate owners and estate managers cannot have their objects
+  returned to them by this method.
+
+- Throttled at max parcel land impact capacity region-wide per hour.
+- Returns the number of objects that were returned to their owners or one of the
+  error codes:
+  - ERR_GENERIC             [= -1]
+  - ERR_PARCEL_PERMISSIONS  [= -2]
+  - ERR_MALFORMED_PARAMS    [= -3]
+  - ERR_RUNTIME_PERMISSIONS [= -4]
+  - ERR_THROTTLED           [= -5]">
+                <Param name="key owner" />
+                <Param name="integer scope" />
+            </Overload>
         </KeyWord>
         <KeyWord name="llRezAtRoot" func="yes">
             <Overload retVal="void" descr="Instantiate inventory object item rotated to rot with its root at position,
