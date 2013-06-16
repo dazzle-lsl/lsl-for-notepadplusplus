@@ -3,6 +3,7 @@
     <AutoComplete language="LSL">
         <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal=";" />
         <KeyWord name="ACTIVE" />
+        <KeyWord name="AGENT" />
         <KeyWord name="AGENT_ALWAYS_RUN" />
         <KeyWord name="AGENT_ATTACHMENTS" />
         <KeyWord name="AGENT_AUTOPILOT" />
