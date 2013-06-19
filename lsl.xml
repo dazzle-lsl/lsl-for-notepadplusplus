@@ -3999,7 +3999,10 @@ attachments when a user logs in, or when the object is attached from inventory."
             </Overload>
         </KeyWord>
         <KeyWord name="path_update" func="yes">
-            <Overload retVal="" descr="..." />
+            <Overload retVal="" descr="Triggered by an active pathfinding character when pathfinding events occur.">
+                <Param name="integer type" />
+                <Param name="list reserved" />
+            </Overload>
         </KeyWord>
         <KeyWord name="quaternion" />
         <KeyWord name="remote_data" func="yes">

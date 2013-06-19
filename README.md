@@ -29,4 +29,4 @@ Please feel free to visit:
 
 * Copy and paste the `lsl.xml` file from this repository to the Notepad++ subdirectory `...\Notepad++\plugins\APIs\lsl.xml`
 * Make sure the file's encoding is ANSI/ASCII!
-* Goto `Settings > Preferences > Backup&Autocompletion` and make sure the autocompletion is enabled for words (not only functions) and the function hints are enabled.
+* Goto `Settings > Preferences > Backup&Autocompletion` and make sure you set `enable auto-completion on each input` to `function completion` and you enable `function parameter hints on input`.
