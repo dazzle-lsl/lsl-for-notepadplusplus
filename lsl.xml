@@ -108,7 +108,7 @@
         <KeyWord name="CHARACTER_MAX_TURN_RADIUS" />
         <KeyWord name="CHARACTER_ORIENTATION" />
         <KeyWord name="CHARACTER_RADIUS" />
-        <KeyWord name="CHARACTER_STAY_WITHIN_PARCEL">
+        <KeyWord name="CHARACTER_STAY_WITHIN_PARCEL" />
         <KeyWord name="CHARACTER_TYPE" />
         <KeyWord name="CHARACTER_TYPE_A" />
         <KeyWord name="CHARACTER_TYPE_B" />
@@ -153,11 +153,11 @@
         <KeyWord name="DEG_TO_RAD" />
         <KeyWord name="DENSITY" />
         <KeyWord name="EOF" />
-        <KeyWord name="ERR_GENERIC">
-        <KeyWord name="ERR_MALFORMED_PARAMS">
-        <KeyWord name="ERR_PARCEL_PERMISSIONS">
-        <KeyWord name="ERR_RUNTIME_PERMISSIONS">
-        <KeyWord name="ERR_THROTTLED">
+        <KeyWord name="ERR_GENERIC" />
+        <KeyWord name="ERR_MALFORMED_PARAMS" />
+        <KeyWord name="ERR_PARCEL_PERMISSIONS" />
+        <KeyWord name="ERR_RUNTIME_PERMISSIONS" />
+        <KeyWord name="ERR_THROTTLED" />
         <KeyWord name="ESTATE_ACCESS_ALLOWED_AGENT_ADD" />
         <KeyWord name="ESTATE_ACCESS_ALLOWED_AGENT_REMOVE" />
         <KeyWord name="ESTATE_ACCESS_ALLOWED_GROUP_ADD" />
@@ -254,9 +254,9 @@
         <KeyWord name="OBJECT_PHYSICS_COST" />
         <KeyWord name="OBJECT_POS" />
         <KeyWord name="OBJECT_PRIM_EQUIVALENCE" />
-        <KeyWord name="OBJECT_RETURN_PARCEL">
-        <KeyWord name="OBJECT_RETURN_PARCEL_OWNER">
-        <KeyWord name="OBJECT_RETURN_REGION">
+        <KeyWord name="OBJECT_RETURN_PARCEL" />
+        <KeyWord name="OBJECT_RETURN_PARCEL_OWNER" />
+        <KeyWord name="OBJECT_RETURN_REGION" />
         <KeyWord name="OBJECT_ROOT" />
         <KeyWord name="OBJECT_ROT" />
         <KeyWord name="OBJECT_RUNNING_SCRIPT_COUNT" />
@@ -330,7 +330,7 @@
         <KeyWord name="PERMISSION_CONTROL_CAMERA" />
         <KeyWord name="PERMISSION_DEBIT" />
         <KeyWord name="PERMISSION_OVERRIDE_ANIMATIONS" />
-        <KeyWord name="PERMISSION_RETURN_OBJECTS">
+        <KeyWord name="PERMISSION_RETURN_OBJECTS" />
         <KeyWord name="PERMISSION_SILENT_ESTATE_MANAGEMENT" />
         <KeyWord name="PERMISSION_TAKE_CONTROLS" />
         <KeyWord name="PERMISSION_TELEPORT" />
