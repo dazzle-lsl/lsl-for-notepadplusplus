@@ -3954,7 +3954,7 @@ in offset are important, the z component is ignored.">
                 <Param name="vector offset" />
             </Overload>
         </KeyWord>
-        <KeyWord name="llXorBase64StringsCorrect" func="yes">
+        <KeyWord name="llXorBase64" func="yes">
             <Overload retVal="string" descr="Correctly performs an exclusive or on two Base 64 strings.
 
 Returns a string that is a Base64 XOR of str1 and str2. str2 repeats if it is
