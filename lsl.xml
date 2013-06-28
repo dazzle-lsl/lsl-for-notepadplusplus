@@ -4055,10 +4055,13 @@ until the prim/obect is stopped being clicked (triggers multiple times).">
         </KeyWord>
         <KeyWord name="touch_end" func="yes">
             <Overload retVal="" descr="Triggered when agent stops clicking on task.">
+                <Param name="integer num_detected" />
             </Overload>
         </KeyWord>
         <KeyWord name="touch_start" func="yes">
-            <Overload retVal="" descr="Triggered when agent starts clicing on task." />
+            <Overload retVal="" descr="Triggered when agent starts clicing on task.">
+                <Param name="integer num_detected" />
+            </Overload>
         </KeyWord>
         <KeyWord name="transaction_result" func="yes">
             <Overload retVal="" descr="Triggered when task receives asynchronous data.">
