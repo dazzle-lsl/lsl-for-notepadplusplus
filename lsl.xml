@@ -2924,6 +2924,10 @@ On script reset...
         <KeyWord name="llReturnObjectsByID" func="yes">
             <Overload retVal="integer" descr="Returns all objects in &quot;list objects&quot; to their owner.
 
+If the script is owned by an agent, PERMISSION_RETURN_OBJECTS may be granted by
+the owner. If the script is owned by a group, this permission may be granted by
+an agent belonging to the group's &quot;Owners&quot; role.
+
 - Requires runtime permission PERMISSION_RETURN_OBJECTS.
 - If the script is owned by an estate owner or manager then any object in the region
   can be returned.
@@ -2942,6 +2946,11 @@ On script reset...
         </KeyWord>
         <KeyWord name="llReturnObjectsByOwner" func="yes">
             <Overload retVal="integer" descr="- Requires runtime permission PERMISSION_RETURN_OBJECTS.
+
+If the script is owned by an agent, PERMISSION_RETURN_OBJECTS may be granted by
+the owner. If the script is owned by a group, this permission may be granted by
+an agent belonging to the group's &quot;Owners&quot; role.
+
 - scope is:
   - OBJECT_RETURN_PARCEL            [to return all objects on the same parcel as
                                     script which are owned by &apos;owner&apos;. The
