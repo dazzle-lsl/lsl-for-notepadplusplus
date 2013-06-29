@@ -17,6 +17,10 @@ Please feel free to visit:
 
 ----------
 
+![GIF Screencast](https://raw.github.com/buildersbrewery/lsl-for-notepadplusplus/master/static/notepadplusplus_with_lsl_screencast.gif)
+
+----------
+
 ## Style definition for grammar and coloring: ##
 
 * Create a new temporary XML file anywhere on your harddrive, then copy and paste the code from `userDefineLang.xml` in this repository into your file. Make sure the file's encoding is ANSI/ASCII!
