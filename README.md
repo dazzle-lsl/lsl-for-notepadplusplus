@@ -1,8 +1,8 @@
 # Linden Scripting Language syntax highlight for Notepad++ #
 
-[Issue tracker](https://github.com/buildersbrewery/lsl-for-notepadplusplus/issues)
+[Issue tracker](https://github.com/buildersbrewery/lsl-for-notepadplusplus/issues/)
 
-last update: 2013-07-01
+last update: 2013-07-05
 
 ----------
 
