@@ -2,7 +2,7 @@
 
 [Issue tracker](https://github.com/buildersbrewery/lsl-for-notepadplusplus/issues/)
 
-last update: 2013-07-05
+last update: 2013-07-07
 
 ----------
 
