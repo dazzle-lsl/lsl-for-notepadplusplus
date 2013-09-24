@@ -242,6 +242,8 @@
         <KeyWord name="MASK_OWNER" />
         <KeyWord name="NULL_KEY" />
         <KeyWord name="OBJECT_ATTACHED_POINT" />
+        <KeyWord name="OBJECT_ATTACHMENT_GEOMETRY_BYTES" />
+        <KeyWord name="OBJECT_ATTACHMENT_SURFACE_AREA" />
         <KeyWord name="OBJECT_CHARACTER_TIME" />
         <KeyWord name="OBJECT_CREATOR" />
         <KeyWord name="OBJECT_DESC" />
@@ -254,6 +256,7 @@
         <KeyWord name="OBJECT_PHYSICS_COST" />
         <KeyWord name="OBJECT_POS" />
         <KeyWord name="OBJECT_PRIM_EQUIVALENCE" />
+        <KeyWord name="OBJECT_RENDER_WEIGHT" />
         <KeyWord name="OBJECT_RETURN_PARCEL" />
         <KeyWord name="OBJECT_RETURN_PARCEL_OWNER" />
         <KeyWord name="OBJECT_RETURN_REGION" />
