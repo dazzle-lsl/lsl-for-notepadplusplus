@@ -193,6 +193,7 @@
         <KeyWord name="INVENTORY_TEXTURE" />
         <KeyWord name="JSON_APPEND" />
         <KeyWord name="JSON_ARRAY" />
+        <KeyWord name="JSON_DELETE" />
         <KeyWord name="JSON_FALSE" />
         <KeyWord name="JSON_INVALID" />
         <KeyWord name="JSON_NULL" />
