@@ -243,8 +243,6 @@
         <KeyWord name="MASK_OWNER" />
         <KeyWord name="NULL_KEY" />
         <KeyWord name="OBJECT_ATTACHED_POINT" />
-        <KeyWord name="OBJECT_ATTACHMENT_GEOMETRY_BYTES" />
-        <KeyWord name="OBJECT_ATTACHMENT_SURFACE_AREA" />
         <KeyWord name="OBJECT_CHARACTER_TIME" />
         <KeyWord name="OBJECT_CREATOR" />
         <KeyWord name="OBJECT_DESC" />

@@ -1,6 +1,6 @@
 ## Linden Scripting Language syntax highlight for Notepad++
 
-last update: 2013-10-01
+last update: 2013-10-10
 
 ### Quick start
 
