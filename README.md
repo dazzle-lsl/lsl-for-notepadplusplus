@@ -1,6 +1,17 @@
 ## Linden Scripting Language syntax highlight for Notepad++
 
-last update: 2013-10-10
+last update: 2013-12-19
+
+### Readme contents
+
+* [Quick start](#quick-start)
+* [Bugs, issues & feature requests](#bugs-issues--feature-requests)
+* [Visit the Builder's Brewery](#visit-the-builders-brewery)
+* [Screenshot and screencast](#screenshot-and-screencast)
+* [Style definition for grammar and coloring](#style-definition-for-grammar-and-coloring)
+* [Language definition for autocompletion and tooltips](#language-definition-for-autocompletion-and-tooltips)
+
+___
 
 ### Quick start
 
@@ -15,7 +26,7 @@ last update: 2013-10-10
 ### Visit the Builder's Brewery
 
 * Homepage: [http://www.buildersbrewery.com/](http://www.buildersbrewery.com/)
-* In Second Life: [Builders Brewery](http://maps.secondlife.com/secondlife/Builders%20Brewery/128/154/24/)
+* In Second Life: [Builders Brewery <128, 154, 24>](http://maps.secondlife.com/secondlife/Builders%20Brewery/128/154/24/)
 * Calendar with class schedule: [http://www.buildersbrewery.com/calendar/](http://www.buildersbrewery.com/calendar/)
 
 ### Screenshot and screencast:
@@ -32,7 +43,7 @@ last update: 2013-10-10
 * When the import was successful close the language definition window and select `Language > LSL` from the menu. You should should be able to find the language at the bottom of the language menu in the section for user defined languages.
 * You can now delete the temporary file.
 
-### Language definition for autocompletion and tooltips (hints):
+### Language definition for autocompletion and tooltips:
 
 * Copy and paste the `lsl.xml` file from this repository to the Notepad++ subdirectory `...\Notepad++\plugins\APIs\lsl.xml`
 * Make sure the file's encoding is `ANSI/ASCII`!
