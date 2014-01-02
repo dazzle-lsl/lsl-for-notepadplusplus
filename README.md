@@ -39,23 +39,23 @@ ___
 
 * If `...\Notepad++\userDefineLang.xml` exists where Notepad++ is installed:
   * Copy and paste everything within and including the `UserLang` tags from the `userDefineLang.xml` file from this repository into the file `...\Notepad++\userDefineLang.xml` where Notepad++ is installed.
+  * When saving changes to the file make sure the file's encoding is `ANSI/ASCII`!
 
 ```xml
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
     <UserLang name="someOtherLanguage">
         <!--
-            ...
-            ...
-            ...
-            ...
+            settings
+            keyword lists
+            styles
         -->
     </UserLang>
-    <!-- put the LSL language here -->
+    <!--
+        put the LSL language here
+    -->
 </NotepadPlus>
 ```
-
-  * When saving changes to the file make sure the file's encoding is `ANSI/ASCII`!
 
 * If `...\Notepad++\userDefineLang.xml` does not exists where Notepad++ is installed:
   * Download the file `userDefineLang.xml` from this repository. If you download and unzip the archive (from the link in [Quick start](#quick-start)) make sure the file's encoding is `ANSI/ASCII`!
