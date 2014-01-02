@@ -37,7 +37,7 @@ ___
 
 ### Style definition for grammar and coloring:
 
-1. If `...\Notepad++\userDefineLang.xml` exists where Notepad++ is installed:
+* If `...\Notepad++\userDefineLang.xml` exists where Notepad++ is installed:
   * Copy and paste everything within and including the `UserLang` tags from the `userDefineLang.xml` file from this repository into the file `...\Notepad++\userDefineLang.xml` where Notepad++ is installed.
 
 ```xml
@@ -55,7 +55,7 @@ ___
 </NotepadPlus>
 ```
 
-2. If `...\Notepad++\userDefineLang.xml` does not exists where Notepad++ is installed:
+* If `...\Notepad++\userDefineLang.xml` does not exists where Notepad++ is installed:
   * Download the file `userDefineLang.xml` from this repository. If you download and unzip the archive (from the link in [Quick start](#quick-start)) make sure the file's encoding is `ANSI/ASCII`!
   * Open Notepad++ and go to `Language > Define your language > Import`
   * Load previously saved file.
