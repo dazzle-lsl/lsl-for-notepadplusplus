@@ -55,6 +55,8 @@ ___
 </NotepadPlus>
 ```
 
+  * When saving changes to the file make sure the file's encoding is `ANSI/ASCII`!
+
 * If `...\Notepad++\userDefineLang.xml` does not exists where Notepad++ is installed:
   * Download the file `userDefineLang.xml` from this repository. If you download and unzip the archive (from the link in [Quick start](#quick-start)) make sure the file's encoding is `ANSI/ASCII`!
   * Open Notepad++ and go to `Language > Define your language > Import`
