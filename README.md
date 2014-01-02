@@ -1,6 +1,6 @@
 ## Linden Scripting Language syntax highlight for Notepad++
 
-last update: 2013-12-31
+last update: `2014-01-02`
 
 ### Readme contents
 
@@ -20,8 +20,8 @@ ___
 
 ### Bugs, issues & feature requests
 
-* Please [open a new issue](https://github.com/buildersbrewery/lsl-for-notepadplusplus/issues/).
 * Before opening a new issue, please search for existing issues.
+* Please [open a new issue](https://github.com/buildersbrewery/lsl-for-notepadplusplus/issues/).
 
 ### Visit the Builder's Brewery
 
@@ -37,14 +37,34 @@ ___
 
 ### Style definition for grammar and coloring:
 
-* Create a new temporary XML file anywhere on your harddrive, then copy and paste the code from `userDefineLang.xml` in this repository into your file. Make sure the file's encoding is `ANSI/ASCII`!
-* Open Notepad++ and go to `Language > Define your language > Import`
-* Load previously saved file.
-* When the import was successful close the language definition window and select `Language > LSL` from the menu. You should should be able to find the language at the bottom of the language menu in the section for user defined languages.
-* You can now delete the temporary file.
+1. If `...\Notepad++\userDefineLang.xml` exists where Notepad++ is installed:
+  * Copy and paste everything within and including the `UserLang` tags from the `userDefineLang.xml` file from this repository into the file `...\Notepad++\userDefineLang.xml` where Notepad++ is installed.
+
+```xml
+<?xml version="1.0" encoding="Windows-1252" ?>
+<NotepadPlus>
+    <UserLang name="someOtherLanguage">
+        <!--
+            ...
+            ...
+            ...
+            ...
+        -->
+    </UserLang>
+    <!-- put the LSL language here -->
+</NotepadPlus
+<
+```
+
+2. If `...\Notepad++\userDefineLang.xml` does not exists where Notepad++ is installed:
+  * Download the file `userDefineLang.xml` from this repository. If you download and unzip the archive (from the link in [Quick start](#quick-start)) make sure the file's encoding is `ANSI/ASCII`!
+  * Open Notepad++ and go to `Language > Define your language > Import`
+  * Load previously saved file.
+  * Close the language definition window and select `Language > LSL` from the menu. You should should be able to find the language at the bottom of the language menu in the section for user defined languages.
+  * After successful import you can delete the files and/or archive you downloaded.
 
 ### Language definition for autocompletion and tooltips:
 
-* Copy and paste the `lsl.xml` file from this repository to the Notepad++ subdirectory `...\Notepad++\plugins\APIs\lsl.xml`
+* Copy and paste the `lsl.xml` file from this repository to `...\Notepad++\plugins\APIs\lsl.xml` where Notepad++ is installed.
 * Make sure the file's encoding is `ANSI/ASCII`!
 * Goto `Settings > Preferences > Backup&Autocompletion` and make sure you set `enable auto-completion on each input` to `function completion` and you enable `function parameter hints on input`.
