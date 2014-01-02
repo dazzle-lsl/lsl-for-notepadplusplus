@@ -52,8 +52,7 @@ ___
         -->
     </UserLang>
     <!-- put the LSL language here -->
-</NotepadPlus
-<
+</NotepadPlus>
 ```
 
 2. If `...\Notepad++\userDefineLang.xml` does not exists where Notepad++ is installed:
