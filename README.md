@@ -1,15 +1,16 @@
 ## Linden Scripting Language syntax highlight for Notepad++
 
-last update: `2014-01-02`
+last update: `2014-01-04`
 
 ### Readme contents
 
 * [Quick start](#quick-start)
 * [Bugs, issues & feature requests](#bugs-issues--feature-requests)
 * [Visit the Builder's Brewery](#visit-the-builders-brewery)
-* [Screenshot and screencast](#screenshot-and-screencast)
 * [Style definition for grammar and coloring](#style-definition-for-grammar-and-coloring)
 * [Language definition for autocompletion and tooltips](#language-definition-for-autocompletion-and-tooltips)
+* [Screencast](#screencast)
+* [Screenshot](#screenshot)
 
 ___
 
@@ -26,14 +27,10 @@ ___
 ### Visit the Builder's Brewery
 
 * Homepage: [http://www.buildersbrewery.com/](http://www.buildersbrewery.com/)
-* In Second Life: [Builders Brewery &lt;128, 154, 24&gt;](http://maps.secondlife.com/secondlife/Builders%20Brewery/128/154/24/)
+* In Second Life: [Builders_Brewery/128/154/24](http://maps.secondlife.com/secondlife/Builders%20Brewery/128/154/24/)
 * Calendar with class schedule: [http://www.buildersbrewery.com/calendar/](http://www.buildersbrewery.com/calendar/)
 
-### Screenshot and screencast:
-
-![Screenshot](https://raw.github.com/buildersbrewery/lsl-for-notepadplusplus/master/static/lsl_syntax_for_notepad_plus_plus.png)
-
-![GIF Screencast](https://raw.github.com/buildersbrewery/lsl-for-notepadplusplus/master/static/notepadplusplus_with_lsl_screencast.gif)
+___
 
 ### Style definition for grammar and coloring:
 
@@ -69,3 +66,11 @@ ___
 * Copy and paste the `lsl.xml` file from this repository to `...\Notepad++\plugins\APIs\lsl.xml` where Notepad++ is installed.
 * Make sure the file's encoding is `ANSI/ASCII`!
 * Goto `Settings > Preferences > Backup&Autocompletion` and make sure you set `enable auto-completion on each input` to `function completion` and you enable `function parameter hints on input`.
+
+### Screencast:
+
+![Screencast](https://raw.github.com/buildersbrewery/lsl-for-notepadplusplus/master/static/screencast_lsl_notepadplusplus.gif)
+
+### Screenshot:
+
+![Screenshot](https://raw.github.com/buildersbrewery/lsl-for-notepadplusplus/master/static/screenshot_lsl_notepadplusplus.png)
