@@ -1721,10 +1721,16 @@ If called from the root prim, it returns the objects rotation." />
             <Overload retVal="float" descr="Returns a float that is the mass (in Kilograms) of object that script is attached to.
 Functionally identical to llGetMass except for the unit used in the return value." />
         </KeyWord>
+        <KeyWord name="llGetMaxScaleFactor" func="yes">
+            <Overload retVal="float" descr="Returns a float that is the largest scaling factor that can be used with llScaleByFactor to resize the object. This maximum is determined by the Linkability_Rules and prim scale limits." />
+        </KeyWord>
         <KeyWord name="llGetMemoryLimit" func="yes">
             <Overload retVal="integer" descr="Get the maximum memory a script can use.
 
 Returns the integer amount of memory the script can use in bytes." />
+        </KeyWord>
+        <KeyWord name="llGetMinScaleFactor" func="yes">
+            <Overload retVal="float" descr="Returns a float that is the smallest scaling factor that can be used with llScaleByFactor to resize the object. This minimum is determined by the prim scale limits." />
         </KeyWord>
         <KeyWord name="llGetNextEmail" func="yes">
             <Overload retVal="void" descr="Get the next queued email that comes from address, with specified subject.
@@ -3134,6 +3140,15 @@ group UUID (i.e. key OBJECT_GROUP).">
             <Overload retVal="void" descr="Says the text supplied in string message on channel supplied in integer channel.">
                 <Param name="integer channel" />
                 <Param name="string message" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="llScaleByFactor" func="yes">
+            <Overload retVal="integer" descr="Attempts to resize the entire object by scaling_factor, maintaining the size-position ratios of the prims.
+
+Resizing is subject to prim scale limits and linkability limits. This function can not resize the object if the linkset is physical, a pathfinding character, in a keyframed motion, or if resizing would cause the parcel to overflow.
+
+Returns an integer boolean TRUE if it succeeds, FALSE if it fails.">
+                <Param name="float scaling_factor" />
             </Overload>
         </KeyWord>
         <KeyWord name="llScaleTexture" func="yes">

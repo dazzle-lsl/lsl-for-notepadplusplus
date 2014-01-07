@@ -1,6 +1,6 @@
 ## Linden Scripting Language syntax highlight for Notepad++
 
-last update: `2014-01-04`
+last update: `2014-01-07`
 
 ### Readme contents
 
