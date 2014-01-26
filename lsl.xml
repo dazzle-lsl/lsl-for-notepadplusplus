@@ -1710,7 +1710,7 @@ If called from the root prim it returns the position in the region unless it is
 attached to which it returns the position relative to the attach point." />
         </KeyWord>
         <KeyWord name="llGetLocalRot" func="yes">
-            <Overload retVal="" descr="Returns the rotation of the prim relative to the root.
+            <Overload retVal="rotation" descr="Returns the rotation of the prim relative to the root.
 
 If called from the root prim, it returns the objects rotation." />
         </KeyWord>
@@ -2240,7 +2240,7 @@ To send a message directly to an object, use llRegionSayTo or llEmail or llHTTPR
             </Overload>
         </KeyWord>
         <KeyWord name="llJsonSetValue" func="yes">
-            <Overload retVal="" descr="Set a certain value within a JSON string, use JSON_APPEND as specifier to the
+            <Overload retVal="string" descr="Set a certain value within a JSON string, use JSON_APPEND as specifier to the
 end of the array at that level.">
                 <Param name="string json" />
                 <Param name="list specifiers" />
@@ -2488,7 +2488,7 @@ If a list entry type is not a float or an integer it is silently ignored.">
             </Overload>
         </KeyWord>
         <KeyWord name="llLoadURL" func="yes">
-            <Overload retVal="" descr="Shows dialog to avatar offering to load web page at url with message.
+            <Overload retVal="void" descr="Shows dialog to avatar offering to load web page at url with message.
 If user clicks yes, launches the page in their web browser, starting the browser
 if required.
 
@@ -3531,7 +3531,7 @@ if they are out of the range they are rounded to the nearest endpoint.">
             </Overload>
         </KeyWord>
         <KeyWord name="llSetScriptState" func="yes">
-            <Overload retVal="" descr="Set the running state of the script name.">
+            <Overload retVal="void" descr="Set the running state of the script name.">
                 <Param name="string name" />
                 <Param name="boolean run" />
             </Overload>

@@ -1,14 +1,15 @@
 ## Linden Scripting Language syntax highlight for Notepad++
 
-last update: `2014-01-21`
+last update: `2014-01-26`
 
 ### Readme contents
 
 * [Quick start](#quick-start)
 * [Bugs, issues & feature requests](#bugs-issues--feature-requests)
 * [Visit the Builder's Brewery](#visit-the-builders-brewery)
-* [Style definition for grammar and coloring](#style-definition-for-grammar-and-coloring)
-* [Language definition for autocompletion and tooltips](#language-definition-for-autocompletion-and-tooltips)
+* [LSL Syntax](#lsl-syntax)
+* [LSL Autocompletion](#lsl-autocompletion)
+* [LSL Snippets via FingerText](#lsl-snippets-via-fingertext)
 * [Screencast](#screencast)
 * [Screenshot](#screenshot)
 
@@ -32,7 +33,7 @@ ___
 
 ___
 
-### Style definition for grammar and coloring:
+### LSL Syntax:
 
 * If `...\Notepad++\userDefineLang.xml` exists where Notepad++ is installed:
   * Copy and paste everything within and including the `UserLang` tags from the `userDefineLang.xml` file from this repository into the file `...\Notepad++\userDefineLang.xml` where Notepad++ is installed.
@@ -54,18 +55,22 @@ ___
 </NotepadPlus>
 ```
 
-* If `...\Notepad++\userDefineLang.xml` does not exists where Notepad++ is installed:
+* If `...\Notepad++\userDefineLang.xml` does not exist where Notepad++ is installed:
   * Download the file `userDefineLang.xml` from this repository. If you download and unzip the archive (from the link in [Quick start](#quick-start)) make sure the file's encoding is `ANSI/ASCII`!
   * Open Notepad++ and go to `Language > Define your language > Import`
   * Load previously saved file.
   * Close the language definition window and select `Language > LSL` from the menu. You should should be able to find the language at the bottom of the language menu in the section for user defined languages.
   * After successful import you can delete the files and/or archive you downloaded.
 
-### Language definition for autocompletion and tooltips:
+### LSL Autocompletion:
 
 * Copy and paste the `lsl.xml` file from this repository to `...\Notepad++\plugins\APIs\lsl.xml` where Notepad++ is installed.
 * Make sure the file's encoding is `ANSI/ASCII`!
 * Goto `Settings > Preferences > Backup&Autocompletion` and make sure you set `enable auto-completion on each input` to `function completion` and you enable `function parameter hints on input`.
+
+### LSL Snippets via FingerText:
+
+Install [FingerText](https://github.com/erinata/FingerText) from the Notepad++ Plugin Manager. Then from the menu go to `Plugins > FingerText > Import Snippets from ftd file` to import the LSL snippets from the provided snippets file.
 
 ### Screencast:
 
