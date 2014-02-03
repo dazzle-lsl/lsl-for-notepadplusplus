@@ -1,6 +1,6 @@
 ## Linden Scripting Language syntax highlight for Notepad++
 
-last update: `2014-01-27`
+last update: `2014-02-04`
 
 ### Readme contents
 
@@ -28,7 +28,7 @@ ___
 ### Visit the Builder's Brewery
 
 * Homepage: [http://www.buildersbrewery.com/](http://www.buildersbrewery.com/)
-* In Second Life: [Builders_Brewery/128/154/24](http://maps.secondlife.com/secondlife/Builders%20Brewery/128/154/24/)
+* In Second Life: [Builders_Brewery/128/154/24/](http://maps.secondlife.com/secondlife/Builders%20Brewery/128/154/24/)
 * Calendar with class schedule: [http://www.buildersbrewery.com/calendar/](http://www.buildersbrewery.com/calendar/)
 
 ___

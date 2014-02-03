@@ -1,1710 +1,1708 @@
-!$[FingerTextData FingerTextData]@#
 CAMERA_ACTIVE
-Lang:LSL
-CAMERA_ACTIVE, $[![(lis)FALSE|TRUE]!], [>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+CAMERA_ACTIVE, $[![(lis)FALSE|TRUE|integer boolean]!], [>END<]!$[FingerTextData FingerTextData]@#
 CAMERA_BEHINDNESS_ANGLE
-Lang:LSL
+Ext:lsl
 CAMERA_BEHINDNESS_ANGLE, $[![float degrees]!], [>END<]!$[FingerTextData FingerTextData]@#
 CAMERA_BEHINDNESS_LAG
-Lang:LSL
+Ext:lsl
 CAMERA_BEHINDNESS_LAG, $[![float seconds]!], [>END<]!$[FingerTextData FingerTextData]@#
 CAMERA_DISTANCE
-Lang:LSL
+Ext:lsl
 CAMERA_DISTANCE, $[![float meters]!], [>END<]!$[FingerTextData FingerTextData]@#
 CAMERA_FOCUS
-Lang:LSL
+Ext:lsl
 CAMERA_FOCUS, $[![vector position]!], [>END<]!$[FingerTextData FingerTextData]@#
 CAMERA_FOCUS_LAG
-Lang:LSL
+Ext:lsl
 CAMERA_FOCUS_LAG, $[![float seconds]!], [>END<]!$[FingerTextData FingerTextData]@#
 CAMERA_FOCUS_LOCKED
-Lang:LSL
-CAMERA_FOCUS_LOCKED, $[![(lis)FALSE|TRUE]!], [>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+CAMERA_FOCUS_LOCKED, $[![(lis)FALSE|TRUE|integer boolean]!], [>END<]!$[FingerTextData FingerTextData]@#
 CAMERA_FOCUS_OFFSET
-Lang:LSL
+Ext:lsl
 CAMERA_FOCUS_OFFSET, $[![vector meters]!], [>END<]!$[FingerTextData FingerTextData]@#
 CAMERA_FOCUS_THRESHOLD
-Lang:LSL
+Ext:lsl
 CAMERA_FOCUS_THRESHOLD, $[![float meters]!], [>END<]!$[FingerTextData FingerTextData]@#
 CAMERA_PITCH
-Lang:LSL
+Ext:lsl
 CAMERA_PITCH, $[![float degrees]!], [>END<]!$[FingerTextData FingerTextData]@#
 CAMERA_POSITION
-Lang:LSL
+Ext:lsl
 CAMERA_POSITION, $[![vector position]!], [>END<]!$[FingerTextData FingerTextData]@#
 CAMERA_POSITION_LAG
-Lang:LSL
+Ext:lsl
 CAMERA_POSITION_LAG, $[![float seconds]!], [>END<]!$[FingerTextData FingerTextData]@#
 CAMERA_POSITION_LOCKED
-Lang:LSL
-CAMERA_POSITION_LOCKED, $[![(lis)FALSE|TRUE]!], [>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+CAMERA_POSITION_LOCKED, $[![(lis)FALSE|TRUE|integer boolean]!], [>END<]!$[FingerTextData FingerTextData]@#
 CAMERA_POSITION_THRESHOLD
-Lang:LSL
+Ext:lsl
 CAMERA_POSITION_THRESHOLD, $[![float meters]!], [>END<]!$[FingerTextData FingerTextData]@#
 CHARACTER_AVOIDANCE_MODE
-Lang:LSL
+Ext:lsl
 CHARACTER_AVOIDANCE_MODE, $[![integer flags]!], [>END<]!$[FingerTextData FingerTextData]@#
 CHARACTER_DESIRED_SPEED
-Lang:LSL
+Ext:lsl
 CHARACTER_DESIRED_SPEED, $[![float speed]!], [>END<]!$[FingerTextData FingerTextData]@#
 CHARACTER_DESIRED_TURN_SPEED
-Lang:LSL
+Ext:lsl
 CHARACTER_DESIRED_TURN_SPEED, $[![float speed]!], [>END<]!$[FingerTextData FingerTextData]@#
 CHARACTER_MAX_TURN_RADIUS
-Lang:LSL
+Ext:lsl
 CHARACTER_MAX_TURN_RADIUS, $[![float radius]!], [>END<]!$[FingerTextData FingerTextData]@#
 CHARACTER_ORIENTATION
-Lang:LSL
+Ext:lsl
 CHARACTER_ORIENTATION, $[![(lis)HORIZONTAL|VERTICAL]!], [>END<]!$[FingerTextData FingerTextData]@#
 CHARACTER_RADIUS
-Lang:LSL
+Ext:lsl
 CHARACTER_RADIUS, $[![float radius]!], [>END<]!$[FingerTextData FingerTextData]@#
 CHARACTER_STAY_WITHIN_PARCEL
-Lang:LSL
-CHARACTER_STAY_WITHIN_PARCEL, $[![(lis)FALSE|TRUE]!], [>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+CHARACTER_STAY_WITHIN_PARCEL, $[![(lis)FALSE|TRUE|integer boolean]!], [>END<]!$[FingerTextData FingerTextData]@#
 CHARACTER_TYPE
-Lang:LSL
-CHARACTER_TYPE, $[![(lis)CHARACTER_TYPE_NONE|CHARACTER_TYPE_A|CHARACTER_TYPE_B|CHARACTER_TYPE_C|CHARACTER_TYPE_D]!], [>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+CHARACTER_TYPE, $[![(lis)CHARACTER_TYPE_NONE|CHARACTER_TYPE_A|CHARACTER_TYPE_B|CHARACTER_TYPE_C|CHARACTER_TYPE_D|integer type]!], [>END<]!$[FingerTextData FingerTextData]@#
 HTTP_BODY_MAXLENGTH
-Lang:LSL
+Ext:lsl
 HTTP_BODY_MAXLENGTH, $[![integer length]!], [>END<]!$[FingerTextData FingerTextData]@#
 HTTP_CUSTOM_HEADER
-Lang:LSL
+Ext:lsl
 HTTP_CUSTOM_HEADER, $[![string name}, ${2:string value]!], [>END<]!$[FingerTextData FingerTextData]@#
 HTTP_METHOD
-Lang:LSL
-HTTP_METHOD, $[![(lis)"DELETE"|"GET"|"POST"|"PUT"]!], [>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+HTTP_METHOD, $[![(lis)"DELETE"|"GET"|"POST"|"PUT"|string crud_method]!], [>END<]!$[FingerTextData FingerTextData]@#
 HTTP_MIMETYPE
-Lang:LSL
-HTTP_MIMETYPE, $[![(lis)"text/plain;charset=utf-8"|"text/html;charset=utf-8"|"application/xml;charset=utf-8"|"application/xhtml+xml;charset=utf-8"|"application/atom+xml;charset=utf-8"|"application/json;charset=utf-8"|"application/llsd+xml;charset=utf-8"|"application/x-www-form-urlencoded;charset=utf-8"|"application/rss+xml;charset=utf-8"]!], [>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+HTTP_MIMETYPE, $[![(lis)"text/plain;charset=utf-8"|"text/html;charset=utf-8"|"application/xml;charset=utf-8"|"application/xhtml+xml;charset=utf-8"|"application/atom+xml;charset=utf-8"|"application/json;charset=utf-8"|"application/llsd+xml;charset=utf-8"|"application/x-www-form-urlencoded;charset=utf-8"|"application/rss+xml;charset=utf-8"|string mimetype]!], [>END<]!$[FingerTextData FingerTextData]@#
 HTTP_PRAGMA_NO_CACHE
-Lang:LSL
-HTTP_PRAGMA_NO_CACHE, $[![(lis)FALSE|TRUE]!], [>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+HTTP_PRAGMA_NO_CACHE, $[![(lis)FALSE|TRUE|integer boolean]!], [>END<]!$[FingerTextData FingerTextData]@#
 HTTP_VERBOSE_THROTTLE
-Lang:LSL
-HTTP_VERBOSE_THROTTLE, $[![(lis)FALSE|TRUE]!], [>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+HTTP_VERBOSE_THROTTLE, $[![(lis)FALSE|TRUE|integer boolean]!], [>END<]!$[FingerTextData FingerTextData]@#
 HTTP_VERIFY_CERT
-Lang:LSL
-HTTP_VERIFY_CERT, $[![(lis)FALSE|TRUE]!], [>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+HTTP_VERIFY_CERT, $[![(lis)FALSE|TRUE|integer boolean]!], [>END<]!$[FingerTextData FingerTextData]@#
 RC_DATA_FLAGS
-Lang:LSL
+Ext:lsl
 RC_DATA_FLAGS, $[![integer flags]!], [>END<]!$[FingerTextData FingerTextData]@#
 RC_DETECT_PHANTOM
-Lang:LSL
-RC_DETECT_PHANTOM, $[![(lis)FALSE|TRUE]!], [>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+RC_DETECT_PHANTOM, $[![(lis)FALSE|TRUE|integer boolean]!], [>END<]!$[FingerTextData FingerTextData]@#
 RC_MAX_HITS
-Lang:LSL
+Ext:lsl
 RC_MAX_HITS, $[![integer maxHits]!], [>END<]!$[FingerTextData FingerTextData]@#
 RC_REJECT_TYPES
-Lang:LSL
+Ext:lsl
 RC_REJECT_TYPES, $[![integer filterMask]!], [>END<]!$[FingerTextData FingerTextData]@#
 at_rot_target
-Lang:LSL
+Ext:lsl
 at_rot_target($[![integer handle]!], $[![rotation targetrot]!], $[![rotation ourrot]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 at_target
-Lang:LSL
+Ext:lsl
 at_target($[![integer tnum]!], $[![vector targetpos]!], $[![vector ourpos]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 attach
-Lang:LSL
+Ext:lsl
 attach($[![key id]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 changed
-Lang:LSL
+Ext:lsl
 changed($[![integer change]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 collision
-Lang:LSL
+Ext:lsl
 collision($[![integer index]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 collision_end
-Lang:LSL
+Ext:lsl
 collision_end($[![integer index]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 collision_start
-Lang:LSL
+Ext:lsl
 collision_start($[![integer index]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 control
-Lang:LSL
+Ext:lsl
 control($[![key id]!], $[![integer level]!], $[![integer edge]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 dataserver
-Lang:LSL
+Ext:lsl
 dataserver($[![key query_id]!], $[![string data]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 do
-Lang:LSL
+Ext:lsl
 do
 {
     $[0[]0]
 }
-while ($[![condition]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+while ($[![condition]!]);[>END<]!$[FingerTextData FingerTextData]@#
 else
-Lang:LSL
+Ext:lsl
 else
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 email
-Lang:LSL
+Ext:lsl
 email($[![string time]!], $[![string address]!], $[![string subject]!], $[![string message]!], $[![integer num_left]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 for
-Lang:LSL
+Ext:lsl
 for ($[![start]!]; $[![condition]!]; $[![step]!])
 {
 $0
 }[>END<]!$[FingerTextData FingerTextData]@#
 if
-Lang:LSL
+Ext:lsl
 if ($[![condition]!])
 {
 $0
 }[>END<]!$[FingerTextData FingerTextData]@#
 http_request
-Lang:LSL
+Ext:lsl
 http_request($[![key request_id]!], $[![string method]!], $[![string body]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 http_response
-Lang:LSL
+Ext:lsl
 http_response($[![key request_id]!], $[![integer status]!], list $[![metadata]!], $[![string body]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 jump
-Lang:LSL
+Ext:lsl
 jump $[![target]!];[>END<]!$[FingerTextData FingerTextData]@#
 land_collision
-Lang:LSL
+Ext:lsl
 land_collision($[![vector pos]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 land_collision_end
-Lang:LSL
+Ext:lsl
 land_collision_end($[![vector pos]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 land_collision_start
-Lang:LSL
+Ext:lsl
 land_collision_start($[![vector pos]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 link_message
-Lang:LSL
+Ext:lsl
 link_message($[![integer sender_num]!], $[![integer num]!], $[![string str]!], $[![key id]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 listen
-Lang:LSL
+Ext:lsl
 listen($[![integer channel]!], $[![string name]!], $[![key id]!], $[![string message]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 llAbs
-Lang:LSL
+Ext:lsl
 llAbs($[![integer val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llAcos
-Lang:LSL
+Ext:lsl
 llAcos($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llAddToLandBanList
-Lang:LSL
+Ext:lsl
 llAddToLandBanList($[![key agent]!], $[![float hours]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llAddToLandPassList
-Lang:LSL
+Ext:lsl
 llAddToLandPassList($[![key agent]!], $[![float hours]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llAdjustSoundVolume
-Lang:LSL
+Ext:lsl
 llAdjustSoundVolume($[![float volume]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llAllowInventoryDrop
-Lang:LSL
-llAllowInventoryDrop($[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llAllowInventoryDrop($[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llAngleBetween
-Lang:LSL
+Ext:lsl
 llAngleBetween($[![rotation a]!], $[![rotation b]!])[>END<]!$[FingerTextData FingerTextData]@#
 llApplyImpulse
-Lang:LSL
-llApplyImpulse($[![vector force]!], $[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llApplyImpulse($[![vector force]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llApplyRotationalImpulse
-Lang:LSL
-llApplyRotationalImpulse($[![vector force]!], $[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llApplyRotationalImpulse($[![vector force]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llAsin
-Lang:LSL
+Ext:lsl
 llAsin($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llAtan2
-Lang:LSL
+Ext:lsl
 llAtan2($[![float y]!], $[![float x]!])[>END<]!$[FingerTextData FingerTextData]@#
 llAttachToAvatar
-Lang:LSL
+Ext:lsl
 llAttachToAvatar($[![integer attach_point]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llAttachToAvatarTemp
-Lang:LSL
+Ext:lsl
 llAttachToAvatarTemp($[![integer attach_point]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llAvatarOnLinkSitTarget
-Lang:LSL
+Ext:lsl
 llAvatarOnLinkSitTarget($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!])[>END<]!$[FingerTextData FingerTextData]@#
 llAvatarOnSitTarget
-Lang:LSL
+Ext:lsl
 llAvatarOnSitTarget()[>END<]!$[FingerTextData FingerTextData]@#
 llAxes2Rot
-Lang:LSL
+Ext:lsl
 llAxes2Rot($[![vector fwd]!], $[![vector left]!], $[![vector up]!])[>END<]!$[FingerTextData FingerTextData]@#
 llAxisAngle2Rot
-Lang:LSL
+Ext:lsl
 llAxisAngle2Rot($[![vector axis]!], $[![float angle]!])[>END<]!$[FingerTextData FingerTextData]@#
 llBase64ToInteger
-Lang:LSL
+Ext:lsl
 llBase64ToInteger($[![string str]!])[>END<]!$[FingerTextData FingerTextData]@#
 llBase64ToString
-Lang:LSL
+Ext:lsl
 llBase64ToString($[![string str]!])[>END<]!$[FingerTextData FingerTextData]@#
 llBreakAllLinks
-Lang:LSL
+Ext:lsl
 llBreakAllLinks();
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llBreakLink
-Lang:LSL
+Ext:lsl
 llBreakLink($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llCastRay
-Lang:LSL
+Ext:lsl
 llCastRay($[![vector start]!], $[![vector end]!], $[![list options]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llCeil
-Lang:LSL
+Ext:lsl
 llCeil($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llClearCameraParams
-Lang:LSL
+Ext:lsl
 llClearCameraParams();
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llClearLinkMedia
-Lang:LSL
-llClearLinkMedia($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llClearLinkMedia($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llClearPrimMedia
-Lang:LSL
-llClearPrimMedia($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llClearPrimMedia($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llCloseRemoteDataChannel
-Lang:LSL
+Ext:lsl
 llCloseRemoteDataChannel($[![key channel]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llCollisionFilter
-Lang:LSL
-llCollisionFilter($[![string name]!], $[![key id]!], $[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llCollisionFilter($[![string name]!], $[![key id]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llCollisionSound
-Lang:LSL
+Ext:lsl
 llCollisionSound($[![string impact_sound]!], $[![float impact_volume]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llCos
-Lang:LSL
+Ext:lsl
 llCos($[![float theta]!])[>END<]!$[FingerTextData FingerTextData]@#
 llCreateCharacter
-Lang:LSL
+Ext:lsl
 llCreateCharacter($[![list options]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llCreateLink
-Lang:LSL
-llCreateLink($[![key target]!], $[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llCreateLink($[![key target]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llCSV2List
-Lang:LSL
+Ext:lsl
 llCSV2List($[![string src]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDeleteCharacter
-Lang:LSL
+Ext:lsl
 llDeleteCharacter();
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llDeleteSubList
-Lang:LSL
+Ext:lsl
 llDeleteSubList($[![list src]!], $[![integer start]!], $[![integer end]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDeleteSubString
-Lang:LSL
+Ext:lsl
 llDeleteSubString($[![string src]!], $[![integer start]!], $[![integer end]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetachFromAvatar
-Lang:LSL
+Ext:lsl
 llDetachFromAvatar();
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llDetectedGrab
-Lang:LSL
+Ext:lsl
 llDetectedGrab($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedGroup
-Lang:LSL
+Ext:lsl
 llDetectedGroup($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedKey
-Lang:LSL
+Ext:lsl
 llDetectedKey($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedLinkNumber
-Lang:LSL
+Ext:lsl
 llDetectedLinkNumber($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedName
-Lang:LSL
+Ext:lsl
 llDetectedName($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedOwner
-Lang:LSL
+Ext:lsl
 llDetectedOwner($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedPos
-Lang:LSL
+Ext:lsl
 llDetectedPosl($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedRot
-Lang:LSL
+Ext:lsl
 llDetectedRot($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedTouchBinormal
-Lang:LSL
+Ext:lsl
 llDetectedTouchBinormal($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedTouchFace
-Lang:LSL
+Ext:lsl
 llDetectedTouchFace($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedTouchNormal
-Lang:LSL
+Ext:lsl
 llDetectedTouchNormal($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedTouchPos
-Lang:LSL
+Ext:lsl
 llDetectedTouchPos($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedTouchST
-Lang:LSL
+Ext:lsl
 llDetectedTouchST($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedTouchUV
-Lang:LSL
+Ext:lsl
 llDetectedTouchUV($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedType
-Lang:LSL
+Ext:lsl
 llDetectedType($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedVel
-Lang:LSL
+Ext:lsl
 llDetectedVel($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDialog
-Lang:LSL
+Ext:lsl
 llDialog($[![key agent]!], $[![string message]!], $[![list buttons]!], $[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llDie
-Lang:LSL
+Ext:lsl
 llDie();
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llDumpList2String
-Lang:LSL
+Ext:lsl
 llDumpList2String($[![list src]!], $[![string separator]!])[>END<]!$[FingerTextData FingerTextData]@#
 llEdgeOfWorld
-Lang:LSL
+Ext:lsl
 llEdgeOfWorld($[![vector pos]!], $[![vector dir]!])[>END<]!$[FingerTextData FingerTextData]@#
 llEjectFromLand
-Lang:LSL
+Ext:lsl
 llEjectFromLand($[![key agent]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llEmail
-Lang:LSL
+Ext:lsl
 llEmail($[![string address]!], $[![string subject]!], $[![string message]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llEscapeURL
-Lang:LSL
+Ext:lsl
 llEscapeURL($[![string url]!])[>END<]!$[FingerTextData FingerTextData]@#
 llEuler2Rot
-Lang:LSL
+Ext:lsl
 llEuler2Rot($[![vector v]!])[>END<]!$[FingerTextData FingerTextData]@#
 llExecCharacterCmd
-Lang:LSL
-llExecCharacterCmd($[![integer command]!], $[![(lis)CHARACTER_CMD_JUMP|CHARACTER_CMD_SMOOTH_STOP|CHARACTER_CMD_STOP]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llExecCharacterCmd($[![(lis)CHARACTER_CMD_JUMP|CHARACTER_CMD_SMOOTH_STOP|CHARACTER_CMD_STOP|integer command]!], $[![list options]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llEvade
-Lang:LSL
+Ext:lsl
 llEvade($[![key target]!], $[![list options]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llFabs
-Lang:LSL
+Ext:lsl
 llFabs($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llFleeFrom
-Lang:LSL
+Ext:lsl
 llFleeFrom($[![vector position]!], $[![float distance]!], $[![list options]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llFloor
-Lang:LSL
+Ext:lsl
 llFloor($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llForceMouselook
-Lang:LSL
-llForceMouselook($[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llForceMouselook($[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llFrand
-Lang:LSL
+Ext:lsl
 llFrand($[![float mag]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGenerateKey
-Lang:LSL
+Ext:lsl
 llGenerateKey()[>END<]!$[FingerTextData FingerTextData]@#
 llGetAccel
-Lang:LSL
+Ext:lsl
 llGetAccel()[>END<]!$[FingerTextData FingerTextData]@#
 llGetAgentInfo
-Lang:LSL
+Ext:lsl
 llGetAgentInfo($[![key id]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetAgentLanguage
-Lang:LSL
+Ext:lsl
 llGetAgentLanguage($[![key agent]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetAgentList
-Lang:LSL
-llGetAgentList($[![integer scope]!], $[![(lis)AGENT_LIST_PARCEL|AGENT_LIST_PARCEL_OWNER|AGENT_LIST_REGION]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetAgentList($[![(lis)AGENT_LIST_PARCEL|AGENT_LIST_PARCEL_OWNER|AGENT_LIST_REGION|integer scope]!], $[![list options]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetAgentSize
-Lang:LSL
+Ext:lsl
 llGetAgentSize($[![key agent]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetAlpha
-Lang:LSL
-llGetAlpha($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetAlpha($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetAndResetTime
-Lang:LSL
+Ext:lsl
 llGetAndResetTime()[>END<]!$[FingerTextData FingerTextData]@#
 llGetAnimation
-Lang:LSL
+Ext:lsl
 llGetAnimation($[![key id]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetAnimationList
-Lang:LSL
+Ext:lsl
 llGetAnimationList($[![key agent]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetAnimationOverride
-Lang:LSL
+Ext:lsl
 llGetAnimationOverride($[![string anim_state]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetAttached
-Lang:LSL
+Ext:lsl
 llGetAttached()[>END<]!$[FingerTextData FingerTextData]@#
 llGetBoundingBox
-Lang:LSL
+Ext:lsl
 llGetBoundingBox($[![key object]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetCameraPos
-Lang:LSL
+Ext:lsl
 llGetCameraPos()[>END<]!$[FingerTextData FingerTextData]@#
 llGetCameraRot
-Lang:LSL
+Ext:lsl
 llGetCameraRot()[>END<]!$[FingerTextData FingerTextData]@#
 llGetCenterOfMass
-Lang:LSL
+Ext:lsl
 llGetCenterOfMass()[>END<]!$[FingerTextData FingerTextData]@#
 llGetClosestNavPoint
-Lang:LSL
+Ext:lsl
 llGetClosestNavPoint($[![vector point]!], $[![list options]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetColor
-Lang:LSL
-llGetColor($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetColor($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetCreator
-Lang:LSL
+Ext:lsl
 llGetCreator()[>END<]!$[FingerTextData FingerTextData]@#
 llGetDate
-Lang:LSL
+Ext:lsl
 llGetDate()[>END<]!$[FingerTextData FingerTextData]@#
 llGetDisplayName
-Lang:LSL
+Ext:lsl
 llGetDisplayName($[![key id]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetEnergy
-Lang:LSL
+Ext:lsl
 llGetEnergy()[>END<]!$[FingerTextData FingerTextData]@#
 llGetEnv
-Lang:LSL
-llGetEnv($[![(lis)"dynamic_pathfinding"|"estate_id"|"frame_number"|"region_idle"|"sim_channel"|"sim_version"]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetEnv($[![(lis)"dynamic_pathfinding"|"estate_id"|"frame_number"|"region_idle"|"sim_channel"|"sim_version"|string name]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetForce
-Lang:LSL
+Ext:lsl
 llGetForce()[>END<]!$[FingerTextData FingerTextData]@#
 llGetFreeMemory
-Lang:LSL
+Ext:lsl
 llGetFreeMemory()[>END<]!$[FingerTextData FingerTextData]@#
 llGetFreeURLs
-Lang:LSL
+Ext:lsl
 llGetFreeURLs()[>END<]!$[FingerTextData FingerTextData]@#
 llGetGeometricCenter
-Lang:LSL
+Ext:lsl
 llGetGeometricCenter()[>END<]!$[FingerTextData FingerTextData]@#
 llGetGMTclock
-Lang:LSL
+Ext:lsl
 llGetGMTclock()[>END<]!$[FingerTextData FingerTextData]@#
 llGetHTTPHeader
-Lang:LSL
+Ext:lsl
 llGetHTTPHeader($[![key request_id]!], $[![string header]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetInventoryCreator
-Lang:LSL
+Ext:lsl
 llGetInventoryCreator($[![string item]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetInventoryKey
-Lang:LSL
+Ext:lsl
 llGetInventoryKey($[![string name]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetInventoryName
-Lang:LSL
-llGetInventoryName($[![(lis)INVENTORY_NONE|INVENTORY_ALL|INVENTORY_TEXTURE|INVENTORY_SOUND|INVENTORY_LANDMARK|INVENTORY_CLOTHING|INVENTORY_OBJECT|INVENTORY_NOTECARD|INVENTORY_SCRIPT|INVENTORY_BODYPART|INVENTORY_ANIMATION|INVENTORY_GESTURE]!], $[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetInventoryName($[![(lis)INVENTORY_NONE|INVENTORY_ALL|INVENTORY_TEXTURE|INVENTORY_SOUND|INVENTORY_LANDMARK|INVENTORY_CLOTHING|INVENTORY_OBJECT|INVENTORY_NOTECARD|INVENTORY_SCRIPT|INVENTORY_BODYPART|INVENTORY_ANIMATION|INVENTORY_GESTURE|integer type]!], $[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetInventoryNumber
-Lang:LSL
-llGetInventoryNumber($[![(lis)INVENTORY_NONE|INVENTORY_ALL|INVENTORY_TEXTURE|INVENTORY_SOUND|INVENTORY_LANDMARK|INVENTORY_CLOTHING|INVENTORY_OBJECT|INVENTORY_NOTECARD|INVENTORY_SCRIPT|INVENTORY_BODYPART|INVENTORY_ANIMATION|INVENTORY_GESTURE]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetInventoryNumber($[![(lis)INVENTORY_NONE|INVENTORY_ALL|INVENTORY_TEXTURE|INVENTORY_SOUND|INVENTORY_LANDMARK|INVENTORY_CLOTHING|INVENTORY_OBJECT|INVENTORY_NOTECARD|INVENTORY_SCRIPT|INVENTORY_BODYPART|INVENTORY_ANIMATION|INVENTORY_GESTURE|integer type]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetInventoryPermMask
-Lang:LSL
-llGetInventoryPermMask($[![string item]!], $[![(lis)MASK_BASE|MASK_OWNER|MASK_GROUP|MASK_EVERYONE|MASK_NEXT]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetInventoryPermMask($[![string item]!], $[![(lis)MASK_BASE|MASK_OWNER|MASK_GROUP|MASK_EVERYONE|MASK_NEXT|integer mask]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetInventoryType
-Lang:LSL
+Ext:lsl
 llGetInventoryType($[![string name]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetKey
-Lang:LSL
+Ext:lsl
 llGetKey()[>END<]!$[FingerTextData FingerTextData]@#
 llGetLandOwnerAt
-Lang:LSL
+Ext:lsl
 llGetLandOwnerAt($[![vector pos]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetLinkKey
-Lang:LSL
+Ext:lsl
 llGetLinkKey($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetLinkMedia
-Lang:LSL
-llGetLinkMedia($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!], $[![list params]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetLinkMedia($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!], $[![list params]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetLinkName
-Lang:LSL
+Ext:lsl
 llGetLinkName($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetLinkNumber
-Lang:LSL
+Ext:lsl
 llGetLinkNumber()[>END<]!$[FingerTextData FingerTextData]@#
 llGetLinkNumberOfSides
-Lang:LSL
+Ext:lsl
 llGetLinkNumberOfSides($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetLinkPrimitiveParams
-Lang:LSL
+Ext:lsl
 llGetLinkPrimitiveParams($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![list params]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetListEntryType
-Lang:LSL
+Ext:lsl
 llGetListEntryType($[![list src]!], $[![integer index]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetListLength
-Lang:LSL
+Ext:lsl
 llGetListLength($[![list src]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetLocalPos
-Lang:LSL
+Ext:lsl
 llGetLocalPos()[>END<]!$[FingerTextData FingerTextData]@#
 llGetLocalRot
-Lang:LSL
+Ext:lsl
 llGetLocalRot()[>END<]!$[FingerTextData FingerTextData]@#
 llGetMass
-Lang:LSL
+Ext:lsl
 llGetMass()[>END<]!$[FingerTextData FingerTextData]@#
 llGetMassMKS
-Lang:LSL
+Ext:lsl
 llGetMassMKS()[>END<]!$[FingerTextData FingerTextData]@#
 llGetMaxScaleFactor
-Lang:LSL
+Ext:lsl
 llGetMaxScaleFactor()[>END<]!$[FingerTextData FingerTextData]@#
 llGetMemoryLimit
-Lang:LSL
+Ext:lsl
 llGetMemoryLimit()[>END<]!$[FingerTextData FingerTextData]@#
 llGetMinScaleFactor
-Lang:LSL
+Ext:lsl
 llGetMinScaleFactor()[>END<]!$[FingerTextData FingerTextData]@#
 llGetNextEmail
-Lang:LSL
+Ext:lsl
 llGetNextEmail($[![string address]!], $[![string subject]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llGetNotecardLine
-Lang:LSL
+Ext:lsl
 llGetNotecardLine($[![string name]!], $[![integer line]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetNumberOfNotecardLines
-Lang:LSL
+Ext:lsl
 llGetNumberOfNotecardLines($[![string name]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetNumberOfPrims
-Lang:LSL
+Ext:lsl
 llGetNumberOfPrims()[>END<]!$[FingerTextData FingerTextData]@#
 llGetNumberOfSides
-Lang:LSL
+Ext:lsl
 llGetNumberOfSides()[>END<]!$[FingerTextData FingerTextData]@#
 llGetObjectDesc
-Lang:LSL
+Ext:lsl
 llGetObjectDesc()[>END<]!$[FingerTextData FingerTextData]@#
 llGetObjectDetails
-Lang:LSL
+Ext:lsl
 llGetObjectDetails($[![key id]!], $[![list params]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetObjectMass
-Lang:LSL
+Ext:lsl
 llGetObjectMass($[![key id]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetObjectName
-Lang:LSL
+Ext:lsl
 llGetObjectName()[>END<]!$[FingerTextData FingerTextData]@#
 llGetObjectPermMask
-Lang:LSL
-llGetObjectPermMask($[![(lis)MASK_BASE|MASK_OWNER|MASK_GROUP|MASK_EVERYONE|MASK_NEXT]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetObjectPermMask($[![(lis)MASK_BASE|MASK_OWNER|MASK_GROUP|MASK_EVERYONE|MASK_NEXT|integer mask]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetObjectPrimCount
-Lang:LSL
+Ext:lsl
 llGetObjectPrimCount($[![key prim]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetOmega
-Lang:LSL
+Ext:lsl
 llGetOmega()[>END<]!$[FingerTextData FingerTextData]@#
 llGetOwner
-Lang:LSL
+Ext:lsl
 llGetOwner()[>END<]!$[FingerTextData FingerTextData]@#
 llGetOwnerKey
-Lang:LSL
+Ext:lsl
 llGetOwnerKey($[![key id]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetParcelDetails
-Lang:LSL
+Ext:lsl
 llGetParcelDetails($[![vector pos]!], $[![list params]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetParcelFlags
-Lang:LSL
+Ext:lsl
 llGetParcelFlags($[![vector pos]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetParcelMaxPrims
-Lang:LSL
-llGetParcelMaxPrims($[![vector pos]!], $[![(lis)FALSE|TRUE]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetParcelMaxPrims($[![vector pos]!], $[![(lis)FALSE|TRUE|integer boolean]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetParcelMusicURL
-Lang:LSL
+Ext:lsl
 llGetParcelMusicURL()[>END<]!$[FingerTextData FingerTextData]@#
 llGetParcelPrimCount
-Lang:LSL
-llGetParcelPrimCount($[![vector pos]!], $[![(lis)PARCEL_COUNT_TOTAL|PARCEL_COUNT_OWNER|PARCEL_COUNT_GROUP|PARCEL_COUNT_OTHER|PARCEL_COUNT_SELECTED|PARCEL_COUNT_TEMP]!], $[![integer sim_wide]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetParcelPrimCount($[![vector pos]!], $[![(lis)PARCEL_COUNT_TOTAL|PARCEL_COUNT_OWNER|PARCEL_COUNT_GROUP|PARCEL_COUNT_OTHER|PARCEL_COUNT_SELECTED|PARCEL_COUNT_TEMP|integer category]!], $[![integer sim_wide]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetParcelPrimOwners
-Lang:LSL
+Ext:lsl
 llGetParcelPrimOwners($[![vector pos]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetPermissions
-Lang:LSL
+Ext:lsl
 llGetPermissions()[>END<]!$[FingerTextData FingerTextData]@#
 llGetPermissionsKey
-Lang:LSL
+Ext:lsl
 llGetPermissionsKey()[>END<]!$[FingerTextData FingerTextData]@#
 llGetPhysicsMaterial
-Lang:LSL
+Ext:lsl
 llGetPhysicsMaterial()[>END<]!$[FingerTextData FingerTextData]@#
 llGetPos
-Lang:LSL
+Ext:lsl
 llGetPos()[>END<]!$[FingerTextData FingerTextData]@#
 llGetPrimitiveParams
-Lang:LSL
+Ext:lsl
 llGetPrimitiveParams($[![list params]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetPrimMediaParams
-Lang:LSL
-llGetPrimMediaParams($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!], $[![list params]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetPrimMediaParams($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!], $[![list params]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetRegionAgentCount
-Lang:LSL
+Ext:lsl
 llGetRegionAgentCount()[>END<]!$[FingerTextData FingerTextData]@#
 llGetRegionCorner
-Lang:LSL
+Ext:lsl
 llGetRegionCorner()[>END<]!$[FingerTextData FingerTextData]@#
 llGetRegionFlags
-Lang:LSL
+Ext:lsl
 llGetRegionFlags()[>END<]!$[FingerTextData FingerTextData]@#
 llGetRegionFPS
-Lang:LSL
+Ext:lsl
 llGetRegionFPS()[>END<]!$[FingerTextData FingerTextData]@#
 llGetRegionName
-Lang:LSL
+Ext:lsl
 llGetRegionName()[>END<]!$[FingerTextData FingerTextData]@#
 llGetRegionTimeDilation
-Lang:LSL
+Ext:lsl
 llGetRegionTimeDilation()[>END<]!$[FingerTextData FingerTextData]@#
 llGetRootPosition
-Lang:LSL
+Ext:lsl
 llGetRootPosition()[>END<]!$[FingerTextData FingerTextData]@#
 llGetRootRotation
-Lang:LSL
+Ext:lsl
 llGetRootRotation()[>END<]!$[FingerTextData FingerTextData]@#
 llGetRot
-Lang:LSL
+Ext:lsl
 llGetRot()[>END<]!$[FingerTextData FingerTextData]@#
 llGetScale
-Lang:LSL
+Ext:lsl
 llGetScale()[>END<]!$[FingerTextData FingerTextData]@#
 llGetScriptName
-Lang:LSL
+Ext:lsl
 llGetScriptName()[>END<]!$[FingerTextData FingerTextData]@#
 llGetScriptState
-Lang:LSL
+Ext:lsl
 llGetScriptState($[![string script]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetSimStats
-Lang:LSL
+Ext:lsl
 llGetSimStats($[![integer stat_type]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetSimulatorHostname
-Lang:LSL
+Ext:lsl
 llGetSimulatorHostname()[>END<]!$[FingerTextData FingerTextData]@#
 llGetSPMaxMemory
-Lang:LSL
+Ext:lsl
 llGetSPMaxMemory()[>END<]!$[FingerTextData FingerTextData]@#
 llGetStartParameter
-Lang:LSL
+Ext:lsl
 llGetStartParameter()[>END<]!$[FingerTextData FingerTextData]@#
 llGetStaticPath
-Lang:LSL
+Ext:lsl
 llGetStaticPath($[![vector start]!], $[![vector end]!], $[![float radius]!], $[![list params]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetStatus
-Lang:LSL
-llGetStatus($[![(lis)STATUS_PHYSICS|STATUS_ROTATE_X|STATUS_ROTATE_Y|STATUS_ROTATE_Z|STATUS_ROTATE_Z|STATUS_PHANTOM|STATUS_SANDBOX|STATUS_BLOCK_GRAB|STATUS_DIE_AT_EDGE|STATUS_RETURN_AT_EDGE|STATUS_CAST_SHADOWS|STATUS_BLOCK_GRAB_OBJECT]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetStatus($[![(lis)STATUS_PHYSICS|STATUS_ROTATE_X|STATUS_ROTATE_Y|STATUS_ROTATE_Z|STATUS_ROTATE_Z|STATUS_PHANTOM|STATUS_SANDBOX|STATUS_BLOCK_GRAB|STATUS_DIE_AT_EDGE|STATUS_RETURN_AT_EDGE|STATUS_CAST_SHADOWS|STATUS_BLOCK_GRAB_OBJECT|integer status]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetSubString
-Lang:LSL
+Ext:lsl
 llGetSubString($[![string src]!], $[![integer start]!], $[![integer end]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetSunDirection
-Lang:LSL
+Ext:lsl
 llGetSunDirection()[>END<]!$[FingerTextData FingerTextData]@#
 llGetTexture
-Lang:LSL
-llGetTexture($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetTexture($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetTextureOffset
-Lang:LSL
-llGetTextureOffset($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetTextureOffset($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetTextureRot
-Lang:LSL
-llGetTextureRot($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetTextureRot($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetTextureScale
-Lang:LSL
-llGetTextureScale($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGetTextureScale($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetTime
-Lang:LSL
+Ext:lsl
 llGetTime()[>END<]!$[FingerTextData FingerTextData]@#
 llGetTimeOfDay
-Lang:LSL
+Ext:lsl
 llGetTimeOfDay()[>END<]!$[FingerTextData FingerTextData]@#
 llGetTimestamp
-Lang:LSL
+Ext:lsl
 llGetTimestamp()[>END<]!$[FingerTextData FingerTextData]@#
 llGetTorque
-Lang:LSL
+Ext:lsl
 llGetTorque()[>END<]!$[FingerTextData FingerTextData]@#
 llGetUnixTime
-Lang:LSL
+Ext:lsl
 llGetUnixTime()[>END<]!$[FingerTextData FingerTextData]@#
 llGetUsedMemory
-Lang:LSL
+Ext:lsl
 llGetUsedMemory()[>END<]!$[FingerTextData FingerTextData]@#
 llGetUsername
-Lang:LSL
+Ext:lsl
 llGetUsername($[![key id]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetVel
-Lang:LSL
+Ext:lsl
 llGetVel()[>END<]!$[FingerTextData FingerTextData]@#
 llGetWallclock
-Lang:LSL
+Ext:lsl
 llGetWallclock()[>END<]!$[FingerTextData FingerTextData]@#
 llGiveInventory
-Lang:LSL
+Ext:lsl
 llGiveInventory($[![key destination]!], $[![string inventory]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llGiveInventoryList
-Lang:LSL
+Ext:lsl
 llGiveInventoryList($[![key target]!], $[![string folder]!], $[![list inventory]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llGiveMoney
-Lang:LSL
+Ext:lsl
 llGiveMoney($[![key destination]!], $[![integer amount]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGround
-Lang:LSL
+Ext:lsl
 llGround($[![vector offset]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGroundContour
-Lang:LSL
+Ext:lsl
 llGroundContour($[![vector offset]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGroundNormal
-Lang:LSL
+Ext:lsl
 llGroundNormal($[![vector offset]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGroundRepel
-Lang:LSL
-llGroundRepel($[![float height]!], $[![(lis)FALSE|TRUE]!], $[![float tau]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llGroundRepel($[![float height]!], $[![(lis)FALSE|TRUE|integer boolean]!], $[![float tau]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llGroundSlope
-Lang:LSL
+Ext:lsl
 llGroundSlope($[![vector offset]!])[>END<]!$[FingerTextData FingerTextData]@#
 llHTTPRequest
-Lang:LSL
+Ext:lsl
 llHTTPRequest($[![string url]!], $[![list parameters]!], $[![string body]!])[>END<]!$[FingerTextData FingerTextData]@#
 llHTTPResponse
-Lang:LSL
+Ext:lsl
 llHTTPResponse($[![key request_id]!], $[![integer status]!], $[![string body]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llInsertString
-Lang:LSL
+Ext:lsl
 llInsertString($[![string dst]!], $[![integer pos]!], $[![string src]!])[>END<]!$[FingerTextData FingerTextData]@#
 llInstantMessage
-Lang:LSL
+Ext:lsl
 llInstantMessage($[![key user]!], $[![string message]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llIntegerToBase64
-Lang:LSL
+Ext:lsl
 llIntegerToBase64($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llJson2List
-Lang:LSL
+Ext:lsl
 llJson2List($[![string json]!])[>END<]!$[FingerTextData FingerTextData]@#
 llJsonGetValue
-Lang:LSL
+Ext:lsl
 llJsonGetValue($[![string json]!], $[![list specifiers]!])[>END<]!$[FingerTextData FingerTextData]@#
 llJsonSetValue
-Lang:LSL
+Ext:lsl
 llJsonSetValue($[![string json]!], $[![list specifiers]!], $[![string newValue]!])[>END<]!$[FingerTextData FingerTextData]@#
 llJsonValueType
-Lang:LSL
+Ext:lsl
 llJsonValueType($[![string json]!], $[![list specifiers]!])[>END<]!$[FingerTextData FingerTextData]@#
 llKey2Name
-Lang:LSL
+Ext:lsl
 llKey2Name($[![key id]!])[>END<]!$[FingerTextData FingerTextData]@#
 llLinkParticleSystem
-Lang:LSL
+Ext:lsl
 llLinkParticleSystem($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![list rules]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llLinkSitTarget
-Lang:LSL
+Ext:lsl
 llLinkSitTarget($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![vector offset]!], $[![rotation rot]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llList2CSV
-Lang:LSL
+Ext:lsl
 llList2CSV($[![list src]!])[>END<]!$[FingerTextData FingerTextData]@#
 llList2Float
-Lang:LSL
+Ext:lsl
 llList2Float($[![list src]!], $[![integer index]!])[>END<]!$[FingerTextData FingerTextData]@#
 llList2Integer
-Lang:LSL
+Ext:lsl
 llList2Integer($[![list src]!], $[![integer index]!])[>END<]!$[FingerTextData FingerTextData]@#
 llList2Json
-Lang:LSL
-llList2Json($[![(lis)JSON_ARRAY|JSON_OBJECT]!], $[![list values]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llList2Json($[![(lis)JSON_ARRAY|JSON_OBJECT|string type]!], $[![list values]!])[>END<]!$[FingerTextData FingerTextData]@#
 llList2Key
-Lang:LSL
+Ext:lsl
 llList2Key($[![list src]!], $[![integer index]!])[>END<]!$[FingerTextData FingerTextData]@#
 llList2List
-Lang:LSL
+Ext:lsl
 llList2List($[![list src]!], $[![integer start]!], $[![integer end]!])[>END<]!$[FingerTextData FingerTextData]@#
 llList2ListStrided
-Lang:LSL
+Ext:lsl
 llList2ListStrided($[![list src]!], $[![integer start]!], $[![integer end]!], $[![integer stride]!])[>END<]!$[FingerTextData FingerTextData]@#
 llList2Rot
-Lang:LSL
+Ext:lsl
 llList2Rot($[![list src]!], $[![integer index]!])[>END<]!$[FingerTextData FingerTextData]@#
 llList2String
-Lang:LSL
+Ext:lsl
 llList2String($[![list src]!], $[![integer index]!])[>END<]!$[FingerTextData FingerTextData]@#
 llList2Vector
-Lang:LSL
+Ext:lsl
 llList2Vector($[![list src]!], $[![integer index]!])[>END<]!$[FingerTextData FingerTextData]@#
 llListen
-Lang:LSL
+Ext:lsl
 llListen($[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string name]!], $[![key id]!], $[![string msg]!])[>END<]!$[FingerTextData FingerTextData]@#
 llListenControl
-Lang:LSL
-llListenControl($[![integer handle]!], $[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llListenControl($[![integer handle]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llListenRemove
-Lang:LSL
+Ext:lsl
 llListenRemove($[![integer handle]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llListFindList
-Lang:LSL
+Ext:lsl
 llListFindList($[![list src]!], $[![list test]!])[>END<]!$[FingerTextData FingerTextData]@#
 llListInsertList
-Lang:LSL
+Ext:lsl
 llListInsertList($[![list dest]!], $[![list src]!], $[![integer start]!])[>END<]!$[FingerTextData FingerTextData]@#
 llListRandomize
-Lang:LSL
+Ext:lsl
 llListRandomize($[![list src]!], $[![integer stride]!])[>END<]!$[FingerTextData FingerTextData]@#
 llListReplaceList
-Lang:LSL
+Ext:lsl
 llListReplaceList($[![list dest]!], $[![list src]!], $[![integer start]!], $[![integer end]!])[>END<]!$[FingerTextData FingerTextData]@#
 llListSort
-Lang:LSL
-llListSort($[![list src]!], $[![integer stride]!], $[![(lis)FALSE|TRUE]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llListSort($[![list src]!], $[![integer stride]!], $[![(lis)FALSE|TRUE|integer boolean]!])[>END<]!$[FingerTextData FingerTextData]@#
 llListStatistics
-Lang:LSL
-llListStatistics($[![(lis)LIST_STAT_GEOMETRIC_MEAN|LIST_STAT_MAX|LIST_STAT_MEAN|LIST_STAT_MEDIAN|LIST_STAT_MIN|LIST_STAT_NUM_COUNT|LIST_STAT_RANGE|LIST_STAT_STD_DEV|LIST_STAT_SUM|LIST_STAT_SUM_SQUARES]!], $[![list src]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llListStatistics($[![(lis)LIST_STAT_GEOMETRIC_MEAN|LIST_STAT_MAX|LIST_STAT_MEAN|LIST_STAT_MEDIAN|LIST_STAT_MIN|LIST_STAT_NUM_COUNT|LIST_STAT_RANGE|LIST_STAT_STD_DEV|LIST_STAT_SUM|LIST_STAT_SUM_SQUARES|integer operation]!], $[![list src]!])[>END<]!$[FingerTextData FingerTextData]@#
 llLoadURL
-Lang:LSL
+Ext:lsl
 llLoadURL($[![key agent]!], $[![string message]!], $[![string url]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llLog
-Lang:LSL
+Ext:lsl
 llLog($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llLog10
-Lang:LSL
+Ext:lsl
 llLog10($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llLookAt
-Lang:LSL
+Ext:lsl
 llLookAt($[![vector target]!], $[![float strength]!], $[![float damping]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llLoopSound
-Lang:LSL
+Ext:lsl
 llLoopSound($[![string sound]!], $[![float volume]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llLoopSoundMaster
-Lang:LSL
+Ext:lsl
 llLoopSoundMaster($[![string sound]!], $[![float volume]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llLoopSoundSlave
-Lang:LSL
+Ext:lsl
 llLoopSoundSlave($[![string sound]!], $[![float volume]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llManageEstateAccess
-Lang:LSL
-llManageEstateAccess($[![(lis)ESTATE_ACCESS_ALLOWED_AGENT_ADD|ESTATE_ACCESS_ALLOWED_AGENT_REMOVE|ESTATE_ACCESS_ALLOWED_GROUP_ADD|ESTATE_ACCESS_ALLOWED_GROUP_REMOVE|ESTATE_ACCESS_BANNED_AGENT_ADD|ESTATE_ACCESS_BANNED_AGENT_REMOVE]!], $[![key agent]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llManageEstateAccess($[![(lis)ESTATE_ACCESS_ALLOWED_AGENT_ADD|ESTATE_ACCESS_ALLOWED_AGENT_REMOVE|ESTATE_ACCESS_ALLOWED_GROUP_ADD|ESTATE_ACCESS_ALLOWED_GROUP_REMOVE|ESTATE_ACCESS_BANNED_AGENT_ADD|ESTATE_ACCESS_BANNED_AGENT_REMOVE|integer action]!], $[![key agent]!])[>END<]!$[FingerTextData FingerTextData]@#
 llMapDestination
-Lang:LSL
+Ext:lsl
 llMapDestination($[![string simname]!], $[![vector pos]!], $[![vector look_at]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llMD5String
-Lang:LSL
+Ext:lsl
 llMD5String($[![string src]!], $[![integer nonce]!])[>END<]!$[FingerTextData FingerTextData]@#
 llMessageLinked
-Lang:LSL
+Ext:lsl
 llMessageLinked($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![integer num]!], $[![string str]!], $[![key id]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llMinEventDelay
-Lang:LSL
+Ext:lsl
 llMinEventDelay($[![float delay]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llModifyLand
-Lang:LSL
-llModifyLand($[![(lis)LAND_LEVEL|LAND_RAISE|LAND_LOWER|LAND_SMOOTH|LAND_NOISE|LAND_REVERT]!], $[![(lis)0|1|2]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llModifyLand($[![(lis)LAND_LEVEL|LAND_RAISE|LAND_LOWER|LAND_SMOOTH|LAND_NOISE|LAND_REVERT|integer action]!], $[![(lis)0|1|2]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llModPow
-Lang:LSL
+Ext:lsl
 llModPow($[![integer a]!], $[![integer b]!], $[![integer c]!])[>END<]!$[FingerTextData FingerTextData]@#
 llMoveToTarget
-Lang:LSL
+Ext:lsl
 llMoveToTarget($[![vector target]!], $[![float tau]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llNavigateTo
-Lang:LSL
+Ext:lsl
 llNavigateTo($[![vector pos]!], $[![list options]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llOffsetTexture
-Lang:LSL
-llOffsetTexture($[![float u]!], $[![float v]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llOffsetTexture($[![float u]!], $[![float v]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llOpenRemoteDataChannel
-Lang:LSL
+Ext:lsl
 llOpenRemoteDataChannel();
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llOverMyLand
-Lang:LSL
+Ext:lsl
 llOverMyLand($[![key id]!])[>END<]!$[FingerTextData FingerTextData]@#
 llOwnerSay
-Lang:LSL
+Ext:lsl
 llOwnerSay($[![string msg]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llParcelMediaCommandList
-Lang:LSL
+Ext:lsl
 llParcelMediaCommandList($[![list commandList]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llParcelMediaQuery
-Lang:LSL
+Ext:lsl
 llParcelMediaQuery($[![list query]!])[>END<]!$[FingerTextData FingerTextData]@#
 llParseString2List
-Lang:LSL
+Ext:lsl
 llParseString2List($[![string src]!], $[![list separators]!], $[![list spacers]!])[>END<]!$[FingerTextData FingerTextData]@#
 llParseStringKeepNulls
-Lang:LSL
+Ext:lsl
 llParseStringKeepNulls($[![string src]!], $[![list separators]!], $[![list spacers]!])[>END<]!$[FingerTextData FingerTextData]@#
 llParticleSystem
-Lang:LSL
+Ext:lsl
 llParticleSystem($[![list rules]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llPassCollisions
-Lang:LSL
-llPassCollisions($[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llPassCollisions($[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llPassTouches
-Lang:LSL
-llPassTouches($[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llPassTouches($[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llPatrolPoints
-Lang:LSL
+Ext:lsl
 llPatrolPoints($[![list patrolPoints]!], $[![list options]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llPlaySound
-Lang:LSL
+Ext:lsl
 llPlaySound($[![string sound]!], $[![float volume]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llPlaySoundSlave
-Lang:LSL
+Ext:lsl
 llPlaySoundSlave($[![string sound]!], $[![float volume]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llPow
-Lang:LSL
+Ext:lsl
 llPow($[![float base]!], $[![float exponent]!])[>END<]!$[FingerTextData FingerTextData]@#
 llPreloadSound
-Lang:LSL
+Ext:lsl
 llPreloadSound($[![string sound]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llPursue
-Lang:LSL
+Ext:lsl
 llPursue($[![key target]!], $[![list options]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llPushObject
-Lang:LSL
-llPushObject($[![key target]!], $[![vector impulse]!], $[![vector ang_impulse]!], $[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llPushObject($[![key target]!], $[![vector impulse]!], $[![vector ang_impulse]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llRegionSay
-Lang:LSL
+Ext:lsl
 llRegionSay($[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llRegionSayTo
-Lang:LSL
+Ext:lsl
 llRegionSayTo($[![key target]!], $[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llReleaseControls
-Lang:LSL
+Ext:lsl
 llReleaseControls();
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llReleaseURL
-Lang:LSL
+Ext:lsl
 llReleaseURL($[![string url]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llRemoteDataReply
-Lang:LSL
+Ext:lsl
 llRemoteDataReply($[![key channel]!], $[![key message_id]!], $[![string sdata]!], $[![integer idata]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llRemoteLoadScriptPin
-Lang:LSL
+Ext:lsl
 llRemoteLoadScriptPin($[![key target]!], $[![string name]!], $[![integer pin]!], $[![integer running]!], $[![integer start_param]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llRemoveFromLandBanList
-Lang:LSL
+Ext:lsl
 llRemoveFromLandBanList($[![key agent]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llRemoveFromLandPassList
-Lang:LSL
+Ext:lsl
 llRemoveFromLandPassList($[![key agent]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llRemoveInventory
-Lang:LSL
+Ext:lsl
 llRemoveInventory($[![string item]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llRemoveVehicleFlags
-Lang:LSL
+Ext:lsl
 llRemoveVehicleFlags($[![integer flags]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llRequestAgentData
-Lang:LSL
-llRequestAgentData($[![key id]!], $[![(lis)DATA_ONLINE|DATA_NAME|DATA_BORN|DATA_PAYINFO]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llRequestAgentData($[![key id]!], $[![(lis)DATA_ONLINE|DATA_NAME|DATA_BORN|DATA_PAYINFO|integer data]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRequestDisplayName
-Lang:LSL
+Ext:lsl
 llRequestDisplayName($[![key id]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRequestInventoryData
-Lang:LSL
+Ext:lsl
 llRequestInventoryData($[![string name]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRequestPermissions
-Lang:LSL
+Ext:lsl
 llRequestPermissions($[![key agent]!], $[![integer permissions]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRequestSecureURL
-Lang:LSL
+Ext:lsl
 llRequestSecureURL()[>END<]!$[FingerTextData FingerTextData]@#
 llRequestSimulatorData
-Lang:LSL
-llRequestSimulatorData($[![string region]!], $[![(lis)DATA_SIM_POS|DATA_SIM_STATUS|DATA_SIM_RATING]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llRequestSimulatorData($[![string region]!], $[![(lis)DATA_SIM_POS|DATA_SIM_STATUS|DATA_SIM_RATING|integer data]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRequestURL
-Lang:LSL
+Ext:lsl
 llRequestURL()[>END<]!$[FingerTextData FingerTextData]@#
 llRequestUsername
-Lang:LSL
+Ext:lsl
 llRequestUsername($[![key id]!])[>END<]!$[FingerTextData FingerTextData]@#
 llResetAnimationOverride
-Lang:LSL
+Ext:lsl
 llResetAnimationOverride($[![string anim_state]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llResetLandBanList
-Lang:LSL
+Ext:lsl
 llResetLandBanList();
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llResetLandPassList
-Lang:LSL
+Ext:lsl
 llResetLandPassList();
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llResetOtherScript
-Lang:LSL
+Ext:lsl
 llResetOtherScript($[![string name]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llResetScript
-Lang:LSL
+Ext:lsl
 llResetScript();
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llResetTime
-Lang:LSL
+Ext:lsl
 llResetTime();
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llReturnObjectsByID
-Lang:LSL
+Ext:lsl
 llReturnObjectsByID($[![list objects]!])[>END<]!$[FingerTextData FingerTextData]@#
 llReturnObjectsByOwner
-Lang:LSL
-llReturnObjectsByOwner($[![key owner]!], $[![(lis)OBJECT_RETURN_PARCEL|OBJECT_RETURN_PARCEL_OWNER|OBJECT_RETURN_REGION]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llReturnObjectsByOwner($[![key owner]!], $[![(lis)OBJECT_RETURN_PARCEL|OBJECT_RETURN_PARCEL_OWNER|OBJECT_RETURN_REGION|integer scope]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRezAtRoot
-Lang:LSL
+Ext:lsl
 llRezAtRoot($[![string inventory]!], $[![vector position]!], $[![vector velocity]!], $[![rotation rot]!], $[![integer param]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llRezObject
-Lang:LSL
+Ext:lsl
 llRezObject($[![string inventory]!], $[![vector pos]!], $[![vector vel]!], $[![rotation rot]!], $[![integer param]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llRot2Angle
-Lang:LSL
+Ext:lsl
 llRot2Angle($[![rotation rot]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRot2Axis
-Lang:LSL
+Ext:lsl
 llRot2Axis($[![rotation rot]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRot2Euler
-Lang:LSL
+Ext:lsl
 llRot2Euler($[![rotation quat]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRot2Fwd
-Lang:LSL
+Ext:lsl
 llRot2Fwd($[![rotation q]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRot2Left
-Lang:LSL
+Ext:lsl
 llRot2Left($[![rotation q]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRot2Up
-Lang:LSL
+Ext:lsl
 llRot2Up($[![rotation q]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRotateTexture
-Lang:LSL
-llRotateTexture($[![float angle]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llRotateTexture($[![float angle]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llRotBetween
-Lang:LSL
+Ext:lsl
 llRotBetween($[![vector start]!], $[![vector end]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRotLookAt
-Lang:LSL
+Ext:lsl
 llRotLookAt($[![rotation target_direction]!], $[![float strength]!], $[![float damping]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llRotTarget
-Lang:LSL
+Ext:lsl
 llRotTarget($[![rotation rot]!], $[![float error]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRotTargetRemove
-Lang:LSL
+Ext:lsl
 llRotTargetRemove($[![integer handle]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llRound
-Lang:LSL
+Ext:lsl
 llRound($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llSameGroup
-Lang:LSL
+Ext:lsl
 llSameGroup($[![key group]!])[>END<]!$[FingerTextData FingerTextData]@#
 llSay
-Lang:LSL
+Ext:lsl
 llSay($[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llScaleByFactor
-Lang:LSL
+Ext:lsl
 llScaleByFactor($[![float scaling_factor]!])[>END<]!$[FingerTextData FingerTextData]@#
 llScaleTexture
-Lang:LSL
-llScaleTexture($[![float u]!], $[![float v]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llScaleTexture($[![float u]!], $[![float v]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llScriptDanger
-Lang:LSL
+Ext:lsl
 llScriptDanger($[![vector pos]!])[>END<]!$[FingerTextData FingerTextData]@#
 llScriptProfiler
-Lang:LSL
-llScriptProfiler($[![(lis)PROFILE_NONE|PROFILE_SCRIPT_MEMORY]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llScriptProfiler($[![(lis)PROFILE_NONE|PROFILE_SCRIPT_MEMORY|integer flags]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSendRemoteData
-Lang:LSL
+Ext:lsl
 llSendRemoteData($[![key channel]!], $[![string dest]!], $[![integer idata]!], $[![string sdata]!])[>END<]!$[FingerTextData FingerTextData]@#
 llSensor
-Lang:LSL
+Ext:lsl
 llSensor($[![string name]!], $[![key id]!], $[![integer type]!], $[![float range]!], $[![float arc]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSensorRemove
-Lang:LSL
+Ext:lsl
 llSensorRemove();[>END<]!$[FingerTextData FingerTextData]@#
 llSensorRepeat
-Lang:LSL
+Ext:lsl
 llSensorRepeat($[![string name]!], $[![key id]!], $[![integer type]!], $[![float range]!], $[![float arc]!], $[![float rate]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetAlpha
-Lang:LSL
-llSetAlpha($[![float alpha]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetAlpha($[![float alpha]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetAngularVelocity
-Lang:LSL
-llSetAngularVelocity($[![vector force]!], $[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetAngularVelocity($[![vector force]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetAnimationOverride
-Lang:LSL
-llSetAnimationOverride($[![(lis)"Crouching"|"CrouchWalking"|"Falling Down"|"Flying"|"FlyingSlow"|"Hovering"|"Hovering Down"|"Hovering Up"|"Jumping"|"Landing"|"PreJumping"|"Running"|"Sitting"|"Sitting on Ground"|"Standing"|"Standing Up"|"Striding"|"Soft Landing"|"Taking Off"|"Turning Left"|"Turning Right"|"Walking"]!], $[![string anim]!])
+Ext:lsl
+llSetAnimationOverride($[![(lis)"Crouching"|"CrouchWalking"|"Falling Down"|"Flying"|"FlyingSlow"|"Hovering"|"Hovering Down"|"Hovering Up"|"Jumping"|"Landing"|"PreJumping"|"Running"|"Sitting"|"Sitting on Ground"|"Standing"|"Standing Up"|"Striding"|"Soft Landing"|"Taking Off"|"Turning Left"|"Turning Right"|"Walking"|string anim_state]!], $[![string anim]!])
 [>END<]!$[FingerTextData FingerTextData]@#
 llSetBuoyancy
-Lang:LSL
+Ext:lsl
 llSetBuoyancy($[![float buoyancy]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetCameraAtOffset
-Lang:LSL
+Ext:lsl
 llSetCameraAtOffset($[![vector offset]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetCameraEyeOffset
-Lang:LSL
+Ext:lsl
 llSetCameraEyeOffset($[![vector offset]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetCameraParams
-Lang:LSL
+Ext:lsl
 llSetCameraParams($[![list rules]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetClickAction
-Lang:LSL
-llSetClickAction($[![(lis)CLICK_ACTION_NONE|CLICK_ACTION_TOUCH|CLICK_ACTION_SIT|CLICK_ACTION_BUY|CLICK_ACTION_PAY|CLICK_ACTION_OPEN|CLICK_ACTION_PLAY|CLICK_ACTION_OPEN_MEDIA|CLICK_ACTION_ZOOM]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetClickAction($[![(lis)CLICK_ACTION_NONE|CLICK_ACTION_TOUCH|CLICK_ACTION_SIT|CLICK_ACTION_BUY|CLICK_ACTION_PAY|CLICK_ACTION_OPEN|CLICK_ACTION_PLAY|CLICK_ACTION_OPEN_MEDIA|CLICK_ACTION_ZOOM|integer action]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetColor
-Lang:LSL
-llSetColor($[![vector color]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetColor($[![vector color]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetContentType
-Lang:LSL
-llSetContentType($[![key request_id]!], $[![(lis)CONTENT_TYPE_TEXT|CONTENT_TYPE_HTML|CONTENT_TYPE_XML|CONTENT_TYPE_XHTML|CONTENT_TYPE_ATOM|CONTENT_TYPE_JSON|CONTENT_TYPE_LLSD|CONTENT_TYPE_FORM|CONTENT_TYPE_RSS]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetContentType($[![key request_id]!], $[![(lis)CONTENT_TYPE_TEXT|CONTENT_TYPE_HTML|CONTENT_TYPE_XML|CONTENT_TYPE_XHTML|CONTENT_TYPE_ATOM|CONTENT_TYPE_JSON|CONTENT_TYPE_LLSD|CONTENT_TYPE_FORM|CONTENT_TYPE_RSS|integer type]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetDamage
-Lang:LSL
+Ext:lsl
 llSetDamage($[![float damage]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetForce
-Lang:LSL
-llSetForce($[![vector force]!], $[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetForce($[![vector force]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetForceAndTorque
-Lang:LSL
-llSetForceAndTorque($[![vector force]!], $[![vector torque]!], $[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetForceAndTorque($[![vector force]!], $[![vector torque]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetHoverHeight
-Lang:LSL
+Ext:lsl
 llSetHoverHeight($[![float height]!], $[![integer water]!], $[![float tau]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetKeyframedMotion
-Lang:LSL
+Ext:lsl
 llSetKeyframedMotion($[![list keyframes]!], $[![list options]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkAlpha
-Lang:LSL
-llSetLinkAlpha($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![float alpha]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetLinkAlpha($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![float alpha]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkCamera
-Lang:LSL
+Ext:lsl
 llSetLinkCamera($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![vector eye]!], $[![vector at]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkColor
-Lang:LSL
-llSetLinkColor($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![vector color]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetLinkColor($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![vector color]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkMedia
-Lang:LSL
-llSetLinkMedia($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!], $[![list params]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetLinkMedia($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!], $[![list params]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkPrimitiveParams
-Lang:LSL
+Ext:lsl
 llSetLinkPrimitiveParams($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![list rules]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkPrimitiveParamsFast
-Lang:LSL
+Ext:lsl
 llSetLinkPrimitiveParamsFast($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![list rules]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkTexture
-Lang:LSL
-llSetLinkTexture($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![string texture]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetLinkTexture($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![string texture]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkTextureAnim
-Lang:LSL
-llSetLinkTextureAnim($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![integer mode]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!], $[![integer sizex]!], $[![integer sizey]!], $[![float start]!], $[![float length]!], $[![float rate]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetLinkTextureAnim($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![integer mode]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!], $[![integer sizex]!], $[![integer sizey]!], $[![float start]!], $[![float length]!], $[![float rate]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetLocalRot
-Lang:LSL
+Ext:lsl
 llSetLocalRot($[![rotation rot]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetMemoryLimit
-Lang:LSL
+Ext:lsl
 llSetMemoryLimit($[![integer limit]!])[>END<]!$[FingerTextData FingerTextData]@#
 llSetObjectDesc
-Lang:LSL
+Ext:lsl
 llSetObjectDesc($[![string description]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetObjectName
-Lang:LSL
+Ext:lsl
 llSetObjectName($[![string name]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetParcelMusicURL
-Lang:LSL
+Ext:lsl
 llSetParcelMusicURL($[![string url]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetPayPrice
-Lang:LSL
+Ext:lsl
 llSetPayPrice($[![integer price]!], [$[![integer price_button_a]!], $[![integer price_button_b]!], $[![integer price_button_c]!], $[![integer price_button_d]!]]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetPhysicsMaterial
-Lang:LSL
+Ext:lsl
 llSetPhysicsMaterial($[![integer mask]!], $[![float gravity_multiplier]!], $[![float restitution]!], $[![float friction]!], $[![float density]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetPos
-Lang:LSL
+Ext:lsl
 llSetPos($[![vector pos]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetPrimitiveParams
-Lang:LSL
+Ext:lsl
 llSetPrimitiveParams($[![list rules]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetPrimMediaParams
-Lang:LSL
-llSetPrimMediaParams($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!], $[![list params]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetPrimMediaParams($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!], $[![list params]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetRegionPos
-Lang:LSL
+Ext:lsl
 llSetRegionPos($[![vector position]!])[>END<]!$[FingerTextData FingerTextData]@#
 llSetRemoteScriptAccessPin
-Lang:LSL
+Ext:lsl
 llSetRemoteScriptAccessPin($[![integer pin]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetRot
-Lang:LSL
+Ext:lsl
 llSetRot($[![rotation rot]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetScale
-Lang:LSL
+Ext:lsl
 llSetScale($[![vector size]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetScriptState
-Lang:LSL
-llSetScriptState($[![string name]!], $[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetScriptState($[![string name]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetSitText
-Lang:LSL
+Ext:lsl
 llSetSitText($[![string text]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetSoundQueueing
-Lang:LSL
-llSetSoundQueueing($[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetSoundQueueing($[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetSoundRadius
-Lang:LSL
+Ext:lsl
 llSetSoundRadius($[![float radius]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetStatus
-Lang:LSL
-llSetStatus($[![(lis)STATUS_PHYSICS|STATUS_ROTATE_X|STATUS_ROTATE_Y|STATUS_ROTATE_Z|STATUS_ROTATE_Z|STATUS_PHANTOM|STATUS_SANDBOX|STATUS_BLOCK_GRAB|STATUS_DIE_AT_EDGE|STATUS_RETURN_AT_EDGE|STATUS_CAST_SHADOWS|STATUS_BLOCK_GRAB_OBJECT]!], $[![integer value]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetStatus($[![(lis)STATUS_PHYSICS|STATUS_ROTATE_X|STATUS_ROTATE_Y|STATUS_ROTATE_Z|STATUS_ROTATE_Z|STATUS_PHANTOM|STATUS_SANDBOX|STATUS_BLOCK_GRAB|STATUS_DIE_AT_EDGE|STATUS_RETURN_AT_EDGE|STATUS_CAST_SHADOWS|STATUS_BLOCK_GRAB_OBJECT|integer status]!], $[![integer value]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetText
-Lang:LSL
+Ext:lsl
 llSetText($[![string text]!], $[![vector color]!], $[![float alpha]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetTexture
-Lang:LSL
-llSetTexture($[![string texture]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetTexture($[![string texture]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetTextureAnim
-Lang:LSL
-llSetTextureAnim($[![integer mode]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8]!], $[![integer sizex]!], $[![integer sizey]!], $[![float start]!], $[![float length]!], $[![float rate]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetTextureAnim($[![integer mode]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!], $[![integer sizex]!], $[![integer sizey]!], $[![float start]!], $[![float length]!], $[![float rate]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetTimerEvent
-Lang:LSL
+Ext:lsl
 llSetTimerEvent($[![float sec]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetTorque
-Lang:LSL
-llSetTorque($[![vector torque]!], $[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetTorque($[![vector torque]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetTouchText
-Lang:LSL
+Ext:lsl
 llSetTouchText($[![string text]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetVehicleFlags
-Lang:LSL
+Ext:lsl
 llSetVehicleFlags($[![integer flags]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetVehicleFloatParam
-Lang:LSL
-llSetVehicleFloatParam($[![(lis)VEHICLE_ANGULAR_DEFLECTION_EFFICIENCY|VEHICLE_ANGULAR_DEFLECTION_TIMESCALE|VEHICLE_ANGULAR_MOTOR_DECAY_TIMESCALE|VEHICLE_ANGULAR_MOTOR_TIMESCALE|VEHICLE_BANKING_EFFICIENCY|VEHICLE_BANKING_MIX|VEHICLE_BANKING_TIMESCALE|VEHICLE_BUOYANCY|VEHICLE_HOVER_HEIGHT|VEHICLE_HOVER_EFFICIENCY|VEHICLE_HOVER_TIMESCALE|VEHICLE_LINEAR_DEFLECTION_EFFICIENCY|VEHICLE_LINEAR_DEFLECTION_TIMESCALE|VEHICLE_LINEAR_MOTOR_DECAY_TIMESCALE|VEHICLE_LINEAR_MOTOR_TIMESCALE|VEHICLE_VERTICAL_ATTRACTION_EFFICIENCY|VEHICLE_VERTICAL_ATTRACTION_TIMESCALE]!], $[![float value]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetVehicleFloatParam($[![(lis)VEHICLE_ANGULAR_DEFLECTION_EFFICIENCY|VEHICLE_ANGULAR_DEFLECTION_TIMESCALE|VEHICLE_ANGULAR_MOTOR_DECAY_TIMESCALE|VEHICLE_ANGULAR_MOTOR_TIMESCALE|VEHICLE_BANKING_EFFICIENCY|VEHICLE_BANKING_MIX|VEHICLE_BANKING_TIMESCALE|VEHICLE_BUOYANCY|VEHICLE_HOVER_HEIGHT|VEHICLE_HOVER_EFFICIENCY|VEHICLE_HOVER_TIMESCALE|VEHICLE_LINEAR_DEFLECTION_EFFICIENCY|VEHICLE_LINEAR_DEFLECTION_TIMESCALE|VEHICLE_LINEAR_MOTOR_DECAY_TIMESCALE|VEHICLE_LINEAR_MOTOR_TIMESCALE|VEHICLE_VERTICAL_ATTRACTION_EFFICIENCY|VEHICLE_VERTICAL_ATTRACTION_TIMESCALE|integer float_param]!], $[![float value]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetVehicleRotationParam
-Lang:LSL
-llSetVehicleRotationParam($[![(lis)VEHICLE_REFERENCE_FRAME]!], $[![rotation rot]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetVehicleRotationParam($[![(lis)VEHICLE_REFERENCE_FRAME|integer rotation_param]!], $[![rotation rot]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetVehicleType
-Lang:LSL
-llSetVehicleType($[![(lis)VEHICLE_TYPE_NONE|VEHICLE_TYPE_SLED|VEHICLE_TYPE_CAR|VEHICLE_TYPE_BOAT|VEHICLE_TYPE_AIRPLANE|VEHICLE_TYPE_BALLOON]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetVehicleType($[![(lis)VEHICLE_TYPE_NONE|VEHICLE_TYPE_SLED|VEHICLE_TYPE_CAR|VEHICLE_TYPE_BOAT|VEHICLE_TYPE_AIRPLANE|VEHICLE_TYPE_BALLOON|integer type]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetVehicleVectorParam
-Lang:LSL
-llSetVehicleVectorParam($[![(lis)VEHICLE_ANGULAR_FRICTION_TIMESCALE|VEHICLE_ANGULAR_MOTOR_DIRECTION|VEHICLE_LINEAR_FRICTION_TIMESCALE|VEHICLE_LINEAR_MOTOR_DIRECTION|VEHICLE_LINEAR_MOTOR_OFFSET]!], $[![vector vec]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetVehicleVectorParam($[![(lis)VEHICLE_ANGULAR_FRICTION_TIMESCALE|VEHICLE_ANGULAR_MOTOR_DIRECTION|VEHICLE_LINEAR_FRICTION_TIMESCALE|VEHICLE_LINEAR_MOTOR_DIRECTION|VEHICLE_LINEAR_MOTOR_OFFSET|integer vector_param]!], $[![vector vec]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSetVelocity
-Lang:LSL
-llSetVelocity($[![vector force]!], $[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llSetVelocity($[![vector force]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSHA1String
-Lang:LSL
+Ext:lsl
 llSHA1String($[![string src]!])[>END<]!$[FingerTextData FingerTextData]@#
 llShout
-Lang:LSL
+Ext:lsl
 llShout($[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSin
-Lang:LSL
+Ext:lsl
 llSin($[![float theta]!])[>END<]!$[FingerTextData FingerTextData]@#
 llSitTarget
-Lang:LSL
+Ext:lsl
 llSitTarget($[![vector offset]!], $[![rotation rot]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSleep
-Lang:LSL
+Ext:lsl
 llSleep($[![float sec]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llSqrt
-Lang:LSL
+Ext:lsl
 llSqrt($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llStartAnimation
-Lang:LSL
+Ext:lsl
 llStartAnimation($[![string anim]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llStopAnimation
-Lang:LSL
+Ext:lsl
 llStopAnimation($[![string anim]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llStopHover
-Lang:LSL
+Ext:lsl
 llStopHover();
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llStopLookAt
-Lang:LSL
+Ext:lsl
 llStopLookAt();
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llStopMoveToTarget
-Lang:LSL
+Ext:lsl
 llStopMoveToTarget();
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llStopSound
-Lang:LSL
+Ext:lsl
 llStopSound();
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llStringLength
-Lang:LSL
+Ext:lsl
 llStringLength($[![string str]!])[>END<]!$[FingerTextData FingerTextData]@#
 llStringToBase64
-Lang:LSL
+Ext:lsl
 llStringToBase64($[![string str]!])[>END<]!$[FingerTextData FingerTextData]@#
 llStringTrim
-Lang:LSL
-llStringTrim($[![string src]!], $[![(lis)STRING_TRIM_HEAD|STRING_TRIM_TAIL|STRING_TRIM]!])[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llStringTrim($[![string src]!], $[![(lis)STRING_TRIM_HEAD|STRING_TRIM_TAIL|STRING_TRIM|integer type]!])[>END<]!$[FingerTextData FingerTextData]@#
 llSubStringIndex
-Lang:LSL
+Ext:lsl
 llSubStringIndex($[![string source]!], $[![string pattern]!])[>END<]!$[FingerTextData FingerTextData]@#
 llTakeControls
-Lang:LSL
+Ext:lsl
 llTakeControls($[![integer controls]!], $[![integer accept]!], $[![integer pass_on]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llTan
-Lang:LSL
+Ext:lsl
 llTan($[![float theta]!])[>END<]!$[FingerTextData FingerTextData]@#
 llTarget
-Lang:LSL
+Ext:lsl
 llTarget($[![vector position]!], $[![float range]!])[>END<]!$[FingerTextData FingerTextData]@#
 llTargetOmega
-Lang:LSL
+Ext:lsl
 llTargetOmega($[![vector axis]!], $[![float spinrate]!], $[![float gain]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llTargetRemove
-Lang:LSL
+Ext:lsl
 llTargetRemove($[![integer handle]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llTeleportAgent
-Lang:LSL
+Ext:lsl
 llTeleportAgent($[![key agent]!], $[![string landmark]!], $[![vector position]!], $[![vector look_at]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llTeleportAgentGlobalCoords
-Lang:LSL
+Ext:lsl
 llTeleportAgentGlobalCoords($[![key agent]!], $[![vector global_coordinates]!], $[![vector region_coordinates]!], $[![vector look_at]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llTeleportAgentHome
-Lang:LSL
+Ext:lsl
 llTeleportAgentHome($[![key agent]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llTextBox
-Lang:LSL
+Ext:lsl
 llTextBox($[![key agent]!], $[![string message]!], $[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llToLower
-Lang:LSL
+Ext:lsl
 llToLower($[![string src]!])[>END<]!$[FingerTextData FingerTextData]@#
 llToUpper
-Lang:LSL
+Ext:lsl
 llToUpper($[![string src]!])[>END<]!$[FingerTextData FingerTextData]@#
 llTransferLindenDollars
-Lang:LSL
+Ext:lsl
 llTransferLindenDollars($[![key destination]!], $[![integer amount]!])[>END<]!$[FingerTextData FingerTextData]@#
 llTriggerSound
-Lang:LSL
+Ext:lsl
 llTriggerSound($[![string sound]!], $[![float volume]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llTriggerSoundLimited
-Lang:LSL
+Ext:lsl
 llTriggerSoundLimited($[![string sound]!], $[![float volume]!], $[![vector top_north_east]!], $[![vector bottom_south_west]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llUnescapeURL
-Lang:LSL
+Ext:lsl
 llUnescapeURL($[![string url]!])[>END<]!$[FingerTextData FingerTextData]@#
 llUnSit
-Lang:LSL
+Ext:lsl
 llUnSit($[![key id]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llUpdateCharacter
-Lang:LSL
+Ext:lsl
 llUpdateCharacter($[![list options]!])[>END<]!$[FingerTextData FingerTextData]@#
 llVecDist
-Lang:LSL
+Ext:lsl
 llVecDist($[![vector vec_a]!], $[![vector vec_b]!])[>END<]!$[FingerTextData FingerTextData]@#
 llVecMag
-Lang:LSL
+Ext:lsl
 llVecMag($[![vector vec]!])[>END<]!$[FingerTextData FingerTextData]@#
 llVecNorm
-Lang:LSL
+Ext:lsl
 llVecNorm($[![vector vec]!])[>END<]!$[FingerTextData FingerTextData]@#
 llVolumeDetect
-Lang:LSL
-llVolumeDetect($[![(lis)FALSE|TRUE]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+Ext:lsl
+llVolumeDetect($[![(lis)FALSE|TRUE|integer boolean]!]);
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llWanderWithin
-Lang:LSL
+Ext:lsl
 llWanderWithin($[![vector origin]!], $[![vector dist]!], $[![list options]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llWater
-Lang:LSL
+Ext:lsl
 llWater($[![vector offset]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llWhisper
-Lang:LSL
+Ext:lsl
 llWhisper($[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llWind
-Lang:LSL
+Ext:lsl
 llWind($[![vector offset]!]);
-[>END<]!$[FingerTextData FingerTextData]@#
+$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
 llXorBase64
-Lang:LSL
+Ext:lsl
 llXorBase64($[![string str1]!], $[![string str2]!])[>END<]!$[FingerTextData FingerTextData]@#
 money
-Lang:LSL
+Ext:lsl
 money([![key id]!], [![integer amount]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 moving_end
-Lang:LSL
+Ext:lsl
 moving_end()
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 moving_start
-Lang:LSL
+Ext:lsl
 moving_start()
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 no_sensor
-Lang:LSL
+Ext:lsl
 no_sensor()
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 not_at_rot_target
-Lang:LSL
+Ext:lsl
 not_at_rot_target()
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 not_at_target
-Lang:LSL
+Ext:lsl
 not_at_target()
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 object_rez
-Lang:LSL
+Ext:lsl
 object_rez([![key id]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 on_rez
-Lang:LSL
+Ext:lsl
 on_rez([![integer start_param]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 path_update
-Lang:LSL
+Ext:lsl
 path_update([![integer type]!], list [![reserved]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 remote_data
-Lang:LSL
+Ext:lsl
 remote_data([![integer event_type]!], [![key channel]!], [![key message_id]!], [![string sender]!], [![integer idata]!], [![string sdata]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 run_time_permissions
-Lang:LSL
+Ext:lsl
 run_time_permissions([![integer perm]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 sensor
-Lang:LSL
+Ext:lsl
 sensor([![integer index]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 state_entry
-Lang:LSL
+Ext:lsl
 state_entry()
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 state_exit
-Lang:LSL
+Ext:lsl
 state_exit()
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 timer
-Lang:LSL
+Ext:lsl
 timer()
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 touch
-Lang:LSL
+Ext:lsl
 touch([![integer index]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 touch_end
-Lang:LSL
+Ext:lsl
 touch_end([![integer index]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 touch_start
-Lang:LSL
+Ext:lsl
 touch_start([![integer index]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 transaction_result
-Lang:LSL
+Ext:lsl
 transaction_result([![key id]!], [![integer success]!], [![string data]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 while
-Lang:LSL
+Ext:lsl
 while ([![condition]!])
 {
     $[0[]0]
-}[>END<]!$[FingerTextData FingerTextData]@#
+}[>END<]
