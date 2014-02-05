@@ -54,7 +54,7 @@ ___
 </NotepadPlus>
 ```
 
-* Close the language definition window and select `Language > LSL` from the menu. You should should be able to find the language at the bottom of the language menu in the section for user defined languages.
+* Choose the language via `Language > LSL` from the menu. You should should be able to find it at the bottom of the language menu in the section for user defined languages.
 
 ![LSL Syntax](https://raw.github.com/buildersbrewery/lsl-for-notepadplusplus/master/static/screenshot_lsl_notepadplusplus.png)
 
