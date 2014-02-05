@@ -151,6 +151,12 @@ dataserver($[![key query_id]!], $[![string data]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
+default
+Ext:lsl
+default
+{
+    $[0[]0]
+}[>END<]!$[FingerTextData FingerTextData]@#
 do
 Ext:lsl
 do
@@ -235,31 +241,25 @@ Ext:lsl
 llAcos($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llAddToLandBanList
 Ext:lsl
-llAddToLandBanList($[![key agent]!], $[![float hours]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llAddToLandBanList($[![key agent]!], $[![float hours]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llAddToLandPassList
 Ext:lsl
-llAddToLandPassList($[![key agent]!], $[![float hours]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llAddToLandPassList($[![key agent]!], $[![float hours]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llAdjustSoundVolume
 Ext:lsl
-llAdjustSoundVolume($[![float volume]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llAdjustSoundVolume($[![float volume]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llAllowInventoryDrop
 Ext:lsl
-llAllowInventoryDrop($[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llAllowInventoryDrop($[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llAngleBetween
 Ext:lsl
 llAngleBetween($[![rotation a]!], $[![rotation b]!])[>END<]!$[FingerTextData FingerTextData]@#
 llApplyImpulse
 Ext:lsl
-llApplyImpulse($[![vector force]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llApplyImpulse($[![vector force]!], $[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llApplyRotationalImpulse
 Ext:lsl
-llApplyRotationalImpulse($[![vector force]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llApplyRotationalImpulse($[![vector force]!], $[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llAsin
 Ext:lsl
 llAsin($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -268,12 +268,10 @@ Ext:lsl
 llAtan2($[![float y]!], $[![float x]!])[>END<]!$[FingerTextData FingerTextData]@#
 llAttachToAvatar
 Ext:lsl
-llAttachToAvatar($[![integer attach_point]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llAttachToAvatar($[![integer attach_point]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llAttachToAvatarTemp
 Ext:lsl
-llAttachToAvatarTemp($[![integer attach_point]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llAttachToAvatarTemp($[![integer attach_point]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llAvatarOnLinkSitTarget
 Ext:lsl
 llAvatarOnLinkSitTarget($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -294,61 +292,49 @@ Ext:lsl
 llBase64ToString($[![string str]!])[>END<]!$[FingerTextData FingerTextData]@#
 llBreakAllLinks
 Ext:lsl
-llBreakAllLinks();
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llBreakAllLinks();[>END<]!$[FingerTextData FingerTextData]@#
 llBreakLink
 Ext:lsl
-llBreakLink($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llBreakLink($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llCastRay
 Ext:lsl
-llCastRay($[![vector start]!], $[![vector end]!], $[![list options]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llCastRay($[![vector start]!], $[![vector end]!], $[![list options]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llCeil
 Ext:lsl
 llCeil($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llClearCameraParams
 Ext:lsl
-llClearCameraParams();
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llClearCameraParams();[>END<]!$[FingerTextData FingerTextData]@#
 llClearLinkMedia
 Ext:lsl
-llClearLinkMedia($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llClearLinkMedia($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llClearPrimMedia
 Ext:lsl
-llClearPrimMedia($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llClearPrimMedia($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llCloseRemoteDataChannel
 Ext:lsl
-llCloseRemoteDataChannel($[![key channel]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llCloseRemoteDataChannel($[![key channel]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llCollisionFilter
 Ext:lsl
-llCollisionFilter($[![string name]!], $[![key id]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llCollisionFilter($[![string name]!], $[![key id]!], $[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llCollisionSound
 Ext:lsl
-llCollisionSound($[![string impact_sound]!], $[![float impact_volume]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llCollisionSound($[![string impact_sound]!], $[![float impact_volume]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llCos
 Ext:lsl
 llCos($[![float theta]!])[>END<]!$[FingerTextData FingerTextData]@#
 llCreateCharacter
 Ext:lsl
-llCreateCharacter($[![list options]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llCreateCharacter($[![list options]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llCreateLink
 Ext:lsl
-llCreateLink($[![key target]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llCreateLink($[![key target]!], $[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llCSV2List
 Ext:lsl
 llCSV2List($[![string src]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDeleteCharacter
 Ext:lsl
-llDeleteCharacter();
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llDeleteCharacter();[>END<]!$[FingerTextData FingerTextData]@#
 llDeleteSubList
 Ext:lsl
 llDeleteSubList($[![list src]!], $[![integer start]!], $[![integer end]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -357,8 +343,7 @@ Ext:lsl
 llDeleteSubString($[![string src]!], $[![integer start]!], $[![integer end]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDetachFromAvatar
 Ext:lsl
-llDetachFromAvatar();
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llDetachFromAvatar();[>END<]!$[FingerTextData FingerTextData]@#
 llDetectedGrab
 Ext:lsl
 llDetectedGrab($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -409,12 +394,10 @@ Ext:lsl
 llDetectedVel($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDialog
 Ext:lsl
-llDialog($[![key agent]!], $[![string message]!], $[![list buttons]!], $[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llDialog($[![key agent]!], $[![string message]!], $[![list buttons]!], $[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llDie
 Ext:lsl
-llDie();
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llDie();[>END<]!$[FingerTextData FingerTextData]@#
 llDumpList2String
 Ext:lsl
 llDumpList2String($[![list src]!], $[![string separator]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -423,12 +406,10 @@ Ext:lsl
 llEdgeOfWorld($[![vector pos]!], $[![vector dir]!])[>END<]!$[FingerTextData FingerTextData]@#
 llEjectFromLand
 Ext:lsl
-llEjectFromLand($[![key agent]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llEjectFromLand($[![key agent]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llEmail
 Ext:lsl
-llEmail($[![string address]!], $[![string subject]!], $[![string message]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llEmail($[![string address]!], $[![string subject]!], $[![string message]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llEscapeURL
 Ext:lsl
 llEscapeURL($[![string url]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -437,26 +418,22 @@ Ext:lsl
 llEuler2Rot($[![vector v]!])[>END<]!$[FingerTextData FingerTextData]@#
 llExecCharacterCmd
 Ext:lsl
-llExecCharacterCmd($[![(lis)CHARACTER_CMD_JUMP|CHARACTER_CMD_SMOOTH_STOP|CHARACTER_CMD_STOP|integer command]!], $[![list options]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llExecCharacterCmd($[![(lis)CHARACTER_CMD_JUMP|CHARACTER_CMD_SMOOTH_STOP|CHARACTER_CMD_STOP|integer command]!], $[![list options]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llEvade
 Ext:lsl
-llEvade($[![key target]!], $[![list options]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llEvade($[![key target]!], $[![list options]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llFabs
 Ext:lsl
 llFabs($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llFleeFrom
 Ext:lsl
-llFleeFrom($[![vector position]!], $[![float distance]!], $[![list options]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llFleeFrom($[![vector position]!], $[![float distance]!], $[![list options]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llFloor
 Ext:lsl
 llFloor($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llForceMouselook
 Ext:lsl
-llForceMouselook($[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llForceMouselook($[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llFrand
 Ext:lsl
 llFrand($[![float mag]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -618,8 +595,7 @@ Ext:lsl
 llGetMinScaleFactor()[>END<]!$[FingerTextData FingerTextData]@#
 llGetNextEmail
 Ext:lsl
-llGetNextEmail($[![string address]!], $[![string subject]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llGetNextEmail($[![string address]!], $[![string subject]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llGetNotecardLine
 Ext:lsl
 llGetNotecardLine($[![string name]!], $[![integer line]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -796,12 +772,10 @@ Ext:lsl
 llGetWallclock()[>END<]!$[FingerTextData FingerTextData]@#
 llGiveInventory
 Ext:lsl
-llGiveInventory($[![key destination]!], $[![string inventory]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llGiveInventory($[![key destination]!], $[![string inventory]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llGiveInventoryList
 Ext:lsl
-llGiveInventoryList($[![key target]!], $[![string folder]!], $[![list inventory]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llGiveInventoryList($[![key target]!], $[![string folder]!], $[![list inventory]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llGiveMoney
 Ext:lsl
 llGiveMoney($[![key destination]!], $[![integer amount]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -816,8 +790,7 @@ Ext:lsl
 llGroundNormal($[![vector offset]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGroundRepel
 Ext:lsl
-llGroundRepel($[![float height]!], $[![(lis)FALSE|TRUE|integer boolean]!], $[![float tau]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llGroundRepel($[![float height]!], $[![(lis)FALSE|TRUE|integer boolean]!], $[![float tau]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llGroundSlope
 Ext:lsl
 llGroundSlope($[![vector offset]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -826,15 +799,13 @@ Ext:lsl
 llHTTPRequest($[![string url]!], $[![list parameters]!], $[![string body]!])[>END<]!$[FingerTextData FingerTextData]@#
 llHTTPResponse
 Ext:lsl
-llHTTPResponse($[![key request_id]!], $[![integer status]!], $[![string body]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llHTTPResponse($[![key request_id]!], $[![integer status]!], $[![string body]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llInsertString
 Ext:lsl
 llInsertString($[![string dst]!], $[![integer pos]!], $[![string src]!])[>END<]!$[FingerTextData FingerTextData]@#
 llInstantMessage
 Ext:lsl
-llInstantMessage($[![key user]!], $[![string message]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llInstantMessage($[![key user]!], $[![string message]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llIntegerToBase64
 Ext:lsl
 llIntegerToBase64($[![integer number]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -855,12 +826,10 @@ Ext:lsl
 llKey2Name($[![key id]!])[>END<]!$[FingerTextData FingerTextData]@#
 llLinkParticleSystem
 Ext:lsl
-llLinkParticleSystem($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![list rules]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llLinkParticleSystem($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![list rules]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llLinkSitTarget
 Ext:lsl
-llLinkSitTarget($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![vector offset]!], $[![rotation rot]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llLinkSitTarget($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![vector offset]!], $[![rotation rot]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llList2CSV
 Ext:lsl
 llList2CSV($[![list src]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -896,12 +865,10 @@ Ext:lsl
 llListen($[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string name]!], $[![key id]!], $[![string msg]!])[>END<]!$[FingerTextData FingerTextData]@#
 llListenControl
 Ext:lsl
-llListenControl($[![integer handle]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llListenControl($[![integer handle]!], $[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llListenRemove
 Ext:lsl
-llListenRemove($[![integer handle]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llListenRemove($[![integer handle]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llListFindList
 Ext:lsl
 llListFindList($[![list src]!], $[![list test]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -922,8 +889,7 @@ Ext:lsl
 llListStatistics($[![(lis)LIST_STAT_GEOMETRIC_MEAN|LIST_STAT_MAX|LIST_STAT_MEAN|LIST_STAT_MEDIAN|LIST_STAT_MIN|LIST_STAT_NUM_COUNT|LIST_STAT_RANGE|LIST_STAT_STD_DEV|LIST_STAT_SUM|LIST_STAT_SUM_SQUARES|integer operation]!], $[![list src]!])[>END<]!$[FingerTextData FingerTextData]@#
 llLoadURL
 Ext:lsl
-llLoadURL($[![key agent]!], $[![string message]!], $[![string url]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llLoadURL($[![key agent]!], $[![string message]!], $[![string url]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llLog
 Ext:lsl
 llLog($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -932,72 +898,58 @@ Ext:lsl
 llLog10($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llLookAt
 Ext:lsl
-llLookAt($[![vector target]!], $[![float strength]!], $[![float damping]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llLookAt($[![vector target]!], $[![float strength]!], $[![float damping]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llLoopSound
 Ext:lsl
-llLoopSound($[![string sound]!], $[![float volume]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llLoopSound($[![string sound]!], $[![float volume]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llLoopSoundMaster
 Ext:lsl
-llLoopSoundMaster($[![string sound]!], $[![float volume]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llLoopSoundMaster($[![string sound]!], $[![float volume]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llLoopSoundSlave
 Ext:lsl
-llLoopSoundSlave($[![string sound]!], $[![float volume]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llLoopSoundSlave($[![string sound]!], $[![float volume]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llManageEstateAccess
 Ext:lsl
 llManageEstateAccess($[![(lis)ESTATE_ACCESS_ALLOWED_AGENT_ADD|ESTATE_ACCESS_ALLOWED_AGENT_REMOVE|ESTATE_ACCESS_ALLOWED_GROUP_ADD|ESTATE_ACCESS_ALLOWED_GROUP_REMOVE|ESTATE_ACCESS_BANNED_AGENT_ADD|ESTATE_ACCESS_BANNED_AGENT_REMOVE|integer action]!], $[![key agent]!])[>END<]!$[FingerTextData FingerTextData]@#
 llMapDestination
 Ext:lsl
-llMapDestination($[![string simname]!], $[![vector pos]!], $[![vector look_at]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llMapDestination($[![string simname]!], $[![vector pos]!], $[![vector look_at]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llMD5String
 Ext:lsl
 llMD5String($[![string src]!], $[![integer nonce]!])[>END<]!$[FingerTextData FingerTextData]@#
 llMessageLinked
 Ext:lsl
-llMessageLinked($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![integer num]!], $[![string str]!], $[![key id]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llMessageLinked($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![integer num]!], $[![string str]!], $[![key id]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llMinEventDelay
 Ext:lsl
-llMinEventDelay($[![float delay]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llMinEventDelay($[![float delay]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llModifyLand
 Ext:lsl
-llModifyLand($[![(lis)LAND_LEVEL|LAND_RAISE|LAND_LOWER|LAND_SMOOTH|LAND_NOISE|LAND_REVERT|integer action]!], $[![(lis)0|1|2]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llModifyLand($[![(lis)LAND_LEVEL|LAND_RAISE|LAND_LOWER|LAND_SMOOTH|LAND_NOISE|LAND_REVERT|integer action]!], $[![(lis)0|1|2]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llModPow
 Ext:lsl
 llModPow($[![integer a]!], $[![integer b]!], $[![integer c]!])[>END<]!$[FingerTextData FingerTextData]@#
 llMoveToTarget
 Ext:lsl
-llMoveToTarget($[![vector target]!], $[![float tau]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llMoveToTarget($[![vector target]!], $[![float tau]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llNavigateTo
 Ext:lsl
-llNavigateTo($[![vector pos]!], $[![list options]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llNavigateTo($[![vector pos]!], $[![list options]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llOffsetTexture
 Ext:lsl
-llOffsetTexture($[![float u]!], $[![float v]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llOffsetTexture($[![float u]!], $[![float v]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llOpenRemoteDataChannel
 Ext:lsl
-llOpenRemoteDataChannel();
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llOpenRemoteDataChannel();[>END<]!$[FingerTextData FingerTextData]@#
 llOverMyLand
 Ext:lsl
 llOverMyLand($[![key id]!])[>END<]!$[FingerTextData FingerTextData]@#
 llOwnerSay
 Ext:lsl
-llOwnerSay($[![string msg]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llOwnerSay($[![string msg]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llParcelMediaCommandList
 Ext:lsl
-llParcelMediaCommandList($[![list commandList]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llParcelMediaCommandList($[![list commandList]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llParcelMediaQuery
 Ext:lsl
 llParcelMediaQuery($[![list query]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -1009,83 +961,64 @@ Ext:lsl
 llParseStringKeepNulls($[![string src]!], $[![list separators]!], $[![list spacers]!])[>END<]!$[FingerTextData FingerTextData]@#
 llParticleSystem
 Ext:lsl
-llParticleSystem($[![list rules]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llParticleSystem($[![list rules]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llPassCollisions
 Ext:lsl
-llPassCollisions($[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llPassCollisions($[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llPassTouches
 Ext:lsl
-llPassTouches($[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llPassTouches($[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llPatrolPoints
 Ext:lsl
-llPatrolPoints($[![list patrolPoints]!], $[![list options]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llPatrolPoints($[![list patrolPoints]!], $[![list options]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llPlaySound
 Ext:lsl
-llPlaySound($[![string sound]!], $[![float volume]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llPlaySound($[![string sound]!], $[![float volume]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llPlaySoundSlave
 Ext:lsl
-llPlaySoundSlave($[![string sound]!], $[![float volume]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llPlaySoundSlave($[![string sound]!], $[![float volume]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llPow
 Ext:lsl
 llPow($[![float base]!], $[![float exponent]!])[>END<]!$[FingerTextData FingerTextData]@#
 llPreloadSound
 Ext:lsl
-llPreloadSound($[![string sound]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llPreloadSound($[![string sound]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llPursue
 Ext:lsl
-llPursue($[![key target]!], $[![list options]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llPursue($[![key target]!], $[![list options]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llPushObject
 Ext:lsl
-llPushObject($[![key target]!], $[![vector impulse]!], $[![vector ang_impulse]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llPushObject($[![key target]!], $[![vector impulse]!], $[![vector ang_impulse]!], $[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llRegionSay
 Ext:lsl
-llRegionSay($[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llRegionSay($[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llRegionSayTo
 Ext:lsl
-llRegionSayTo($[![key target]!], $[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llRegionSayTo($[![key target]!], $[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llReleaseControls
 Ext:lsl
-llReleaseControls();
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llReleaseControls();[>END<]!$[FingerTextData FingerTextData]@#
 llReleaseURL
 Ext:lsl
-llReleaseURL($[![string url]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llReleaseURL($[![string url]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llRemoteDataReply
 Ext:lsl
-llRemoteDataReply($[![key channel]!], $[![key message_id]!], $[![string sdata]!], $[![integer idata]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llRemoteDataReply($[![key channel]!], $[![key message_id]!], $[![string sdata]!], $[![integer idata]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llRemoteLoadScriptPin
 Ext:lsl
-llRemoteLoadScriptPin($[![key target]!], $[![string name]!], $[![integer pin]!], $[![integer running]!], $[![integer start_param]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llRemoteLoadScriptPin($[![key target]!], $[![string name]!], $[![integer pin]!], $[![integer running]!], $[![integer start_param]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llRemoveFromLandBanList
 Ext:lsl
-llRemoveFromLandBanList($[![key agent]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llRemoveFromLandBanList($[![key agent]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llRemoveFromLandPassList
 Ext:lsl
-llRemoveFromLandPassList($[![key agent]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llRemoveFromLandPassList($[![key agent]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llRemoveInventory
 Ext:lsl
-llRemoveInventory($[![string item]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llRemoveInventory($[![string item]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llRemoveVehicleFlags
 Ext:lsl
-llRemoveVehicleFlags($[![integer flags]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llRemoveVehicleFlags($[![integer flags]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llRequestAgentData
 Ext:lsl
 llRequestAgentData($[![key id]!], $[![(lis)DATA_ONLINE|DATA_NAME|DATA_BORN|DATA_PAYINFO|integer data]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -1112,28 +1045,22 @@ Ext:lsl
 llRequestUsername($[![key id]!])[>END<]!$[FingerTextData FingerTextData]@#
 llResetAnimationOverride
 Ext:lsl
-llResetAnimationOverride($[![string anim_state]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llResetAnimationOverride($[![string anim_state]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llResetLandBanList
 Ext:lsl
-llResetLandBanList();
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llResetLandBanList();[>END<]!$[FingerTextData FingerTextData]@#
 llResetLandPassList
 Ext:lsl
-llResetLandPassList();
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llResetLandPassList();[>END<]!$[FingerTextData FingerTextData]@#
 llResetOtherScript
 Ext:lsl
-llResetOtherScript($[![string name]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llResetOtherScript($[![string name]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llResetScript
 Ext:lsl
-llResetScript();
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llResetScript();[>END<]!$[FingerTextData FingerTextData]@#
 llResetTime
 Ext:lsl
-llResetTime();
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llResetTime();[>END<]!$[FingerTextData FingerTextData]@#
 llReturnObjectsByID
 Ext:lsl
 llReturnObjectsByID($[![list objects]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -1142,12 +1069,10 @@ Ext:lsl
 llReturnObjectsByOwner($[![key owner]!], $[![(lis)OBJECT_RETURN_PARCEL|OBJECT_RETURN_PARCEL_OWNER|OBJECT_RETURN_REGION|integer scope]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRezAtRoot
 Ext:lsl
-llRezAtRoot($[![string inventory]!], $[![vector position]!], $[![vector velocity]!], $[![rotation rot]!], $[![integer param]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llRezAtRoot($[![string inventory]!], $[![vector position]!], $[![vector velocity]!], $[![rotation rot]!], $[![integer param]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llRezObject
 Ext:lsl
-llRezObject($[![string inventory]!], $[![vector pos]!], $[![vector vel]!], $[![rotation rot]!], $[![integer param]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llRezObject($[![string inventory]!], $[![vector pos]!], $[![vector vel]!], $[![rotation rot]!], $[![integer param]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llRot2Angle
 Ext:lsl
 llRot2Angle($[![rotation rot]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -1168,22 +1093,19 @@ Ext:lsl
 llRot2Up($[![rotation q]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRotateTexture
 Ext:lsl
-llRotateTexture($[![float angle]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llRotateTexture($[![float angle]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llRotBetween
 Ext:lsl
 llRotBetween($[![vector start]!], $[![vector end]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRotLookAt
 Ext:lsl
-llRotLookAt($[![rotation target_direction]!], $[![float strength]!], $[![float damping]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llRotLookAt($[![rotation target_direction]!], $[![float strength]!], $[![float damping]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llRotTarget
 Ext:lsl
 llRotTarget($[![rotation rot]!], $[![float error]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRotTargetRemove
 Ext:lsl
-llRotTargetRemove($[![integer handle]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llRotTargetRemove($[![integer handle]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llRound
 Ext:lsl
 llRound($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -1192,295 +1114,230 @@ Ext:lsl
 llSameGroup($[![key group]!])[>END<]!$[FingerTextData FingerTextData]@#
 llSay
 Ext:lsl
-llSay($[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSay($[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llScaleByFactor
 Ext:lsl
 llScaleByFactor($[![float scaling_factor]!])[>END<]!$[FingerTextData FingerTextData]@#
 llScaleTexture
 Ext:lsl
-llScaleTexture($[![float u]!], $[![float v]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llScaleTexture($[![float u]!], $[![float v]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llScriptDanger
 Ext:lsl
 llScriptDanger($[![vector pos]!])[>END<]!$[FingerTextData FingerTextData]@#
 llScriptProfiler
 Ext:lsl
-llScriptProfiler($[![(lis)PROFILE_NONE|PROFILE_SCRIPT_MEMORY|integer flags]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llScriptProfiler($[![(lis)PROFILE_NONE|PROFILE_SCRIPT_MEMORY|integer flags]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSendRemoteData
 Ext:lsl
 llSendRemoteData($[![key channel]!], $[![string dest]!], $[![integer idata]!], $[![string sdata]!])[>END<]!$[FingerTextData FingerTextData]@#
 llSensor
 Ext:lsl
-llSensor($[![string name]!], $[![key id]!], $[![integer type]!], $[![float range]!], $[![float arc]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSensor($[![string name]!], $[![key id]!], $[![integer type]!], $[![float range]!], $[![float arc]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSensorRemove
 Ext:lsl
 llSensorRemove();[>END<]!$[FingerTextData FingerTextData]@#
 llSensorRepeat
 Ext:lsl
-llSensorRepeat($[![string name]!], $[![key id]!], $[![integer type]!], $[![float range]!], $[![float arc]!], $[![float rate]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSensorRepeat($[![string name]!], $[![key id]!], $[![integer type]!], $[![float range]!], $[![float arc]!], $[![float rate]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetAlpha
 Ext:lsl
-llSetAlpha($[![float alpha]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetAlpha($[![float alpha]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetAngularVelocity
 Ext:lsl
-llSetAngularVelocity($[![vector force]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetAngularVelocity($[![vector force]!], $[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetAnimationOverride
 Ext:lsl
 llSetAnimationOverride($[![(lis)"Crouching"|"CrouchWalking"|"Falling Down"|"Flying"|"FlyingSlow"|"Hovering"|"Hovering Down"|"Hovering Up"|"Jumping"|"Landing"|"PreJumping"|"Running"|"Sitting"|"Sitting on Ground"|"Standing"|"Standing Up"|"Striding"|"Soft Landing"|"Taking Off"|"Turning Left"|"Turning Right"|"Walking"|string anim_state]!], $[![string anim]!])
 [>END<]!$[FingerTextData FingerTextData]@#
 llSetBuoyancy
 Ext:lsl
-llSetBuoyancy($[![float buoyancy]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetBuoyancy($[![float buoyancy]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetCameraAtOffset
 Ext:lsl
-llSetCameraAtOffset($[![vector offset]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetCameraAtOffset($[![vector offset]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetCameraEyeOffset
 Ext:lsl
-llSetCameraEyeOffset($[![vector offset]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetCameraEyeOffset($[![vector offset]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetCameraParams
 Ext:lsl
-llSetCameraParams($[![list rules]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetCameraParams($[![list rules]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetClickAction
 Ext:lsl
-llSetClickAction($[![(lis)CLICK_ACTION_NONE|CLICK_ACTION_TOUCH|CLICK_ACTION_SIT|CLICK_ACTION_BUY|CLICK_ACTION_PAY|CLICK_ACTION_OPEN|CLICK_ACTION_PLAY|CLICK_ACTION_OPEN_MEDIA|CLICK_ACTION_ZOOM|integer action]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetClickAction($[![(lis)CLICK_ACTION_NONE|CLICK_ACTION_TOUCH|CLICK_ACTION_SIT|CLICK_ACTION_BUY|CLICK_ACTION_PAY|CLICK_ACTION_OPEN|CLICK_ACTION_PLAY|CLICK_ACTION_OPEN_MEDIA|CLICK_ACTION_ZOOM|integer action]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetColor
 Ext:lsl
-llSetColor($[![vector color]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetColor($[![vector color]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetContentType
 Ext:lsl
-llSetContentType($[![key request_id]!], $[![(lis)CONTENT_TYPE_TEXT|CONTENT_TYPE_HTML|CONTENT_TYPE_XML|CONTENT_TYPE_XHTML|CONTENT_TYPE_ATOM|CONTENT_TYPE_JSON|CONTENT_TYPE_LLSD|CONTENT_TYPE_FORM|CONTENT_TYPE_RSS|integer type]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetContentType($[![key request_id]!], $[![(lis)CONTENT_TYPE_TEXT|CONTENT_TYPE_HTML|CONTENT_TYPE_XML|CONTENT_TYPE_XHTML|CONTENT_TYPE_ATOM|CONTENT_TYPE_JSON|CONTENT_TYPE_LLSD|CONTENT_TYPE_FORM|CONTENT_TYPE_RSS|integer type]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetDamage
 Ext:lsl
-llSetDamage($[![float damage]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetDamage($[![float damage]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetForce
 Ext:lsl
-llSetForce($[![vector force]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetForce($[![vector force]!], $[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetForceAndTorque
 Ext:lsl
-llSetForceAndTorque($[![vector force]!], $[![vector torque]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetForceAndTorque($[![vector force]!], $[![vector torque]!], $[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetHoverHeight
 Ext:lsl
-llSetHoverHeight($[![float height]!], $[![integer water]!], $[![float tau]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetHoverHeight($[![float height]!], $[![integer water]!], $[![float tau]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetKeyframedMotion
 Ext:lsl
-llSetKeyframedMotion($[![list keyframes]!], $[![list options]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetKeyframedMotion($[![list keyframes]!], $[![list options]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkAlpha
 Ext:lsl
-llSetLinkAlpha($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![float alpha]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetLinkAlpha($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![float alpha]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkCamera
 Ext:lsl
-llSetLinkCamera($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![vector eye]!], $[![vector at]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetLinkCamera($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![vector eye]!], $[![vector at]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkColor
 Ext:lsl
-llSetLinkColor($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![vector color]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetLinkColor($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![vector color]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkMedia
 Ext:lsl
-llSetLinkMedia($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!], $[![list params]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetLinkMedia($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!], $[![list params]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkPrimitiveParams
 Ext:lsl
-llSetLinkPrimitiveParams($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![list rules]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetLinkPrimitiveParams($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![list rules]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkPrimitiveParamsFast
 Ext:lsl
-llSetLinkPrimitiveParamsFast($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![list rules]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetLinkPrimitiveParamsFast($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![list rules]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkTexture
 Ext:lsl
-llSetLinkTexture($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![string texture]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetLinkTexture($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![string texture]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetLinkTextureAnim
 Ext:lsl
-llSetLinkTextureAnim($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![integer mode]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!], $[![integer sizex]!], $[![integer sizey]!], $[![float start]!], $[![float length]!], $[![float rate]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetLinkTextureAnim($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![integer mode]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!], $[![integer sizex]!], $[![integer sizey]!], $[![float start]!], $[![float length]!], $[![float rate]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetLocalRot
 Ext:lsl
-llSetLocalRot($[![rotation rot]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetLocalRot($[![rotation rot]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetMemoryLimit
 Ext:lsl
 llSetMemoryLimit($[![integer limit]!])[>END<]!$[FingerTextData FingerTextData]@#
 llSetObjectDesc
 Ext:lsl
-llSetObjectDesc($[![string description]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetObjectDesc($[![string description]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetObjectName
 Ext:lsl
-llSetObjectName($[![string name]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetObjectName($[![string name]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetParcelMusicURL
 Ext:lsl
-llSetParcelMusicURL($[![string url]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetParcelMusicURL($[![string url]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetPayPrice
 Ext:lsl
-llSetPayPrice($[![integer price]!], [$[![integer price_button_a]!], $[![integer price_button_b]!], $[![integer price_button_c]!], $[![integer price_button_d]!]]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetPayPrice($[![integer price]!], [$[![integer price_button_a]!], $[![integer price_button_b]!], $[![integer price_button_c]!], $[![integer price_button_d]!]]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetPhysicsMaterial
 Ext:lsl
-llSetPhysicsMaterial($[![integer mask]!], $[![float gravity_multiplier]!], $[![float restitution]!], $[![float friction]!], $[![float density]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetPhysicsMaterial($[![integer mask]!], $[![float gravity_multiplier]!], $[![float restitution]!], $[![float friction]!], $[![float density]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetPos
 Ext:lsl
-llSetPos($[![vector pos]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetPos($[![vector pos]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetPrimitiveParams
 Ext:lsl
-llSetPrimitiveParams($[![list rules]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetPrimitiveParams($[![list rules]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetPrimMediaParams
 Ext:lsl
-llSetPrimMediaParams($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!], $[![list params]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetPrimMediaParams($[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!], $[![list params]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetRegionPos
 Ext:lsl
 llSetRegionPos($[![vector position]!])[>END<]!$[FingerTextData FingerTextData]@#
 llSetRemoteScriptAccessPin
 Ext:lsl
-llSetRemoteScriptAccessPin($[![integer pin]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetRemoteScriptAccessPin($[![integer pin]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetRot
 Ext:lsl
-llSetRot($[![rotation rot]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetRot($[![rotation rot]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetScale
 Ext:lsl
-llSetScale($[![vector size]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetScale($[![vector size]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetScriptState
 Ext:lsl
-llSetScriptState($[![string name]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetScriptState($[![string name]!], $[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetSitText
 Ext:lsl
-llSetSitText($[![string text]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetSitText($[![string text]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetSoundQueueing
 Ext:lsl
-llSetSoundQueueing($[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetSoundQueueing($[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetSoundRadius
 Ext:lsl
-llSetSoundRadius($[![float radius]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetSoundRadius($[![float radius]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetStatus
 Ext:lsl
-llSetStatus($[![(lis)STATUS_PHYSICS|STATUS_ROTATE_X|STATUS_ROTATE_Y|STATUS_ROTATE_Z|STATUS_ROTATE_Z|STATUS_PHANTOM|STATUS_SANDBOX|STATUS_BLOCK_GRAB|STATUS_DIE_AT_EDGE|STATUS_RETURN_AT_EDGE|STATUS_CAST_SHADOWS|STATUS_BLOCK_GRAB_OBJECT|integer status]!], $[![integer value]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetStatus($[![(lis)STATUS_PHYSICS|STATUS_ROTATE_X|STATUS_ROTATE_Y|STATUS_ROTATE_Z|STATUS_ROTATE_Z|STATUS_PHANTOM|STATUS_SANDBOX|STATUS_BLOCK_GRAB|STATUS_DIE_AT_EDGE|STATUS_RETURN_AT_EDGE|STATUS_CAST_SHADOWS|STATUS_BLOCK_GRAB_OBJECT|integer status]!], $[![integer value]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetText
 Ext:lsl
-llSetText($[![string text]!], $[![vector color]!], $[![float alpha]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetText($[![string text]!], $[![vector color]!], $[![float alpha]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetTexture
 Ext:lsl
-llSetTexture($[![string texture]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetTexture($[![string texture]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetTextureAnim
 Ext:lsl
-llSetTextureAnim($[![integer mode]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!], $[![integer sizex]!], $[![integer sizey]!], $[![float start]!], $[![float length]!], $[![float rate]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetTextureAnim($[![integer mode]!], $[![(lis)ALL_SIDES|0|1|2|3|4|5|6|7|8|integer side]!], $[![integer sizex]!], $[![integer sizey]!], $[![float start]!], $[![float length]!], $[![float rate]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetTimerEvent
 Ext:lsl
-llSetTimerEvent($[![float sec]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetTimerEvent($[![float sec]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetTorque
 Ext:lsl
-llSetTorque($[![vector torque]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetTorque($[![vector torque]!], $[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetTouchText
 Ext:lsl
-llSetTouchText($[![string text]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetTouchText($[![string text]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetVehicleFlags
 Ext:lsl
-llSetVehicleFlags($[![integer flags]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetVehicleFlags($[![integer flags]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetVehicleFloatParam
 Ext:lsl
-llSetVehicleFloatParam($[![(lis)VEHICLE_ANGULAR_DEFLECTION_EFFICIENCY|VEHICLE_ANGULAR_DEFLECTION_TIMESCALE|VEHICLE_ANGULAR_MOTOR_DECAY_TIMESCALE|VEHICLE_ANGULAR_MOTOR_TIMESCALE|VEHICLE_BANKING_EFFICIENCY|VEHICLE_BANKING_MIX|VEHICLE_BANKING_TIMESCALE|VEHICLE_BUOYANCY|VEHICLE_HOVER_HEIGHT|VEHICLE_HOVER_EFFICIENCY|VEHICLE_HOVER_TIMESCALE|VEHICLE_LINEAR_DEFLECTION_EFFICIENCY|VEHICLE_LINEAR_DEFLECTION_TIMESCALE|VEHICLE_LINEAR_MOTOR_DECAY_TIMESCALE|VEHICLE_LINEAR_MOTOR_TIMESCALE|VEHICLE_VERTICAL_ATTRACTION_EFFICIENCY|VEHICLE_VERTICAL_ATTRACTION_TIMESCALE|integer float_param]!], $[![float value]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetVehicleFloatParam($[![(lis)VEHICLE_ANGULAR_DEFLECTION_EFFICIENCY|VEHICLE_ANGULAR_DEFLECTION_TIMESCALE|VEHICLE_ANGULAR_MOTOR_DECAY_TIMESCALE|VEHICLE_ANGULAR_MOTOR_TIMESCALE|VEHICLE_BANKING_EFFICIENCY|VEHICLE_BANKING_MIX|VEHICLE_BANKING_TIMESCALE|VEHICLE_BUOYANCY|VEHICLE_HOVER_HEIGHT|VEHICLE_HOVER_EFFICIENCY|VEHICLE_HOVER_TIMESCALE|VEHICLE_LINEAR_DEFLECTION_EFFICIENCY|VEHICLE_LINEAR_DEFLECTION_TIMESCALE|VEHICLE_LINEAR_MOTOR_DECAY_TIMESCALE|VEHICLE_LINEAR_MOTOR_TIMESCALE|VEHICLE_VERTICAL_ATTRACTION_EFFICIENCY|VEHICLE_VERTICAL_ATTRACTION_TIMESCALE|integer float_param]!], $[![float value]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetVehicleRotationParam
 Ext:lsl
-llSetVehicleRotationParam($[![(lis)VEHICLE_REFERENCE_FRAME|integer rotation_param]!], $[![rotation rot]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetVehicleRotationParam($[![(lis)VEHICLE_REFERENCE_FRAME|integer rotation_param]!], $[![rotation rot]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetVehicleType
 Ext:lsl
-llSetVehicleType($[![(lis)VEHICLE_TYPE_NONE|VEHICLE_TYPE_SLED|VEHICLE_TYPE_CAR|VEHICLE_TYPE_BOAT|VEHICLE_TYPE_AIRPLANE|VEHICLE_TYPE_BALLOON|integer type]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetVehicleType($[![(lis)VEHICLE_TYPE_NONE|VEHICLE_TYPE_SLED|VEHICLE_TYPE_CAR|VEHICLE_TYPE_BOAT|VEHICLE_TYPE_AIRPLANE|VEHICLE_TYPE_BALLOON|integer type]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetVehicleVectorParam
 Ext:lsl
-llSetVehicleVectorParam($[![(lis)VEHICLE_ANGULAR_FRICTION_TIMESCALE|VEHICLE_ANGULAR_MOTOR_DIRECTION|VEHICLE_LINEAR_FRICTION_TIMESCALE|VEHICLE_LINEAR_MOTOR_DIRECTION|VEHICLE_LINEAR_MOTOR_OFFSET|integer vector_param]!], $[![vector vec]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetVehicleVectorParam($[![(lis)VEHICLE_ANGULAR_FRICTION_TIMESCALE|VEHICLE_ANGULAR_MOTOR_DIRECTION|VEHICLE_LINEAR_FRICTION_TIMESCALE|VEHICLE_LINEAR_MOTOR_DIRECTION|VEHICLE_LINEAR_MOTOR_OFFSET|integer vector_param]!], $[![vector vec]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSetVelocity
 Ext:lsl
-llSetVelocity($[![vector force]!], $[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSetVelocity($[![vector force]!], $[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSHA1String
 Ext:lsl
 llSHA1String($[![string src]!])[>END<]!$[FingerTextData FingerTextData]@#
 llShout
 Ext:lsl
-llShout($[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llShout($[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSin
 Ext:lsl
 llSin($[![float theta]!])[>END<]!$[FingerTextData FingerTextData]@#
 llSitTarget
 Ext:lsl
-llSitTarget($[![vector offset]!], $[![rotation rot]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSitTarget($[![vector offset]!], $[![rotation rot]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSleep
 Ext:lsl
-llSleep($[![float sec]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llSleep($[![float sec]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llSqrt
 Ext:lsl
 llSqrt($[![float val]!])[>END<]!$[FingerTextData FingerTextData]@#
 llStartAnimation
 Ext:lsl
-llStartAnimation($[![string anim]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llStartAnimation($[![string anim]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llStopAnimation
 Ext:lsl
-llStopAnimation($[![string anim]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llStopAnimation($[![string anim]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llStopHover
 Ext:lsl
-llStopHover();
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llStopHover();[>END<]!$[FingerTextData FingerTextData]@#
 llStopLookAt
 Ext:lsl
-llStopLookAt();
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llStopLookAt();[>END<]!$[FingerTextData FingerTextData]@#
 llStopMoveToTarget
 Ext:lsl
-llStopMoveToTarget();
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llStopMoveToTarget();[>END<]!$[FingerTextData FingerTextData]@#
 llStopSound
 Ext:lsl
-llStopSound();
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llStopSound();[>END<]!$[FingerTextData FingerTextData]@#
 llStringLength
 Ext:lsl
 llStringLength($[![string str]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -1495,8 +1352,7 @@ Ext:lsl
 llSubStringIndex($[![string source]!], $[![string pattern]!])[>END<]!$[FingerTextData FingerTextData]@#
 llTakeControls
 Ext:lsl
-llTakeControls($[![integer controls]!], $[![integer accept]!], $[![integer pass_on]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llTakeControls($[![integer controls]!], $[![integer accept]!], $[![integer pass_on]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llTan
 Ext:lsl
 llTan($[![float theta]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -1505,28 +1361,22 @@ Ext:lsl
 llTarget($[![vector position]!], $[![float range]!])[>END<]!$[FingerTextData FingerTextData]@#
 llTargetOmega
 Ext:lsl
-llTargetOmega($[![vector axis]!], $[![float spinrate]!], $[![float gain]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llTargetOmega($[![vector axis]!], $[![float spinrate]!], $[![float gain]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llTargetRemove
 Ext:lsl
-llTargetRemove($[![integer handle]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llTargetRemove($[![integer handle]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llTeleportAgent
 Ext:lsl
-llTeleportAgent($[![key agent]!], $[![string landmark]!], $[![vector position]!], $[![vector look_at]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llTeleportAgent($[![key agent]!], $[![string landmark]!], $[![vector position]!], $[![vector look_at]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llTeleportAgentGlobalCoords
 Ext:lsl
-llTeleportAgentGlobalCoords($[![key agent]!], $[![vector global_coordinates]!], $[![vector region_coordinates]!], $[![vector look_at]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llTeleportAgentGlobalCoords($[![key agent]!], $[![vector global_coordinates]!], $[![vector region_coordinates]!], $[![vector look_at]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llTeleportAgentHome
 Ext:lsl
-llTeleportAgentHome($[![key agent]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llTeleportAgentHome($[![key agent]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llTextBox
 Ext:lsl
-llTextBox($[![key agent]!], $[![string message]!], $[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llTextBox($[![key agent]!], $[![string message]!], $[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llToLower
 Ext:lsl
 llToLower($[![string src]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -1538,19 +1388,16 @@ Ext:lsl
 llTransferLindenDollars($[![key destination]!], $[![integer amount]!])[>END<]!$[FingerTextData FingerTextData]@#
 llTriggerSound
 Ext:lsl
-llTriggerSound($[![string sound]!], $[![float volume]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llTriggerSound($[![string sound]!], $[![float volume]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llTriggerSoundLimited
 Ext:lsl
-llTriggerSoundLimited($[![string sound]!], $[![float volume]!], $[![vector top_north_east]!], $[![vector bottom_south_west]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llTriggerSoundLimited($[![string sound]!], $[![float volume]!], $[![vector top_north_east]!], $[![vector bottom_south_west]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llUnescapeURL
 Ext:lsl
 llUnescapeURL($[![string url]!])[>END<]!$[FingerTextData FingerTextData]@#
 llUnSit
 Ext:lsl
-llUnSit($[![key id]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llUnSit($[![key id]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llUpdateCharacter
 Ext:lsl
 llUpdateCharacter($[![list options]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -1565,24 +1412,19 @@ Ext:lsl
 llVecNorm($[![vector vec]!])[>END<]!$[FingerTextData FingerTextData]@#
 llVolumeDetect
 Ext:lsl
-llVolumeDetect($[![(lis)FALSE|TRUE|integer boolean]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llVolumeDetect($[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llWanderWithin
 Ext:lsl
-llWanderWithin($[![vector origin]!], $[![vector dist]!], $[![list options]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llWanderWithin($[![vector origin]!], $[![vector dist]!], $[![list options]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llWater
 Ext:lsl
-llWater($[![vector offset]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llWater($[![vector offset]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llWhisper
 Ext:lsl
-llWhisper($[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llWhisper($[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llWind
 Ext:lsl
-llWind($[![vector offset]!]);
-$[0[]0][>END<]!$[FingerTextData FingerTextData]@#
+llWind($[![vector offset]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llXorBase64
 Ext:lsl
 llXorBase64($[![string str1]!], $[![string str2]!])[>END<]!$[FingerTextData FingerTextData]@#
