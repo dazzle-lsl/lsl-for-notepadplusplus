@@ -1,6 +1,6 @@
 ## [Linden Scripting Language](http://wiki.secondlife.com/wiki/LSL_Portal) syntax highlight for [Notepad++](http://notepad-plus-plus.org/)
 
-last update: `2014-02-06`
+last update: `2014-02-08`
 
 ### Readme contents
 
@@ -10,6 +10,7 @@ last update: `2014-02-06`
 * [LSL Syntax](#lsl-syntax)
 * [LSL Autocompletion](#lsl-autocompletion)
 * [LSL Snippets via FingerText](#lsl-snippets-via-fingertext)
+* [LSL code structure](#lsl-code-structure)
 
 ___
 
@@ -33,9 +34,9 @@ ___
 
 ### LSL Syntax:
 
-| If `...\Notepad++\userDefineLang.xml` exists where Notepad++ is installed | If `...\Notepad++\userDefineLang.xml` does not exist where Notepad++ is installed |
+| If `...\Notepad++\userDefineLang.xml` exists where [Notepad++](http://notepad-plus-plus.org/) is installed | If `...\Notepad++\userDefineLang.xml` does not exist where [Notepad++](http://notepad-plus-plus.org/) is installed |
 |:---:|:---:|
-| Copy and paste everything within and including the `UserLang` tags from the `userDefineLang.xml` file from this repository into the file `...\Notepad++\userDefineLang.xml` where Notepad++ is installed. | Open Notepad++ and go to `Language > Define your language > Import` to import a copy of the `userDefineLang.xml` file. You can then delete the file you imported from. |
+| Copy and paste everything within and including the `UserLang` tags from the `userDefineLang.xml` file from this repository into the file `...\Notepad++\userDefineLang.xml` where [Notepad++](http://notepad-plus-plus.org/) is installed. | Open [Notepad++](http://notepad-plus-plus.org/) and go to `Language > Define your language > Import` to import a copy of the `userDefineLang.xml` file. You can then delete the file you imported from. |
 | When saving changes to the file make sure the file's encoding is `ANSI/ASCII`! | Make sure the encoding of the file you are importing is `ANSI/ASCII`! |
 
 ```xml
@@ -69,3 +70,7 @@ ___
 ### LSL Snippets via FingerText:
 
 Install [FingerText](https://github.com/erinata/FingerText) from the [Notepad++](http://notepad-plus-plus.org/) Plugin Manager. Then from the menu go to `Plugins > FingerText > Import Snippets from ftd file` to import the LSL snippets and start working on any file with an `*.lsl`-Extension.
+
+### LSL code structure
+
+Add code snippets from `../Notepad++/functionList.xml` from this repository into `../Notepad++/functionList.xml` where [Notepad++](http://notepad-plus-plus.org/) is installed.
