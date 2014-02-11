@@ -21,8 +21,7 @@ ___
 
 ### Bugs, issues & feature requests
 
-* Before opening a new issue, please search for existing issues.
-* Please [open a new issue](https://github.com/buildersbrewery/lsl-for-notepadplusplus/issues/).
+* Before please search for [existing issues](https://github.com/buildersbrewery/lsl-for-notepadplusplus/issues/) before opening a [new issue](https://github.com/buildersbrewery/lsl-for-notepadplusplus/issues/new/).
 
 ### Visit the Builder's Brewery
 
