@@ -16,7 +16,9 @@ ___
 
 ### Quick start
 
-* [Download the latest release](https://github.com/buildersbrewery/lsl-for-notepadplusplus/archive/master.zip).
+* Download:
+  * [latest release as *.zip](https://github.com/buildersbrewery/lsl-for-notepadplusplus/archive/master.zip)
+  * [latest release as *.tar.gz](https://github.com/buildersbrewery/lsl-for-notepadplusplus/archive/master.tar.gz)
 * Clone the repo: `git clone git://github.com/buildersbrewery/lsl-for-notepadplusplus.git`
 
 ### Bugs, issues & feature requests
