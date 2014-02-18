@@ -1,6 +1,6 @@
 ## [Linden Scripting Language](http://wiki.secondlife.com/wiki/LSL_Portal) syntax highlight for [Notepad++](http://notepad-plus-plus.org/)
 
-last update: `2014-02-11`
+last update: `2014-02-18`
 
 ### Readme contents
 
@@ -58,7 +58,7 @@ ___
 
 * Choose the language via `Language > LSL` from the menu. You should should be able to find it at the bottom of the language menu in the section for user defined languages.
 
-![LSL Syntax](https://github.com/buildersbrewery/lsl-for-notepadplusplus/raw/master/static/screenshot_lsl_notepadplusplus.png)
+![LSL Syntax](static/lsl_syntax.png)
 
 ### LSL Autocompletion:
 
@@ -66,7 +66,7 @@ ___
 * Make sure the file's encoding is `ANSI/ASCII`!
 * Goto `Settings > Preferences > Backup&Autocompletion` and make sure you set `enable auto-completion on each input` to `function completion` and you enable `function parameter hints on input`.
 
-![LSL Autocompletion](https://github.com/buildersbrewery/lsl-for-notepadplusplus/raw/master/static/screencast_lsl_notepadplusplus.gif)
+![LSL Autocompletion](static/lsl_autocompletion.gif)
 
 ### LSL Snippets via FingerText:
 
