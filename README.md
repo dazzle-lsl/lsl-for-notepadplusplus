@@ -1,6 +1,6 @@
 ## [Linden Scripting Language](http://wiki.secondlife.com/wiki/LSL_Portal) syntax highlight for [Notepad++](http://notepad-plus-plus.org/)
 
-last update: `2014-02-18`
+last update: `2014-03-11`
 
 ### Readme contents
 
