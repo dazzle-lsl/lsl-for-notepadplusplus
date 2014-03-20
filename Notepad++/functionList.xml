@@ -15,7 +15,7 @@
                 ...other 'parser' nodes
                 ...
             -->
-            <parser id="lsl_event" displayName="LSL Event" commentExpr="((/\*.*?\*)/|(//.*?$))">
+            <parser id="lsl_event" displayName="LSL Event" commentExpr="(?:(/\*.*?\*/)|(//.*?$))">
                 <classRange
                     mainExpr="(?x)(?:\b(?:(?:state)\s+(?:[A-Za-z_]\w*)|(?:default))\b)\s*(?=\{)"
                     openSymbole = "\{"
