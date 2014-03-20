@@ -34,10 +34,10 @@ ___
 
 ### Syntax:
 
-* If `...\Notepad++\userDefineLang.xml` _exists_ where [Notepad++](https://www.notepad-plus-plus.org/) is installed.
+* If `...\Notepad++\userDefineLang.xml` __exists__ where [Notepad++](https://www.notepad-plus-plus.org/) is installed.
   * Copy and paste everything within and including the `UserLang` tags from the `userDefineLang.xml` file from this repository into the file `...\Notepad++\userDefineLang.xml` where [Notepad++](https://www.notepad-plus-plus.org/) is installed.
   * When saving changes to the file make sure the file's encoding is `ANSI/ASCII`!
-* If `...\Notepad++\userDefineLang.xml` _does not exist_ where [Notepad++](https://www.notepad-plus-plus.org/) is installed.
+* If `...\Notepad++\userDefineLang.xml` __does not exist__ where [Notepad++](https://www.notepad-plus-plus.org/) is installed.
   * Open [Notepad++](https://www.notepad-plus-plus.org/) and go to `Language > Define your language > Import` to import a copy of the `userDefineLang.xml` file. You can then delete the file you imported from.
   * Make sure the encoding of the file you are importing is `ANSI/ASCII`!
 
