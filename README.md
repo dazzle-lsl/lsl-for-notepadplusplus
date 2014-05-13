@@ -34,46 +34,29 @@ ___
 
 ### Syntax:
 
-* If `...\Notepad++\userDefineLang.xml` __exists__ where [Notepad++](https://www.notepad-plus-plus.org/) is installed.
-  * Copy and paste everything within and including the `UserLang` tags from the `userDefineLang.xml` file from this repository into the file `...\Notepad++\userDefineLang.xml` where [Notepad++](https://www.notepad-plus-plus.org/) is installed.
+* If [userDefineLang.xml](Notepad++/userDefineLang.xml) __exists__ where [Notepad++](https://www.notepad-plus-plus.org/) is installed.
+  * Copy and paste the code for [LSL](http://wiki.secondlife.com/wiki/LSL_Portal) from [userDefineLang.xml](Notepad++/userDefineLang.xml) from this repository into `userDefineLang.xml` where [Notepad++](https://www.notepad-plus-plus.org/) is installed.
   * When saving changes to the file make sure the file's encoding is `ANSI/ASCII`!
-* If `...\Notepad++\userDefineLang.xml` __does not exist__ where [Notepad++](https://www.notepad-plus-plus.org/) is installed.
+* If [userDefineLang.xml](Notepad++/userDefineLang.xml) __does not exist__ where [Notepad++](https://www.notepad-plus-plus.org/) is installed.
   * Open [Notepad++](https://www.notepad-plus-plus.org/) and go to `Language > Define your language > Import` to import a copy of the `userDefineLang.xml` file. You can then delete the file you imported from.
   * Make sure the encoding of the file you are importing is `ANSI/ASCII`!
-
-```xml
-<?xml version="1.0" encoding="Windows-1252" ?>
-<NotepadPlus>
-    <UserLang name="someOtherLanguage">
-        <!--
-            settings
-            keyword lists
-            styles
-        -->
-    </UserLang>
-    <!--
-        add the LSL language here
-    -->
-</NotepadPlus>
-```
-
 * Choose the language via `Language > LSL` from the menu. You should should be able to find it at the bottom of the language menu in the section for user defined languages.
 
 ### Autocompletion:
 
-* Copy and paste the `lsl.xml` file from this repository to `...\Notepad++\plugins\APIs\lsl.xml` where Notepad++ is installed.
+* Copy and paste [lsl.xml](Notepad++/plugins/APIs/lsl.xml) from this repository to `...\Notepad++\plugins\APIs\lsl.xml` where Notepad++ is installed.
 * Make sure the file's encoding is `ANSI/ASCII`!
 * Goto `Settings > Preferences > Backup&Autocompletion` and make sure you set `enable auto-completion on each input` to `function completion` and you enable `function parameter hints on input`.
 
 ### Snippets via FingerText:
 
-Install [FingerText](https://github.com/erinata/FingerText) from the [Notepad++](https://www.notepad-plus-plus.org/) Plugin Manager. Then from the menu go to `Plugins > FingerText > Import Snippets from ftd file` to import the LSL snippets and start working on any file with an `*.lsl`-Extension.
+Install [FingerText](https://github.com/erinata/FingerText) from the [Notepad++](https://www.notepad-plus-plus.org/) Plugin Manager. Then from the menu go to `Plugins > FingerText > Import Snippets from ftd file` to import the [LSL](http://wiki.secondlife.com/wiki/LSL_Portal) snippets and start working on any file with an `*.lsl`-Extension.
 
 ### Code structure:
 
-Add code snippets from `../Notepad++/functionList.xml` from this repository into `../Notepad++/functionList.xml` where [Notepad++](https://www.notepad-plus-plus.org/) is installed.
+Add code snippets from [functionList.xml](Notepad++/functionList.xml) from this repository into `../Notepad++/functionList.xml` where [Notepad++](https://www.notepad-plus-plus.org/) is installed.
 
-Read more about the [function list](https://www.notepad-plus-plus.org/features/function-list.html) in [Notepad++](https://www.notepad-plus-plus.org/) on its homepage.
+Read more about the [function list in Notepad++](https://www.notepad-plus-plus.org/features/function-list.html) on its homepage.
 
 ### Screenshots and screencast:
 

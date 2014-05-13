@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="Windows-1252" ?>
 <NotepadPlus>
+<!--
+    <UserLang name="someLanguage">
+        <Settings />
+        <KeywordLists />
+        <Styles />
+    </UserLang>
+    <UserLang name="someOtherLanguage">
+        <Settings />
+        <KeywordLists />
+        <Styles />
+    </UserLang>
+-->
     <UserLang name="LSL" ext="lsl" udlVersion="2.0">
         <Settings>
             <Global caseIgnored="no" allowFoldOfComments="yes" forceLineCommentsAtBOL="no" foldCompact="no" />
