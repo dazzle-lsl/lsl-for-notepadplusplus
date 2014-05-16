@@ -99,55 +99,55 @@ Ext:lsl
 RC_REJECT_TYPES, $[![integer filterMask]!], [>END<]!$[FingerTextData FingerTextData]@#
 at_rot_target
 Ext:lsl
-at_rot_target($[![integer handle]!], $[![rotation targetrot]!], $[![rotation ourrot]!])
+at_rot_target(integer $[![handle]!], rotation $[![targetrot]!], rotation $[![ourrot]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 at_target
 Ext:lsl
-at_target($[![integer tnum]!], $[![vector targetpos]!], $[![vector ourpos]!])
+at_target(integer $[![tnum]!], vector $[![targetpos]!], vector $[![ourpos]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 attach
 Ext:lsl
-attach($[![key id]!])
+attach(key $[![id]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 changed
 Ext:lsl
-changed($[![integer change]!])
+changed(integer $[![change]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 collision
 Ext:lsl
-collision($[![integer index]!])
+collision(integer $[![index]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 collision_end
 Ext:lsl
-collision_end($[![integer index]!])
+collision_end(integer $[![index]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 collision_start
 Ext:lsl
-collision_start($[![integer index]!])
+collision_start(integer $[![index]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 control
 Ext:lsl
-control($[![key id]!], $[![integer level]!], $[![integer edge]!])
+control(key $[![id]!], integer $[![level]!], integer $[![edge]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 dataserver
 Ext:lsl
-dataserver($[![key query_id]!], $[![string data]!])
+dataserver(key $[![query_id]!], string $[![data]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
@@ -172,7 +172,7 @@ else
 }[>END<]!$[FingerTextData FingerTextData]@#
 email
 Ext:lsl
-email($[![string time]!], $[![string address]!], $[![string subject]!], $[![string message]!], $[![integer num_left]!])
+email(string $[![time]!], string $[![address]!], string $[![subject]!], string $[![message]!], integer $[![num_left]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
@@ -180,23 +180,23 @@ for
 Ext:lsl
 for ($[![start]!]; $[![condition]!]; $[![step]!])
 {
-$0
+    $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 if
 Ext:lsl
 if ($[![condition]!])
 {
-$0
+    $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 http_request
 Ext:lsl
-http_request($[![key request_id]!], $[![string method]!], $[![string body]!])
+http_request(key $[![request_id]!], string $[![method]!], string $[![body]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 http_response
 Ext:lsl
-http_response($[![key request_id]!], $[![integer status]!], list $[![metadata]!], $[![string body]!])
+http_response(key $[![request_id]!], integer $[![status]!], list $[![metadata]!], string $[![body]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
@@ -205,31 +205,31 @@ Ext:lsl
 jump $[![target]!];[>END<]!$[FingerTextData FingerTextData]@#
 land_collision
 Ext:lsl
-land_collision($[![vector pos]!])
+land_collision(vector $[![pos]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 land_collision_end
 Ext:lsl
-land_collision_end($[![vector pos]!])
+land_collision_end(vector $[![pos]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 land_collision_start
 Ext:lsl
-land_collision_start($[![vector pos]!])
+land_collision_start(vector $[![pos]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 link_message
 Ext:lsl
-link_message($[![integer sender_num]!], $[![integer num]!], $[![string str]!], $[![key id]!])
+link_message(integer $[![sender_num]!], integer $[![num]!], string $[![str]!], key $[![id]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 listen
 Ext:lsl
-listen($[![integer channel]!], $[![string name]!], $[![key id]!], $[![string message]!])
+listen(integer $[![channel]!], string $[![name]!], key $[![id]!], string $[![message]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
@@ -1430,7 +1430,7 @@ Ext:lsl
 llXorBase64($[![string str1]!], $[![string str2]!])[>END<]!$[FingerTextData FingerTextData]@#
 money
 Ext:lsl
-money([![key id]!], [![integer amount]!])
+money(key $[![id]!], integer $[![amount]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
@@ -1466,37 +1466,40 @@ not_at_target()
 }[>END<]!$[FingerTextData FingerTextData]@#
 object_rez
 Ext:lsl
-object_rez([![key id]!])
+object_rez(key $[![id]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 on_rez
 Ext:lsl
-on_rez([![integer start_param]!])
+on_rez(integer $[![start_param]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 path_update
 Ext:lsl
-path_update([![integer type]!], list [![reserved]!])
+path_update(integer $[![type]!], list $[![reserved]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
+print
+Ext:lsl
+print($[![(lis)float whatever|integer whatever|key whatever|list whatever|rotation whatever|string whatever|vector whatever]!]);[>END<]!$[FingerTextData FingerTextData]@#
 remote_data
 Ext:lsl
-remote_data([![integer event_type]!], [![key channel]!], [![key message_id]!], [![string sender]!], [![integer idata]!], [![string sdata]!])
+remote_data(integer $[![event_type]!], key $[![channel]!], key $[![message_id]!], string $[![sender]!], integer $[![idata]!], string $[![sdata]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 run_time_permissions
 Ext:lsl
-run_time_permissions([![integer perm]!])
+run_time_permissions(integer $[![perm]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 sensor
 Ext:lsl
-sensor([![integer index]!])
+sensor(integer $[![index]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
@@ -1520,25 +1523,25 @@ timer()
 }[>END<]!$[FingerTextData FingerTextData]@#
 touch
 Ext:lsl
-touch([![integer index]!])
+touch(integer $[![index]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 touch_end
 Ext:lsl
-touch_end([![integer index]!])
+touch_end(integer $[![index]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 touch_start
 Ext:lsl
-touch_start([![integer index]!])
+touch_start(integer $[![index]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
 transaction_result
 Ext:lsl
-transaction_result([![key id]!], [![integer success]!], [![string data]!])
+transaction_result(key $[![id]!], integer $[![success]!], string $[![data]!])
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#

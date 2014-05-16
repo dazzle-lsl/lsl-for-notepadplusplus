@@ -2,647 +2,647 @@
 <NotepadPlus>
     <AutoComplete language="LSL">
         <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal=";" />
-        <KeyWord name="ACTIVE" />
-        <KeyWord name="AGENT" />
-        <KeyWord name="AGENT_ALWAYS_RUN" />
-        <KeyWord name="AGENT_ATTACHMENTS" />
-        <KeyWord name="AGENT_AUTOPILOT" />
-        <KeyWord name="AGENT_AWAY" />
-        <KeyWord name="AGENT_BUSY" />
-        <KeyWord name="AGENT_BY_LEGACY_NAME" />
-        <KeyWord name="AGENT_BY_USERNAME" />
-        <KeyWord name="AGENT_CROUCHING" />
-        <KeyWord name="AGENT_FLYING" />
-        <KeyWord name="AGENT_IN_AIR" />
-        <KeyWord name="AGENT_LIST_PARCEL" />
-        <KeyWord name="AGENT_LIST_PARCEL_OWNER" />
-        <KeyWord name="AGENT_LIST_REGION" />
-        <KeyWord name="AGENT_MOUSELOOK" />
-        <KeyWord name="AGENT_ON_OBJECT" />
-        <KeyWord name="AGENT_SCRIPTED" />
-        <KeyWord name="AGENT_SITTING" />
-        <KeyWord name="AGENT_TYPING" />
-        <KeyWord name="AGENT_WALKING" />
-        <KeyWord name="ALL_SIDES" />
-        <KeyWord name="ANIM_ON" />
-        <KeyWord name="ATTACH_AVATAR_CENTER" />
-        <KeyWord name="ATTACH_BACK" />
-        <KeyWord name="ATTACH_BELLY" />
-        <KeyWord name="ATTACH_CHEST" />
-        <KeyWord name="ATTACH_CHIN" />
-        <KeyWord name="ATTACH_HEAD" />
-        <KeyWord name="ATTACH_HUD_BOTTOM" />
-        <KeyWord name="ATTACH_HUD_BOTTOM_LEFT" />
-        <KeyWord name="ATTACH_HUD_BOTTOM_RIGHT" />
-        <KeyWord name="ATTACH_HUD_CENTER_1" />
-        <KeyWord name="ATTACH_HUD_CENTER_2" />
-        <KeyWord name="ATTACH_HUD_TOP_CENTER" />
-        <KeyWord name="ATTACH_HUD_TOP_LEFT" />
-        <KeyWord name="ATTACH_HUD_TOP_RIGHT" />
-        <KeyWord name="ATTACH_LEAR" />
-        <KeyWord name="ATTACH_LEFT_PEC" />
-        <KeyWord name="ATTACH_LEYE" />
-        <KeyWord name="ATTACH_LFOOT" />
-        <KeyWord name="ATTACH_LHAND" />
-        <KeyWord name="ATTACH_LHIP" />
-        <KeyWord name="ATTACH_LLARM" />
-        <KeyWord name="ATTACH_LLLEG" />
-        <KeyWord name="ATTACH_LSHOULDER" />
-        <KeyWord name="ATTACH_LUARM" />
-        <KeyWord name="ATTACH_LULEG" />
-        <KeyWord name="ATTACH_MOUTH" />
-        <KeyWord name="ATTACH_NECK" />
-        <KeyWord name="ATTACH_NOSE" />
-        <KeyWord name="ATTACH_PELVIS" />
-        <KeyWord name="ATTACH_REAR" />
-        <KeyWord name="ATTACH_REYE" />
-        <KeyWord name="ATTACH_RFOOT" />
-        <KeyWord name="ATTACH_RHAND" />
-        <KeyWord name="ATTACH_RHIP" />
-        <KeyWord name="ATTACH_RIGHT_PEC" />
-        <KeyWord name="ATTACH_RLARM" />
-        <KeyWord name="ATTACH_RLLEG" />
-        <KeyWord name="ATTACH_RSHOULDER" />
-        <KeyWord name="ATTACH_RUARM" />
-        <KeyWord name="ATTACH_RULEG" />
-        <KeyWord name="AVOID_CHARACTERS" />
-        <KeyWord name="AVOID_DYNAMIC_OBSTACLES" />
-        <KeyWord name="AVOID_NONE" />
-        <KeyWord name="CAMERA_ACTIVE" />
-        <KeyWord name="CAMERA_BEHINDNESS_ANGLE" />
-        <KeyWord name="CAMERA_BEHINDNESS_LAG" />
-        <KeyWord name="CAMERA_DISTANCE" />
-        <KeyWord name="CAMERA_FOCUS" />
-        <KeyWord name="CAMERA_FOCUS_LAG" />
-        <KeyWord name="CAMERA_FOCUS_LOCKED" />
-        <KeyWord name="CAMERA_FOCUS_OFFSET" />
-        <KeyWord name="CAMERA_FOCUS_THRESHOLD" />
-        <KeyWord name="CAMERA_PITCH" />
-        <KeyWord name="CAMERA_POSITION" />
-        <KeyWord name="CAMERA_POSITION_LAG" />
-        <KeyWord name="CAMERA_POSITION_LOCKED" />
-        <KeyWord name="CAMERA_POSITION_THRESHOLD" />
-        <KeyWord name="CHANGED_ALLOWED_DROP" />
-        <KeyWord name="CHANGED_COLOR" />
-        <KeyWord name="CHANGED_INVENTORY" />
-        <KeyWord name="CHANGED_LINK" />
-        <KeyWord name="CHANGED_MEDIA" />
-        <KeyWord name="CHANGED_OWNER" />
-        <KeyWord name="CHANGED_REGION" />
-        <KeyWord name="CHANGED_REGION_START" />
-        <KeyWord name="CHANGED_SCALE" />
-        <KeyWord name="CHANGED_SHAPE" />
-        <KeyWord name="CHANGED_TELEPORT" />
-        <KeyWord name="CHANGED_TEXTURE" />
-        <KeyWord name="CHARACTER_ACCOUNT_FOR_SKIPPED_FRAMES" />
-        <KeyWord name="CHARACTER_AVOIDANCE_MODE" />
-        <KeyWord name="CHARACTER_CMD_JUMP" />
-        <KeyWord name="CHARACTER_CMD_SMOOTH_STOP" />
-        <KeyWord name="CHARACTER_CMD_STOP" />
-        <KeyWord name="CHARACTER_DESIRED_SPEED" />
-        <KeyWord name="CHARACTER_DESIRED_TURN_SPEED" />
-        <KeyWord name="CHARACTER_LENGTH" />
-        <KeyWord name="CHARACTER_MAX_ACCEL" />
-        <KeyWord name="CHARACTER_MAX_DECEL" />
-        <KeyWord name="CHARACTER_MAX_SPEED" />
-        <KeyWord name="CHARACTER_MAX_TURN_RADIUS" />
-        <KeyWord name="CHARACTER_ORIENTATION" />
-        <KeyWord name="CHARACTER_RADIUS" />
-        <KeyWord name="CHARACTER_STAY_WITHIN_PARCEL" />
-        <KeyWord name="CHARACTER_TYPE" />
-        <KeyWord name="CHARACTER_TYPE_A" />
-        <KeyWord name="CHARACTER_TYPE_B" />
-        <KeyWord name="CHARACTER_TYPE_C" />
-        <KeyWord name="CHARACTER_TYPE_D" />
-        <KeyWord name="CHARACTER_TYPE_NONE" />
-        <KeyWord name="CLICK_ACTION_BUY" />
-        <KeyWord name="CLICK_ACTION_NONE" />
-        <KeyWord name="CLICK_ACTION_OPEN" />
-        <KeyWord name="CLICK_ACTION_OPEN_MEDIA" />
-        <KeyWord name="CLICK_ACTION_PAY" />
-        <KeyWord name="CLICK_ACTION_PLAY" />
-        <KeyWord name="CLICK_ACTION_SIT" />
-        <KeyWord name="CLICK_ACTION_TOUCH" />
-        <KeyWord name="CONTENT_TYPE_ATOM" />
-        <KeyWord name="CONTENT_TYPE_FORM" />
-        <KeyWord name="CONTENT_TYPE_HTML" />
-        <KeyWord name="CONTENT_TYPE_JSON" />
-        <KeyWord name="CONTENT_TYPE_LLSD" />
-        <KeyWord name="CONTENT_TYPE_RSS" />
-        <KeyWord name="CONTENT_TYPE_TEXT" />
-        <KeyWord name="CONTENT_TYPE_XHTML" />
-        <KeyWord name="CONTENT_TYPE_XML" />
-        <KeyWord name="CONTROL_BACK" />
-        <KeyWord name="CONTROL_DOWN" />
-        <KeyWord name="CONTROL_FWD" />
-        <KeyWord name="CONTROL_LBUTTON" />
-        <KeyWord name="CONTROL_LEFT" />
-        <KeyWord name="CONTROL_ML_LBUTTON" />
-        <KeyWord name="CONTROL_RIGHT" />
-        <KeyWord name="CONTROL_ROT_LEFT" />
-        <KeyWord name="CONTROL_ROT_RIGHT" />
-        <KeyWord name="CONTROL_UP" />
-        <KeyWord name="DATA_BORN" />
-        <KeyWord name="DATA_NAME" />
-        <KeyWord name="DATA_ONLINE" />
-        <KeyWord name="DATA_PAYINFO" />
-        <KeyWord name="DATA_SIM_POS" />
-        <KeyWord name="DATA_SIM_RATING" />
-        <KeyWord name="DATA_SIM_STATUS" />
-        <KeyWord name="DEBUG_CHANNEL" />
-        <KeyWord name="DEG_TO_RAD" />
-        <KeyWord name="DENSITY" />
-        <KeyWord name="EOF" />
-        <KeyWord name="ERR_GENERIC" />
-        <KeyWord name="ERR_MALFORMED_PARAMS" />
-        <KeyWord name="ERR_PARCEL_PERMISSIONS" />
-        <KeyWord name="ERR_RUNTIME_PERMISSIONS" />
-        <KeyWord name="ERR_THROTTLED" />
-        <KeyWord name="ESTATE_ACCESS_ALLOWED_AGENT_ADD" />
-        <KeyWord name="ESTATE_ACCESS_ALLOWED_AGENT_REMOVE" />
-        <KeyWord name="ESTATE_ACCESS_ALLOWED_GROUP_ADD" />
-        <KeyWord name="ESTATE_ACCESS_ALLOWED_GROUP_REMOVE" />
-        <KeyWord name="ESTATE_ACCESS_BANNED_AGENT_ADD" />
-        <KeyWord name="ESTATE_ACCESS_BANNED_AGENT_REMOVE" />
-        <KeyWord name="FALSE" />
-        <KeyWord name="FORCE_DIRECT_PATH" />
-        <KeyWord name="FRICTION" />
-        <KeyWord name="GCNP_RADIUS" />
-        <KeyWord name="GCNP_STATIC" />
-        <KeyWord name="GRAVITY_MULTIPLIER" />
-        <KeyWord name="HORIZONTAL" />
-        <KeyWord name="HTTP_BODY_MAXLENGTH" />
-        <KeyWord name="HTTP_BODY_TRUNCATED" />
-        <KeyWord name="HTTP_CUSTOM_HEADER" />
-        <KeyWord name="HTTP_METHOD" />
-        <KeyWord name="HTTP_MIMETYPE" />
-        <KeyWord name="HTTP_PRAGMA_NO_CACHE" />
-        <KeyWord name="HTTP_VERBOSE_THROTTLE" />
-        <KeyWord name="HTTP_VERIFY_CERT" />
-        <KeyWord name="INVENTORY_ALL" />
-        <KeyWord name="INVENTORY_ANIMATION" />
-        <KeyWord name="INVENTORY_BODYPART" />
-        <KeyWord name="INVENTORY_CLOTHING" />
-        <KeyWord name="INVENTORY_GESTURE" />
-        <KeyWord name="INVENTORY_LANDMARK" />
-        <KeyWord name="INVENTORY_NONE" />
-        <KeyWord name="INVENTORY_NOTECARD" />
-        <KeyWord name="INVENTORY_OBJECT" />
-        <KeyWord name="INVENTORY_SCRIPT" />
-        <KeyWord name="INVENTORY_SOUND" />
-        <KeyWord name="INVENTORY_TEXTURE" />
-        <KeyWord name="JSON_APPEND" />
-        <KeyWord name="JSON_ARRAY" />
-        <KeyWord name="JSON_DELETE" />
-        <KeyWord name="JSON_FALSE" />
-        <KeyWord name="JSON_INVALID" />
-        <KeyWord name="JSON_NULL" />
-        <KeyWord name="JSON_NUMBER" />
-        <KeyWord name="JSON_OBJECT" />
-        <KeyWord name="JSON_STRING" />
-        <KeyWord name="JSON_TRUE" />
-        <KeyWord name="KFM_CMD_PAUSE" />
-        <KeyWord name="KFM_CMD_PLAY" />
-        <KeyWord name="KFM_CMD_SET_MODE" />
-        <KeyWord name="KFM_CMD_STOP" />
-        <KeyWord name="KFM_COMMAND" />
-        <KeyWord name="KFM_DATA" />
-        <KeyWord name="KFM_FORWARD" />
-        <KeyWord name="KFM_LOOP" />
-        <KeyWord name="KFM_MODE" />
-        <KeyWord name="KFM_PING_PONG" />
-        <KeyWord name="KFM_REVERSE" />
-        <KeyWord name="KFM_ROTATION" />
-        <KeyWord name="KFM_TRANSLATION" />
-        <KeyWord name="LAND_LEVEL" />
-        <KeyWord name="LAND_LOWER" />
-        <KeyWord name="LAND_NOISE" />
-        <KeyWord name="LAND_RAISE" />
-        <KeyWord name="LAND_REVERT" />
-        <KeyWord name="LAND_SMOOTH" />
-        <KeyWord name="LINK_ALL_CHILDREN" />
-        <KeyWord name="LINK_ALL_OTHERS" />
-        <KeyWord name="LINK_ROOT" />
-        <KeyWord name="LINK_SET" />
-        <KeyWord name="LINK_THIS" />
-        <KeyWord name="LIST_STAT_GEOMETRIC_MEAN" />
-        <KeyWord name="LIST_STAT_MAX" />
-        <KeyWord name="LIST_STAT_MEAN" />
-        <KeyWord name="LIST_STAT_MEDIAN" />
-        <KeyWord name="LIST_STAT_MIN" />
-        <KeyWord name="LIST_STAT_NUM_COUNT" />
-        <KeyWord name="LIST_STAT_RANGE" />
-        <KeyWord name="LIST_STAT_STD_DEV" />
-        <KeyWord name="LIST_STAT_SUM" />
-        <KeyWord name="LIST_STAT_SUM_SQUARES" />
-        <KeyWord name="LOOP" />
-        <KeyWord name="MASK_BASE" />
-        <KeyWord name="MASK_EVERYONE" />
-        <KeyWord name="MASK_GROUP" />
-        <KeyWord name="MASK_NEXT" />
-        <KeyWord name="MASK_OWNER" />
-        <KeyWord name="NULL_KEY" />
-        <KeyWord name="OBJECT_ATTACHED_POINT" />
-        <KeyWord name="OBJECT_CHARACTER_TIME" />
-        <KeyWord name="OBJECT_CREATOR" />
-        <KeyWord name="OBJECT_DESC" />
-        <KeyWord name="OBJECT_GROUP" />
-        <KeyWord name="OBJECT_NAME" />
-        <KeyWord name="OBJECT_OWNER" />
-        <KeyWord name="OBJECT_PATHFINDING_TYPE" />
-        <KeyWord name="OBJECT_PHANTOM" />
-        <KeyWord name="OBJECT_PHYSICS" />
-        <KeyWord name="OBJECT_PHYSICS_COST" />
-        <KeyWord name="OBJECT_POS" />
-        <KeyWord name="OBJECT_PRIM_EQUIVALENCE" />
-        <KeyWord name="OBJECT_RENDER_WEIGHT" />
-        <KeyWord name="OBJECT_RETURN_PARCEL" />
-        <KeyWord name="OBJECT_RETURN_PARCEL_OWNER" />
-        <KeyWord name="OBJECT_RETURN_REGION" />
-        <KeyWord name="OBJECT_ROOT" />
-        <KeyWord name="OBJECT_ROT" />
-        <KeyWord name="OBJECT_RUNNING_SCRIPT_COUNT" />
-        <KeyWord name="OBJECT_SCRIPT_MEMORY" />
-        <KeyWord name="OBJECT_SCRIPT_TIME" />
-        <KeyWord name="OBJECT_SERVER_COST" />
-        <KeyWord name="OBJECT_STREAMING_COST" />
-        <KeyWord name="OBJECT_TEMP_ON_REZ" />
-        <KeyWord name="OBJECT_TOTAL_SCRIPT_COUNT" />
-        <KeyWord name="OBJECT_UNKNOWN_DETAIL" />
-        <KeyWord name="OBJECT_VELOCITY" />
-        <KeyWord name="OPT_AVATAR" />
-        <KeyWord name="OPT_CHARACTER" />
-        <KeyWord name="OPT_EXCLUSION_VOLUME" />
-        <KeyWord name="OPT_LEGACY_LINKSET" />
-        <KeyWord name="OPT_MATERIAL_VOLUME" />
-        <KeyWord name="OPT_OTHER" />
-        <KeyWord name="OPT_STATIC_OBSTACLE" />
-        <KeyWord name="OPT_WALKABLE" />
-        <KeyWord name="PARCEL_COUNT_GROUP" />
-        <KeyWord name="PARCEL_COUNT_OTHER" />
-        <KeyWord name="PARCEL_COUNT_OWNER" />
-        <KeyWord name="PARCEL_COUNT_SELECTED" />
-        <KeyWord name="PARCEL_COUNT_TEMP" />
-        <KeyWord name="PARCEL_COUNT_TOTAL" />
-        <KeyWord name="PARCEL_DETAILS_AREA" />
-        <KeyWord name="PARCEL_DETAILS_DESC" />
-        <KeyWord name="PARCEL_DETAILS_GROUP" />
-        <KeyWord name="PARCEL_DETAILS_ID" />
-        <KeyWord name="PARCEL_DETAILS_NAME" />
-        <KeyWord name="PARCEL_DETAILS_OWNER" />
-        <KeyWord name="PARCEL_DETAILS_SEE_AVATARS" />
-        <KeyWord name="PARCEL_FLAG_ALLOW_ALL_OBJECT_ENTRY" />
-        <KeyWord name="PARCEL_FLAG_ALLOW_CREATE_GROUP_OBJECTS" />
-        <KeyWord name="PARCEL_FLAG_ALLOW_CREATE_OBJECTS" />
-        <KeyWord name="PARCEL_FLAG_ALLOW_DAMAGE" />
-        <KeyWord name="PARCEL_FLAG_ALLOW_FLY" />
-        <KeyWord name="PARCEL_FLAG_ALLOW_GROUP_OBJECT_ENTRY" />
-        <KeyWord name="PARCEL_FLAG_ALLOW_GROUP_SCRIPTS" />
-        <KeyWord name="PARCEL_FLAG_ALLOW_LANDMARK" />
-        <KeyWord name="PARCEL_FLAG_ALLOW_SCRIPTS" />
-        <KeyWord name="PARCEL_FLAG_ALLOW_TERRAFORM" />
-        <KeyWord name="PARCEL_FLAG_LOCAL_SOUND_ONLY" />
-        <KeyWord name="PARCEL_FLAG_RESTRICT_PUSHOBJECT" />
-        <KeyWord name="PARCEL_FLAG_USE_ACCESS_GROUP" />
-        <KeyWord name="PARCEL_FLAG_USE_ACCESS_LIST" />
-        <KeyWord name="PARCEL_FLAG_USE_BAN_LIST" />
-        <KeyWord name="PARCEL_FLAG_USE_LAND_PASS_LIST" />
-        <KeyWord name="PARCEL_MEDIA_COMMAND_AGENT" />
-        <KeyWord name="PARCEL_MEDIA_COMMAND_AUTO_ALIGN" />
-        <KeyWord name="PARCEL_MEDIA_COMMAND_DESC" />
-        <KeyWord name="PARCEL_MEDIA_COMMAND_LOOP" />
-        <KeyWord name="PARCEL_MEDIA_COMMAND_LOOP_SET" />
-        <KeyWord name="PARCEL_MEDIA_COMMAND_PAUSE" />
-        <KeyWord name="PARCEL_MEDIA_COMMAND_PLAY" />
-        <KeyWord name="PARCEL_MEDIA_COMMAND_SIZE" />
-        <KeyWord name="PARCEL_MEDIA_COMMAND_STOP" />
-        <KeyWord name="PARCEL_MEDIA_COMMAND_TEXTURE" />
-        <KeyWord name="PARCEL_MEDIA_COMMAND_TIME" />
-        <KeyWord name="PARCEL_MEDIA_COMMAND_TYPE" />
-        <KeyWord name="PARCEL_MEDIA_COMMAND_UNLOAD" />
-        <KeyWord name="PARCEL_MEDIA_COMMAND_URL" />
-        <KeyWord name="PASSIVE" />
-        <KeyWord name="PATROL_PAUSE_AT_WAYPOINTS" />
-        <KeyWord name="PAYMENT_INFO_ON_FILE" />
-        <KeyWord name="PAYMENT_INFO_USED" />
-        <KeyWord name="PAY_DEFAULT" />
-        <KeyWord name="PAY_HIDE" />
-        <KeyWord name="PERMISSION_ATTACH" />
-        <KeyWord name="PERMISSION_CHANGE_LINKS" />
-        <KeyWord name="PERMISSION_CONTROL_CAMERA" />
-        <KeyWord name="PERMISSION_DEBIT" />
-        <KeyWord name="PERMISSION_OVERRIDE_ANIMATIONS" />
-        <KeyWord name="PERMISSION_RETURN_OBJECTS" />
-        <KeyWord name="PERMISSION_SILENT_ESTATE_MANAGEMENT" />
-        <KeyWord name="PERMISSION_TAKE_CONTROLS" />
-        <KeyWord name="PERMISSION_TELEPORT" />
-        <KeyWord name="PERMISSION_TRACK_CAMERA" />
-        <KeyWord name="PERMISSION_TRIGGER_ANIMATION" />
-        <KeyWord name="PERM_ALL" />
-        <KeyWord name="PERM_COPY" />
-        <KeyWord name="PERM_MODIFY" />
-        <KeyWord name="PERM_MOVE" />
-        <KeyWord name="PERM_TRANSFER" />
-        <KeyWord name="PI" />
-        <KeyWord name="PING_PONG" />
-        <KeyWord name="PI_BY_TWO" />
-        <KeyWord name="PRIM_BUMP_BARK" />
-        <KeyWord name="PRIM_BUMP_BLOBS" />
-        <KeyWord name="PRIM_BUMP_BRICKS" />
-        <KeyWord name="PRIM_BUMP_BRIGHT" />
-        <KeyWord name="PRIM_BUMP_CHECKER" />
-        <KeyWord name="PRIM_BUMP_CONCRETE" />
-        <KeyWord name="PRIM_BUMP_DARK" />
-        <KeyWord name="PRIM_BUMP_DISKS" />
-        <KeyWord name="PRIM_BUMP_GRAVEL" />
-        <KeyWord name="PRIM_BUMP_LARGETILE" />
-        <KeyWord name="PRIM_BUMP_NONE" />
-        <KeyWord name="PRIM_BUMP_SHINY" />
-        <KeyWord name="PRIM_BUMP_SIDING" />
-        <KeyWord name="PRIM_BUMP_STONE" />
-        <KeyWord name="PRIM_BUMP_STUCCO" />
-        <KeyWord name="PRIM_BUMP_SUCTION" />
-        <KeyWord name="PRIM_BUMP_TILE" />
-        <KeyWord name="PRIM_BUMP_WEAVE" />
-        <KeyWord name="PRIM_BUMP_WOOD" />
-        <KeyWord name="PRIM_COLOR" />
-        <KeyWord name="PRIM_DESC" />
-        <KeyWord name="PRIM_FLEXIBLE" />
-        <KeyWord name="PRIM_FULLBRIGHT" />
-        <KeyWord name="PRIM_GLOW" />
-        <KeyWord name="PRIM_HOLE_CIRCLE" />
-        <KeyWord name="PRIM_HOLE_DEFAULT" />
-        <KeyWord name="PRIM_HOLE_SQUARE" />
-        <KeyWord name="PRIM_HOLE_TRIANGLE" />
-        <KeyWord name="PRIM_LINK_TARGET" />
-        <KeyWord name="PRIM_MATERIAL" />
-        <KeyWord name="PRIM_MATERIAL_FLESH" />
-        <KeyWord name="PRIM_MATERIAL_GLASS" />
-        <KeyWord name="PRIM_MATERIAL_METAL" />
-        <KeyWord name="PRIM_MATERIAL_PLASTIC" />
-        <KeyWord name="PRIM_MATERIAL_RUBBER" />
-        <KeyWord name="PRIM_MATERIAL_STONE" />
-        <KeyWord name="PRIM_MATERIAL_WOOD" />
-        <KeyWord name="PRIM_MEDIA_ALT_IMAGE_ENABLE" />
-        <KeyWord name="PRIM_MEDIA_AUTO_LOOP" />
-        <KeyWord name="PRIM_MEDIA_AUTO_PLAY" />
-        <KeyWord name="PRIM_MEDIA_AUTO_SCALE" />
-        <KeyWord name="PRIM_MEDIA_AUTO_ZOOM" />
-        <KeyWord name="PRIM_MEDIA_CONTROLS" />
-        <KeyWord name="PRIM_MEDIA_CONTROLS_MINI" />
-        <KeyWord name="PRIM_MEDIA_CONTROLS_STANDARD" />
-        <KeyWord name="PRIM_MEDIA_CURRENT_URL" />
-        <KeyWord name="PRIM_MEDIA_FIRST_CLICK_INTERACT" />
-        <KeyWord name="PRIM_MEDIA_HEIGHT_PIXELS" />
-        <KeyWord name="PRIM_MEDIA_HOME_URL" />
-        <KeyWord name="PRIM_MEDIA_MAX_HEIGHT_PIXELS" />
-        <KeyWord name="PRIM_MEDIA_MAX_URL_LENGTH" />
-        <KeyWord name="PRIM_MEDIA_MAX_WHITELIST_COUNT" />
-        <KeyWord name="PRIM_MEDIA_MAX_WHITELIST_SIZE" />
-        <KeyWord name="PRIM_MEDIA_MAX_WIDTH_PIXELS" />
-        <KeyWord name="PRIM_MEDIA_PARAM_MAX" />
-        <KeyWord name="PRIM_MEDIA_PERMS_CONTROL" />
-        <KeyWord name="PRIM_MEDIA_PERMS_INTERACT" />
-        <KeyWord name="PRIM_MEDIA_PERM_ANYONE" />
-        <KeyWord name="PRIM_MEDIA_PERM_GROUP" />
-        <KeyWord name="PRIM_MEDIA_PERM_NONE" />
-        <KeyWord name="PRIM_MEDIA_PERM_OWNER" />
-        <KeyWord name="PRIM_MEDIA_WHITELIST" />
-        <KeyWord name="PRIM_MEDIA_WHITELIST_ENABLE" />
-        <KeyWord name="PRIM_MEDIA_WIDTH_PIXELS" />
-        <KeyWord name="PRIM_NAME" />
-        <KeyWord name="PRIM_OMEGA" />
-        <KeyWord name="PRIM_PHANTOM" />
-        <KeyWord name="PRIM_PHYSICS" />
-        <KeyWord name="PRIM_PHYSICS_SHAPE_CONVEX" />
-        <KeyWord name="PRIM_PHYSICS_SHAPE_NONE" />
-        <KeyWord name="PRIM_PHYSICS_SHAPE_PRIM" />
-        <KeyWord name="PRIM_PHYSICS_SHAPE_TYPE" />
-        <KeyWord name="PRIM_POINT_LIGHT" />
-        <KeyWord name="PRIM_POSITION" />
-        <KeyWord name="PRIM_POS_LOCAL" />
-        <KeyWord name="PRIM_ROTATION" />
-        <KeyWord name="PRIM_ROT_LOCAL" />
-        <KeyWord name="PRIM_SCULPT_FLAG_INVERT" />
-        <KeyWord name="PRIM_SCULPT_FLAG_MIRROR" />
-        <KeyWord name="PRIM_SCULPT_TYPE_CYLINDER" />
-        <KeyWord name="PRIM_SCULPT_TYPE_MASK" />
-        <KeyWord name="PRIM_SCULPT_TYPE_PLANE" />
-        <KeyWord name="PRIM_SCULPT_TYPE_SPHERE" />
-        <KeyWord name="PRIM_SCULPT_TYPE_TORUS" />
-        <KeyWord name="PRIM_SHINY_HIGH" />
-        <KeyWord name="PRIM_SHINY_LOW" />
-        <KeyWord name="PRIM_SHINY_MEDIUM" />
-        <KeyWord name="PRIM_SHINY_NONE" />
-        <KeyWord name="PRIM_SIZE" />
-        <KeyWord name="PRIM_SLICE" />
-        <KeyWord name="PRIM_TEMP_ON_REZ" />
-        <KeyWord name="PRIM_TEXGEN" />
-        <KeyWord name="PRIM_TEXGEN_DEFAULT" />
-        <KeyWord name="PRIM_TEXGEN_PLANAR" />
-        <KeyWord name="PRIM_TEXT" />
-        <KeyWord name="PRIM_TEXTURE" />
-        <KeyWord name="PRIM_TYPE" />
-        <KeyWord name="PRIM_TYPE_BOX" />
-        <KeyWord name="PRIM_TYPE_CYLINDER" />
-        <KeyWord name="PRIM_TYPE_PRISM" />
-        <KeyWord name="PRIM_TYPE_RING" />
-        <KeyWord name="PRIM_TYPE_SCULPT" />
-        <KeyWord name="PRIM_TYPE_SPHERE" />
-        <KeyWord name="PRIM_TYPE_TORUS" />
-        <KeyWord name="PRIM_TYPE_TUBE" />
-        <KeyWord name="PROFILE_NONE" />
-        <KeyWord name="PROFILE_SCRIPT_MEMORY" />
-        <KeyWord name="PSYS_PART_BF_DEST_COLOR" />
-        <KeyWord name="PSYS_PART_BF_ONE" />
-        <KeyWord name="PSYS_PART_BF_ONE_MINUS_DEST_COLOR" />
-        <KeyWord name="PSYS_PART_BF_ONE_MINUS_SOURCE_ALPHA" />
-        <KeyWord name="PSYS_PART_BF_ONE_MINUS_SOURCE_COLOR" />
-        <KeyWord name="PSYS_PART_BF_SOURCE_ALPHA" />
-        <KeyWord name="PSYS_PART_BF_SOURCE_COLOR" />
-        <KeyWord name="PSYS_PART_BF_ZERO" />
-        <KeyWord name="PSYS_PART_BLEND_FUNC_DEST" />
-        <KeyWord name="PSYS_PART_BLEND_FUNC_SOURCE" />
-        <KeyWord name="PSYS_PART_BOUNCE_MASK" />
-        <KeyWord name="PSYS_PART_EMISSIVE_MASK" />
-        <KeyWord name="PSYS_PART_END_ALPHA" />
-        <KeyWord name="PSYS_PART_END_COLOR" />
-        <KeyWord name="PSYS_PART_END_GLOW" />
-        <KeyWord name="PSYS_PART_END_SCALE" />
-        <KeyWord name="PSYS_PART_FLAGS" />
-        <KeyWord name="PSYS_PART_FOLLOW_SRC_MASK" />
-        <KeyWord name="PSYS_PART_FOLLOW_VELOCITY_MASK" />
-        <KeyWord name="PSYS_PART_INTERP_COLOR_MASK" />
-        <KeyWord name="PSYS_PART_INTERP_SCALE_MASK" />
-        <KeyWord name="PSYS_PART_MAX_AGE" />
-        <KeyWord name="PSYS_PART_RIBBON_MASK" />
-        <KeyWord name="PSYS_PART_START_ALPHA" />
-        <KeyWord name="PSYS_PART_START_COLOR" />
-        <KeyWord name="PSYS_PART_START_GLOW" />
-        <KeyWord name="PSYS_PART_START_SCALE" />
-        <KeyWord name="PSYS_PART_TARGET_LINEAR_MASK" />
-        <KeyWord name="PSYS_PART_TARGET_POS_MASK" />
-        <KeyWord name="PSYS_PART_WIND_MASK" />
-        <KeyWord name="PSYS_SRC_ACCEL" />
-        <KeyWord name="PSYS_SRC_ANGLE_BEGIN" />
-        <KeyWord name="PSYS_SRC_ANGLE_END" />
-        <KeyWord name="PSYS_SRC_BURST_PART_COUNT" />
-        <KeyWord name="PSYS_SRC_BURST_RADIUS" />
-        <KeyWord name="PSYS_SRC_BURST_RATE" />
-        <KeyWord name="PSYS_SRC_BURST_SPEED_MAX" />
-        <KeyWord name="PSYS_SRC_BURST_SPEED_MIN" />
-        <KeyWord name="PSYS_SRC_MAX_AGE" />
-        <KeyWord name="PSYS_SRC_OMEGA" />
-        <KeyWord name="PSYS_SRC_PATTERN" />
-        <KeyWord name="PSYS_SRC_PATTERN_ANGLE" />
-        <KeyWord name="PSYS_SRC_PATTERN_ANGLE_CONE" />
-        <KeyWord name="PSYS_SRC_PATTERN_ANGLE_CONE_EMPTY" />
-        <KeyWord name="PSYS_SRC_PATTERN_DROP" />
-        <KeyWord name="PSYS_SRC_PATTERN_EXPLODE" />
-        <KeyWord name="PSYS_SRC_TARGET_KEY" />
-        <KeyWord name="PSYS_SRC_TEXTURE" />
-        <KeyWord name="PUBLIC_CHANNEL" />
-        <KeyWord name="PURSUIT_FUZZ_FACTOR" />
-        <KeyWord name="PURSUIT_GOAL_TOLERANCE" />
-        <KeyWord name="PURSUIT_INTERCEPT" />
-        <KeyWord name="PURSUIT_OFFSET" />
-        <KeyWord name="PU_EVADE_HIDDEN" />
-        <KeyWord name="PU_EVADE_SPOTTED" />
-        <KeyWord name="PU_FAILURE_DYNAMIC_PATHFINDING_DISABLED" />
-        <KeyWord name="PU_FAILURE_INVALID_GOAL" />
-        <KeyWord name="PU_FAILURE_INVALID_START" />
-        <KeyWord name="PU_FAILURE_NO_NAVMESH" />
-        <KeyWord name="PU_FAILURE_NO_VALID_DESTINATION" />
-        <KeyWord name="PU_FAILURE_OTHER" />
-        <KeyWord name="PU_FAILURE_PARCEL_UNREACHABLE" />
-        <KeyWord name="PU_FAILURE_TARGET_GONE" />
-        <KeyWord name="PU_FAILURE_UNREACHABLE" />
-        <KeyWord name="PU_GOAL_REACHED" />
-        <KeyWord name="PU_SLOWDOWN_DISTANCE_REACHED" />
-        <KeyWord name="RAD_TO_DEG" />
-        <KeyWord name="RCERR_CAST_TIME_EXCEEDED" />
-        <KeyWord name="RCERR_SIM_PERF_LOW" />
-        <KeyWord name="RCERR_UNKNOWN" />
-        <KeyWord name="RC_DATA_FLAGS" />
-        <KeyWord name="RC_DETECT_PHANTOM" />
-        <KeyWord name="RC_GET_LINK_NUM" />
-        <KeyWord name="RC_GET_NORMAL" />
-        <KeyWord name="RC_GET_ROOT_KEY" />
-        <KeyWord name="RC_MAX_HITS" />
-        <KeyWord name="RC_REJECT_AGENTS" />
-        <KeyWord name="RC_REJECT_LAND" />
-        <KeyWord name="RC_REJECT_NONPHYSICAL" />
-        <KeyWord name="RC_REJECT_PHYSICAL" />
-        <KeyWord name="RC_REJECT_TYPES" />
-        <KeyWord name="REGION_FLAG_ALLOW_DAMAGE" />
-        <KeyWord name="REGION_FLAG_ALLOW_DIRECT_TELEPORT" />
-        <KeyWord name="REGION_FLAG_BLOCK_FLY" />
-        <KeyWord name="REGION_FLAG_BLOCK_TERRAFORM" />
-        <KeyWord name="REGION_FLAG_DISABLE_COLLISIONS" />
-        <KeyWord name="REGION_FLAG_DISABLE_PHYSICS" />
-        <KeyWord name="REGION_FLAG_FIXED_SUN" />
-        <KeyWord name="REGION_FLAG_RESTRICT_PUSHOBJECT" />
-        <KeyWord name="REGION_FLAG_SANDBOX" />
-        <KeyWord name="REMOTE_DATA_CHANNEL" />
-        <KeyWord name="REMOTE_DATA_REPLY" />
-        <KeyWord name="REMOTE_DATA_REQUEST" />
-        <KeyWord name="REQUIRE_LINE_OF_SIGHT" />
-        <KeyWord name="RESTITUTION" />
-        <KeyWord name="REVERSE" />
-        <KeyWord name="ROTATE" />
-        <KeyWord name="SCALE" />
-        <KeyWord name="SCRIPTED" />
-        <KeyWord name="SIM_STAT_PCT_CHARS_STEPPED" />
-        <KeyWord name="SMOOTH" />
-        <KeyWord name="SQRT2" />
-        <KeyWord name="STATUS_BLOCK_GRAB" />
-        <KeyWord name="STATUS_BLOCK_GRAB_OBJECT" />
-        <KeyWord name="STATUS_BOUNDS_ERROR" />
-        <KeyWord name="STATUS_CAST_SHADOWS" />
-        <KeyWord name="STATUS_DIE_AT_EDGE" />
-        <KeyWord name="STATUS_INTERNAL_ERROR" />
-        <KeyWord name="STATUS_MALFORMED_PARAMS" />
-        <KeyWord name="STATUS_NOT_FOUND" />
-        <KeyWord name="STATUS_NOT_SUPPORTED" />
-        <KeyWord name="STATUS_OK" />
-        <KeyWord name="STATUS_PHANTOM" />
-        <KeyWord name="STATUS_PHYSICS" />
-        <KeyWord name="STATUS_RETURN_AT_EDGE" />
-        <KeyWord name="STATUS_ROTATE_X" />
-        <KeyWord name="STATUS_ROTATE_Y" />
-        <KeyWord name="STATUS_ROTATE_Z" />
-        <KeyWord name="STATUS_SANDBOX" />
-        <KeyWord name="STATUS_TYPE_MISMATCH" />
-        <KeyWord name="STATUS_WHITELIST_FAILED" />
-        <KeyWord name="STRING_TRIM" />
-        <KeyWord name="STRING_TRIM_HEAD" />
-        <KeyWord name="STRING_TRIM_TAIL" />
-        <KeyWord name="TEXTURE_BLANK" />
-        <KeyWord name="TEXTURE_DEFAULT" />
-        <KeyWord name="TEXTURE_MEDIA" />
-        <KeyWord name="TEXTURE_PLYWOOD" />
-        <KeyWord name="TEXTURE_TRANSPARENT" />
-        <KeyWord name="TOUCH_INVALID_FACE" />
-        <KeyWord name="TOUCH_INVALID_TEXCOORD" />
-        <KeyWord name="TOUCH_INVALID_VECTOR" />
-        <KeyWord name="TRAVERSAL_TYPE" />
-        <KeyWord name="TRAVERSAL_TYPE_FAST" />
-        <KeyWord name="TRAVERSAL_TYPE_NONE" />
-        <KeyWord name="TRAVERSAL_TYPE_SLOW" />
-        <KeyWord name="TRUE" />
-        <KeyWord name="TWO_PI" />
-        <KeyWord name="TYPE_FLOAT" />
-        <KeyWord name="TYPE_INTEGER" />
-        <KeyWord name="TYPE_INVALID" />
-        <KeyWord name="TYPE_KEY" />
-        <KeyWord name="TYPE_ROTATION" />
-        <KeyWord name="TYPE_STRING" />
-        <KeyWord name="TYPE_VECTOR" />
-        <KeyWord name="URL_REQUEST_DENIED" />
-        <KeyWord name="URL_REQUEST_GRANTED" />
-        <KeyWord name="VEHICLE_ANGULAR_DEFLECTION_EFFICIENCY" />
-        <KeyWord name="VEHICLE_ANGULAR_DEFLECTION_TIMESCALE" />
-        <KeyWord name="VEHICLE_ANGULAR_FRICTION_TIMESCALE" />
-        <KeyWord name="VEHICLE_ANGULAR_MOTOR_DECAY_TIMESCALE" />
-        <KeyWord name="VEHICLE_ANGULAR_MOTOR_DIRECTION" />
-        <KeyWord name="VEHICLE_ANGULAR_MOTOR_TIMESCALE" />
-        <KeyWord name="VEHICLE_BANKING_EFFICIENCY" />
-        <KeyWord name="VEHICLE_BANKING_MIX" />
-        <KeyWord name="VEHICLE_BANKING_TIMESCALE" />
-        <KeyWord name="VEHICLE_BUOYANCY" />
-        <KeyWord name="VEHICLE_FLAG_CAMERA_DECOUPLED" />
-        <KeyWord name="VEHICLE_FLAG_HOVER_GLOBAL_HEIGHT" />
-        <KeyWord name="VEHICLE_FLAG_HOVER_TERRAIN_ONLY" />
-        <KeyWord name="VEHICLE_FLAG_HOVER_UP_ONLY" />
-        <KeyWord name="VEHICLE_FLAG_HOVER_WATER_ONLY" />
-        <KeyWord name="VEHICLE_FLAG_LIMIT_MOTOR_UP" />
-        <KeyWord name="VEHICLE_FLAG_LIMIT_ROLL_ONLY" />
-        <KeyWord name="VEHICLE_FLAG_MOUSELOOK_BANK" />
-        <KeyWord name="VEHICLE_FLAG_MOUSELOOK_STEER" />
-        <KeyWord name="VEHICLE_FLAG_NO_DEFLECTION_UP" />
-        <KeyWord name="VEHICLE_HOVER_EFFICIENCY" />
-        <KeyWord name="VEHICLE_HOVER_HEIGHT" />
-        <KeyWord name="VEHICLE_HOVER_TIMESCALE" />
-        <KeyWord name="VEHICLE_LINEAR_DEFLECTION_EFFICIENCY" />
-        <KeyWord name="VEHICLE_LINEAR_DEFLECTION_TIMESCALE" />
-        <KeyWord name="VEHICLE_LINEAR_FRICTION_TIMESCALE" />
-        <KeyWord name="VEHICLE_LINEAR_MOTOR_DECAY_TIMESCALE" />
-        <KeyWord name="VEHICLE_LINEAR_MOTOR_DIRECTION" />
-        <KeyWord name="VEHICLE_LINEAR_MOTOR_OFFSET" />
-        <KeyWord name="VEHICLE_LINEAR_MOTOR_TIMESCALE" />
-        <KeyWord name="VEHICLE_REFERENCE_FRAME" />
-        <KeyWord name="VEHICLE_TYPE_AIRPLANE" />
-        <KeyWord name="VEHICLE_TYPE_BALLOON" />
-        <KeyWord name="VEHICLE_TYPE_BOAT" />
-        <KeyWord name="VEHICLE_TYPE_CAR" />
-        <KeyWord name="VEHICLE_TYPE_NONE" />
-        <KeyWord name="VEHICLE_TYPE_SLED" />
-        <KeyWord name="VEHICLE_VERTICAL_ATTRACTION_EFFICIENCY" />
-        <KeyWord name="VEHICLE_VERTICAL_ATTRACTION_TIMESCALE" />
-        <KeyWord name="VERTICAL" />
-        <KeyWord name="WANDER_PAUSE_AT_WAYPOINTS" />
-        <KeyWord name="ZERO_ROTATION" />
-        <KeyWord name="ZERO_VECTOR" />
+        <KeyWord name="ACTIVE" func="no" />
+        <KeyWord name="AGENT" func="no" />
+        <KeyWord name="AGENT_ALWAYS_RUN" func="no" />
+        <KeyWord name="AGENT_ATTACHMENTS" func="no" />
+        <KeyWord name="AGENT_AUTOPILOT" func="no" />
+        <KeyWord name="AGENT_AWAY" func="no" />
+        <KeyWord name="AGENT_BUSY" func="no" />
+        <KeyWord name="AGENT_BY_LEGACY_NAME" func="no" />
+        <KeyWord name="AGENT_BY_USERNAME" func="no" />
+        <KeyWord name="AGENT_CROUCHING" func="no" />
+        <KeyWord name="AGENT_FLYING" func="no" />
+        <KeyWord name="AGENT_IN_AIR" func="no" />
+        <KeyWord name="AGENT_LIST_PARCEL" func="no" />
+        <KeyWord name="AGENT_LIST_PARCEL_OWNER" func="no" />
+        <KeyWord name="AGENT_LIST_REGION" func="no" />
+        <KeyWord name="AGENT_MOUSELOOK" func="no" />
+        <KeyWord name="AGENT_ON_OBJECT" func="no" />
+        <KeyWord name="AGENT_SCRIPTED" func="no" />
+        <KeyWord name="AGENT_SITTING" func="no" />
+        <KeyWord name="AGENT_TYPING" func="no" />
+        <KeyWord name="AGENT_WALKING" func="no" />
+        <KeyWord name="ALL_SIDES" func="no" />
+        <KeyWord name="ANIM_ON" func="no" />
+        <KeyWord name="ATTACH_AVATAR_CENTER" func="no" />
+        <KeyWord name="ATTACH_BACK" func="no" />
+        <KeyWord name="ATTACH_BELLY" func="no" />
+        <KeyWord name="ATTACH_CHEST" func="no" />
+        <KeyWord name="ATTACH_CHIN" func="no" />
+        <KeyWord name="ATTACH_HEAD" func="no" />
+        <KeyWord name="ATTACH_HUD_BOTTOM" func="no" />
+        <KeyWord name="ATTACH_HUD_BOTTOM_LEFT" func="no" />
+        <KeyWord name="ATTACH_HUD_BOTTOM_RIGHT" func="no" />
+        <KeyWord name="ATTACH_HUD_CENTER_1" func="no" />
+        <KeyWord name="ATTACH_HUD_CENTER_2" func="no" />
+        <KeyWord name="ATTACH_HUD_TOP_CENTER" func="no" />
+        <KeyWord name="ATTACH_HUD_TOP_LEFT" func="no" />
+        <KeyWord name="ATTACH_HUD_TOP_RIGHT" func="no" />
+        <KeyWord name="ATTACH_LEAR" func="no" />
+        <KeyWord name="ATTACH_LEFT_PEC" func="no" />
+        <KeyWord name="ATTACH_LEYE" func="no" />
+        <KeyWord name="ATTACH_LFOOT" func="no" />
+        <KeyWord name="ATTACH_LHAND" func="no" />
+        <KeyWord name="ATTACH_LHIP" func="no" />
+        <KeyWord name="ATTACH_LLARM" func="no" />
+        <KeyWord name="ATTACH_LLLEG" func="no" />
+        <KeyWord name="ATTACH_LSHOULDER" func="no" />
+        <KeyWord name="ATTACH_LUARM" func="no" />
+        <KeyWord name="ATTACH_LULEG" func="no" />
+        <KeyWord name="ATTACH_MOUTH" func="no" />
+        <KeyWord name="ATTACH_NECK" func="no" />
+        <KeyWord name="ATTACH_NOSE" func="no" />
+        <KeyWord name="ATTACH_PELVIS" func="no" />
+        <KeyWord name="ATTACH_REAR" func="no" />
+        <KeyWord name="ATTACH_REYE" func="no" />
+        <KeyWord name="ATTACH_RFOOT" func="no" />
+        <KeyWord name="ATTACH_RHAND" func="no" />
+        <KeyWord name="ATTACH_RHIP" func="no" />
+        <KeyWord name="ATTACH_RIGHT_PEC" func="no" />
+        <KeyWord name="ATTACH_RLARM" func="no" />
+        <KeyWord name="ATTACH_RLLEG" func="no" />
+        <KeyWord name="ATTACH_RSHOULDER" func="no" />
+        <KeyWord name="ATTACH_RUARM" func="no" />
+        <KeyWord name="ATTACH_RULEG" func="no" />
+        <KeyWord name="AVOID_CHARACTERS" func="no" />
+        <KeyWord name="AVOID_DYNAMIC_OBSTACLES" func="no" />
+        <KeyWord name="AVOID_NONE" func="no" />
+        <KeyWord name="CAMERA_ACTIVE" func="no" />
+        <KeyWord name="CAMERA_BEHINDNESS_ANGLE" func="no" />
+        <KeyWord name="CAMERA_BEHINDNESS_LAG" func="no" />
+        <KeyWord name="CAMERA_DISTANCE" func="no" />
+        <KeyWord name="CAMERA_FOCUS" func="no" />
+        <KeyWord name="CAMERA_FOCUS_LAG" func="no" />
+        <KeyWord name="CAMERA_FOCUS_LOCKED" func="no" />
+        <KeyWord name="CAMERA_FOCUS_OFFSET" func="no" />
+        <KeyWord name="CAMERA_FOCUS_THRESHOLD" func="no" />
+        <KeyWord name="CAMERA_PITCH" func="no" />
+        <KeyWord name="CAMERA_POSITION" func="no" />
+        <KeyWord name="CAMERA_POSITION_LAG" func="no" />
+        <KeyWord name="CAMERA_POSITION_LOCKED" func="no" />
+        <KeyWord name="CAMERA_POSITION_THRESHOLD" func="no" />
+        <KeyWord name="CHANGED_ALLOWED_DROP" func="no" />
+        <KeyWord name="CHANGED_COLOR" func="no" />
+        <KeyWord name="CHANGED_INVENTORY" func="no" />
+        <KeyWord name="CHANGED_LINK" func="no" />
+        <KeyWord name="CHANGED_MEDIA" func="no" />
+        <KeyWord name="CHANGED_OWNER" func="no" />
+        <KeyWord name="CHANGED_REGION" func="no" />
+        <KeyWord name="CHANGED_REGION_START" func="no" />
+        <KeyWord name="CHANGED_SCALE" func="no" />
+        <KeyWord name="CHANGED_SHAPE" func="no" />
+        <KeyWord name="CHANGED_TELEPORT" func="no" />
+        <KeyWord name="CHANGED_TEXTURE" func="no" />
+        <KeyWord name="CHARACTER_ACCOUNT_FOR_SKIPPED_FRAMES" func="no" />
+        <KeyWord name="CHARACTER_AVOIDANCE_MODE" func="no" />
+        <KeyWord name="CHARACTER_CMD_JUMP" func="no" />
+        <KeyWord name="CHARACTER_CMD_SMOOTH_STOP" func="no" />
+        <KeyWord name="CHARACTER_CMD_STOP" func="no" />
+        <KeyWord name="CHARACTER_DESIRED_SPEED" func="no" />
+        <KeyWord name="CHARACTER_DESIRED_TURN_SPEED" func="no" />
+        <KeyWord name="CHARACTER_LENGTH" func="no" />
+        <KeyWord name="CHARACTER_MAX_ACCEL" func="no" />
+        <KeyWord name="CHARACTER_MAX_DECEL" func="no" />
+        <KeyWord name="CHARACTER_MAX_SPEED" func="no" />
+        <KeyWord name="CHARACTER_MAX_TURN_RADIUS" func="no" />
+        <KeyWord name="CHARACTER_ORIENTATION" func="no" />
+        <KeyWord name="CHARACTER_RADIUS" func="no" />
+        <KeyWord name="CHARACTER_STAY_WITHIN_PARCEL" func="no" />
+        <KeyWord name="CHARACTER_TYPE" func="no" />
+        <KeyWord name="CHARACTER_TYPE_A" func="no" />
+        <KeyWord name="CHARACTER_TYPE_B" func="no" />
+        <KeyWord name="CHARACTER_TYPE_C" func="no" />
+        <KeyWord name="CHARACTER_TYPE_D" func="no" />
+        <KeyWord name="CHARACTER_TYPE_NONE" func="no" />
+        <KeyWord name="CLICK_ACTION_BUY" func="no" />
+        <KeyWord name="CLICK_ACTION_NONE" func="no" />
+        <KeyWord name="CLICK_ACTION_OPEN" func="no" />
+        <KeyWord name="CLICK_ACTION_OPEN_MEDIA" func="no" />
+        <KeyWord name="CLICK_ACTION_PAY" func="no" />
+        <KeyWord name="CLICK_ACTION_PLAY" func="no" />
+        <KeyWord name="CLICK_ACTION_SIT" func="no" />
+        <KeyWord name="CLICK_ACTION_TOUCH" func="no" />
+        <KeyWord name="CONTENT_TYPE_ATOM" func="no" />
+        <KeyWord name="CONTENT_TYPE_FORM" func="no" />
+        <KeyWord name="CONTENT_TYPE_HTML" func="no" />
+        <KeyWord name="CONTENT_TYPE_JSON" func="no" />
+        <KeyWord name="CONTENT_TYPE_LLSD" func="no" />
+        <KeyWord name="CONTENT_TYPE_RSS" func="no" />
+        <KeyWord name="CONTENT_TYPE_TEXT" func="no" />
+        <KeyWord name="CONTENT_TYPE_XHTML" func="no" />
+        <KeyWord name="CONTENT_TYPE_XML" func="no" />
+        <KeyWord name="CONTROL_BACK" func="no" />
+        <KeyWord name="CONTROL_DOWN" func="no" />
+        <KeyWord name="CONTROL_FWD" func="no" />
+        <KeyWord name="CONTROL_LBUTTON" func="no" />
+        <KeyWord name="CONTROL_LEFT" func="no" />
+        <KeyWord name="CONTROL_ML_LBUTTON" func="no" />
+        <KeyWord name="CONTROL_RIGHT" func="no" />
+        <KeyWord name="CONTROL_ROT_LEFT" func="no" />
+        <KeyWord name="CONTROL_ROT_RIGHT" func="no" />
+        <KeyWord name="CONTROL_UP" func="no" />
+        <KeyWord name="DATA_BORN" func="no" />
+        <KeyWord name="DATA_NAME" func="no" />
+        <KeyWord name="DATA_ONLINE" func="no" />
+        <KeyWord name="DATA_PAYINFO" func="no" />
+        <KeyWord name="DATA_SIM_POS" func="no" />
+        <KeyWord name="DATA_SIM_RATING" func="no" />
+        <KeyWord name="DATA_SIM_STATUS" func="no" />
+        <KeyWord name="DEBUG_CHANNEL" func="no" />
+        <KeyWord name="DEG_TO_RAD" func="no" />
+        <KeyWord name="DENSITY" func="no" />
+        <KeyWord name="EOF" func="no" />
+        <KeyWord name="ERR_GENERIC" func="no" />
+        <KeyWord name="ERR_MALFORMED_PARAMS" func="no" />
+        <KeyWord name="ERR_PARCEL_PERMISSIONS" func="no" />
+        <KeyWord name="ERR_RUNTIME_PERMISSIONS" func="no" />
+        <KeyWord name="ERR_THROTTLED" func="no" />
+        <KeyWord name="ESTATE_ACCESS_ALLOWED_AGENT_ADD" func="no" />
+        <KeyWord name="ESTATE_ACCESS_ALLOWED_AGENT_REMOVE" func="no" />
+        <KeyWord name="ESTATE_ACCESS_ALLOWED_GROUP_ADD" func="no" />
+        <KeyWord name="ESTATE_ACCESS_ALLOWED_GROUP_REMOVE" func="no" />
+        <KeyWord name="ESTATE_ACCESS_BANNED_AGENT_ADD" func="no" />
+        <KeyWord name="ESTATE_ACCESS_BANNED_AGENT_REMOVE" func="no" />
+        <KeyWord name="FALSE" func="no" />
+        <KeyWord name="FORCE_DIRECT_PATH" func="no" />
+        <KeyWord name="FRICTION" func="no" />
+        <KeyWord name="GCNP_RADIUS" func="no" />
+        <KeyWord name="GCNP_STATIC" func="no" />
+        <KeyWord name="GRAVITY_MULTIPLIER" func="no" />
+        <KeyWord name="HORIZONTAL" func="no" />
+        <KeyWord name="HTTP_BODY_MAXLENGTH" func="no" />
+        <KeyWord name="HTTP_BODY_TRUNCATED" func="no" />
+        <KeyWord name="HTTP_CUSTOM_HEADER" func="no" />
+        <KeyWord name="HTTP_METHOD" func="no" />
+        <KeyWord name="HTTP_MIMETYPE" func="no" />
+        <KeyWord name="HTTP_PRAGMA_NO_CACHE" func="no" />
+        <KeyWord name="HTTP_VERBOSE_THROTTLE" func="no" />
+        <KeyWord name="HTTP_VERIFY_CERT" func="no" />
+        <KeyWord name="INVENTORY_ALL" func="no" />
+        <KeyWord name="INVENTORY_ANIMATION" func="no" />
+        <KeyWord name="INVENTORY_BODYPART" func="no" />
+        <KeyWord name="INVENTORY_CLOTHING" func="no" />
+        <KeyWord name="INVENTORY_GESTURE" func="no" />
+        <KeyWord name="INVENTORY_LANDMARK" func="no" />
+        <KeyWord name="INVENTORY_NONE" func="no" />
+        <KeyWord name="INVENTORY_NOTECARD" func="no" />
+        <KeyWord name="INVENTORY_OBJECT" func="no" />
+        <KeyWord name="INVENTORY_SCRIPT" func="no" />
+        <KeyWord name="INVENTORY_SOUND" func="no" />
+        <KeyWord name="INVENTORY_TEXTURE" func="no" />
+        <KeyWord name="JSON_APPEND" func="no" />
+        <KeyWord name="JSON_ARRAY" func="no" />
+        <KeyWord name="JSON_DELETE" func="no" />
+        <KeyWord name="JSON_FALSE" func="no" />
+        <KeyWord name="JSON_INVALID" func="no" />
+        <KeyWord name="JSON_NULL" func="no" />
+        <KeyWord name="JSON_NUMBER" func="no" />
+        <KeyWord name="JSON_OBJECT" func="no" />
+        <KeyWord name="JSON_STRING" func="no" />
+        <KeyWord name="JSON_TRUE" func="no" />
+        <KeyWord name="KFM_CMD_PAUSE" func="no" />
+        <KeyWord name="KFM_CMD_PLAY" func="no" />
+        <KeyWord name="KFM_CMD_SET_MODE" func="no" />
+        <KeyWord name="KFM_CMD_STOP" func="no" />
+        <KeyWord name="KFM_COMMAND" func="no" />
+        <KeyWord name="KFM_DATA" func="no" />
+        <KeyWord name="KFM_FORWARD" func="no" />
+        <KeyWord name="KFM_LOOP" func="no" />
+        <KeyWord name="KFM_MODE" func="no" />
+        <KeyWord name="KFM_PING_PONG" func="no" />
+        <KeyWord name="KFM_REVERSE" func="no" />
+        <KeyWord name="KFM_ROTATION" func="no" />
+        <KeyWord name="KFM_TRANSLATION" func="no" />
+        <KeyWord name="LAND_LEVEL" func="no" />
+        <KeyWord name="LAND_LOWER" func="no" />
+        <KeyWord name="LAND_NOISE" func="no" />
+        <KeyWord name="LAND_RAISE" func="no" />
+        <KeyWord name="LAND_REVERT" func="no" />
+        <KeyWord name="LAND_SMOOTH" func="no" />
+        <KeyWord name="LINK_ALL_CHILDREN" func="no" />
+        <KeyWord name="LINK_ALL_OTHERS" func="no" />
+        <KeyWord name="LINK_ROOT" func="no" />
+        <KeyWord name="LINK_SET" func="no" />
+        <KeyWord name="LINK_THIS" func="no" />
+        <KeyWord name="LIST_STAT_GEOMETRIC_MEAN" func="no" />
+        <KeyWord name="LIST_STAT_MAX" func="no" />
+        <KeyWord name="LIST_STAT_MEAN" func="no" />
+        <KeyWord name="LIST_STAT_MEDIAN" func="no" />
+        <KeyWord name="LIST_STAT_MIN" func="no" />
+        <KeyWord name="LIST_STAT_NUM_COUNT" func="no" />
+        <KeyWord name="LIST_STAT_RANGE" func="no" />
+        <KeyWord name="LIST_STAT_STD_DEV" func="no" />
+        <KeyWord name="LIST_STAT_SUM" func="no" />
+        <KeyWord name="LIST_STAT_SUM_SQUARES" func="no" />
+        <KeyWord name="LOOP" func="no" />
+        <KeyWord name="MASK_BASE" func="no" />
+        <KeyWord name="MASK_EVERYONE" func="no" />
+        <KeyWord name="MASK_GROUP" func="no" />
+        <KeyWord name="MASK_NEXT" func="no" />
+        <KeyWord name="MASK_OWNER" func="no" />
+        <KeyWord name="NULL_KEY" func="no" />
+        <KeyWord name="OBJECT_ATTACHED_POINT" func="no" />
+        <KeyWord name="OBJECT_CHARACTER_TIME" func="no" />
+        <KeyWord name="OBJECT_CREATOR" func="no" />
+        <KeyWord name="OBJECT_DESC" func="no" />
+        <KeyWord name="OBJECT_GROUP" func="no" />
+        <KeyWord name="OBJECT_NAME" func="no" />
+        <KeyWord name="OBJECT_OWNER" func="no" />
+        <KeyWord name="OBJECT_PATHFINDING_TYPE" func="no" />
+        <KeyWord name="OBJECT_PHANTOM" func="no" />
+        <KeyWord name="OBJECT_PHYSICS" func="no" />
+        <KeyWord name="OBJECT_PHYSICS_COST" func="no" />
+        <KeyWord name="OBJECT_POS" func="no" />
+        <KeyWord name="OBJECT_PRIM_EQUIVALENCE" func="no" />
+        <KeyWord name="OBJECT_RENDER_WEIGHT" func="no" />
+        <KeyWord name="OBJECT_RETURN_PARCEL" func="no" />
+        <KeyWord name="OBJECT_RETURN_PARCEL_OWNER" func="no" />
+        <KeyWord name="OBJECT_RETURN_REGION" func="no" />
+        <KeyWord name="OBJECT_ROOT" func="no" />
+        <KeyWord name="OBJECT_ROT" func="no" />
+        <KeyWord name="OBJECT_RUNNING_SCRIPT_COUNT" func="no" />
+        <KeyWord name="OBJECT_SCRIPT_MEMORY" func="no" />
+        <KeyWord name="OBJECT_SCRIPT_TIME" func="no" />
+        <KeyWord name="OBJECT_SERVER_COST" func="no" />
+        <KeyWord name="OBJECT_STREAMING_COST" func="no" />
+        <KeyWord name="OBJECT_TEMP_ON_REZ" func="no" />
+        <KeyWord name="OBJECT_TOTAL_SCRIPT_COUNT" func="no" />
+        <KeyWord name="OBJECT_UNKNOWN_DETAIL" func="no" />
+        <KeyWord name="OBJECT_VELOCITY" func="no" />
+        <KeyWord name="OPT_AVATAR" func="no" />
+        <KeyWord name="OPT_CHARACTER" func="no" />
+        <KeyWord name="OPT_EXCLUSION_VOLUME" func="no" />
+        <KeyWord name="OPT_LEGACY_LINKSET" func="no" />
+        <KeyWord name="OPT_MATERIAL_VOLUME" func="no" />
+        <KeyWord name="OPT_OTHER" func="no" />
+        <KeyWord name="OPT_STATIC_OBSTACLE" func="no" />
+        <KeyWord name="OPT_WALKABLE" func="no" />
+        <KeyWord name="PARCEL_COUNT_GROUP" func="no" />
+        <KeyWord name="PARCEL_COUNT_OTHER" func="no" />
+        <KeyWord name="PARCEL_COUNT_OWNER" func="no" />
+        <KeyWord name="PARCEL_COUNT_SELECTED" func="no" />
+        <KeyWord name="PARCEL_COUNT_TEMP" func="no" />
+        <KeyWord name="PARCEL_COUNT_TOTAL" func="no" />
+        <KeyWord name="PARCEL_DETAILS_AREA" func="no" />
+        <KeyWord name="PARCEL_DETAILS_DESC" func="no" />
+        <KeyWord name="PARCEL_DETAILS_GROUP" func="no" />
+        <KeyWord name="PARCEL_DETAILS_ID" func="no" />
+        <KeyWord name="PARCEL_DETAILS_NAME" func="no" />
+        <KeyWord name="PARCEL_DETAILS_OWNER" func="no" />
+        <KeyWord name="PARCEL_DETAILS_SEE_AVATARS" func="no" />
+        <KeyWord name="PARCEL_FLAG_ALLOW_ALL_OBJECT_ENTRY" func="no" />
+        <KeyWord name="PARCEL_FLAG_ALLOW_CREATE_GROUP_OBJECTS" func="no" />
+        <KeyWord name="PARCEL_FLAG_ALLOW_CREATE_OBJECTS" func="no" />
+        <KeyWord name="PARCEL_FLAG_ALLOW_DAMAGE" func="no" />
+        <KeyWord name="PARCEL_FLAG_ALLOW_FLY" func="no" />
+        <KeyWord name="PARCEL_FLAG_ALLOW_GROUP_OBJECT_ENTRY" func="no" />
+        <KeyWord name="PARCEL_FLAG_ALLOW_GROUP_SCRIPTS" func="no" />
+        <KeyWord name="PARCEL_FLAG_ALLOW_LANDMARK" func="no" />
+        <KeyWord name="PARCEL_FLAG_ALLOW_SCRIPTS" func="no" />
+        <KeyWord name="PARCEL_FLAG_ALLOW_TERRAFORM" func="no" />
+        <KeyWord name="PARCEL_FLAG_LOCAL_SOUND_ONLY" func="no" />
+        <KeyWord name="PARCEL_FLAG_RESTRICT_PUSHOBJECT" func="no" />
+        <KeyWord name="PARCEL_FLAG_USE_ACCESS_GROUP" func="no" />
+        <KeyWord name="PARCEL_FLAG_USE_ACCESS_LIST" func="no" />
+        <KeyWord name="PARCEL_FLAG_USE_BAN_LIST" func="no" />
+        <KeyWord name="PARCEL_FLAG_USE_LAND_PASS_LIST" func="no" />
+        <KeyWord name="PARCEL_MEDIA_COMMAND_AGENT" func="no" />
+        <KeyWord name="PARCEL_MEDIA_COMMAND_AUTO_ALIGN" func="no" />
+        <KeyWord name="PARCEL_MEDIA_COMMAND_DESC" func="no" />
+        <KeyWord name="PARCEL_MEDIA_COMMAND_LOOP" func="no" />
+        <KeyWord name="PARCEL_MEDIA_COMMAND_LOOP_SET" func="no" />
+        <KeyWord name="PARCEL_MEDIA_COMMAND_PAUSE" func="no" />
+        <KeyWord name="PARCEL_MEDIA_COMMAND_PLAY" func="no" />
+        <KeyWord name="PARCEL_MEDIA_COMMAND_SIZE" func="no" />
+        <KeyWord name="PARCEL_MEDIA_COMMAND_STOP" func="no" />
+        <KeyWord name="PARCEL_MEDIA_COMMAND_TEXTURE" func="no" />
+        <KeyWord name="PARCEL_MEDIA_COMMAND_TIME" func="no" />
+        <KeyWord name="PARCEL_MEDIA_COMMAND_TYPE" func="no" />
+        <KeyWord name="PARCEL_MEDIA_COMMAND_UNLOAD" func="no" />
+        <KeyWord name="PARCEL_MEDIA_COMMAND_URL" func="no" />
+        <KeyWord name="PASSIVE" func="no" />
+        <KeyWord name="PATROL_PAUSE_AT_WAYPOINTS" func="no" />
+        <KeyWord name="PAYMENT_INFO_ON_FILE" func="no" />
+        <KeyWord name="PAYMENT_INFO_USED" func="no" />
+        <KeyWord name="PAY_DEFAULT" func="no" />
+        <KeyWord name="PAY_HIDE" func="no" />
+        <KeyWord name="PERMISSION_ATTACH" func="no" />
+        <KeyWord name="PERMISSION_CHANGE_LINKS" func="no" />
+        <KeyWord name="PERMISSION_CONTROL_CAMERA" func="no" />
+        <KeyWord name="PERMISSION_DEBIT" func="no" />
+        <KeyWord name="PERMISSION_OVERRIDE_ANIMATIONS" func="no" />
+        <KeyWord name="PERMISSION_RETURN_OBJECTS" func="no" />
+        <KeyWord name="PERMISSION_SILENT_ESTATE_MANAGEMENT" func="no" />
+        <KeyWord name="PERMISSION_TAKE_CONTROLS" func="no" />
+        <KeyWord name="PERMISSION_TELEPORT" func="no" />
+        <KeyWord name="PERMISSION_TRACK_CAMERA" func="no" />
+        <KeyWord name="PERMISSION_TRIGGER_ANIMATION" func="no" />
+        <KeyWord name="PERM_ALL" func="no" />
+        <KeyWord name="PERM_COPY" func="no" />
+        <KeyWord name="PERM_MODIFY" func="no" />
+        <KeyWord name="PERM_MOVE" func="no" />
+        <KeyWord name="PERM_TRANSFER" func="no" />
+        <KeyWord name="PI" func="no" />
+        <KeyWord name="PING_PONG" func="no" />
+        <KeyWord name="PI_BY_TWO" func="no" />
+        <KeyWord name="PRIM_BUMP_BARK" func="no" />
+        <KeyWord name="PRIM_BUMP_BLOBS" func="no" />
+        <KeyWord name="PRIM_BUMP_BRICKS" func="no" />
+        <KeyWord name="PRIM_BUMP_BRIGHT" func="no" />
+        <KeyWord name="PRIM_BUMP_CHECKER" func="no" />
+        <KeyWord name="PRIM_BUMP_CONCRETE" func="no" />
+        <KeyWord name="PRIM_BUMP_DARK" func="no" />
+        <KeyWord name="PRIM_BUMP_DISKS" func="no" />
+        <KeyWord name="PRIM_BUMP_GRAVEL" func="no" />
+        <KeyWord name="PRIM_BUMP_LARGETILE" func="no" />
+        <KeyWord name="PRIM_BUMP_NONE" func="no" />
+        <KeyWord name="PRIM_BUMP_SHINY" func="no" />
+        <KeyWord name="PRIM_BUMP_SIDING" func="no" />
+        <KeyWord name="PRIM_BUMP_STONE" func="no" />
+        <KeyWord name="PRIM_BUMP_STUCCO" func="no" />
+        <KeyWord name="PRIM_BUMP_SUCTION" func="no" />
+        <KeyWord name="PRIM_BUMP_TILE" func="no" />
+        <KeyWord name="PRIM_BUMP_WEAVE" func="no" />
+        <KeyWord name="PRIM_BUMP_WOOD" func="no" />
+        <KeyWord name="PRIM_COLOR" func="no" />
+        <KeyWord name="PRIM_DESC" func="no" />
+        <KeyWord name="PRIM_FLEXIBLE" func="no" />
+        <KeyWord name="PRIM_FULLBRIGHT" func="no" />
+        <KeyWord name="PRIM_GLOW" func="no" />
+        <KeyWord name="PRIM_HOLE_CIRCLE" func="no" />
+        <KeyWord name="PRIM_HOLE_DEFAULT" func="no" />
+        <KeyWord name="PRIM_HOLE_SQUARE" func="no" />
+        <KeyWord name="PRIM_HOLE_TRIANGLE" func="no" />
+        <KeyWord name="PRIM_LINK_TARGET" func="no" />
+        <KeyWord name="PRIM_MATERIAL" func="no" />
+        <KeyWord name="PRIM_MATERIAL_FLESH" func="no" />
+        <KeyWord name="PRIM_MATERIAL_GLASS" func="no" />
+        <KeyWord name="PRIM_MATERIAL_METAL" func="no" />
+        <KeyWord name="PRIM_MATERIAL_PLASTIC" func="no" />
+        <KeyWord name="PRIM_MATERIAL_RUBBER" func="no" />
+        <KeyWord name="PRIM_MATERIAL_STONE" func="no" />
+        <KeyWord name="PRIM_MATERIAL_WOOD" func="no" />
+        <KeyWord name="PRIM_MEDIA_ALT_IMAGE_ENABLE" func="no" />
+        <KeyWord name="PRIM_MEDIA_AUTO_LOOP" func="no" />
+        <KeyWord name="PRIM_MEDIA_AUTO_PLAY" func="no" />
+        <KeyWord name="PRIM_MEDIA_AUTO_SCALE" func="no" />
+        <KeyWord name="PRIM_MEDIA_AUTO_ZOOM" func="no" />
+        <KeyWord name="PRIM_MEDIA_CONTROLS" func="no" />
+        <KeyWord name="PRIM_MEDIA_CONTROLS_MINI" func="no" />
+        <KeyWord name="PRIM_MEDIA_CONTROLS_STANDARD" func="no" />
+        <KeyWord name="PRIM_MEDIA_CURRENT_URL" func="no" />
+        <KeyWord name="PRIM_MEDIA_FIRST_CLICK_INTERACT" func="no" />
+        <KeyWord name="PRIM_MEDIA_HEIGHT_PIXELS" func="no" />
+        <KeyWord name="PRIM_MEDIA_HOME_URL" func="no" />
+        <KeyWord name="PRIM_MEDIA_MAX_HEIGHT_PIXELS" func="no" />
+        <KeyWord name="PRIM_MEDIA_MAX_URL_LENGTH" func="no" />
+        <KeyWord name="PRIM_MEDIA_MAX_WHITELIST_COUNT" func="no" />
+        <KeyWord name="PRIM_MEDIA_MAX_WHITELIST_SIZE" func="no" />
+        <KeyWord name="PRIM_MEDIA_MAX_WIDTH_PIXELS" func="no" />
+        <KeyWord name="PRIM_MEDIA_PARAM_MAX" func="no" />
+        <KeyWord name="PRIM_MEDIA_PERMS_CONTROL" func="no" />
+        <KeyWord name="PRIM_MEDIA_PERMS_INTERACT" func="no" />
+        <KeyWord name="PRIM_MEDIA_PERM_ANYONE" func="no" />
+        <KeyWord name="PRIM_MEDIA_PERM_GROUP" func="no" />
+        <KeyWord name="PRIM_MEDIA_PERM_NONE" func="no" />
+        <KeyWord name="PRIM_MEDIA_PERM_OWNER" func="no" />
+        <KeyWord name="PRIM_MEDIA_WHITELIST" func="no" />
+        <KeyWord name="PRIM_MEDIA_WHITELIST_ENABLE" func="no" />
+        <KeyWord name="PRIM_MEDIA_WIDTH_PIXELS" func="no" />
+        <KeyWord name="PRIM_NAME" func="no" />
+        <KeyWord name="PRIM_OMEGA" func="no" />
+        <KeyWord name="PRIM_PHANTOM" func="no" />
+        <KeyWord name="PRIM_PHYSICS" func="no" />
+        <KeyWord name="PRIM_PHYSICS_SHAPE_CONVEX" func="no" />
+        <KeyWord name="PRIM_PHYSICS_SHAPE_NONE" func="no" />
+        <KeyWord name="PRIM_PHYSICS_SHAPE_PRIM" func="no" />
+        <KeyWord name="PRIM_PHYSICS_SHAPE_TYPE" func="no" />
+        <KeyWord name="PRIM_POINT_LIGHT" func="no" />
+        <KeyWord name="PRIM_POSITION" func="no" />
+        <KeyWord name="PRIM_POS_LOCAL" func="no" />
+        <KeyWord name="PRIM_ROTATION" func="no" />
+        <KeyWord name="PRIM_ROT_LOCAL" func="no" />
+        <KeyWord name="PRIM_SCULPT_FLAG_INVERT" func="no" />
+        <KeyWord name="PRIM_SCULPT_FLAG_MIRROR" func="no" />
+        <KeyWord name="PRIM_SCULPT_TYPE_CYLINDER" func="no" />
+        <KeyWord name="PRIM_SCULPT_TYPE_MASK" func="no" />
+        <KeyWord name="PRIM_SCULPT_TYPE_PLANE" func="no" />
+        <KeyWord name="PRIM_SCULPT_TYPE_SPHERE" func="no" />
+        <KeyWord name="PRIM_SCULPT_TYPE_TORUS" func="no" />
+        <KeyWord name="PRIM_SHINY_HIGH" func="no" />
+        <KeyWord name="PRIM_SHINY_LOW" func="no" />
+        <KeyWord name="PRIM_SHINY_MEDIUM" func="no" />
+        <KeyWord name="PRIM_SHINY_NONE" func="no" />
+        <KeyWord name="PRIM_SIZE" func="no" />
+        <KeyWord name="PRIM_SLICE" func="no" />
+        <KeyWord name="PRIM_TEMP_ON_REZ" func="no" />
+        <KeyWord name="PRIM_TEXGEN" func="no" />
+        <KeyWord name="PRIM_TEXGEN_DEFAULT" func="no" />
+        <KeyWord name="PRIM_TEXGEN_PLANAR" func="no" />
+        <KeyWord name="PRIM_TEXT" func="no" />
+        <KeyWord name="PRIM_TEXTURE" func="no" />
+        <KeyWord name="PRIM_TYPE" func="no" />
+        <KeyWord name="PRIM_TYPE_BOX" func="no" />
+        <KeyWord name="PRIM_TYPE_CYLINDER" func="no" />
+        <KeyWord name="PRIM_TYPE_PRISM" func="no" />
+        <KeyWord name="PRIM_TYPE_RING" func="no" />
+        <KeyWord name="PRIM_TYPE_SCULPT" func="no" />
+        <KeyWord name="PRIM_TYPE_SPHERE" func="no" />
+        <KeyWord name="PRIM_TYPE_TORUS" func="no" />
+        <KeyWord name="PRIM_TYPE_TUBE" func="no" />
+        <KeyWord name="PROFILE_NONE" func="no" />
+        <KeyWord name="PROFILE_SCRIPT_MEMORY" func="no" />
+        <KeyWord name="PSYS_PART_BF_DEST_COLOR" func="no" />
+        <KeyWord name="PSYS_PART_BF_ONE" func="no" />
+        <KeyWord name="PSYS_PART_BF_ONE_MINUS_DEST_COLOR" func="no" />
+        <KeyWord name="PSYS_PART_BF_ONE_MINUS_SOURCE_ALPHA" func="no" />
+        <KeyWord name="PSYS_PART_BF_ONE_MINUS_SOURCE_COLOR" func="no" />
+        <KeyWord name="PSYS_PART_BF_SOURCE_ALPHA" func="no" />
+        <KeyWord name="PSYS_PART_BF_SOURCE_COLOR" func="no" />
+        <KeyWord name="PSYS_PART_BF_ZERO" func="no" />
+        <KeyWord name="PSYS_PART_BLEND_FUNC_DEST" func="no" />
+        <KeyWord name="PSYS_PART_BLEND_FUNC_SOURCE" func="no" />
+        <KeyWord name="PSYS_PART_BOUNCE_MASK" func="no" />
+        <KeyWord name="PSYS_PART_EMISSIVE_MASK" func="no" />
+        <KeyWord name="PSYS_PART_END_ALPHA" func="no" />
+        <KeyWord name="PSYS_PART_END_COLOR" func="no" />
+        <KeyWord name="PSYS_PART_END_GLOW" func="no" />
+        <KeyWord name="PSYS_PART_END_SCALE" func="no" />
+        <KeyWord name="PSYS_PART_FLAGS" func="no" />
+        <KeyWord name="PSYS_PART_FOLLOW_SRC_MASK" func="no" />
+        <KeyWord name="PSYS_PART_FOLLOW_VELOCITY_MASK" func="no" />
+        <KeyWord name="PSYS_PART_INTERP_COLOR_MASK" func="no" />
+        <KeyWord name="PSYS_PART_INTERP_SCALE_MASK" func="no" />
+        <KeyWord name="PSYS_PART_MAX_AGE" func="no" />
+        <KeyWord name="PSYS_PART_RIBBON_MASK" func="no" />
+        <KeyWord name="PSYS_PART_START_ALPHA" func="no" />
+        <KeyWord name="PSYS_PART_START_COLOR" func="no" />
+        <KeyWord name="PSYS_PART_START_GLOW" func="no" />
+        <KeyWord name="PSYS_PART_START_SCALE" func="no" />
+        <KeyWord name="PSYS_PART_TARGET_LINEAR_MASK" func="no" />
+        <KeyWord name="PSYS_PART_TARGET_POS_MASK" func="no" />
+        <KeyWord name="PSYS_PART_WIND_MASK" func="no" />
+        <KeyWord name="PSYS_SRC_ACCEL" func="no" />
+        <KeyWord name="PSYS_SRC_ANGLE_BEGIN" func="no" />
+        <KeyWord name="PSYS_SRC_ANGLE_END" func="no" />
+        <KeyWord name="PSYS_SRC_BURST_PART_COUNT" func="no" />
+        <KeyWord name="PSYS_SRC_BURST_RADIUS" func="no" />
+        <KeyWord name="PSYS_SRC_BURST_RATE" func="no" />
+        <KeyWord name="PSYS_SRC_BURST_SPEED_MAX" func="no" />
+        <KeyWord name="PSYS_SRC_BURST_SPEED_MIN" func="no" />
+        <KeyWord name="PSYS_SRC_MAX_AGE" func="no" />
+        <KeyWord name="PSYS_SRC_OMEGA" func="no" />
+        <KeyWord name="PSYS_SRC_PATTERN" func="no" />
+        <KeyWord name="PSYS_SRC_PATTERN_ANGLE" func="no" />
+        <KeyWord name="PSYS_SRC_PATTERN_ANGLE_CONE" func="no" />
+        <KeyWord name="PSYS_SRC_PATTERN_ANGLE_CONE_EMPTY" func="no" />
+        <KeyWord name="PSYS_SRC_PATTERN_DROP" func="no" />
+        <KeyWord name="PSYS_SRC_PATTERN_EXPLODE" func="no" />
+        <KeyWord name="PSYS_SRC_TARGET_KEY" func="no" />
+        <KeyWord name="PSYS_SRC_TEXTURE" func="no" />
+        <KeyWord name="PUBLIC_CHANNEL" func="no" />
+        <KeyWord name="PURSUIT_FUZZ_FACTOR" func="no" />
+        <KeyWord name="PURSUIT_GOAL_TOLERANCE" func="no" />
+        <KeyWord name="PURSUIT_INTERCEPT" func="no" />
+        <KeyWord name="PURSUIT_OFFSET" func="no" />
+        <KeyWord name="PU_EVADE_HIDDEN" func="no" />
+        <KeyWord name="PU_EVADE_SPOTTED" func="no" />
+        <KeyWord name="PU_FAILURE_DYNAMIC_PATHFINDING_DISABLED" func="no" />
+        <KeyWord name="PU_FAILURE_INVALID_GOAL" func="no" />
+        <KeyWord name="PU_FAILURE_INVALID_START" func="no" />
+        <KeyWord name="PU_FAILURE_NO_NAVMESH" func="no" />
+        <KeyWord name="PU_FAILURE_NO_VALID_DESTINATION" func="no" />
+        <KeyWord name="PU_FAILURE_OTHER" func="no" />
+        <KeyWord name="PU_FAILURE_PARCEL_UNREACHABLE" func="no" />
+        <KeyWord name="PU_FAILURE_TARGET_GONE" func="no" />
+        <KeyWord name="PU_FAILURE_UNREACHABLE" func="no" />
+        <KeyWord name="PU_GOAL_REACHED" func="no" />
+        <KeyWord name="PU_SLOWDOWN_DISTANCE_REACHED" func="no" />
+        <KeyWord name="RAD_TO_DEG" func="no" />
+        <KeyWord name="RCERR_CAST_TIME_EXCEEDED" func="no" />
+        <KeyWord name="RCERR_SIM_PERF_LOW" func="no" />
+        <KeyWord name="RCERR_UNKNOWN" func="no" />
+        <KeyWord name="RC_DATA_FLAGS" func="no" />
+        <KeyWord name="RC_DETECT_PHANTOM" func="no" />
+        <KeyWord name="RC_GET_LINK_NUM" func="no" />
+        <KeyWord name="RC_GET_NORMAL" func="no" />
+        <KeyWord name="RC_GET_ROOT_KEY" func="no" />
+        <KeyWord name="RC_MAX_HITS" func="no" />
+        <KeyWord name="RC_REJECT_AGENTS" func="no" />
+        <KeyWord name="RC_REJECT_LAND" func="no" />
+        <KeyWord name="RC_REJECT_NONPHYSICAL" func="no" />
+        <KeyWord name="RC_REJECT_PHYSICAL" func="no" />
+        <KeyWord name="RC_REJECT_TYPES" func="no" />
+        <KeyWord name="REGION_FLAG_ALLOW_DAMAGE" func="no" />
+        <KeyWord name="REGION_FLAG_ALLOW_DIRECT_TELEPORT" func="no" />
+        <KeyWord name="REGION_FLAG_BLOCK_FLY" func="no" />
+        <KeyWord name="REGION_FLAG_BLOCK_TERRAFORM" func="no" />
+        <KeyWord name="REGION_FLAG_DISABLE_COLLISIONS" func="no" />
+        <KeyWord name="REGION_FLAG_DISABLE_PHYSICS" func="no" />
+        <KeyWord name="REGION_FLAG_FIXED_SUN" func="no" />
+        <KeyWord name="REGION_FLAG_RESTRICT_PUSHOBJECT" func="no" />
+        <KeyWord name="REGION_FLAG_SANDBOX" func="no" />
+        <KeyWord name="REMOTE_DATA_CHANNEL" func="no" />
+        <KeyWord name="REMOTE_DATA_REPLY" func="no" />
+        <KeyWord name="REMOTE_DATA_REQUEST" func="no" />
+        <KeyWord name="REQUIRE_LINE_OF_SIGHT" func="no" />
+        <KeyWord name="RESTITUTION" func="no" />
+        <KeyWord name="REVERSE" func="no" />
+        <KeyWord name="ROTATE" func="no" />
+        <KeyWord name="SCALE" func="no" />
+        <KeyWord name="SCRIPTED" func="no" />
+        <KeyWord name="SIM_STAT_PCT_CHARS_STEPPED" func="no" />
+        <KeyWord name="SMOOTH" func="no" />
+        <KeyWord name="SQRT2" func="no" />
+        <KeyWord name="STATUS_BLOCK_GRAB" func="no" />
+        <KeyWord name="STATUS_BLOCK_GRAB_OBJECT" func="no" />
+        <KeyWord name="STATUS_BOUNDS_ERROR" func="no" />
+        <KeyWord name="STATUS_CAST_SHADOWS" func="no" />
+        <KeyWord name="STATUS_DIE_AT_EDGE" func="no" />
+        <KeyWord name="STATUS_INTERNAL_ERROR" func="no" />
+        <KeyWord name="STATUS_MALFORMED_PARAMS" func="no" />
+        <KeyWord name="STATUS_NOT_FOUND" func="no" />
+        <KeyWord name="STATUS_NOT_SUPPORTED" func="no" />
+        <KeyWord name="STATUS_OK" func="no" />
+        <KeyWord name="STATUS_PHANTOM" func="no" />
+        <KeyWord name="STATUS_PHYSICS" func="no" />
+        <KeyWord name="STATUS_RETURN_AT_EDGE" func="no" />
+        <KeyWord name="STATUS_ROTATE_X" func="no" />
+        <KeyWord name="STATUS_ROTATE_Y" func="no" />
+        <KeyWord name="STATUS_ROTATE_Z" func="no" />
+        <KeyWord name="STATUS_SANDBOX" func="no" />
+        <KeyWord name="STATUS_TYPE_MISMATCH" func="no" />
+        <KeyWord name="STATUS_WHITELIST_FAILED" func="no" />
+        <KeyWord name="STRING_TRIM" func="no" />
+        <KeyWord name="STRING_TRIM_HEAD" func="no" />
+        <KeyWord name="STRING_TRIM_TAIL" func="no" />
+        <KeyWord name="TEXTURE_BLANK" func="no" />
+        <KeyWord name="TEXTURE_DEFAULT" func="no" />
+        <KeyWord name="TEXTURE_MEDIA" func="no" />
+        <KeyWord name="TEXTURE_PLYWOOD" func="no" />
+        <KeyWord name="TEXTURE_TRANSPARENT" func="no" />
+        <KeyWord name="TOUCH_INVALID_FACE" func="no" />
+        <KeyWord name="TOUCH_INVALID_TEXCOORD" func="no" />
+        <KeyWord name="TOUCH_INVALID_VECTOR" func="no" />
+        <KeyWord name="TRAVERSAL_TYPE" func="no" />
+        <KeyWord name="TRAVERSAL_TYPE_FAST" func="no" />
+        <KeyWord name="TRAVERSAL_TYPE_NONE" func="no" />
+        <KeyWord name="TRAVERSAL_TYPE_SLOW" func="no" />
+        <KeyWord name="TRUE" func="no" />
+        <KeyWord name="TWO_PI" func="no" />
+        <KeyWord name="TYPE_FLOAT" func="no" />
+        <KeyWord name="TYPE_INTEGER" func="no" />
+        <KeyWord name="TYPE_INVALID" func="no" />
+        <KeyWord name="TYPE_KEY" func="no" />
+        <KeyWord name="TYPE_ROTATION" func="no" />
+        <KeyWord name="TYPE_STRING" func="no" />
+        <KeyWord name="TYPE_VECTOR" func="no" />
+        <KeyWord name="URL_REQUEST_DENIED" func="no" />
+        <KeyWord name="URL_REQUEST_GRANTED" func="no" />
+        <KeyWord name="VEHICLE_ANGULAR_DEFLECTION_EFFICIENCY" func="no" />
+        <KeyWord name="VEHICLE_ANGULAR_DEFLECTION_TIMESCALE" func="no" />
+        <KeyWord name="VEHICLE_ANGULAR_FRICTION_TIMESCALE" func="no" />
+        <KeyWord name="VEHICLE_ANGULAR_MOTOR_DECAY_TIMESCALE" func="no" />
+        <KeyWord name="VEHICLE_ANGULAR_MOTOR_DIRECTION" func="no" />
+        <KeyWord name="VEHICLE_ANGULAR_MOTOR_TIMESCALE" func="no" />
+        <KeyWord name="VEHICLE_BANKING_EFFICIENCY" func="no" />
+        <KeyWord name="VEHICLE_BANKING_MIX" func="no" />
+        <KeyWord name="VEHICLE_BANKING_TIMESCALE" func="no" />
+        <KeyWord name="VEHICLE_BUOYANCY" func="no" />
+        <KeyWord name="VEHICLE_FLAG_CAMERA_DECOUPLED" func="no" />
+        <KeyWord name="VEHICLE_FLAG_HOVER_GLOBAL_HEIGHT" func="no" />
+        <KeyWord name="VEHICLE_FLAG_HOVER_TERRAIN_ONLY" func="no" />
+        <KeyWord name="VEHICLE_FLAG_HOVER_UP_ONLY" func="no" />
+        <KeyWord name="VEHICLE_FLAG_HOVER_WATER_ONLY" func="no" />
+        <KeyWord name="VEHICLE_FLAG_LIMIT_MOTOR_UP" func="no" />
+        <KeyWord name="VEHICLE_FLAG_LIMIT_ROLL_ONLY" func="no" />
+        <KeyWord name="VEHICLE_FLAG_MOUSELOOK_BANK" func="no" />
+        <KeyWord name="VEHICLE_FLAG_MOUSELOOK_STEER" func="no" />
+        <KeyWord name="VEHICLE_FLAG_NO_DEFLECTION_UP" func="no" />
+        <KeyWord name="VEHICLE_HOVER_EFFICIENCY" func="no" />
+        <KeyWord name="VEHICLE_HOVER_HEIGHT" func="no" />
+        <KeyWord name="VEHICLE_HOVER_TIMESCALE" func="no" />
+        <KeyWord name="VEHICLE_LINEAR_DEFLECTION_EFFICIENCY" func="no" />
+        <KeyWord name="VEHICLE_LINEAR_DEFLECTION_TIMESCALE" func="no" />
+        <KeyWord name="VEHICLE_LINEAR_FRICTION_TIMESCALE" func="no" />
+        <KeyWord name="VEHICLE_LINEAR_MOTOR_DECAY_TIMESCALE" func="no" />
+        <KeyWord name="VEHICLE_LINEAR_MOTOR_DIRECTION" func="no" />
+        <KeyWord name="VEHICLE_LINEAR_MOTOR_OFFSET" func="no" />
+        <KeyWord name="VEHICLE_LINEAR_MOTOR_TIMESCALE" func="no" />
+        <KeyWord name="VEHICLE_REFERENCE_FRAME" func="no" />
+        <KeyWord name="VEHICLE_TYPE_AIRPLANE" func="no" />
+        <KeyWord name="VEHICLE_TYPE_BALLOON" func="no" />
+        <KeyWord name="VEHICLE_TYPE_BOAT" func="no" />
+        <KeyWord name="VEHICLE_TYPE_CAR" func="no" />
+        <KeyWord name="VEHICLE_TYPE_NONE" func="no" />
+        <KeyWord name="VEHICLE_TYPE_SLED" func="no" />
+        <KeyWord name="VEHICLE_VERTICAL_ATTRACTION_EFFICIENCY" func="no" />
+        <KeyWord name="VEHICLE_VERTICAL_ATTRACTION_TIMESCALE" func="no" />
+        <KeyWord name="VERTICAL" func="no" />
+        <KeyWord name="WANDER_PAUSE_AT_WAYPOINTS" func="no" />
+        <KeyWord name="ZERO_ROTATION" func="no" />
+        <KeyWord name="ZERO_VECTOR" func="no" />
         <KeyWord name="at_rot_target" func="yes">
             <Overload retVal="" descr="Result of llRotTarget library function call.">
                 <Param name="integer handle" />
@@ -4041,6 +4041,34 @@ attachments when a user logs in, or when the object is attached from inventory."
             <Overload retVal="" descr="Triggered by an active pathfinding character when pathfinding events occur.">
                 <Param name="integer type" />
                 <Param name="list reserved" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="print" func="yes">
+            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+                <Param name="float whatever" />
+            </Overload>
+            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+                <Param name="integer whatever" />
+            </Overload>
+            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+                <Param name="key whatever" />
+            </Overload>
+            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+                <Param name="list whatever" />
+            </Overload>
+<!--
+            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+                <Param name="quaternion whatever" />
+            </Overload>
+-->
+            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+                <Param name="rotation whatever" />
+            </Overload>
+            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+                <Param name="string whatever" />
+            </Overload>
+            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+                <Param name="vector whatever" />
             </Overload>
         </KeyWord>
         <KeyWord name="quaternion" />

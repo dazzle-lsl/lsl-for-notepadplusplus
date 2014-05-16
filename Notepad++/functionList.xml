@@ -2,19 +2,19 @@
 <NotepadPlus>
     <functionList>
         <associationMap>
-            <!--
+<!--
                 ...
                 ...other 'association' nodes
                 ...
-            -->
+-->
             <association userDefinedLangName="LSL" ext=".lsl" id="lsl_event" />
         </associationMap>
         <parsers>
-            <!--
+<!--
                 ...
                 ...other 'parser' nodes
                 ...
-            -->
+-->
             <parser id="lsl_event" displayName="LSL Event" commentExpr="(?:(/\*.*?\*/)|(//.*?$))">
                 <classRange
                     mainExpr="(?x)(?:\b(?:(?:state)\s+(?:[A-Za-z_]\w*)|(?:default))\b)\s*(?=\{)"
