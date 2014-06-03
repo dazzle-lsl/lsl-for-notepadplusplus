@@ -4044,30 +4044,30 @@ attachments when a user logs in, or when the object is attached from inventory."
             </Overload>
         </KeyWord>
         <KeyWord name="print" func="yes">
-            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+            <Overload retVal="void" descr="Prints whatever to the log at LindenLab.">
                 <Param name="float whatever" />
             </Overload>
-            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+            <Overload retVal="void" descr="Prints whatever to the log at LindenLab.">
                 <Param name="integer whatever" />
             </Overload>
-            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+            <Overload retVal="void" descr="Prints whatever to the log at LindenLab.">
                 <Param name="key whatever" />
             </Overload>
-            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+            <Overload retVal="void" descr="Prints whatever to the log at LindenLab.">
                 <Param name="list whatever" />
             </Overload>
 <!--
-            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+            <Overload retVal="void" descr="Prints whatever to the log at LindenLab.">
                 <Param name="quaternion whatever" />
             </Overload>
 -->
-            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+            <Overload retVal="void" descr="Prints whatever to the log at LindenLab.">
                 <Param name="rotation whatever" />
             </Overload>
-            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+            <Overload retVal="void" descr="Prints whatever to the log at LindenLab.">
                 <Param name="string whatever" />
             </Overload>
-            <Overload retVal="" descr="Prints whatever to the log at LindenLab.">
+            <Overload retVal="void" descr="Prints whatever to the log at LindenLab.">
                 <Param name="vector whatever" />
             </Overload>
         </KeyWord>
