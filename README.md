@@ -9,9 +9,10 @@
 * [Autocompletion](#autocompletion)
 * [Snippets via FingerText](#snippets-via-fingertext)
 * [Code structure](#code-structure)
+* [Code folding](#code-folding)
 * [Screenshots and screencast](#screenshots-and-screencast)
 
-___
+
 
 ### Quick start
 
@@ -57,6 +58,12 @@ Install [FingerText](https://github.com/erinata/FingerText) from the [Notepad++]
 Add code snippets from [functionList.xml](Notepad++/functionList.xml) to `../Notepad++/functionList.xml` where [Notepad++](https://www.notepad-plus-plus.org/) is installed.
 
 Read more about the [function list in Notepad++](https://www.notepad-plus-plus.org/features/function-list.html) on its homepage.
+
+### Code folding:
+
+Having setup the [EOL](https://en.wikipedia.org/wiki/Newline) incorrectly will mess up the code-folding.
+
+Make sure `Edit >> EOL conversion` is set to `Edit >> EOL conversion >> Windows format`.
 
 ### Screenshots and screencast:
 
