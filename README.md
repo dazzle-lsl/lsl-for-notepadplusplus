@@ -61,7 +61,7 @@ Read more about the [function list in Notepad++](https://www.notepad-plus-plus.o
 
 ### Code folding:
 
-Having setup the [EOL](https://en.wikipedia.org/wiki/Newline) incorrectly will mess up the code-folding.
+Having set up the [EOL](https://en.wikipedia.org/wiki/Newline) incorrectly will mess up the code-folding.
 
 Make sure `Edit >> EOL conversion` is set to `Edit >> EOL conversion >> Windows format`.
 
