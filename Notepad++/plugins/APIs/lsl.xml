@@ -346,6 +346,11 @@
         <KeyWord name="PI" func="no" />
         <KeyWord name="PING_PONG" func="no" />
         <KeyWord name="PI_BY_TWO" func="no" />
+        <KeyWord name="PRIM_ALPHA_MODE" func="no" />
+        <KeyWord name="PRIM_ALPHA_MODE_BLEND" func="no" />
+        <KeyWord name="PRIM_ALPHA_MODE_EMISSIVE" func="no" />
+        <KeyWord name="PRIM_ALPHA_MODE_MASK" func="no" />
+        <KeyWord name="PRIM_ALPHA_MODE_NONE" func="no" />
         <KeyWord name="PRIM_BUMP_BARK" func="no" />
         <KeyWord name="PRIM_BUMP_BLOBS" func="no" />
         <KeyWord name="PRIM_BUMP_BRICKS" func="no" />
@@ -411,6 +416,7 @@
         <KeyWord name="PRIM_MEDIA_WHITELIST_ENABLE" func="no" />
         <KeyWord name="PRIM_MEDIA_WIDTH_PIXELS" func="no" />
         <KeyWord name="PRIM_NAME" func="no" />
+        <KeyWord name="PRIM_NORMAL" func="no" />
         <KeyWord name="PRIM_OMEGA" func="no" />
         <KeyWord name="PRIM_PHANTOM" func="no" />
         <KeyWord name="PRIM_PHYSICS" func="no" />
@@ -436,6 +442,7 @@
         <KeyWord name="PRIM_SHINY_NONE" func="no" />
         <KeyWord name="PRIM_SIZE" func="no" />
         <KeyWord name="PRIM_SLICE" func="no" />
+        <KeyWord name="PRIM_SPECULAR" func="no" />
         <KeyWord name="PRIM_TEMP_ON_REZ" func="no" />
         <KeyWord name="PRIM_TEXGEN" func="no" />
         <KeyWord name="PRIM_TEXGEN_DEFAULT" func="no" />
