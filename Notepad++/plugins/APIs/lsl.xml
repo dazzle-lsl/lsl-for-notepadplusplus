@@ -648,6 +648,23 @@
         <KeyWord name="VEHICLE_VERTICAL_ATTRACTION_TIMESCALE" func="no" />
         <KeyWord name="VERTICAL" func="no" />
         <KeyWord name="WANDER_PAUSE_AT_WAYPOINTS" func="no" />
+        <KeyWord name="XP_ERROR_NONE" func="no" />
+        <KeyWord name="XP_ERROR_THROTTLED" func="no" />
+        <KeyWord name="XP_ERROR_EXPERIENCES_DISABLED" func="no" />
+        <KeyWord name="XP_ERROR_INVALID_PARAMETERS" func="no" />
+        <KeyWord name="XP_ERROR_NOT_PERMITTED" func="no" />
+        <KeyWord name="XP_ERROR_NO_EXPERIENCE" func="no" />
+        <KeyWord name="XP_ERROR_NOT_FOUND" func="no" />
+        <KeyWord name="XP_ERROR_INVALID_EXPERIENCE" func="no" />
+        <KeyWord name="XP_ERROR_EXPERIENCE_DISABLED" func="no" />
+        <KeyWord name="XP_ERROR_EXPERIENCE_SUSPENDED" func="no" />
+        <KeyWord name="XP_ERROR_QUOTA_EXCEEDED" func="no" />
+        <KeyWord name="XP_ERROR_STORE_DISABLED" func="no" />
+        <KeyWord name="XP_ERROR_STORAGE_EXCEPTION" func="no" />
+        <KeyWord name="XP_ERROR_KEY_NOT_FOUND" func="no" />
+        <KeyWord name="XP_ERROR_RETRY_UPDATE" func="no" />
+        <KeyWord name="XP_ERROR_UNKNOWN_ERROR" func="no" />
+        <KeyWord name="XP_ERROR_MATURITY_EXCEEDED" func="no" />
         <KeyWord name="ZERO_ROTATION" func="no" />
         <KeyWord name="ZERO_VECTOR" func="no" />
         <KeyWord name="at_rot_target" func="yes">
@@ -713,6 +730,17 @@ Multiple changes can be represented in a single event, so use bit-wise arithmeti
                 <Param name="string subject" />
                 <Param name="string message" />
                 <Param name="integer num_left" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="experience_permissions" func="yes">
+            <Overload retVal="" descr="">
+                <Param name="key agent_id" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="experience_permissions_denied" func="yes">
+            <Overload retVal="" descr="">
+                <Param name="key agent_id" />
+                <Param name="integer reason" />
             </Overload>
         </KeyWord>
         <KeyWord name="float" />
@@ -804,6 +832,11 @@ The returned value is in the range [0.0, PI].">
 
 float volume - between 0.0 (silent) and 1.0 (loud) (0.0 &lt;= volume &gt;= 1.0)">
                 <Param name="float volume" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="llAgentInExperience" func="yes">
+            <Overload retVal="integer" descr="">
+                <Param name="key agent" />
             </Overload>
         </KeyWord>
         <KeyWord name="llAllowInventoryDrop" func="yes">
@@ -1037,6 +1070,12 @@ less taxing on the server.">
                 <Param name="list options" />
             </Overload>
         </KeyWord>
+        <KeyWord name="llCreateKeyValue" func="yes">
+            <Overload retVal="key" descr="">
+                <Param name="string k" />
+                <Param name="string v" />
+            </Overload>
+        </KeyWord>
         <KeyWord name="llCreateLink" func="yes">
             <Overload retVal="void" descr="Attempt to link the script&apos;s object with target.
 
@@ -1063,8 +1102,16 @@ function with the CSV format, it is not the CSV format.">
                 <Param name="string source" />
             </Overload>
         </KeyWord>
+        <KeyWord name="llDataSizeKeyValue" func="yes">
+            <Overload retVal="key" descr="" />
+        </KeyWord>
         <KeyWord name="llDeleteCharacter" func="yes">
             <Overload retVal="void" descr="Convert the object back to a standard object, removing all pathfinding properties." />
+        </KeyWord>
+        <KeyWord name="llDeleteKeyValue" func="yes">
+            <Overload retVal="key" descr="">
+                <Param name="string k" />
+            </Overload>
         </KeyWord>
         <KeyWord name="llDeleteSubList" func="yes">
             <Overload retVal="list" descr="Returns a list that is a copy of src but with the slice from start to end removed.
@@ -1563,6 +1610,21 @@ completely disconnects from the sim, either as a main or child agent).">
 Note that the value returned is a string, you may need to cast it to an integer
 for use in calculations.">
                 <Param name="string name" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="llGetExperienceDetails" func="yes">
+            <Overload retVal="list" descr="">
+                <Param name="key experience_id" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="llGetExperienceErrorMessage" func="yes">
+            <Overload retVal="string" descr="">
+                <Param name="integer error" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="llGetExperienceList" func="yes">
+            <Overload retVal="list" descr="">
+                <Param name="key agent" />
             </Overload>
         </KeyWord>
         <KeyWord name="llGetForce" func="yes">
@@ -2286,6 +2348,15 @@ llGetInventoryName instead.">
                 <Param name="key id" />
             </Overload>
         </KeyWord>
+        <KeyWord name="llKeyCountKeyValue" func="yes">
+            <Overload retVal="key" descr="" />
+        </KeyWord>
+        <KeyWord name="llKeysKeyValue" func="yes">
+            <Overload retVal="key" descr="">
+                <Param name="integer first" />
+                <Param name="integer count" />
+            </Overload>
+        </KeyWord>
         <KeyWord name="llLinkParticleSystem" func="yes">
             <Overload retVal="void" descr="A particle system defined by a list of rules is set for the prim(s) link. This is
 identical to llParticleSystem except that it applies to a specified linked prim
@@ -2772,6 +2843,11 @@ Triggers a Math Error for imaginary results ((exponent != (integer)exponent) &am
                 <Param name="vector impulse" />
                 <Param name="vector ang_impulse" />
                 <Param name="boolean local" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="llReadKeyValue" func="yes">
+            <Overload retVal="key" descr="">
+                <Param name="string k" />
             </Overload>
         </KeyWord>
         <KeyWord name="llRegionSay" func="yes">
@@ -3938,6 +4014,14 @@ to or is over land owned by the object&apos;s owner, the agent is forced to stan
         <KeyWord name="llUpdateCharacter" func="yes">
             <Overload retVal="void" descr="Updates settings for a character.">
                 <Param name="list options" />
+            </Overload>
+        </KeyWord>
+        <KeyWord name="llUpdateKeyValue" func="yes">
+            <Overload retVal="key" descr="">
+                <Param name="string k" />
+                <Param name="string v" />
+                <Param name="integer checked" />
+                <Param name="string ov" />
             </Overload>
         </KeyWord>
         <KeyWord name="llVecDist" func="yes">

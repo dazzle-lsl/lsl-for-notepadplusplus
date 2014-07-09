@@ -176,6 +176,18 @@ email(string $[![time]!], string $[![address]!], string $[![subject]!], string $
 {
     $[0[]0]
 }[>END<]!$[FingerTextData FingerTextData]@#
+experience_permissions
+Ext:lsl
+experience_permissions(key $[![agent_id]!])
+{
+    $[0[]0]
+}[>END<]!$[FingerTextData FingerTextData]@#
+experience_permissions_denied
+Ext:lsl
+experience_permissions_denied(key $[![agent_id]!], integer $[![reason]!])
+{
+    $[0[]0]
+}[>END<]!$[FingerTextData FingerTextData]@#
 for
 Ext:lsl
 for ($[![start]!]; $[![condition]!]; $[![step]!])
@@ -248,6 +260,9 @@ llAddToLandPassList($[![key agent]!], $[![float hours]!]);[>END<]!$[FingerTextDa
 llAdjustSoundVolume
 Ext:lsl
 llAdjustSoundVolume($[![float volume]!]);[>END<]!$[FingerTextData FingerTextData]@#
+llAgentInExperience
+Ext:lsl
+llAgentInExperience($[![key agent]!])[>END<]!$[FingerTextData FingerTextData]@#
 llAllowInventoryDrop
 Ext:lsl
 llAllowInventoryDrop($[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
@@ -326,15 +341,24 @@ llCos($[![float theta]!])[>END<]!$[FingerTextData FingerTextData]@#
 llCreateCharacter
 Ext:lsl
 llCreateCharacter($[![list options]!]);[>END<]!$[FingerTextData FingerTextData]@#
+llCreateKeyValue
+Ext:lsl
+llCreateKeyValue($[![string k]!])[>END<]!$[FingerTextData FingerTextData]@#
 llCreateLink
 Ext:lsl
 llCreateLink($[![key target]!], $[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llCSV2List
 Ext:lsl
 llCSV2List($[![string src]!])[>END<]!$[FingerTextData FingerTextData]@#
+llDataSizeKeyValue
+Ext:lsl
+llDataSizeKeyValue()[>END<]!$[FingerTextData FingerTextData]@#
 llDeleteCharacter
 Ext:lsl
 llDeleteCharacter();[>END<]!$[FingerTextData FingerTextData]@#
+llDeleteKeyValue
+Ext:lsl
+llDeleteKeyValue($[![string k]!])[>END<]!$[FingerTextData FingerTextData]@#
 llDeleteSubList
 Ext:lsl
 llDeleteSubList($[![list src]!], $[![integer start]!], $[![integer end]!])[>END<]!$[FingerTextData FingerTextData]@#
@@ -506,6 +530,15 @@ llGetEnergy()[>END<]!$[FingerTextData FingerTextData]@#
 llGetEnv
 Ext:lsl
 llGetEnv($[![(lis)"dynamic_pathfinding"|"estate_id"|"frame_number"|"region_idle"|"sim_channel"|"sim_version"|string name]!])[>END<]!$[FingerTextData FingerTextData]@#
+llGetExperienceDetails
+Ext:lsl
+llGetExperienceDetails($[![key experience_id]!])[>END<]!$[FingerTextData FingerTextData]@#
+llGetExperienceErrorMessage
+Ext:lsl
+llGetExperienceErrorMessage($[![integer error]!])[>END<]!$[FingerTextData FingerTextData]@#
+llGetExperienceList
+Ext:lsl
+llGetExperienceList($[![key agent]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetForce
 Ext:lsl
 llGetForce()[>END<]!$[FingerTextData FingerTextData]@#
@@ -824,6 +857,12 @@ llJsonValueType($[![string json]!], $[![list specifiers]!])[>END<]!$[FingerTextD
 llKey2Name
 Ext:lsl
 llKey2Name($[![key id]!])[>END<]!$[FingerTextData FingerTextData]@#
+llKeyCountKeyValue
+Ext:lsl
+llKeyCountKeyValue()[>END<]!$[FingerTextData FingerTextData]@#
+llKeysKeyValue
+Ext:lsl
+llKeysKeyValue($[![inter first]!], $[![integer count]!])[>END<]!$[FingerTextData FingerTextData]@#
 llLinkParticleSystem
 Ext:lsl
 llLinkParticleSystem($[![(lis)LINK_SET|LINK_ROOT|LINK_ALL_CHILDREN|LINK_THIS|LINK_ALL_OTHERS|integer link]!], $[![list rules]!]);[>END<]!$[FingerTextData FingerTextData]@#
@@ -989,6 +1028,9 @@ llPursue($[![key target]!], $[![list options]!]);[>END<]!$[FingerTextData Finger
 llPushObject
 Ext:lsl
 llPushObject($[![key target]!], $[![vector impulse]!], $[![vector ang_impulse]!], $[![(lis)FALSE|TRUE|integer boolean]!]);[>END<]!$[FingerTextData FingerTextData]@#
+llReadKeyValue
+Ext:lsl
+llReadKeyValue($[![string k]!])[>END<]!$[FingerTextData FingerTextData]@#
 llRegionSay
 Ext:lsl
 llRegionSay($[![(lis)PUBLIC_CHANNEL|DEBUG_CHANNEL|integer channel]!], $[![string msg]!]);[>END<]!$[FingerTextData FingerTextData]@#
@@ -1401,6 +1443,9 @@ llUnSit($[![key id]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llUpdateCharacter
 Ext:lsl
 llUpdateCharacter($[![list options]!])[>END<]!$[FingerTextData FingerTextData]@#
+llUpdateKeyValue
+Ext:lsl
+llUpdateKeyValue($[![string k]!], $[![string v]!], $[![integer checked]!], $[![string ov]!])[>END<]!$[FingerTextData FingerTextData]@#
 llVecDist
 Ext:lsl
 llVecDist($[![vector vec_a]!], $[![vector vec_b]!])[>END<]!$[FingerTextData FingerTextData]@#
