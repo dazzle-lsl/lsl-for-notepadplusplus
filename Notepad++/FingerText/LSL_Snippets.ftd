@@ -536,9 +536,6 @@ llGetExperienceDetails($[![key experience_id]!])[>END<]!$[FingerTextData FingerT
 llGetExperienceErrorMessage
 Ext:lsl
 llGetExperienceErrorMessage($[![integer error]!])[>END<]!$[FingerTextData FingerTextData]@#
-llGetExperienceList
-Ext:lsl
-llGetExperienceList($[![key agent]!])[>END<]!$[FingerTextData FingerTextData]@#
 llGetForce
 Ext:lsl
 llGetForce()[>END<]!$[FingerTextData FingerTextData]@#
@@ -1067,6 +1064,9 @@ llRequestAgentData($[![key id]!], $[![(lis)DATA_ONLINE|DATA_NAME|DATA_BORN|DATA_
 llRequestDisplayName
 Ext:lsl
 llRequestDisplayName($[![key id]!])[>END<]!$[FingerTextData FingerTextData]@#
+llRequestExperiencePermissions
+Ext:lsl
+llRequestExperiencePermissions($[![key agent]!], $[![string name]!]);[>END<]!$[FingerTextData FingerTextData]@#
 llRequestInventoryData
 Ext:lsl
 llRequestInventoryData($[![string name]!])[>END<]!$[FingerTextData FingerTextData]@#
